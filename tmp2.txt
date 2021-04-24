@@ -1,0 +1,676 @@
+Airdrop.sol
++ solc@0.4.26
+updated 1 package in 19.812s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+0
+./repairRes/scsc/Airdrop.sol
+548028
+AirdropU1.sol
++ solc@0.4.26
+updated 1 package in 18.282s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+1
+./repairRes/scsc/AirdropU1.sol
+548028
+AirdropU2.sol
++ solc@0.4.26
+updated 1 package in 19.315s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+2
+./repairRes/scsc/AirdropU2.sol
+540022
+ApplauseCash_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 19.524s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+3
+./repairRes/scsc/ApplauseCash_crowdsale.sol
+10152213
+ApplauseCash_crowdsaleU1R1.sol
++ solc@0.4.26
+updated 1 package in 19.736s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+4
+./repairRes/scsc/ApplauseCash_crowdsaleU1R1.sol
+10152213
+ApplauseCash_crowdsaleU1R2.sol
++ solc@0.4.26
+updated 1 package in 18.827s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+5
+./repairRes/scsc/ApplauseCash_crowdsaleU1R2.sol
+10152213
+ApplauseCash_crowdsaleU2R1.sol
++ solc@0.4.26
+updated 1 package in 19.038s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+6
+./repairRes/scsc/ApplauseCash_crowdsaleU2R1.sol
+10146013
+ApplauseCash_crowdsaleU2R2.sol
++ solc@0.4.26
+updated 1 package in 19.483s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+7
+./repairRes/scsc/ApplauseCash_crowdsaleU2R2.sol
+10146013
+Autonio_ICO.sol
++ solc@0.4.26
+updated 1 package in 18.949s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+8
+./repairRes/scsc/Autonio_ICO.sol
+0
+Autonio_ICOU1.sol
++ solc@0.4.26
+updated 1 package in 18.458s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+9
+./repairRes/scsc/Autonio_ICOU1.sol
+0
+Autonio_ICOU2.sol
++ solc@0.4.26
+updated 1 package in 19.266s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+10
+./repairRes/scsc/Autonio_ICOU2.sol
+3095768
+BananaCoinR1U1.sol
+11
+./repairRes/scsc/BananaCoin.sol
+1187771
+BananaCoinR1U2.sol
+12
+./repairRes/scsc/BananaCoinR1U1.sol
+1187771
+BananaCoinR2U1.sol
+13
+./repairRes/scsc/BananaCoinR1U2.sol
+1185771
+BananaCoinR2U2.sol
+14
+./repairRes/scsc/BananaCoinR2U1.sol
+1187771
+BananaCoin.sol
+15
+./repairRes/scsc/BananaCoinR2U2.sol
+1185771
+BananaCoinU1R1.sol
+16
+./repairRes/scsc/BananaCoinU1R1.sol
+1187771
+BananaCoinU1R2.sol
+17
+./repairRes/scsc/BananaCoinU1R2.sol
+1187771
+BananaCoinU2R1.sol
+18
+./repairRes/scsc/BananaCoinU2R1.sol
+1185771
+BananaCoinU2R2.sol
+19
+./repairRes/scsc/BananaCoinU2R2.sol
+1185771
+Classy_Coin_Airdrop.sol
++ solc@0.4.26
+updated 1 package in 19.041s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+20
+./repairRes/scsc/ClassyCoin.sol
+4774333
+Classy_Coin_AirdropU1.sol
++ solc@0.4.26
+updated 1 package in 18.483s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+21
+./repairRes/scsc/ClassyCoinR1U1.sol
+4774333
+Classy_Coin_AirdropU2.sol
++ solc@0.4.26
+updated 1 package in 20.205s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+22
+./repairRes/scsc/ClassyCoinR1U2.sol
+4772333
+ClassyCoinR1U1.sol
++ solc@0.4.26
+updated 1 package in 19.374s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+23
+./repairRes/scsc/ClassyCoinR2U1.sol
+4774333
+ClassyCoinR1U2.sol
++ solc@0.4.26
+updated 1 package in 19.588s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+24
+./repairRes/scsc/ClassyCoinR2U2.sol
+4772333
+ClassyCoinR2U1.sol
++ solc@0.4.26
+updated 1 package in 19.279s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+25
+./repairRes/scsc/ClassyCoinU1R1.sol
+4774333
+ClassyCoinR2U2.sol
++ solc@0.4.26
+updated 1 package in 22.503s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+26
+./repairRes/scsc/ClassyCoinU1R2.sol
+4774333
+ClassyCoin.sol
++ solc@0.4.26
+updated 1 package in 21.557s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+27
+./repairRes/scsc/ClassyCoinU2R1.sol
+4772333
+ClassyCoinU1R1.sol
++ solc@0.4.26
+updated 1 package in 19.356s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+28
+./repairRes/scsc/ClassyCoinU2R2.sol
+4772333
+ClassyCoinU1R2.sol
++ solc@0.4.26
+updated 1 package in 18.857s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+29
+./repairRes/scsc/Classy_Coin_Airdrop.sol
+588065
+ClassyCoinU2R1.sol
++ solc@0.4.26
+updated 1 package in 20.055s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+30
+./repairRes/scsc/Classy_Coin_AirdropU1.sol
+588065
+ClassyCoinU2R2.sol
++ solc@0.4.26
+updated 1 package in 22.509s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+31
+./repairRes/scsc/Classy_Coin_AirdropU2.sol
+584065
+dgame.sol
++ solc@0.4.26
+updated 1 package in 19.065s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+32
+./repairRes/scsc/Easy_Mine_ICO.sol
+3448124
+dgameU1.sol
++ solc@0.4.26
+updated 1 package in 19.888s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+33
+./repairRes/scsc/Easy_Mine_ICOU1.sol
+3448124
+dgameU2.sol
++ solc@0.4.26
+updated 1 package in 19.156s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+34
+./repairRes/scsc/Easy_Mine_ICOU2.sol
+3446124
+Easy_Mine_ICO.sol
++ solc@0.4.26
+updated 1 package in 18.842s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+35
+./repairRes/scsc/HDL_presale.sol
+5636779
+Easy_Mine_ICOU1.sol
++ solc@0.4.26
+updated 1 package in 19.76s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+36
+./repairRes/scsc/HDL_presaleU1.sol
+5636779
+Easy_Mine_ICOU2.sol
++ solc@0.4.26
+updated 1 package in 18.819s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+37
+./repairRes/scsc/HDL_presaleU2.sol
+5630773
+HDL_presale.sol
++ solc@0.4.26
+updated 1 package in 19.058s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+38
+./repairRes/scsc/Hodbo_crowdsale.sol
+5050668
+HDL_presaleU1.sol
++ solc@0.4.26
+updated 1 package in 19.45s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+39
+./repairRes/scsc/Hodbo_crowdsaleU1.sol
+5050668
+HDL_presaleU2.sol
++ solc@0.4.26
+updated 1 package in 19.659s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+40
+./repairRes/scsc/Hodbo_crowdsaleU2.sol
+5044661
+Hodbo_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 20.561s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+41
+./repairRes/scsc/Lescoin_presale.sol
+6628421
+Hodbo_crowdsaleU1.sol
++ solc@0.4.26
+updated 1 package in 20.496s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+42
+./repairRes/scsc/Lescoin_presaleU1.sol
+6628421
+Hodbo_crowdsaleU2.sol
++ solc@0.4.26
+updated 1 package in 19.335s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+43
+./repairRes/scsc/Lescoin_presaleU2.sol
+6624415
+Lescoin_presale.sol
++ solc@0.4.26
+updated 1 package in 19.359s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+44
+./repairRes/scsc/MXToken_crowdsale.sol
+2985166
+Lescoin_presaleU1.sol
++ solc@0.4.26
+updated 1 package in 19.028s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+45
+./repairRes/scsc/MXToken_crowdsaleU1.sol
+2985166
+Lescoin_presaleU2.sol
++ solc@0.4.26
+updated 1 package in 18.95s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+46
+./repairRes/scsc/MXToken_crowdsaleU2.sol
+2983166
+MXToken_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 20.254s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+47
+./repairRes/scsc/OKOToken_ICO.sol
+3862869
+MXToken_crowdsaleU1.sol
++ solc@0.4.26
+updated 1 package in 21.3s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+48
+./repairRes/scsc/OKOToken_ICOR1U1.sol
+3862869
+MXToken_crowdsaleU2.sol
++ solc@0.4.26
+updated 1 package in 19.189s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+49
+./repairRes/scsc/OKOToken_ICOR1U2.sol
+3854869
+OKOToken_ICOR1U1.sol
++ solc@0.4.26
+updated 1 package in 18.968s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+50
+./repairRes/scsc/OKOToken_ICOR2U1.sol
+3862869
+OKOToken_ICOR1U2.sol
++ solc@0.4.26
+updated 1 package in 21.149s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+51
+./repairRes/scsc/OKOToken_ICOR2U2.sol
+3854869
+OKOToken_ICOR2U1.sol
++ solc@0.4.26
+updated 1 package in 23.259s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+52
+./repairRes/scsc/OKOToken_ICOU1R1.sol
+3862869
+OKOToken_ICOR2U2.sol
++ solc@0.4.26
+updated 1 package in 19.382s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+53
+./repairRes/scsc/OKOToken_ICOU1R2.sol
+3862869
+OKOToken_ICO.sol
++ solc@0.4.26
+updated 1 package in 19.598s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+54
+./repairRes/scsc/OKOToken_ICOU2R1.sol
+3854869
+OKOToken_ICOU1R1.sol
++ solc@0.4.26
+updated 1 package in 22.81s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+55
+./repairRes/scsc/OKOToken_ICOU2R2.sol
+3854869
+OKOToken_ICOU1R2.sol
++ solc@0.4.26
+updated 1 package in 22.673s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+56
+./repairRes/scsc/Privatix_presale.sol
+3296150
+OKOToken_ICOU2R1.sol
++ solc@0.4.26
+updated 1 package in 20.99s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+57
+./repairRes/scsc/Privatix_presaleU1.sol
+3296150
+OKOToken_ICOU2R2.sol
++ solc@0.4.26
+updated 1 package in 20.272s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+58
+./repairRes/scsc/Privatix_presaleU2.sol
+3292150
+Privatix_presale.sol
++ solc@0.4.26
+updated 1 package in 19.259s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+59
+./repairRes/scsc/Siring_Clock_Auction.sol
+31019894
+Privatix_presaleU1.sol
++ solc@0.4.26
+updated 1 package in 20.782s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+60
+./repairRes/scsc/Siring_Clock_AuctionU1.sol
+31019894
+Privatix_presaleU2.sol
++ solc@0.4.26
+updated 1 package in 21.701s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+61
+./repairRes/scsc/Siring_Clock_AuctionU2.sol
+0
+Siring_Clock_Auction.sol
++ solc@0.4.26
+updated 1 package in 20.825s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+62
+./repairRes/scsc/XGold_Coin.sol
+4374348
+Siring_Clock_AuctionU1.sol
++ solc@0.4.26
+updated 1 package in 20.228s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+63
+./repairRes/scsc/XGold_CoinU1.sol
+4374348
+Siring_Clock_AuctionU2.sol
++ solc@0.4.26
+updated 1 package in 19.985s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+64
+./repairRes/scsc/XGold_CoinU2.sol
+4368348
+XGold_Coin.sol
++ solc@0.4.26
+updated 1 package in 20.653s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+65
+./repairRes/scsc/Yobcoin_crowdsale.sol
+10831846
+XGold_CoinU1.sol
++ solc@0.4.26
+updated 1 package in 21.527s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+66
+./repairRes/scsc/Yobcoin_crowdsaleU1R1.sol
+10831846
+XGold_CoinU2.sol
++ solc@0.4.26
+updated 1 package in 21.682s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+67
+./repairRes/scsc/Yobcoin_crowdsaleU1R2.sol
+10831846
+Yobcoin_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 20.472s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+68
+./repairRes/scsc/Yobcoin_crowdsaleU2R1.sol
+10823837
+Yobcoin_crowdsaleU1R1.sol
++ solc@0.4.26
+updated 1 package in 19.38s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+69
+./repairRes/scsc/Yobcoin_crowdsaleU2R2.sol
+10823837
+Yobcoin_crowdsaleU1R2.sol
++ solc@0.4.26
+updated 1 package in 19.839s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+70
+./repairRes/scsc/dgame.sol
+370634
+Yobcoin_crowdsaleU2R1.sol
++ solc@0.4.26
+updated 1 package in 19.295s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+71
+./repairRes/scsc/dgameU1.sol
+370634
+Yobcoin_crowdsaleU2R2.sol
++ solc@0.4.26
+updated 1 package in 19.862s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+72
+./repairRes/scsc/dgameU2.sol
+372034

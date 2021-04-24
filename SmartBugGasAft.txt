@@ -1,0 +1,1102 @@
+0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol
++ solc@0.4.26
+updated 1 package in 20.786s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+0
+./repairRes/SmartBug/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol
+702096
+0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol
++ solc@0.4.26
+updated 1 package in 18.197s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+1
+./repairRes/SmartBug/0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol
+971739
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol
++ solc@0.4.26
+updated 1 package in 18.117s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+2
+./repairRes/SmartBug/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol
+46499
+0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol
++ solc@0.4.26
+updated 1 package in 20.342s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+3
+./repairRes/SmartBug/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol
+3843827
+0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol
++ solc@0.4.26
+updated 1 package in 17.873s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+4
+./repairRes/SmartBug/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol
+563063
+0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol
++ solc@0.4.26
+updated 1 package in 18.911s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+5
+./repairRes/SmartBug/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol
+163808
+0x39cfd754c85023648bf003bea2dd498c5612abfa.sol
++ solc@0.4.26
+updated 1 package in 20.609s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+6
+./repairRes/SmartBug/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol
+1071683
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol
++ solc@0.4.26
+updated 1 package in 17.105s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+7
+./repairRes/SmartBug/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol
+1089485
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol
++ solc@0.4.26
+updated 1 package in 17.396s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+8
+./repairRes/SmartBug/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol
+231154
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol
++ solc@0.4.26
+updated 1 package in 17.254s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+9
+./repairRes/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol
+289047
+0x4051334adc52057aca763453820cb0e045076ef3.sol
++ solc@0.4.26
+updated 1 package in 18.671s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+10
+./repairRes/SmartBug/0x4051334adc52057aca763453820cb0e045076ef3.sol
+147796
+0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol
++ solc@0.4.26
+updated 1 package in 18.242s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+11
+./repairRes/SmartBug/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol
+702096
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol
++ solc@0.4.26
+updated 1 package in 18.638s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+12
+./repairRes/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol
+277515
+0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol
++ solc@0.4.26
+updated 1 package in 17.796s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+13
+./repairRes/SmartBug/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol
+147796
+0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol
++ solc@0.4.26
+updated 1 package in 18.718s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+14
+./repairRes/SmartBug/0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol
+662635
+0x524960d55174d912768678d8c606b4d50b79d7b1.sol
++ solc@0.4.26
+updated 1 package in 19.819s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+15
+./repairRes/SmartBug/0x524960d55174d912768678d8c606b4d50b79d7b1.sol
+123971
+0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol
++ solc@0.4.26
+updated 1 package in 18.879s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+16
+./repairRes/SmartBug/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol
+220111
+0x561eac93c92360949ab1f1403323e6db345cbf31.sol
++ solc@0.4.26
+updated 1 package in 18.444s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+17
+./repairRes/SmartBug/0x561eac93c92360949ab1f1403323e6db345cbf31.sol
+661823
+0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol
++ solc@0.4.26
+updated 1 package in 17.524s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+18
+./repairRes/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol
+231154
+0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol
++ solc@0.4.26
+updated 1 package in 18.533s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+19
+./repairRes/SmartBug/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol
+260663
+0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol
++ solc@0.4.26
+updated 1 package in 17.706s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+20
+./repairRes/SmartBug/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol
+1059677
+0x663e4229142a27f00bafb5d087e1e730648314c3.sol
++ solc@0.4.26
+updated 1 package in 18.675s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+21
+./repairRes/SmartBug/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+32730623
+0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol
++ solc@0.4.26
+updated 1 package in 18.498s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+22
+./repairRes/SmartBug/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol
+275375
+0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol
++ solc@0.4.26
+updated 1 package in 17.833s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+23
+./repairRes/SmartBug/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol
+571853
+0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.sol
++ solc@0.4.26
+updated 1 package in 20.015s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+24
+./repairRes/SmartBug/0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.sol
+289047
+0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol
++ solc@0.4.26
+updated 1 package in 18.237s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+25
+./repairRes/SmartBug/0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol
+275397
+0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol
++ solc@0.4.26
+updated 1 package in 16.934s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+26
+./repairRes/SmartBug/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol
+618553
+0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol
++ solc@0.4.26
+updated 1 package in 18.202s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+27
+./repairRes/SmartBug/0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol
+571853
+0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol
++ solc@0.4.26
+updated 1 package in 18.725s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+28
+./repairRes/SmartBug/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol
+955808
+0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol
++ solc@0.4.26
+updated 1 package in 18.429s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+29
+./repairRes/SmartBug/0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol
+275375
+0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol
++ solc@0.4.26
+updated 1 package in 19.259s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+30
+./repairRes/SmartBug/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol
+1103777
+0x89c1b3807d4c67df034fffb62f3509561218d30b.sol
++ solc@0.4.26
+updated 1 package in 17.805s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+31
+./repairRes/SmartBug/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol
+1815556
+0x8c7777c45481dba411450c228cb692ac3d550344.sol
++ solc@0.4.26
+updated 1 package in 20.459s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+32
+./repairRes/SmartBug/0x8c7777c45481dba411450c228cb692ac3d550344.sol
+560257
+0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol
++ solc@0.4.26
+updated 1 package in 19.035s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+33
+./repairRes/SmartBug/0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol
+1089691
+0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol
++ solc@0.4.26
+updated 1 package in 16.917s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+34
+./repairRes/SmartBug/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol
+571853
+0x941d225236464a25eb18076df7da6a91d0f95e9e.sol
++ solc@0.4.26
+updated 1 package in 18.289s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+35
+./repairRes/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol
+564263
+0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol
++ solc@0.4.26
+updated 1 package in 17.732s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+36
+./repairRes/SmartBug/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol
+2147765
+0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol
++ solc@0.4.26
+updated 1 package in 16.924s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+37
+./repairRes/SmartBug/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol
+659528
+0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol
++ solc@0.4.26
+updated 1 package in 17.452s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+38
+./repairRes/SmartBug/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol
+544353
+0xa1fceeff3acc57d257b917e30c4df661401d6431.sol
++ solc@0.4.26
+updated 1 package in 16.951s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+39
+./repairRes/SmartBug/0xa1fceeff3acc57d257b917e30c4df661401d6431.sol
+188032
+0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol
++ solc@0.4.26
+updated 1 package in 17.874s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+40
+./repairRes/SmartBug/0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol
+163808
+0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol
++ solc@0.4.26
+updated 1 package in 18.55s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+41
+./repairRes/SmartBug/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol
+661823
+0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol
++ solc@0.4.26
+updated 1 package in 19.042s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+42
+./repairRes/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol
+926235
+0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol
++ solc@0.4.26
+updated 1 package in 18.195s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+43
+./repairRes/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol
+557665
+0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol
++ solc@0.4.26
+updated 1 package in 19.237s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+44
+./repairRes/SmartBug/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol
+228032
+0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol
++ solc@0.4.26
+updated 1 package in 17.29s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+45
+./repairRes/SmartBug/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol
+560257
+0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol
++ solc@0.4.26
+updated 1 package in 17.5s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+46
+./repairRes/SmartBug/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol
+928225
+0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol
++ solc@0.4.26
+updated 1 package in 17.856s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+47
+./repairRes/SmartBug/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol
+124913
+0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol
++ solc@0.4.26
+updated 1 package in 17.358s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+48
+./repairRes/SmartBug/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol
+563063
+0xbaa3de6504690efb064420d89e871c27065cdd52.sol
++ solc@0.4.26
+updated 1 package in 19.45s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+49
+./repairRes/SmartBug/0xbaa3de6504690efb064420d89e871c27065cdd52.sol
+557665
+0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol
++ solc@0.4.26
+updated 1 package in 18.761s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+50
+./repairRes/SmartBug/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol
+560257
+0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol
++ solc@0.4.26
+updated 1 package in 18.102s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+51
+./repairRes/SmartBug/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol
+659528
+0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol
++ solc@0.4.26
+updated 1 package in 17.575s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+52
+./repairRes/SmartBug/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol
+557665
+0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol
++ solc@0.4.26
+updated 1 package in 18.582s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+53
+./repairRes/SmartBug/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol
+571853
+0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol
++ solc@0.4.26
+updated 1 package in 17.481s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+54
+./repairRes/SmartBug/0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol
+275397
+0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol
++ solc@0.4.26
+updated 1 package in 18.184s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+55
+./repairRes/SmartBug/0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol
+147796
+0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol
++ solc@0.4.26
+updated 1 package in 16.856s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+56
+./repairRes/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol
+275397
+0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol
++ solc@0.4.26
+updated 1 package in 17.311s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+57
+./repairRes/SmartBug/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol
+0
+0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol
++ solc@0.4.26
+updated 1 package in 16.938s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+58
+./repairRes/SmartBug/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol
+275397
+0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol
++ solc@0.4.26
+updated 1 package in 17.761s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+59
+./repairRes/SmartBug/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol
+275397
+0xe894d54dca59cb53fe9cbc5155093605c7068220.sol
++ solc@0.4.26
+updated 1 package in 18.172s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+60
+./repairRes/SmartBug/0xe894d54dca59cb53fe9cbc5155093605c7068220.sol
+152196
+0xec329ffc97d75fe03428ae155fc7793431487f63.sol
+61
+./repairRes/SmartBug/0xec329ffc97d75fe03428ae155fc7793431487f63.sol
+903899
+0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol
++ solc@0.4.26
+updated 1 package in 16.835s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+62
+./repairRes/SmartBug/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol
+571853
+0xf2570186500a46986f3139f65afedc2afe4f445d.sol
++ solc@0.4.26
+updated 1 package in 17.167s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+63
+./repairRes/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol
+105402
+0xf29ebe930a539a60279ace72c707cba851a57707.sol
++ solc@0.4.26
+updated 1 package in 18.005s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+64
+./repairRes/SmartBug/0xf29ebe930a539a60279ace72c707cba851a57707.sol
+114178
+0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol
++ solc@0.4.26
+updated 1 package in 18.746s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+65
+./repairRes/SmartBug/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol
+275397
+BECToken.sol
++ solc@0.4.26
+updated 1 package in 16.983s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+66
+./repairRes/SmartBug/BECToken.sol
+3737907
+etherbank.sol
++ solc@0.4.26
+updated 1 package in 18.042s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+67
+./repairRes/SmartBug/etherbank.sol
+145450
+etherpot_lotto.sol
++ solc@0.4.26
+updated 1 package in 17.696s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+68
+./repairRes/SmartBug/etherpot_lotto.sol
+670969
+etherstore.sol
++ solc@0.4.26
+updated 1 package in 19.178s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+69
+./repairRes/SmartBug/etherstore.sol
+232924
+incorrect_constructor_name1.sol
++ solc@0.4.26
+updated 1 package in 18.145s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+70
+./repairRes/SmartBug/incorrect_constructor_name1.sol
+91274
+incorrect_constructor_name2.sol
++ solc@0.4.26
+updated 1 package in 19.726s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+71
+./repairRes/SmartBug/incorrect_constructor_name2.sol
+91274
+incorrect_constructor_name3.sol
++ solc@0.4.26
+updated 1 package in 18.857s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+72
+./repairRes/SmartBug/incorrect_constructor_name3.sol
+91274
+insecure_transfer.sol
++ solc@0.4.26
+updated 1 package in 17.936s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+73
+./repairRes/SmartBug/insecure_transfer.sol
+166839
+integer_overflow_1.sol
++ solc@0.4.26
+updated 1 package in 17.293s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+74
+./repairRes/SmartBug/integer_overflow_1.sol
+69031
+integer_overflow_add.sol
++ solc@0.4.26
+updated 1 package in 16.735s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+75
+./repairRes/SmartBug/integer_overflow_add.sol
+89977
+integer_overflow_benign_1.sol
++ solc@0.4.26
+updated 1 package in 17.2s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+76
+./repairRes/SmartBug/integer_overflow_benign_1.sol
+68963
+integer_overflow_mapping_sym_1.sol
++ solc@0.4.26
+updated 1 package in 16.976s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+77
+./repairRes/SmartBug/integer_overflow_mapping_sym_1.sol
+67340
+integer_overflow_minimal.sol
++ solc@0.4.26
+updated 1 package in 20.472s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+78
+./repairRes/SmartBug/integer_overflow_minimal.sol
+89977
+integer_overflow_mul.sol
++ solc@0.4.26
+updated 1 package in 17.22s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+79
+./repairRes/SmartBug/integer_overflow_mul.sol
+92008
+integer_overflow_multitx_multifunc_feasible.sol
++ solc@0.4.26
+updated 1 package in 16.912s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+80
+./repairRes/SmartBug/integer_overflow_multitx_multifunc_feasible.sol
+129613
+integer_overflow_multitx_onefunc_feasible.sol
++ solc@0.4.26
+updated 1 package in 18.092s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+81
+./repairRes/SmartBug/integer_overflow_multitx_onefunc_feasible.sol
+99816
+king_of_the_ether_throne.sol
++ solc@0.4.26
+updated 1 package in 18.422s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+82
+./repairRes/SmartBug/king_of_the_ether_throne.sol
+748183
+lotto.sol
++ solc@0.4.26
+updated 1 package in 19.742s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+83
+./repairRes/SmartBug/lotto.sol
+164583
+mapping_write.sol
++ solc@0.4.26
+updated 1 package in 18.971s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+84
+./repairRes/SmartBug/mapping_write.sol
+176521
+mishandled.sol
++ solc@0.4.26
+updated 1 package in 18.799s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+85
+./repairRes/SmartBug/mishandled.sol
+67917
+modifier_reentrancy.sol
++ solc@0.4.26
+updated 1 package in 18.782s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+86
+./repairRes/SmartBug/modifier_reentrancy.sol
+361826
+mycontract.sol
++ solc@0.4.26
+updated 1 package in 16.93s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+87
+./repairRes/SmartBug/mycontract.sol
+91789
+overflow_simple_add.sol
++ solc@0.4.25
+updated 1 package in 17.131s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+88
+./repairRes/SmartBug/overflow_simple_add.sol
+89977
+overflow_single_tx.sol
++ solc@0.4.26
+updated 1 package in 17.342s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+89
+./repairRes/SmartBug/overflow_single_tx.sol
+240971
+parity_wallet_bug_2.sol
++ solc@0.4.26
+updated 1 package in 17.556s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+90
+./repairRes/SmartBug/parity_wallet_bug_2.sol
+1765858
+phishable.sol
++ solc@0.4.26
+updated 1 package in 19.093s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+91
+./repairRes/SmartBug/phishable.sol
+121249
+reentrance.sol
++ solc@0.4.26
+updated 1 package in 18.765s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+92
+./repairRes/SmartBug/reentrance.sol
+184033
+reentrancy_bonus.sol
++ solc@0.4.26
+updated 1 package in 18.823s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+93
+./repairRes/SmartBug/reentrancy_bonus.sol
+147190
+reentrancy_cross_function.sol
++ solc@0.4.26
+updated 1 package in 19.939s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+94
+./repairRes/SmartBug/reentrancy_cross_function.sol
+173388
+reentrancy_dao.sol
++ solc@0.4.26
+updated 1 package in 18.593s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+95
+./repairRes/SmartBug/reentrancy_dao.sol
+137831
+reentrancy_insecure.sol
++ solc@0.4.26
+updated 1 package in 19.05s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+96
+./repairRes/SmartBug/reentrancy_insecure.sol
+68917
+reentrancy_simple.sol
++ solc@0.4.26
+updated 1 package in 17.353s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+97
+./repairRes/SmartBug/reentrancy_simple.sol
+141620
+R
+98
+./repairRes/SmartBug/rubixi.sol
+956339
+-
+99
+./repairRes/SmartBug/simple_dao.sol
+182504
+parity_wallet_bug_1.sol
+100
+./repairRes/SmartBug/simple_suicide.sol
+40926
+R
+101
+./repairRes/SmartBug/spank_chain_payment.sol
+0
+-
+102
+./repairRes/SmartBug/timelock.sol
+288703
+tokensalechallenge.sol
+103
+./repairRes/SmartBug/token.sol
+251756
+rubixi.sol
++ solc@0.4.26
+updated 1 package in 17.158s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+104
+./repairRes/SmartBug/unchecked_return_value.sol
+74723
+simple_dao.sol
++ solc@0.4.26
+updated 1 package in 17.312s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+105
+./repairRes/SmartBug/unprotected0.sol
+0
+simple_suicide.sol
++ solc@0.4.26
+updated 1 package in 17.2s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+106
+./repairRes/SmartBug/wallet_02_refund_nosub.sol
+272449
+spank_chain_payment.sol
++ solc@0.4.26
+updated 1 package in 16.007s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+107
+./repairRes/SmartBug/wallet_03_wrong_constructor.sol
+220172
+timelock.sol
++ solc@0.4.26
+updated 1 package in 16.561s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+108
+./repairRes/SmartBug/wallet_04_confused_sign.sol
+238390
+token.sol
++ solc@0.4.26
+updated 1 package in 17.014s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+109
+./repairRes/SmartBug/undefined
+unchecked_return_value.sol
++ solc@0.4.25
+updated 1 package in 17.117s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+110
+./repairRes/SmartBug/undefined
+unprotected0.sol
++ solc@0.4.26
+updated 1 package in 16.696s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+111
+./repairRes/SmartBug/undefined
+wallet_02_refund_nosub.sol
++ solc@0.4.26
+updated 1 package in 17.736s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+112
+./repairRes/SmartBug/undefined
+wallet_03_wrong_constructor.sol
++ solc@0.4.26
+updated 1 package in 20.728s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+113
+./repairRes/SmartBug/undefined
+wallet_04_confused_sign.sol
++ solc@0.4.26
+updated 1 package in 17.278s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+114
+./repairRes/SmartBug/undefined

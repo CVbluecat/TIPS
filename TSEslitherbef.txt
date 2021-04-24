@@ -1,0 +1,256 @@
+0x84e8a50ca43e8f26094799ba60705475cf2b9832.sol
+INFO:Detectors:
+BullionExchangeToken.BullionExchangeToken() (sourcecode/0x84e8a50ca43e8f26094799ba60705475cf2b9832.sol#22-32) ignores return value by msg.sender.send(msg.value) (sourcecode/0x84e8a50ca43e8f26094799ba60705475cf2b9832.sol#31)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0x6a92b2804EaeF97f222d003C94F683333e330693.sol
+INFO:Detectors:
+two.pay() (sourcecode/0x6a92b2804EaeF97f222d003C94F683333e330693.sol#11-13) ignores return value by deployer.send(this.balance) (sourcecode/0x6a92b2804EaeF97f222d003C94F683333e330693.sol#12)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016.sol
+INFO:Detectors:
+ETH_ANONIM_TRANSFER.MakeTransfer(address,uint256) (sourcecode/0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016.sol#32-45) ignores return value by creator.send(creatorFee) (sourcecode/0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016.sol#39)
+ETH_ANONIM_TRANSFER.MakeTransfer(address,uint256) (sourcecode/0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016.sol#32-45) ignores return value by _adr.send(_am) (sourcecode/0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016.sol#40)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0x7c8b63c4cf7a6009e06dc78d9a8352cd0541556f.sol
+INFO:Detectors:
+SYCEarlyPurchase.appendEarlyPurchase(address,uint256,uint256) (sourcecode/0x7c8b63c4cf7a6009e06dc78d9a8352cd0541556f.sol#89-114) ignores return value by purchaser.send(totalEarlyPurchaseRaised + amount - WEI_MAXIMUM_EARLYPURCHASE) (sourcecode/0x7c8b63c4cf7a6009e06dc78d9a8352cd0541556f.sol#104)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77.sol
+INFO:Detectors:
+DSTContract.redeemProposalFunds(bytes32) (sourcecode/0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77.sol#942-975) ignores return value by hackerGold.transfer(proposals[id].submitter,proposals[id].value) (sourcecode/0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77.sol#962)
+DSTContract.getAllTheFunds() (sourcecode/0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77.sol#988-1001) ignores return value by hackerGold.transfer(msg.sender,getHKGOwned()) (sourcecode/0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77.sol#1000)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol
+INFO:Detectors:
+HonestDice.roll(uint256,bytes32) (sourcecode/0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol#28-35) ignores return value by msg.sender.send(msg.value) (sourcecode/0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol#30)
+HonestDice.claim(bytes32) (sourcecode/0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol#92-102) ignores return value by msg.sender.send(calcWinnings(r.value,r.chance) - seedCost) (sourcecode/0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol#97)
+HonestDice.claimTimeout() (sourcecode/0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol#112-118) ignores return value by msg.sender.send(r.value) (sourcecode/0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol#116)
+HonestDice.withdraw(uint256) (sourcecode/0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol#147-151) ignores return value by owner.send(amount) (sourcecode/0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol#150)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0xb1690c08e213a35ed9bab7b318de14420fb57d8c.sol
+null
+
+0x1e143b2588705dfea63a17f2032ca123df995ce0.sol
+INFO:Detectors:
+SafeConditionalHFTransfer.classicTransfer(address) (sourcecode/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#13-18) ignores return value by msg.sender.send(msg.value) (sourcecode/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#15)
+SafeConditionalHFTransfer.classicTransfer(address) (sourcecode/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#13-18) ignores return value by to.send(msg.value) (sourcecode/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#17)
+SafeConditionalHFTransfer.transfer(address) (sourcecode/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#20-25) ignores return value by msg.sender.send(msg.value) (sourcecode/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#22)
+SafeConditionalHFTransfer.transfer(address) (sourcecode/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#20-25) ignores return value by to.send(msg.value) (sourcecode/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#24)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0xbf4ed7b27f1d666546e30d74d50d173d20bca754.sol
+INFO:Detectors:
+WithdrawDAO.trusteeWithdraw() (sourcecode/0xbf4ed7b27f1d666546e30d74d50d173d20bca754.sol#18-20) ignores return value by trustee.send((this.balance + mainDAO.balanceOf(this)) - mainDAO.totalSupply()) (sourcecode/0xbf4ed7b27f1d666546e30d74d50d173d20bca754.sol#19)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0x1e02f2293a67bc57700c542d7ca135394193c038.sol
+INFO:Detectors:
+IcoCrowdsale.settleInvestment(uint256) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1248-1301) ignores return value by p.investor.send(p.weiAmount) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1275)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+INFO:Detectors:
+Crowdsale.buyTokens(address) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#396-412) ignores return value by token.mint(beneficiary,tokens) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#408)
+IcoCrowdsale.mintIcoEnablersTokens(address,uint256) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1209-1214) ignores return value by token.mint(_to,_tokens) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1212)
+IcoCrowdsale.mintDevelopmentTeamTokens(address,uint256) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1221-1228) ignores return value by token.mint(address(newVault),_tokens) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1227)
+IcoCrowdsale.settleInvestment(uint256) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1248-1301) ignores return value by token.mint(p.beneficiary,tokens) (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1282)
+IcoCrowdsale.finalize() (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1316-1330) ignores return value by MintableToken(token).finishMinting() (sourcecode/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol#1323)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+0x32bacc8b241fb172fee18bda32527126c6f3c5f7.sol
+INFO:Detectors:
+Wallet.execute(address,uint256,bytes) (sourcecode/0x32bacc8b241fb172fee18bda32527126c6f3c5f7.sol#346-362) ignores return value by _to.call.value(_value)(_data) (sourcecode/0x32bacc8b241fb172fee18bda32527126c6f3c5f7.sol#351)
+Wallet.confirm(bytes32) (sourcecode/0x32bacc8b241fb172fee18bda32527126c6f3c5f7.sol#366-373) ignores return value by m_txs[_h].to.call.value(m_txs[_h].value)(m_txs[_h].data) (sourcecode/0x32bacc8b241fb172fee18bda32527126c6f3c5f7.sol#368)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x06012c8cf97bead5deae237070f9587f8e7a266d.sol
+INFO:Detectors:
+KittyBreeding.giveBirth(uint256) (sourcecode/0x06012c8cf97bead5deae237070f9587f8e7a266d.sol#1020-1063) ignores return value by msg.sender.send(autoBirthFee) (sourcecode/0x06012c8cf97bead5deae237070f9587f8e7a266d.sol#1059)
+KittyCore.withdrawBalance() (sourcecode/0x06012c8cf97bead5deae237070f9587f8e7a266d.sol#2000-2008) ignores return value by cfoAddress.send(balance - subtractFees) (sourcecode/0x06012c8cf97bead5deae237070f9587f8e7a266d.sol#2006)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0x45d147c800d401350b24fc1cd5fbc98040b177c8.sol
+INFO:Detectors:
+Reentrancy in NinjaToken.buy(string) (sourcecode/0x45d147c800d401350b24fc1cd5fbc98040b177c8.sol#123-129):
+	External calls:
+	- ! fundingAccount.call.value(msg.value)() (sourcecode/0x45d147c800d401350b24fc1cd5fbc98040b177c8.sol#125)
+	State variables written after the call(s):
+	- balances[msg.sender] += msg.value * price (sourcecode/0x45d147c800d401350b24fc1cd5fbc98040b177c8.sol#126)
+Reentrancy in NinjaToken.funding() (sourcecode/0x45d147c800d401350b24fc1cd5fbc98040b177c8.sol#109-115):
+	External calls:
+	- ! fundingAccount.call.value(msg.value)() (sourcecode/0x45d147c800d401350b24fc1cd5fbc98040b177c8.sol#112)
+	State variables written after the call(s):
+	- balances[msg.sender] += msg.value * fundingExchangeRate (sourcecode/0x45d147c800d401350b24fc1cd5fbc98040b177c8.sol#113)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x7352cb77c2478a59d21230a8d65146e04b59f58c.sol
+INFO:Detectors:
+Reentrancy in JouleContractHolder.insert(address,uint256,uint256,uint256) (sourcecode/0x7352cb77c2478a59d21230a8d65146e04b59f58c.sol#525-555):
+	External calls:
+	- previous = index.findFloorKey(_timestamp) (sourcecode/0x7352cb77c2478a59d21230a8d65146e04b59f58c.sol#534)
+	State variables written after the call(s):
+	- head = id (sourcecode/0x7352cb77c2478a59d21230a8d65146e04b59f58c.sol#547)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+
+0x14cf6193935b17fc72649ba420fdd5bfdf1f0001.sol
+INFO:Detectors:
+Reentrancy in Presale.fallback() (sourcecode/0x14cf6193935b17fc72649ba420fdd5bfdf1f0001.sol#104-147):
+	External calls:
+	- require(bool)(msg.sender.call.gas(3000000).value(msg.value - valueWei)()) (sourcecode/0x14cf6193935b17fc72649ba420fdd5bfdf1f0001.sol#114)
+	State variables written after the call(s):
+	- collectedUSD = totalLimitUSD (sourcecode/0x14cf6193935b17fc72649ba420fdd5bfdf1f0001.sol#115)
+Reentrancy in Presale.finishPresale() (sourcecode/0x14cf6193935b17fc72649ba420fdd5bfdf1f0001.sol#170-176):
+	External calls:
+	- require(bool)(presaleOwner.call.gas(3000000).value(this.balance)()) (sourcecode/0x14cf6193935b17fc72649ba420fdd5bfdf1f0001.sol#173)
+	State variables written after the call(s):
+	- state = State.Finished (sourcecode/0x14cf6193935b17fc72649ba420fdd5bfdf1f0001.sol#174)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol
+Reentrancy in Crowdsale.completeSale(uint256) (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#289-309):
+	External calls:
+	- isSent = beneficiary.call.gas(3000000).value(this.balance)() (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#306)
+	State variables written after the call(s):
+	- setState(State.CrowdsaleCompleted) (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#308)
+		- state = newState (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#95)
+Reentrancy in Crowdsale.fallback() (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#140-157):
+	External calls:
+	- isSent = msg.sender.call.gas(3000000).value(weiToReturn)() (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#149)
+	State variables written after the call(s):
+	- collectedUSDWEI = totalLimitUSDWEI (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#151)
+Reentrancy in Crowdsale.finishPreSale() (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#245-250):
+	External calls:
+	- isSent = beneficiary.call.gas(3000000).value(this.balance)() (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#247)
+	State variables written after the call(s):
+	- setState(State.WaitingForSale) (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#249)
+		- state = newState (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#95)
+Reentrancy in Crowdsale.finishPrivateSaleAndStartPreSale(address,uint256,uint256,uint256) (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#225-242):
+	External calls:
+	- isSent = beneficiary.call.gas(3000000).value(this.balance)() (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#232)
+	State variables written after the call(s):
+	- beneficiary = _beneficiary (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#236)
+	- setState(State.PreSale) (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#241)
+		- state = newState (sourcecode/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol#95)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x9bbb9387c9e2477a6b5d81afece00255875c48ce.sol
+INFO:Detectors:
+Reentrancy in InkPublicPresale.removeContributor(address) (sourcecode/0x9bbb9387c9e2477a6b5d81afece00255875c48ce.sol#303-327):
+	External calls:
+	- ! _account.call.value(balance)() (sourcecode/0x9bbb9387c9e2477a6b5d81afece00255875c48ce.sol#323)
+	State variables written after the call(s):
+	- delete contributors[_account] (sourcecode/0x9bbb9387c9e2477a6b5d81afece00255875c48ce.sol#326)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x728781e75735dc0962df3a51d7ef47e798a7107e.sol
+INFO:Detectors:
+Reentrancy in WolkExchange.purchaseWolk(address) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#615-625):
+	External calls:
+	- wolkReceivable = purchaseWolkEstimate(msg.value,exchangeFormula) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#617)
+		- wolkReceivable = IBancorFormula(_formula).calculatePurchaseReturn(totalTokens,reserveBalance,percentageETHReserve,_ethAmountest) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#591)
+	State variables written after the call(s):
+	- reserveBalance = safeAdd(reserveBalance,msg.value) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#621)
+	- totalTokens = safeAdd(totalTokens,wolkReceivable) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#619)
+Reentrancy in WolkExchange.sellWolk(uint256) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#598-611):
+	External calls:
+	- ethReceivable = sellWolkEstimate(_wolkAmount,exchangeFormula) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#602)
+		- ethReceivable = IBancorFormula(_formula).calculateSaleReturn(totalTokens,reserveBalance,percentageETHReserve,_wolkAmountest) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#586)
+	State variables written after the call(s):
+	- balances[msg.sender] = safeSub(balances[msg.sender],_wolkAmount) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#604)
+	- reserveBalance = safeSub(this.balance,ethReceivable) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#606)
+	- totalTokens = safeSub(totalTokens,_wolkAmount) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#605)
+Reentrancy in WolkProtocol.setFeeFormula(address) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#353-358):
+	External calls:
+	- testSettling = estProviderFee(_newFeeFormula,10 ** 18) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#354)
+		- estFee = IFeeFormula(ProviderFeeFormula).calculateProviderFee(_value) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#419)
+	State variables written after the call(s):
+	- feeFormulas[msg.sender] = _newFeeFormula (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#356)
+Reentrancy in WolkProtocol.settleBuyer(address,uint256) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#430-448):
+	External calls:
+	- WolkToBurn = estWolkToBurn(burnFormula,_value) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#433)
+		- wolkBurnt = IBurnFormula(_burnFormula).calculateWolkToBurn(_value) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#405)
+	State variables written after the call(s):
+	- balances[_buyer] = safeSub(balances[_buyer],_value) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#441)
+	- balances[msg.sender] = safeAdd(balances[msg.sender],transferredToServiceProvider) (sourcecode/0x728781e75735dc0962df3a51d7ef47e798a7107e.sol#442)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+
+0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol
+INFO:Detectors:
+Vault.kill() (sourcecode/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#88) uses a dangerous strict equality:
+	- require(bool)(this.balance == 0) (sourcecode/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#88)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities
+
+0x01d5d0108589f3c52fcce6e65503bb6515e66698.sol
+INFO:Detectors:
+DcorpProxy.execute(address) (sourcecode/0x01d5d0108589f3c52fcce6e65503bb6515e66698.sol#786-807) uses a dangerous strict equality:
+	- assert(bool)(balanceBefore + balanceToSend == _acceptedAddress.balance) (sourcecode/0x01d5d0108589f3c52fcce6e65503bb6515e66698.sol#805)
+DcorpProxy.execute(address) (sourcecode/0x01d5d0108589f3c52fcce6e65503bb6515e66698.sol#786-807) uses a dangerous strict equality:
+	- assert(bool)(this.balance == 0) (sourcecode/0x01d5d0108589f3c52fcce6e65503bb6515e66698.sol#806)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities
+
+0x97ec9bfb0f6672c358620615a1e4de0348aea05c.sol
+INFO:Detectors:
+InsightsNetworkContributions.selfDestruct() (sourcecode/0x97ec9bfb0f6672c358620615a1e4de0348aea05c.sol#123-127) uses a dangerous strict equality:
+	- require(bool)(this.balance == 0) (sourcecode/0x97ec9bfb0f6672c358620615a1e4de0348aea05c.sol#125)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities
+
+0x30cefbcb5c26a5b19a019092ab8d09f8739c904f.sol
+INFO:Detectors:
+VentanaToken.destroy() (sourcecode/0x30cefbcb5c26a5b19a019092ab8d09f8739c904f.sol#666-674) uses a dangerous strict equality:
+	- require(bool)(this.balance == 0) (sourcecode/0x30cefbcb5c26a5b19a019092ab8d09f8739c904f.sol#672)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities
+
+0x13ce614e9d7ce609dedba1b42ba2163426ba5ace.sol
+INFO:Detectors:
+Contract locking ether found in :
+	Contract Xtime (sourcecode/0x13ce614e9d7ce609dedba1b42ba2163426ba5ace.sol#69-89) has payable functions:
+	 - Xtime.fallback() (sourcecode/0x13ce614e9d7ce609dedba1b42ba2163426ba5ace.sol#85-87)
+	But does not have a function to withdraw the ether
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#contracts-that-lock-ether
+
+0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol
+INFO:Detectors:
+Contract locking ether found in :
+	Contract Hotc (sourcecode/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#98-121) has payable functions:
+	 - Hotc.fallback() (sourcecode/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#118-120)
+	But does not have a function to withdraw the ether
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#contracts-that-lock-ether
+
+0x54186df214506ff5613196170d1bd576895193ab.sol
+INFO:Detectors:
+Contract locking ether found in :
+	Contract BTCPToken (sourcecode/0x54186df214506ff5613196170d1bd576895193ab.sol#43-214) has payable functions:
+	 - BTCPToken.BTCPToken() (sourcecode/0x54186df214506ff5613196170d1bd576895193ab.sol#82-87)
+	 - BTCPToken.fallback() (sourcecode/0x54186df214506ff5613196170d1bd576895193ab.sol#91-93)
+	 - BTCPToken.tokensale(address) (sourcecode/0x54186df214506ff5613196170d1bd576895193ab.sol#98-112)
+	But does not have a function to withdraw the ether
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#contracts-that-lock-ether
+
+0xe752483412490481d193194d293db5cd0ed054a8.sol
+INFO:Detectors:
+Contract locking ether found in :
+	Contract HodlReligion (sourcecode/0xe752483412490481d193194d293db5cd0ed054a8.sol#105-140) has payable functions:
+	 - HodlReligion.fallback() (sourcecode/0xe752483412490481d193194d293db5cd0ed054a8.sol#129-133)
+	 - HodlReligion.faucet() (sourcecode/0xe752483412490481d193194d293db5cd0ed054a8.sol#135-139)
+	But does not have a function to withdraw the ether
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#contracts-that-lock-ether
+
+0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol
+INFO:Detectors:
+Contract locking ether found in :
+	Contract sendlimiter (sourcecode/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#18-21) has payable functions:
+	 - sendlimiter.fallback() (sourcecode/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#19-20)
+	But does not have a function to withdraw the ether
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#contracts-that-lock-ether
+
+0x2c1180e2818069e5a9f911e636fb8f3db5106a9f.sol
+INFO:Detectors:
+Contract locking ether found in :
+	Contract ERH (sourcecode/0x2c1180e2818069e5a9f911e636fb8f3db5106a9f.sol#69-89) has payable functions:
+	 - ERH.fallback() (sourcecode/0x2c1180e2818069e5a9f911e636fb8f3db5106a9f.sol#85-87)
+	But does not have a function to withdraw the ether
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#contracts-that-lock-ether

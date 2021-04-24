@@ -1,0 +1,164 @@
+Airdrop.sol
++ solc@0.4.26
+updated 1 package in 17.367s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+0
+./repairRes/scsc/Airdrop.sol
+548028
+ApplauseCash_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 17.576s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+1
+./repairRes/scsc/ApplauseCash_crowdsale.sol
+10152213
+Autonio_ICO.sol
++ solc@0.4.26
+updated 1 package in 18.158s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+2
+./repairRes/scsc/Autonio_ICO.sol
+0
+BananaCoin.sol
+3
+./repairRes/scsc/BananaCoin.sol
+1187771
+Classy_Coin_Airdrop.sol
++ solc@0.4.26
+updated 1 package in 17.586s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+4
+./repairRes/scsc/ClassyCoin.sol
+4774333
+ClassyCoin.sol
++ solc@0.4.26
+updated 1 package in 17.211s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+5
+./repairRes/scsc/Classy_Coin_Airdrop.sol
+588065
+dgame.sol
++ solc@0.4.26
+updated 1 package in 17.743s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+6
+./repairRes/scsc/Easy_Mine_ICO.sol
+3448124
+Easy_Mine_ICO.sol
++ solc@0.4.26
+updated 1 package in 17.299s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+7
+./repairRes/scsc/HDL_presale.sol
+5636779
+HDL_presale.sol
++ solc@0.4.26
+updated 1 package in 17.096s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+8
+./repairRes/scsc/Hodbo_crowdsale.sol
+5050668
+Hodbo_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 18.448s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+9
+./repairRes/scsc/Lescoin_presale.sol
+6628421
+Lescoin_presale.sol
++ solc@0.4.26
+updated 1 package in 17.437s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+10
+./repairRes/scsc/MXToken_crowdsale.sol
+2985166
+MXToken_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 17.054s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+11
+./repairRes/scsc/OKOToken_ICO.sol
+3862869
+OKOToken_ICO.sol
++ solc@0.4.26
+updated 1 package in 17.796s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+12
+./repairRes/scsc/Privatix_presale.sol
+3296150
+Privatix_presale.sol
++ solc@0.4.26
+updated 1 package in 17.405s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+13
+./repairRes/scsc/Siring_Clock_Auction.sol
+31019894
+Siring_Clock_Auction.sol
++ solc@0.4.26
+updated 1 package in 17.103s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+14
+./repairRes/scsc/XGold_Coin.sol
+4374348
+XGold_Coin.sol
++ solc@0.4.26
+updated 1 package in 17.076s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+15
+./repairRes/scsc/Yobcoin_crowdsale.sol
+10831846
+Yobcoin_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 17.195s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+16
+./repairRes/scsc/dgame.sol
+370634

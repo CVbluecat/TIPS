@@ -1,0 +1,164 @@
+Airdrop.sol
++ solc@0.4.26
+updated 1 package in 18.567s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+0
+./contractSource/scsc/Airdrop.sol
+540022
+ApplauseCash_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 18.846s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+1
+./contractSource/scsc/ApplauseCash_crowdsale.sol
+10146013
+Autonio_ICO.sol
++ solc@0.4.26
+updated 1 package in 18.703s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+2
+./contractSource/scsc/Autonio_ICO.sol
+3092368
+BananaCoin.sol
+3
+./contractSource/scsc/BananaCoin.sol
+1185771
+Classy_Coin_Airdrop.sol
++ solc@0.4.26
+updated 1 package in 19.493s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+4
+./contractSource/scsc/ClassyCoin.sol
+4772333
+ClassyCoin.sol
++ solc@0.4.26
+updated 1 package in 17.573s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+5
+./contractSource/scsc/Classy_Coin_Airdrop.sol
+584065
+dgame.sol
++ solc@0.4.26
+updated 1 package in 17.304s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+6
+./contractSource/scsc/Easy_Mine_ICO.sol
+3381576
+Easy_Mine_ICO.sol
++ solc@0.4.26
+updated 1 package in 19.19s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+7
+./contractSource/scsc/HDL_presale.sol
+5630773
+HDL_presale.sol
++ solc@0.4.26
+updated 1 package in 19.126s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+8
+./contractSource/scsc/Hodbo_crowdsale.sol
+5044661
+Hodbo_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 19.027s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+9
+./contractSource/scsc/Lescoin_presale.sol
+6624415
+Lescoin_presale.sol
++ solc@0.4.26
+updated 1 package in 18.055s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+10
+./contractSource/scsc/MXToken_crowdsale.sol
+2983166
+MXToken_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 18.183s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+11
+./contractSource/scsc/OKOToken_ICO.sol
+3854869
+OKOToken_ICO.sol
++ solc@0.4.26
+updated 1 package in 18.845s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+12
+./contractSource/scsc/Privatix_presale.sol
+3292150
+Privatix_presale.sol
++ solc@0.4.26
+updated 1 package in 17.566s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+13
+./contractSource/scsc/Siring_Clock_Auction.sol
+31002687
+Siring_Clock_Auction.sol
++ solc@0.4.26
+updated 1 package in 19.002s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+14
+./contractSource/scsc/XGold_Coin.sol
+4368348
+XGold_Coin.sol
++ solc@0.4.26
+updated 1 package in 17.675s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+15
+./contractSource/scsc/Yobcoin_crowdsale.sol
+10823837
+Yobcoin_crowdsale.sol
++ solc@0.4.26
+updated 1 package in 20.427s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+16
+./contractSource/scsc/dgame.sol
+368628

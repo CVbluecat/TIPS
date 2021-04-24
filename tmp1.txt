@@ -1,0 +1,136 @@
+0x06012c8cf97bead5deae237070f9587f8e7a266dU2.sol
++ solc@0.4.26
+updated 1 package in 19.53s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+0
+/home/chaoweilanmao/Desktop/tmp/0x06012c8cf97bead5deae237070f9587f8e7a266dU2.sol
+0
+0x14cf6193935b17fc72649ba420fdd5bfdf1f0001R2.sol
++ solc@0.4.26
+updated 1 package in 18.069s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+1
+/home/chaoweilanmao/Desktop/tmp/0x14cf6193935b17fc72649ba420fdd5bfdf1f0001R2.sol
+3959770
+0x1e025340d6f75a2a4ef81139049cfbf976782eebU2.sol
++ solc@0.4.26
+updated 1 package in 19.92s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+2
+/home/chaoweilanmao/Desktop/tmp/0x1e025340d6f75a2a4ef81139049cfbf976782eebU2.sol
+13001716
+0x1e143b2588705dfea63a17f2032ca123df995ce0U2.sol
+3
+/home/chaoweilanmao/Desktop/tmp/0x1e143b2588705dfea63a17f2032ca123df995ce0U2.sol
+181252
+0x32bacc8b241fb172fee18bda32527126c6f3c5f7U2.sol
++ solc@0.4.26
+updated 1 package in 19.15s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+4
+/home/chaoweilanmao/Desktop/tmp/0x32bacc8b241fb172fee18bda32527126c6f3c5f7U2.sol
+2237476
+0x45d147c800d401350b24fc1cd5fbc98040b177c8R2.sol
++ solc@0.4.26
+updated 1 package in 19.493s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+5
+/home/chaoweilanmao/Desktop/tmp/0x45d147c800d401350b24fc1cd5fbc98040b177c8R2.sol
+2561260
+0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol
+6
+/home/chaoweilanmao/Desktop/tmp/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol
+165141
+0x7c8b63c4cf7a6009e06dc78d9a8352cd0541556fU2.sol
++ solc@0.4.26
+updated 1 package in 19.078s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+7
+/home/chaoweilanmao/Desktop/tmp/0x7c8b63c4cf7a6009e06dc78d9a8352cd0541556fU2.sol
+786703
+0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol
++ solc@0.4.26
+updated 1 package in 18.281s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+8
+/home/chaoweilanmao/Desktop/tmp/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol
+741516
+0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77U2.sol
++ solc@0.4.26
+updated 1 package in 18.903s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+9
+/home/chaoweilanmao/Desktop/tmp/0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77U2.sol
+6275616
+0x9bbb9387c9e2477a6b5d81afece00255875c48ceR2.sol
++ solc@0.4.26
+updated 1 package in 19.078s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+10
+/home/chaoweilanmao/Desktop/tmp/0x9bbb9387c9e2477a6b5d81afece00255875c48ceR2.sol
+2925506
+0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016U2.sol
++ solc@0.4.26
+updated 1 package in 20.11s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+11
+/home/chaoweilanmao/Desktop/tmp/0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016U2.sol
+220605
+0xb1690c08e213a35ed9bab7b318de14420fb57d8cU2.sol
++ solc@0.4.26
+updated 1 package in 25.667s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+12
+/home/chaoweilanmao/Desktop/tmp/0xD79B4C6791784184e2755B2fC1659eaaB0f80456U2.sol
+1058992
+0xbf4ed7b27f1d666546e30d74d50d173d20bca754U2.sol
+13
+/home/chaoweilanmao/Desktop/tmp/0xb1690c08e213a35ed9bab7b318de14420fb57d8cU2.sol
+0
+0xD79B4C6791784184e2755B2fC1659eaaB0f80456U2.sol
+14
+/home/chaoweilanmao/Desktop/tmp/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U2.sol
+397707
+0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1R2.sol
++ solc@0.4.26
+updated 1 package in 18.783s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+15
+/home/chaoweilanmao/Desktop/tmp/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1R2.sol
+5275070

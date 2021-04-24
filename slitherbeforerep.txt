@@ -1,0 +1,674 @@
+--detect reentrancy-eth,reentrancy-no-eth
+
+0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol
+INFO:Detectors:
+Reentrancy in PERSONAL_BANK.Collect(uint256) (contractSource/SmartBug/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol#47-60):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol#54)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol#56)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol
+INFO:Detectors:
+Reentrancy in PrivateBank.CashOut(uint256) (contractSource/SmartBug/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol#33-44):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol#38)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol#40)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol
+INFO:Detectors:
+Reentrancy in ACCURAL_DEPOSIT.Collect(uint256) (contractSource/SmartBug/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol#48-61):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol#55)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol#57)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol
+INFO:Detectors:
+Reentrancy in PRIVATE_ETH_CELL.Collect(uint256) (contractSource/SmartBug/0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol#47-60):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol#54)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol#56)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x561eac93c92360949ab1f1403323e6db345cbf31.sol
+INFO:Detectors:
+Reentrancy in BANK_SAFE.Collect(uint256) (contractSource/SmartBug/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#47-60):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#54)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#56)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol
+INFO:Detectors:
+Reentrancy in U_BANK.Collect(uint256) (contractSource/SmartBug/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol#21-35):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol#29)
+	State variables written after the call(s):
+	- acc.balance -= _am (contractSource/SmartBug/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol#31)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol
+INFO:Detectors:
+Reentrancy in PrivateDeposit.CashOut(uint256) (contractSource/SmartBug/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol#47-58):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol#52)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol#54)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol
+INFO:Detectors:
+Reentrancy in W_WALLET.Collect(uint256) (contractSource/SmartBug/0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol#21-35):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol#29)
+	State variables written after the call(s):
+	- acc.balance -= _am (contractSource/SmartBug/0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol#31)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x8c7777c45481dba411450c228cb692ac3d550344.sol
+INFO:Detectors:
+Reentrancy in ETH_VAULT.CashOut(uint256) (contractSource/SmartBug/0x8c7777c45481dba411450c228cb692ac3d550344.sol#34-47):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x8c7777c45481dba411450c228cb692ac3d550344.sol#41)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0x8c7777c45481dba411450c228cb692ac3d550344.sol#43)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol
+INFO:Detectors:
+Reentrancy in X_WALLET.Collect(uint256) (contractSource/SmartBug/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol#21-35):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol#29)
+	State variables written after the call(s):
+	- acc.balance -= _am (contractSource/SmartBug/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol#31)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x941d225236464a25eb18076df7da6a91d0f95e9e.sol
+INFO:Detectors:
+Reentrancy in ETH_FUND.CashOut(uint256) (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#37-50):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#44)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#46)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol
+INFO:Detectors:
+Reentrancy in PENNY_BY_PENNY.Collect(uint256) (contractSource/SmartBug/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#55-69):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#63)
+	State variables written after the call(s):
+	- acc.balance -= _am (contractSource/SmartBug/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#65)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol
+INFO:Detectors:
+Reentrancy in DEP_BANK.Collect(uint256) (contractSource/SmartBug/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol#47-60):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol#54)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol#56)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol
+INFO:Detectors:
+Reentrancy in Private_Bank.CashOut(uint256) (contractSource/SmartBug/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#33-46):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#40)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#42)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol
+INFO:Detectors:
+Reentrancy in PrivateBank.CashOut(uint256) (contractSource/SmartBug/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol#33-44):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol#38)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol#40)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol
+INFO:Detectors:
+Reentrancy in ETH_VAULT.CashOut(uint256) (contractSource/SmartBug/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol#34-47):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol#41)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _am (contractSource/SmartBug/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol#43)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol
+INFO:Detectors:
+Reentrancy in MONEY_BOX.Collect(uint256) (contractSource/SmartBug/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol#55-69):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol#63)
+	State variables written after the call(s):
+	- acc.balance -= _am (contractSource/SmartBug/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol#65)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol
+INFO:Detectors:
+Reentrancy in WALLET.Collect(uint256) (contractSource/SmartBug/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#21-35):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#29)
+	State variables written after the call(s):
+	- acc.balance -= _am (contractSource/SmartBug/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#31)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol
+INFO:Detectors:
+Reentrancy in MY_BANK.Collect(uint256) (contractSource/SmartBug/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol#21-35):
+	External calls:
+	- msg.sender.call.value(_am)() (contractSource/SmartBug/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol#29)
+	State variables written after the call(s):
+	- acc.balance -= _am (contractSource/SmartBug/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol#31)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+etherbank.sol
+INFO:Detectors:
+Reentrancy in EtherBank.withdrawBalance() (contractSource/SmartBug/etherbank.sol#18-23):
+	External calls:
+	- ! (msg.sender.call.value(amountToWithdraw)()) (contractSource/SmartBug/etherbank.sol#21)
+	State variables written after the call(s):
+	- userBalances[msg.sender] = 0 (contractSource/SmartBug/etherbank.sol#22)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+etherstore.sol
+INFO:Detectors:
+Reentrancy in EtherStore.withdrawFunds(uint256) (contractSource/SmartBug/etherstore.sol#20-30):
+	External calls:
+	- require(bool)(msg.sender.call.value(_weiToWithdraw)()) (contractSource/SmartBug/etherstore.sol#27)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _weiToWithdraw (contractSource/SmartBug/etherstore.sol#28)
+	- lastWithdrawTime[msg.sender] = now (contractSource/SmartBug/etherstore.sol#29)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+reentrance.sol
+INFO:Detectors:
+Reentrancy in Reentrance.withdraw(uint256) (contractSource/SmartBug/reentrance.sol#21-29):
+	External calls:
+	- msg.sender.call.value(_amount)() (contractSource/SmartBug/reentrance.sol#24)
+	State variables written after the call(s):
+	- balances[msg.sender] -= _amount (contractSource/SmartBug/reentrance.sol#27)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+reentrancy_bonus.sol
+INFO:Detectors:
+Reentrancy in Reentrancy_bonus.getFirstWithdrawalBonus(address) (contractSource/SmartBug/reentrancy_bonus.sol#23-30):
+	External calls:
+	- withdrawReward(recipient) (contractSource/SmartBug/reentrancy_bonus.sol#28)
+		- (success) = recipient.call.value(amountToWithdraw)() (contractSource/SmartBug/reentrancy_bonus.sol#19)
+	State variables written after the call(s):
+	- claimedBonus[recipient] = true (contractSource/SmartBug/reentrancy_bonus.sol#29)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+reentrancy_cross_function.sol
+INFO:Detectors:
+Reentrancy in Reentrancy_cross_function.withdrawBalance() (contractSource/SmartBug/reentrancy_cross_function.sol#21-27):
+	External calls:
+	- (success) = msg.sender.call.value(amountToWithdraw)() (contractSource/SmartBug/reentrancy_cross_function.sol#24)
+	State variables written after the call(s):
+	- userBalances[msg.sender] = 0 (contractSource/SmartBug/reentrancy_cross_function.sol#26)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+reentrancy_dao.sol
+INFO:Detectors:
+Reentrancy in ReentrancyDAO.withdrawAll() (contractSource/SmartBug/reentrancy_dao.sol#13-22):
+	External calls:
+	- callResult = msg.sender.call.value(oCredit)() (contractSource/SmartBug/reentrancy_dao.sol#18)
+	State variables written after the call(s):
+	- credit[msg.sender] = 0 (contractSource/SmartBug/reentrancy_dao.sol#20)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+reentrancy_insecure.sol
+INFO:Detectors:
+Reentrancy in Reentrancy_insecure.withdrawBalance() (contractSource/SmartBug/reentrancy_insecure.sol#14-20):
+	External calls:
+	- (success) = msg.sender.call.value(amountToWithdraw)() (contractSource/SmartBug/reentrancy_insecure.sol#17)
+	State variables written after the call(s):
+	- userBalances[msg.sender] = 0 (contractSource/SmartBug/reentrancy_insecure.sol#19)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+reentrancy_simple.sol
+INFO:Detectors:
+Reentrancy in Reentrance.withdrawBalance() (contractSource/SmartBug/reentrancy_simple.sol#20-28):
+	External calls:
+	- ! (msg.sender.call.value(userBalance[msg.sender])()) (contractSource/SmartBug/reentrancy_simple.sol#24)
+	State variables written after the call(s):
+	- userBalance[msg.sender] = 0 (contractSource/SmartBug/reentrancy_simple.sol#27)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+simple_dao.sol
+INFO:Detectors:
+Reentrancy in SimpleDAO.withdraw(uint256) (contractSource/SmartBug/simple_dao.sol#16-22):
+	External calls:
+	- res = msg.sender.call.value(amount)() (contractSource/SmartBug/simple_dao.sol#19)
+	State variables written after the call(s):
+	- credit[msg.sender] -= amount (contractSource/SmartBug/simple_dao.sol#20)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+spank_chain_payment.sol
+INFO:Detectors:
+Reentrancy in LedgerChannel.LCOpenTimeout(bytes32) (contractSource/SmartBug/spank_chain_payment.sol#420-437):
+	External calls:
+	- require(bool,string)(Channels[_lcID].token.transfer(Channels[_lcID].partyAddresses[0],Channels[_lcID].erc20Balances[0]),CreateChannel: token transfer failure) (contractSource/SmartBug/spank_chain_payment.sol#430)
+	External calls sending eth:
+	- Channels[_lcID].partyAddresses[0].transfer(Channels[_lcID].ethBalances[0]) (contractSource/SmartBug/spank_chain_payment.sol#426)
+	State variables written after the call(s):
+	- delete Channels[_lcID] (contractSource/SmartBug/spank_chain_payment.sol#436)
+Reentrancy in LedgerChannel.byzantineCloseChannel(bytes32) (contractSource/SmartBug/spank_chain_payment.sol#756-817):
+	External calls:
+	- require(bool,string)(channel.token.transfer(channel.partyAddresses[0],tokenbalanceA),byzantineCloseChannel: token transfer failure) (contractSource/SmartBug/spank_chain_payment.sol#803-806)
+	- require(bool,string)(channel.token.transfer(channel.partyAddresses[1],tokenbalanceI),byzantineCloseChannel: token transfer failure) (contractSource/SmartBug/spank_chain_payment.sol#807-810)
+	External calls sending eth:
+	- channel.partyAddresses[0].transfer(ethbalanceA) (contractSource/SmartBug/spank_chain_payment.sol#798)
+	- channel.partyAddresses[1].transfer(ethbalanceI) (contractSource/SmartBug/spank_chain_payment.sol#799)
+	State variables written after the call(s):
+	- channel.isOpen = false (contractSource/SmartBug/spank_chain_payment.sol#813)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+INFO:Detectors:
+Reentrancy in LedgerChannel.createChannel(bytes32,address,uint256,address,uint256[2]) (contractSource/SmartBug/spank_chain_payment.sol#380-418):
+	External calls:
+	- require(bool,string)(Channels[_lcID].token.transferFrom(msg.sender,this,_balances[1]),CreateChannel: token transfer failure) (contractSource/SmartBug/spank_chain_payment.sol#406)
+	State variables written after the call(s):
+	- Channels[_lcID].erc20Balances[0] = _balances[1] (contractSource/SmartBug/spank_chain_payment.sol#407)
+	- Channels[_lcID].sequence = 0 (contractSource/SmartBug/spank_chain_payment.sol#410)
+	- Channels[_lcID].confirmTime = _confirmTime (contractSource/SmartBug/spank_chain_payment.sol#411)
+	- Channels[_lcID].LCopenTimeout = now + _confirmTime (contractSource/SmartBug/spank_chain_payment.sol#414)
+	- Channels[_lcID].initialDeposit = _balances (contractSource/SmartBug/spank_chain_payment.sol#415)
+Reentrancy in LedgerChannel.deposit(bytes32,address,uint256,bool) (contractSource/SmartBug/spank_chain_payment.sol#465-492):
+	External calls:
+	- require(bool,string)(Channels[_lcID].token.transferFrom(msg.sender,this,_balance),deposit: token transfer failure) (contractSource/SmartBug/spank_chain_payment.sol#473)
+	State variables written after the call(s):
+	- Channels[_lcID].erc20Balances[2] += _balance (contractSource/SmartBug/spank_chain_payment.sol#474)
+	- Channels[_lcID].ethBalances[3] += msg.value (contractSource/SmartBug/spank_chain_payment.sol#487)
+Reentrancy in LedgerChannel.deposit(bytes32,address,uint256,bool) (contractSource/SmartBug/spank_chain_payment.sol#465-492):
+	External calls:
+	- require(bool,string)(Channels[_lcID].token.transferFrom(msg.sender,this,_balance),deposit: token transfer failure) (contractSource/SmartBug/spank_chain_payment.sol#473)
+	- require(bool,string)(Channels[_lcID].token.transferFrom(msg.sender,this,_balance),deposit: token transfer failure) (contractSource/SmartBug/spank_chain_payment.sol#483)
+	State variables written after the call(s):
+	- Channels[_lcID].erc20Balances[3] += _balance (contractSource/SmartBug/spank_chain_payment.sol#484)
+Reentrancy in LedgerChannel.joinChannel(bytes32,uint256[2]) (contractSource/SmartBug/spank_chain_payment.sol#439-460):
+	External calls:
+	- require(bool,string)(Channels[_lcID].token.transferFrom(msg.sender,this,_balances[1]),joinChannel: token transfer failure) (contractSource/SmartBug/spank_chain_payment.sol#449)
+	State variables written after the call(s):
+	- Channels[_lcID].erc20Balances[1] = _balances[1] (contractSource/SmartBug/spank_chain_payment.sol#450)
+	- Channels[_lcID].initialDeposit[0] += _balances[0] (contractSource/SmartBug/spank_chain_payment.sol#453)
+	- Channels[_lcID].initialDeposit[1] += _balances[1] (contractSource/SmartBug/spank_chain_payment.sol#454)
+	- Channels[_lcID].isOpen = true (contractSource/SmartBug/spank_chain_payment.sol#456)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+
+--detect tx-origin,unchecked-lowlevel,unchecked-send
+0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol
+INFO:Detectors:
+PoCGame.donateToWhale(uint256) (contractSource/SmartBug/0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol#197-204) ignores return value by whale.call.value(amount)(bytes4(keccak256()(donate()))) (contractSource/SmartBug/0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol#201)
+PoCGame.loseWager(uint256) (contractSource/SmartBug/0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol#209-216) ignores return value by whale.call.value(amount)(bytes4(keccak256()(donate()))) (contractSource/SmartBug/0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol#213)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol
+INFO:Detectors:
+Caller.callAddress(address) (contractSource/SmartBug/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol#10-13) ignores return value by a.call() (contractSource/SmartBug/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol#12)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol
+INFO:Detectors:
+daoPOLSKAtokens.PartialFundsTransfer(uint256) (contractSource/SmartBug/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol#436-440) ignores return value by owner.send(this.balance - SubX) (contractSource/SmartBug/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol#439)
+daoPOLSKAtokens.finalize() (contractSource/SmartBug/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol#457-466) ignores return value by owner.send(this.balance) (contractSource/SmartBug/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol#465)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol
+INFO:Detectors:
+demo.transfer(address,address,address[],uint256[]) (contractSource/SmartBug/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol#9-17) ignores return value by caddress.call(id,from,_tos[i],v[i]) (contractSource/SmartBug/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol#14)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x39cfd754c85023648bf003bea2dd498c5612abfa.sol
+INFO:Detectors:
+Token.WithdrawToken(address,uint256,address) (contractSource/SmartBug/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol#39-45) ignores return value by token.call(bytes4(sha3()(transfer(address,uint256))),to,amount) (contractSource/SmartBug/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol#44)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol
+INFO:Detectors:
+Token.WithdrawToken(address,uint256,address) (contractSource/SmartBug/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol#39-45) ignores return value by token.call(bytes4(sha3()(transfer(address,uint256))),to,amount) (contractSource/SmartBug/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol#44)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol
+INFO:Detectors:
+MultiplicatorX4.Command(address,bytes) (contractSource/SmartBug/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol#23-30) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol#29)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol
+INFO:Detectors:
+WhaleGiveaway2.Command(address,bytes) (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#39-46) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#45)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x4051334adc52057aca763453820cb0e045076ef3.sol
+INFO:Detectors:
+airdrop.transfer(address,address,address[],uint256) (contractSource/SmartBug/0x4051334adc52057aca763453820cb0e045076ef3.sol#11-19) ignores return value by caddress.call(id,from,_tos[i],v) (contractSource/SmartBug/0x4051334adc52057aca763453820cb0e045076ef3.sol#16)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol
+INFO:Detectors:
+EBU.transfer(address[],uint256[]) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#13-22) ignores return value by caddress.call(id,from,_tos[i],v[i] * 1000000000000000000) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#19)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol
+INFO:Detectors:
+airPort.transfer(address,address,address[],uint256) (contractSource/SmartBug/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol#12-20) ignores return value by caddress.call(id,from,_tos[i],v) (contractSource/SmartBug/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol#17)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x524960d55174d912768678d8c606b4d50b79d7b1.sol
+INFO:Detectors:
+Centra4.transfer() (contractSource/SmartBug/0x524960d55174d912768678d8c606b4d50b79d7b1.sol#11-25) ignores return value by contract_address.call(register,CentraToken) (contractSource/SmartBug/0x524960d55174d912768678d8c606b4d50b79d7b1.sol#21)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol
+INFO:Detectors:
+EtherGet.getTokens(uint256,address) (contractSource/SmartBug/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#24-29) ignores return value by addr.call.value(0)() (contractSource/SmartBug/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#27)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol
+INFO:Detectors:
+MultiplicatorX3.Command(address,bytes) (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#23-30) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#29)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol
+INFO:Detectors:
+SimpleWallet.sendMoney(address,uint256,bytes) (contractSource/SmartBug/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#31-34) ignores return value by _target.call.value(_value)(_data) (contractSource/SmartBug/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#33)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol
+INFO:Detectors:
+Token.WithdrawToken(address,uint256,address) (contractSource/SmartBug/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol#39-45) ignores return value by token.call(bytes4(sha3()(transfer(address,uint256))),to,amount) (contractSource/SmartBug/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol#44)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+PandaBreeding.giveBirth(uint256,uint256[2],uint256[2]) (contractSource/SmartBug/0x663e4229142a27f00bafb5d087e1e730648314c3.sol#1091-1158) ignores return value by msg.sender.send(autoBirthFee) (contractSource/SmartBug/0x663e4229142a27f00bafb5d087e1e730648314c3.sol#1152)
+PandaCore.withdrawBalance() (contractSource/SmartBug/0x663e4229142a27f00bafb5d087e1e730648314c3.sol#2460-2469) ignores return value by cfoAddress.send(balance - subtractFees) (contractSource/SmartBug/0x663e4229142a27f00bafb5d087e1e730648314c3.sol#2467)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol
+INFO:Detectors:
+HomeyJar.Command(address,bytes) (contractSource/SmartBug/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol#26-30) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol#29)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.sol
+INFO:Detectors:
+WhaleGiveaway1.Command(address,bytes) (contractSource/SmartBug/0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.sol#39-46) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.sol#45)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol
+INFO:Detectors:
+WhaleGiveaway1.Command(address,bytes) (contractSource/SmartBug/0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol#38-45) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol#44)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol
+INFO:Detectors:
+PoCGame.donateToWhale(uint256) (contractSource/SmartBug/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol#194-201) ignores return value by whale.call.value(amount)(bytes4(keccak256()(donate()))) (contractSource/SmartBug/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol#198)
+PoCGame.loseWager(uint256) (contractSource/SmartBug/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol#206-213) ignores return value by whale.call.value(amount)(bytes4(keccak256()(donate()))) (contractSource/SmartBug/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol#210)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol
+INFO:Detectors:
+Pie.Command(address,bytes) (contractSource/SmartBug/0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol#38-45) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol#44)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol
+INFO:Detectors:
+Owned.execute(address,uint256,bytes) (contractSource/SmartBug/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54-57) ignores return value by _dst.call.value(_value)(_data) (contractSource/SmartBug/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#56)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x89c1b3807d4c67df034fffb62f3509561218d30b.sol
+INFO:Detectors:
+TownCrier.deliver(uint64,bytes32,uint64,bytes32) (contractSource/SmartBug/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol#142-194) ignores return value by requests[requestId].requester.call.gas(2300).value(fee)() (contractSource/SmartBug/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol#180)
+TownCrier.deliver(uint64,bytes32,uint64,bytes32) (contractSource/SmartBug/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol#142-194) ignores return value by requests[requestId].callbackAddr.call.gas(callbackGas)(requests[requestId].callbackFID,requestId,error,respData) (contractSource/SmartBug/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol#192)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+INFO:Detectors:
+TownCrier.deliver(uint64,bytes32,uint64,bytes32) (contractSource/SmartBug/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol#142-194) ignores return value by SGX_ADDRESS.send(CANCELLATION_FEE) (contractSource/SmartBug/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol#162)
+TownCrier.deliver(uint64,bytes32,uint64,bytes32) (contractSource/SmartBug/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol#142-194) ignores return value by SGX_ADDRESS.send(fee) (contractSource/SmartBug/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol#175)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol
+INFO:Detectors:
+Token.WithdrawToken(address,uint256,address) (contractSource/SmartBug/0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol#39-45) ignores return value by token.call(bytes4(sha3()(transfer(address,uint256))),to,amount) (contractSource/SmartBug/0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol#44)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol
+INFO:Detectors:
+Owned.execute(address,uint256,bytes) (contractSource/SmartBug/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol#53-56) ignores return value by _dst.call.value(_value)(_data) (contractSource/SmartBug/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol#55)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol
+INFO:Detectors:
+Delta.tokens_buy() (contractSource/SmartBug/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#39-57) ignores return value by owner2.send(sum2) (contractSource/SmartBug/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#54)
+Delta.withdraw(uint256) (contractSource/SmartBug/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#60-67) ignores return value by owner.send(balance) (contractSource/SmartBug/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#65)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+0xa1fceeff3acc57d257b917e30c4df661401d6431.sol
+INFO:Detectors:
+AirDropContract.transfer(address,address[],uint256[]) (contractSource/SmartBug/0xa1fceeff3acc57d257b917e30c4df661401d6431.sol#20-34) ignores return value by contract_address.call(id,msg.sender,tos[i],vs[i]) (contractSource/SmartBug/0xa1fceeff3acc57d257b917e30c4df661401d6431.sol#31)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol
+INFO:Detectors:
+EBU.transfer(address,address,address[],uint256[]) (contractSource/SmartBug/0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol#11-19) ignores return value by caddress.call(id,from,_tos[i],v[i]) (contractSource/SmartBug/0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol#16)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol
+INFO:Detectors:
+Splitter.fundPuppets() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#65-76) ignores return value by extra[0].call.value(_share).gas(800000)() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#69)
+Splitter.fundPuppets() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#65-76) ignores return value by extra[1].call.value(_share).gas(800000)() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#71)
+Splitter.fundPuppets() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#65-76) ignores return value by extra[2].call.value(_share).gas(800000)() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#73)
+Splitter.fundPuppets() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#65-76) ignores return value by extra[3].call.value(_share).gas(800000)() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#75)
+Puppet.fallback() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#99-104) ignores return value by target[0].call.value(msg.value).gas(600000)() (contractSource/SmartBug/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol#102)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol
+INFO:Detectors:
+Proxy.proxy(address,bytes) (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#12-15) ignores return value by target.call.value(msg.value)(data) (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#14)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol
+INFO:Detectors:
+SimpleWallet.sendMoney(address,uint256) (contractSource/SmartBug/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol#31-34) ignores return value by _target.call.value(_value)() (contractSource/SmartBug/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol#33)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol
+INFO:Detectors:
+DrainMe.callFirstTarget() (contractSource/SmartBug/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol#97-101) ignores return value by firstTarget.call.value(msg.value)() (contractSource/SmartBug/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol#100)
+DrainMe.callSecondTarget() (contractSource/SmartBug/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol#103-107) ignores return value by secondTarget.call.value(msg.value)() (contractSource/SmartBug/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol#106)
+DrainMe.winPrize() (contractSource/SmartBug/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol#131-134) ignores return value by owner.call.value(1)() (contractSource/SmartBug/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol#133)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol
+INFO:Detectors:
+keepMyEther.withdraw() (contractSource/SmartBug/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#23-27) ignores return value by msg.sender.call.value(balances[msg.sender])() (contractSource/SmartBug/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#25)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xbaa3de6504690efb064420d89e871c27065cdd52.sol
+INFO:Detectors:
+Proxy.proxy(address,bytes) (contractSource/SmartBug/0xbaa3de6504690efb064420d89e871c27065cdd52.sol#12-15) ignores return value by target.call.value(msg.value)(data) (contractSource/SmartBug/0xbaa3de6504690efb064420d89e871c27065cdd52.sol#14)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol
+INFO:Detectors:
+Proxy.proxy(address,bytes) (contractSource/SmartBug/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#12-15) ignores return value by target.call.value(msg.value)(data) (contractSource/SmartBug/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#14)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol
+INFO:Detectors:
+Pie.Command(address,bytes) (contractSource/SmartBug/0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol#38-45) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol#44)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol
+INFO:Detectors:
+demo.transfer(address,address,address[],uint256) (contractSource/SmartBug/0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol#11-19) ignores return value by caddress.call(id,from,_tos[i],v) (contractSource/SmartBug/0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol#16)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol
+INFO:Detectors:
+FreeEth.Command(address,bytes) (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#33-40) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#39)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol
+INFO:Detectors:
+FiftyFlip.wager(bool,uint256,uint256,uint8,bytes32,bytes32) (contractSource/SmartBug/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol#128-159) ignores return value by whale.call.value(donate_amount)(bytes4(keccak256()(donate()))) (contractSource/SmartBug/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol#150)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol
+INFO:Detectors:
+Honey.Command(address,bytes) (contractSource/SmartBug/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol#38-45) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol#44)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol
+INFO:Detectors:
+Freebie.Command(address,bytes) (contractSource/SmartBug/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol#33-40) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol#39)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xe894d54dca59cb53fe9cbc5155093605c7068220.sol
+INFO:Detectors:
+airDrop.transfer(address,address,address[],uint256,uint256) (contractSource/SmartBug/0xe894d54dca59cb53fe9cbc5155093605c7068220.sol#11-20) ignores return value by caddress.call(id,from,_tos[i],_value) (contractSource/SmartBug/0xe894d54dca59cb53fe9cbc5155093605c7068220.sol#17)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xec329ffc97d75fe03428ae155fc7793431487f63.sol
+INFO:Detectors:
+Owned.execute(address,uint256,bytes) (contractSource/SmartBug/0xec329ffc97d75fe03428ae155fc7793431487f63.sol#28-31) ignores return value by _dst.call.value(_value)(_data) (contractSource/SmartBug/0xec329ffc97d75fe03428ae155fc7793431487f63.sol#30)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xf2570186500a46986f3139f65afedc2afe4f445d.sol
+INFO:Detectors:
+RealOldFuckMaker.makeOldFucks(uint32) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#14-20) ignores return value by fuck.call(bytes4(sha3()(giveBlockReward()))) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#18)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xf29ebe930a539a60279ace72c707cba851a57707.sol
+INFO:Detectors:
+B.go() (contractSource/SmartBug/0xf29ebe930a539a60279ace72c707cba851a57707.sol#13-18) ignores return value by target.call.value(msg.value)() (contractSource/SmartBug/0xf29ebe930a539a60279ace72c707cba851a57707.sol#16)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol
+INFO:Detectors:
+WhaleGiveaway2.Command(address,bytes) (contractSource/SmartBug/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#38-45) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#44)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+etherpot_lotto.sol
+INFO:Detectors:
+Lotto.cash(uint256,uint256) (contractSource/SmartBug/etherpot_lotto.sol#89-113) ignores return value by winner.send(subpot) (contractSource/SmartBug/etherpot_lotto.sol#109)
+Lotto.fallback() (contractSource/SmartBug/etherpot_lotto.sol#131-160) ignores return value by msg.sender.send(msg.value - value) (contractSource/SmartBug/etherpot_lotto.sol#141)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+king_of_the_ether_throne.sol
+INFO:Detectors:
+KingOfTheEtherThrone.claimThrone(string) (contractSource/SmartBug/king_of_the_ether_throne.sol#103-169) ignores return value by msg.sender.send(valuePaid) (contractSource/SmartBug/king_of_the_ether_throne.sol#110)
+KingOfTheEtherThrone.claimThrone(string) (contractSource/SmartBug/king_of_the_ether_throne.sol#103-169) ignores return value by msg.sender.send(excessPaid) (contractSource/SmartBug/king_of_the_ether_throne.sol#118)
+KingOfTheEtherThrone.claimThrone(string) (contractSource/SmartBug/king_of_the_ether_throne.sol#103-169) ignores return value by currentMonarch.etherAddress.send(compensation) (contractSource/SmartBug/king_of_the_ether_throne.sol#132)
+KingOfTheEtherThrone.sweepCommission(uint256) (contractSource/SmartBug/king_of_the_ether_throne.sol#172-175) ignores return value by wizardAddress.send(amount) (contractSource/SmartBug/king_of_the_ether_throne.sol#174)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+lotto.sol
+INFO:Detectors:
+Lotto.sendToWinner() (contractSource/SmartBug/lotto.sol#17-22) ignores return value by winner.send(winAmount) (contractSource/SmartBug/lotto.sol#20)
+Lotto.withdrawLeftOver() (contractSource/SmartBug/lotto.sol#24-28) ignores return value by msg.sender.send(this.balance) (contractSource/SmartBug/lotto.sol#27)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+mishandled.sol
+INFO:Detectors:
+SendBack.withdrawBalance() (contractSource/SmartBug/mishandled.sol#10-15) ignores return value by msg.sender.send(amountToWithdraw) (contractSource/SmartBug/mishandled.sol#14)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+BECToken.sol
+null
+
+insecure_transfer.sol
+INFO:Detectors:
+IntegerOverflowAdd (contractSource/SmartBug/insecure_transfer.sol#9-21) has incorrect ERC20 function interface:IntegerOverflowAdd.transfer(address,uint256) (contractSource/SmartBug/insecure_transfer.sol#13-19)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-erc20-interface
+
+integer_overflow_1.sol
+null
+
+integer_overflow_add.sol
+null
+
+integer_overflow_benign_1.sol
+null
+
+integer_overflow_mapping_sym_1.sol
+null
+
+integer_overflow_minimal.sol
+null
+
+integer_overflow_mul.sol
+null
+
+integer_overflow_multitx_multifunc_feasible.sol
+null
+
+integer_overflow_multitx_onefunc_feasible.sol
+null
+
+overflow_simple_add.sol
+
+overflow_single_tx.sol
+null
+
+timelock.sol
+null
+
+token.sol
+null
+
+incorrect_constructor_name1.sol
+null
+
+incorrect_constructor_name2.sol
+null
+
+incorrect_constructor_name3.sol
+null
+
+mapping_write.sol
+null
+
+modifier_reentrancy.sol
+
+mycontract.sol
+INFO:Detectors:
+MyContract.sendTo(address,uint256) (contractSource/SmartBug/mycontract.sol#18-22) uses tx.origin for authorization: require(bool)(tx.origin == owner) (contractSource/SmartBug/mycontract.sol#20)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-usage-of-txorigin
+
+parity_wallet_bug_2.sol
+INFO:Detectors:
+WalletLibrary.kill(address) (contractSource/SmartBug/parity_wallet_bug_2.sol#233-235) allows anyone to destruct the contract
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#suicidal
+
+phishable.sol
+INFO:Detectors:
+Phishable.withdrawAll(address) (contractSource/SmartBug/phishable.sol#18-22) uses tx.origin for authorization: require(bool)(tx.origin == owner) (contractSource/SmartBug/phishable.sol#20)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-usage-of-txorigin
+
+rubixi.sol
+null
+
+simple_suicide.sol
+INFO:Detectors:
+SimpleSuicide.sudicideAnyone() (contractSource/SmartBug/simple_suicide.sol#12-14) allows anyone to destruct the contract
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#suicidal
+
+unprotected0.sol
+null
+
+wallet_02_refund_nosub.sol
+null
+
+wallet_03_wrong_constructor.sol
+null
+
+wallet_04_confused_sign.sol
+null

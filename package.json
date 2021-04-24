@@ -1,0 +1,24 @@
+{
+  "name": "arsc",
+  "version": "1.0.0",
+  "description": "about the automated repair of smart contracts",
+  "main": "./src/compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaoweilanmaohahaha/ARSC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaoweilanmaohahaha/ARSC/issues"
+  },
+  "homepage": "https://github.com/chaoweilanmaohahaha/ARSC#readme",
+  "dependencies": {
+    "shelljs": "^0.8.4",
+    "solc": "^0.4.16",
+    "web3": "^1.3.0"
+  }
+}

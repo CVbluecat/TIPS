@@ -1,0 +1,297 @@
+Airdrop.sol
+AirDrop.doAirdrop(address,address[],uint256) (Airdrop.sol#113-123) ignores return value by token.transferFrom(msg.sender,_to[i],_amount) (Airdrop.sol#119)
+AirDrop.doAirdrop2(address,address[],uint256) (Airdrop.sol#127-137) ignores return value by token.transfer(_to[i],_amount) (Airdrop.sol#133)
+AirDrop.doCustomAirdrop(address,address[],uint256[]) (Airdrop.sol#141-151) ignores return value by token.transferFrom(msg.sender,_to[i],_amount[i]) (Airdrop.sol#147)
+AirDrop.doCustomAirdrop2(address,address[],uint256[]) (Airdrop.sol#155-165) ignores return value by token.transfer(_to[i],_amount[i]) (Airdrop.sol#161)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+ApplauseCash_crowdsale.sol
+INFO:Detectors:
+TokenImpl.exchange(address,uint256) (ApplauseCash_crowdsale.sol#651-663) ignores return value by targetToken.transfer(_exchanger,_tokens) (ApplauseCash_crowdsale.sol#657)
+Crowdsale.buyTokens(address) (ApplauseCash_crowdsale.sol#895-923) ignores return value by token.mint(beneficiary,ethAmount) (ApplauseCash_crowdsale.sol#915)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+Reentrancy in Crowdsale.newCrowdSale(string,string,string,uint256) (ApplauseCash_crowdsale.sol#847-871):
+	External calls:
+	- token.transferOwnership(owner) (ApplauseCash_crowdsale.sol#863)
+	State variables written after the call(s):
+	- token = createTokenContract() (ApplauseCash_crowdsale.sol#865)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+
+Autoio_ICO.sol
+INFO:Detectors:
+tokensale.fallback() (Autonio_ICO.sol#593-673) ignores return value by msg.sender.send(weiLeftOver) (Autonio_ICO.sol#671)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+
+BananaCoin.sol
+INFO:Detectors:
+Reentrancy in Issuer.issue(address,uint256) (BananaCoin.sol#465-475):
+	External calls:
+	- token.transferFrom(allower,benefactor,amount) (BananaCoin.sol#469)
+	State variables written after the call(s):
+	- issued[benefactor] = true (BananaCoin.sol#471)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+INFO:Detectors:
+Issuer.issue(address,uint256) (BananaCoin.sol#465-475) ignores return value by token.transferFrom(allower,benefactor,amount) (BananaCoin.sol#469)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+Classy_Coin_Airdrop.sol
+INFO:Detectors:
+ClassyCoinAirdrop.airDrop(address[],uint256) (Classy_Coin_Airdrop.sol#99-119) ignores return value by myToken.transfer(recipients[i],amount) (Classy_Coin_Airdrop.sol#107)
+ClassyCoinAirdrop.emergencyDrain(uint256) (Classy_Coin_Airdrop.sol#125-129) ignores return value by myToken.transfer(owner,amount) (Classy_Coin_Airdrop.sol#127)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+ClassyCoin.sol
+INFO:Detectors:
+Reentrancy in IcoOKOToken.fallback() (ClassyCoin.sol#543-575):
+	External calls:
+	- token.transferFrom(allTokenAddress,msg.sender,tokensToSend) (ClassyCoin.sol#571)
+	External calls sending eth:
+	- wallet.transfer(valueToWallet) (ClassyCoin.sol#563)
+	- msg.sender.transfer(valueToReturn) (ClassyCoin.sol#567)
+	State variables written after the call(s):
+	- totalTokensSold += tokensToSend (ClassyCoin.sol#573)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+INFO:Detectors:
+IcoOKOToken.fallback() (ClassyCoin.sol#543-575) ignores return value by token.transferFrom(allTokenAddress,msg.sender,tokensToSend) (ClassyCoin.sol#571)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+dgame.sol
+dgame.fallback() (dgame.sol#65-123) ignores return value by players[currentGamenumber][winner].send(this.balance) (dgame.sol#103)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+INFO:symExec:/contract/dgame.sol:59:13: Warning: Integer Overflow.
+            numPlayers++
+Integer Overflow occurs if:
+    endRegisterTime = 1
+    numPlayers = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+    registered[gameNumber][msg.sender] = 0
+/contract/dgame.sol:47:13: Warning: Integer Overflow.
+            gameNumber++
+Integer Overflow occurs if:
+    endRegisterTime = 18014398509481984
+    gameNumber = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+    numPlayers = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+INFO:symExec:Flow1
+/contract/dgame.sol:52:13: Warning: Transaction-Ordering Dependency.
+            players[currentGamenumber][winner].send(this.balance)
+Flow2
+/contract/dgame.sol:52:13: Warning: Transaction-Ordering Dependency.
+            players[currentGamenumber][winner].send(this.balance)
+INFO:symExec:/contract/dgame.sol:40:20: Warning: Timestamp Dependency.
+        } else if (now > endRegisterTime && numPlayers > 0
+
+
+Easy_Mine_ICO.sol
+EasyMineIco.finalize() (Easy_Mine_ICO.sol#967-985) ignores return value by easyMineToken.burn(balance) (Easy_Mine_ICO.sol#981)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+INFO:symExec:/contract/Easy_Mine_ICO.sol:451:33: Warning: Integer Underflow.
+      uint256 tokensAvailable = priceThresholds[i].tokenCount - priceThresholds[i].tokensSold
+Integer Underflow occurs if:
+    stage = 3
+    priceThresholds[i].tokenCount = 0
+    priceThresholds[i].tokensSold = 1
+    tokenCount = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+    endBlock = 1
+    sys = 0
+/contract/Easy_Mine_ICO.sol:409:33: Warning: Integer Underflow.
+      uint256 tokensAvailable = priceThresholds[i].tokenCount - priceThresholds[i].tokensSold
+Integer Underflow occurs if:
+    stage = 3
+    priceThresholds[i].tokenCount = 0
+    priceThresholds[i].tokensSold = 1
+    endBlock = 1
+INFO:symExec:/contract/Easy_Mine_ICO.sol:459:7: Warning: Integer Overflow.
+      priceThresholds[i].tokensSold += tokens
+Integer Overflow occurs if:
+    priceThresholds[i].tokensSold = 111771850588589477980448691424064340015804983699214872171395667984683992420155
+    tokenCount = 67419346655525027280071070946112097648534143608088887667851415925010121249705
+    stage = 3
+    priceThresholds[i].tokenCount = 63399108006798309836948777361488529811069142641663195799789499901780984029924
+    endBlock = 1
+    sys = 0
+/contract/Easy_Mine_ICO.sol:358:7: Warning: Integer Overflow.
+      total += priceThresholds[i].tokenCount
+Integer Overflow occurs if:
+    priceThresholds[i].tokenCount = 1
+    priceThresholds[i].tokenCount = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+/contract/Easy_Mine_ICO.sol:384:16: Warning: Integer Overflow.
+    endBlock = startBlock + maxDuration
+Integer Overflow occurs if:
+    stage = 1
+    _startBlock = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+    maxDuration = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+    minStartDelay = 0
+    owner = 0
+/contract/Easy_Mine_ICO.sol:369:7: Warning: Integer Overflow.
+      total += priceThresholds[i].tokensSold
+Integer Overflow occurs if:
+    priceThresholds[i].tokensSold = 1
+    priceThresholds[i].tokensSold = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+INFO:symExec:Flow1
+/contract/Easy_Mine_ICO.sol:481:12: Warning: Transaction-Ordering Dependency.
+    assert(owner.send(this.balance)
+Flow2
+/contract/Easy_Mine_ICO.sol:481:12: Warning: Transaction-Ordering Dependency.
+    assert(owner.send(this.balance)
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract /contract/Easy_Mine_ICO.sol:EasyMineToken:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 99.9%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/contract/Easy_Mine_ICO.sol:139:7: Warning: Integer Underflow.
+      totalSupply -= _value
+Integer Underflow occurs if:
+    _value = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+    totalSupply = 115792089237316195423570985008687907853269984665640564039457584007913129639934
+    balances[msg.sender] = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+INFO:symExec:/contract/Easy_Mine_ICO.sol:57:7: Warning: Integer Overflow.
+      balances[_to] += _value
+Integer Overflow occurs if:
+    balances[_to] = 111771850588589477980448691424064340015804983699214872171395667984683992420155
+    balances[msg.sender] = 67419346655525027280071070946112097648534143608088887667851415925010121249705
+/contract/Easy_Mine_ICO.sol:67:7: Warning: Integer Overflow.
+      balances[_to] += _value
+Integer Overflow occurs if:
+    balances[_to] = 115792089237316195423570985008687907852929702298719625575994204896882187098296
+    allowed[_from][msg.sender] = 43422033463993573283839119378257965444976244249615211514796594002966269975960
+    balances[_from] = 43422033463993573283839119378257965444976244249615211514796594002966269975960
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract /contract/Easy_Mine_ICO.sol:EasyMineTokenWallet:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 83.5%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/contract/Easy_Mine_ICO.sol:209:36: Warning: Integer Overflow.
+      uint256 daysPassed = (now - (startTime + VESTING_PERIOD
+Integer Overflow occurs if:
+    startTime = 115792089237316195423570985008687907853269984665640564039457584007913122332672
+    owner = 0
+/contract/Easy_Mine_ICO.sol:206:15: Warning: Integer Overflow.
+    if (now < startTime + VESTING_PERIOD
+Integer Overflow occurs if:
+    startTime = 115792089237316195423570985008687907853269984665640564039457584007913122471936
+    owner = 0
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract /contract/Easy_Mine_ICO.sol:StandardToken:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 99.9%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/contract/Easy_Mine_ICO.sol:57:7: Warning: Integer Overflow.
+      balances[_to] += _value
+Integer Overflow occurs if:
+    _value = 67419346655525027280071070946112097648534143608088887667851415925010121249705
+    balances[_to] = 111771850588589477980448691424064340015804983699214872171395667984683992420155
+    balances[msg.sender] = 67419346655525027280071070946112097648534143608088887667851415925010121249705
+/contract/Easy_Mine_ICO.sol:67:7: Warning: Integer Overflow.
+      balances[_to] += _value
+Integer Overflow occurs if:
+    balances[_to] = 115792089237316195423570985008687907852929702298719625575994204896882187098296
+    allowed[_from][msg.sender] = 43422033463993573283839119378257965444976244249615211514796594002966269975960
+    balances[_from] = 43422033463993573283839119378257965444976244249615211514796594002966269975960
+
+
+HDLDL_presale.sol
+INFO:Detectors:
+LescoinPreSale.fallback() (HDLDL_presale.sol#751-763) ignores return value by tokenReward.transfer(msg.sender,tokenAmount * (100 + bonus) / 100) (HDLDL_presale.sol#761)
+LescoinPreSale.WithdrawTokens(uint256) (HDLDL_presale.sol#777-783) ignores return value by tokenReward.transfer(coldWallet,_amount) (HDLDL_presale.sol#781)
+LescoinPreSale.TransferTokens(address,uint256) (HDLDL_presale.sol#787-793) ignores return value by tokenReward.transfer(_to,_amount) (HDLDL_presale.sol#791)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+Hodbo_crowdsale.sol
+INFO:Detectors:
+Crowdsale.buyTokens(address) (Hodbo_crowdsale.sol#681-713) ignores return value by token.mint(beneficiary,tokens) (Hodbo_crowdsale.sol#705)
+YobCoinCrowdsale.extraMint(uint256) (Hodbo_crowdsale.sol#883-889) ignores return value by token.mint(owner,_amount) (Hodbo_crowdsale.sol#885)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+Lescoin_presale.sol
+SaleExtendedBCO.fallback() (Lescoin_presale.sol#1023-1051) ignores return value by tokenReward.transfer(msg.sender,tokensToSend) (Lescoin_presale.sol#1049)
+SaleExtendedBCO.WithdrawTokens(uint256) (Lescoin_presale.sol#1091-1095) ignores return value by tokenReward.transfer(beneficiary,amount) (Lescoin_presale.sol#1093)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+MXToken_crowdsale.sol
+INFO:Detectors:
+Presale.buyTokens(address) (MXToken_crowdsale.sol#527-551) ignores return value by token.mint(contributor,amount) (MXToken_crowdsale.sol#543)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+OKOToken_ICO.sol
+INFO:Detectors:
+Reentrancy in HDLContract.buyTokens() (OKOToken_ICO.sol#777-823):
+	External calls:
+	- token.mint(this,tokens) (OKOToken_ICO.sol#793)
+	- token.transfer(msg.sender,tokens) (OKOToken_ICO.sol#795)
+	State variables written after the call(s):
+	- issuedTokens = issuedTokens.add(tokens) (OKOToken_ICO.sol#799)
+Reentrancy in HDLContract.finish() (OKOToken_ICO.sol#711-741):
+	External calls:
+	- token.stopMinting() (OKOToken_ICO.sol#717)
+	State variables written after the call(s):
+	- isFinished = true (OKOToken_ICO.sol#719)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+INFO:Detectors:
+HDLContract.finish() (OKOToken_ICO.sol#711-741) ignores return value by token.stopMinting() (OKOToken_ICO.sol#717)
+HDLContract.buyTokens() (OKOToken_ICO.sol#777-823) ignores return value by token.mint(this,tokens) (OKOToken_ICO.sol#793)
+HDLContract.buyTokens() (OKOToken_ICO.sol#777-823) ignores return value by token.transfer(msg.sender,tokens) (OKOToken_ICO.sol#795)
+HDLContract.closeContract() (OKOToken_ICO.sol#835-841) ignores return value by token.stopMinting() (OKOToken_ICO.sol#837)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+Privatix_presale.sol
+INFO:Detectors:
+Crowdsale.buyTokens(address) (Privatix_presale.sol#253-285) ignores return value by token.mint(beneficiary,tokens) (Privatix_presale.sol#277)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+Siring_Clock_Auction.sol
+INFO:Detectors:
+BotBreeding.giveBirth(uint256) (Siring_Clock_Auction.sol#1201-1243) ignores return value by msg.sender.send(autoBirthFee) (Siring_Clock_Auction.sol#1239)
+BotCore.withdrawBalance() (Siring_Clock_Auction.sol#2347-2359) ignores return value by cfoAddress.send(balance - subtractFees) (Siring_Clock_Auction.sol#2355)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-send
+/contract/Siring_Clock_Auction.sol:165:13: Warning: Integer Overflow.
+            ownershipTokenCount[_to]++
+Integer Underflow occurs if:
+    bots.length = 4294967294
+    destroyedBots = 4294967295
+/contract/Siring_Clock_Auction.sol:169:13: Warning: Integer Underflow.
+            ownershipTokenCount[_from]--
+INFO:symExec:/contract/Siring_Clock_Auction.sol:414:16: Warning: Integer Underflow.
+        return bots.length - destroyedBots
+
+
+
+XGold_Coin.sol
+Crowdsale.buyTokens(address) (XGold_Coin.sol#405-447) ignores return value by token.mint(beneficiary,tokens) (XGold_Coin.sol#441)
+Crowdsale.mintTokens(address,uint256) (XGold_Coin.sol#451-479) ignores return value by token.mint(beneficiary,tokens) (XGold_Coin.sol#475)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+Yobcoin_crowdsale.sol
+INFO:Detectors:
+Reentrancy in ApplauseCashCrowdsale.finaliseCrowdsale() (Yobcoin_crowdsale.sol#1369-1389):
+	External calls:
+	- vault.close() (Yobcoin_crowdsale.sol#1375)
+	- vault.enableRefunds() (Yobcoin_crowdsale.sol#1379)
+	State variables written after the call(s):
+	- isFinalized = true (Yobcoin_crowdsale.sol#1385)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+INFO:Detectors:
+ApplauseCashCrowdsale.buyTokens(address) (Yobcoin_crowdsale.sol#995-1053) ignores return value by token.transfer(beneficiary,bonusedTokens) (Yobcoin_crowdsale.sol#1045)
+ApplauseCashCrowdsale.transferTokens(address,uint256) (Yobcoin_crowdsale.sol#1059-1063) ignores return value by token.transfer(beneficiary,tokens) (Yobcoin_crowdsale.sol#1061)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return
+
+
+
+

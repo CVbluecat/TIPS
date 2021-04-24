@@ -1,0 +1,187 @@
+arbitrary_location_write_simple.sol
++ solc@0.4.26
+updated 1 package in 20.834s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.25;']
+arbitrary_location_write_simple.sol
+./repairRes/test/arbitrary_location_write_simple.sol
+236948
+FibonacciBalance.sol
++ solc@0.4.26
+updated 1 package in 18.491s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.0;']
+FibonacciBalance.sol
+./repairRes/test/FibonacciBalance.sol
+366786
+incorrect_constructor_name1.sol
++ solc@0.4.26
+updated 1 package in 17.715s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.24;']
+incorrect_constructor_name1.sol
+./repairRes/test/incorrect_constructor_name1.sol
+91274
+incorrect_constructor_name2.sol
++ solc@0.4.26
+updated 1 package in 18.667s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.24;']
+incorrect_constructor_name2.sol
+./repairRes/test/incorrect_constructor_name2.sol
+91274
+incorrect_constructor_name3.sol
++ solc@0.4.26
+updated 1 package in 18.242s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.24;']
+incorrect_constructor_name3.sol
+./repairRes/test/incorrect_constructor_name3.sol
+91274
+mapping_write.sol
++ solc@0.4.26
+updated 1 package in 18.332s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.24;']
+mapping_write.sol
+./repairRes/test/mapping_write.sol
+176521
+multiowned_vulnerable.sol
++ solc@0.4.26
+updated 1 package in 18.163s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.23;']
+multiowned_vulnerable.sol
+./repairRes/test/multiowned_vulnerable.sol
+0
+mycontract.sol
++ solc@0.4.26
+updated 1 package in 18.54s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.24;']
+mycontract.sol
+./repairRes/test/mycontract.sol
+91789
+parity_wallet_bug_2.sol
++ solc@0.4.26
+updated 1 package in 18.124s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.9;']
+parity_wallet_bug_2.sol
+./repairRes/test/parity_wallet_bug_2.sol
+1769858
+phishable.sol
++ solc@0.4.26
+updated 1 package in 18.503s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.22;']
+phishable.sol
+./repairRes/test/phishable.sol
+121249
+rubixi.sol
++ solc@0.4.26
+updated 1 package in 34.557s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.15;']
+rubixi.sol
+./repairRes/test/rubixi.sol
+956339
+simple_suicide.sol
++ solc@0.4.26
+updated 1 package in 18.574s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.0;']
+simple_suicide.sol
+./repairRes/test/simple_suicide.sol
+41016
+test.sol
++ solc@0.4.26
+updated 1 package in 19.331s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.24;']
+test.sol
+./repairRes/test/test.sol
+30932
+unprotected0.sol
++ solc@0.4.26
+updated 1 package in 17.873s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.15;']
+unprotected0.sol
+./repairRes/test/unprotected0.sol
+108923
+wallet_02_refund_nosub.sol
++ solc@0.4.26
+updated 1 package in 18.24s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.24;']
+wallet_02_refund_nosub.sol
+./repairRes/test/wallet_02_refund_nosub.sol
+272449
+wallet_03_wrong_constructor.sol
++ solc@0.4.26
+updated 1 package in 19.866s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.24;']
+wallet_03_wrong_constructor.sol
+./repairRes/test/wallet_03_wrong_constructor.sol
+220172
+wallet_04_confused_sign.sol
++ solc@0.4.26
+updated 1 package in 18.577s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+['pragma', 'solidity', '^0.4.24;']
+wallet_04_confused_sign.sol
+./repairRes/test/wallet_04_confused_sign.sol
+238390

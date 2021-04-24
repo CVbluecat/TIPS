@@ -1,0 +1,83 @@
+Airdrop.sol
+null
+
+ApplauseCash_crowdsale.sol
+Reentrancy in Crowdsale.newCrowdSale(string,string,string,uint256) (ApplauseCash_crowdsale.sol#240-251):
+	External calls:
+	- token.transferOwnership(owner) (ApplauseCash_crowdsale.sol#247)
+	State variables written after the call(s):
+	- token = createTokenContract() (ApplauseCash_crowdsale.sol#248)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+
+Autonio_ICO.sol
+
+BananaCoin.sol
+Reentrancy in Issuer.issue(address,uint256) (BananaCoin.sol#100-107):
+	External calls:
+	- ! token.transferFrom(allower,benefactor,amount) (BananaCoin.sol#103)
+	State variables written after the call(s):
+	- issued[benefactor] = true (BananaCoin.sol#105)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+
+Classy_Coin_Airdrop.sol
+null
+
+ClassyCoin.sol
+Reentrancy in IcoOKOToken.fallback() (ClassyCoin.sol#156-172):
+	External calls:
+	- ! token.transferFrom(allTokenAddress,msg.sender,tokensToSend) (ClassyCoin.sol#169)
+	External calls sending eth:
+	- wallet.transfer(valueToWallet) (ClassyCoin.sol#165)
+	- msg.sender.transfer(valueToReturn) (ClassyCoin.sol#167)
+	State variables written after the call(s):
+	- totalTokensSold += tokensToSend (ClassyCoin.sol#171)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities
+
+dgame.sol
+
+Easy_Mine_ICO.sol
+
+HDL_presale.sol
+null
+
+Hodbo_crowdsale.sol
+null
+
+Lescoin_presale.sol
+null
+
+MXToken_crowdsale.sol
+null
+
+OKOToken_ICO.sol
+INFO:Detectors:
+Reentrancy in HDLContract.buyTokens() (OKOToken_ICO.sol#163-180):
+	External calls:
+	- ! token.mint(this,tokens) (OKOToken_ICO.sol#168)
+	- ! token.transfer(msg.sender,tokens) (OKOToken_ICO.sol#170)
+	State variables written after the call(s):
+	- issuedTokens = issuedTokens.add(tokens) (OKOToken_ICO.sol#172)
+Reentrancy in HDLContract.finish() (OKOToken_ICO.sol#145-157):
+	External calls:
+	- ! token.stopMinting() (OKOToken_ICO.sol#147)
+	State variables written after the call(s):
+	- isFinished = true (OKOToken_ICO.sol#149)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+
+Privatix_presale.sol
+null
+
+Siring_Clock_Auction.sol
+
+XGold_Coin.sol
+null
+
+Yobcoin_crowdsale.sol
+INFO:Detectors:
+Reentrancy in ApplauseCashCrowdsale.finaliseCrowdsale() (Yobcoin_crowdsale.sol#364-374):
+	External calls:
+	- vault.close() (Yobcoin_crowdsale.sol#367)
+	- vault.enableRefunds() (Yobcoin_crowdsale.sol#370)
+	State variables written after the call(s):
+	- isFinalized = true (Yobcoin_crowdsale.sol#372)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1

@@ -1,0 +1,618 @@
+0x01d5d0108589f3c52fcce6e65503bb6515e66698.sol
++ solc@0.4.26
+updated 1 package in 17.556s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+0
+./repairRes/TSE/0x01d5d0108589f3c52fcce6e65503bb6515e66698.sol
+2983232
+0x06012c8cf97bead5deae237070f9587f8e7a266d.sol
++ solc@0.4.26
+updated 1 package in 19.122s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+1
+./repairRes/TSE/0x06012c8cf97bead5deae237070f9587f8e7a266d.sol
+25406355
+0x09678741bd50c3e74301f38fbd0136307099ae5d.sol
++ solc@0.4.26
+updated 1 package in 16.958s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+2
+./repairRes/TSE/0x09678741bd50c3e74301f38fbd0136307099ae5d.sol
+2924781
+0x0dcfdb9f5496ed7f62dd0ac019c7daf184a66aef.sol
++ solc@0.4.26
+updated 1 package in 17.107s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+3
+./repairRes/TSE/0x0dcfdb9f5496ed7f62dd0ac019c7daf184a66aef.sol
+841654
+0x13ce614e9d7ce609dedba1b42ba2163426ba5ace.sol
++ solc@0.4.26
+updated 1 package in 17.042s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+4
+./repairRes/TSE/0x13ce614e9d7ce609dedba1b42ba2163426ba5ace.sol
+1349510
+0x14cf6193935b17fc72649ba420fdd5bfdf1f0001.sol
++ solc@0.4.26
+updated 1 package in 17.487s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+5
+./repairRes/TSE/0x14cf6193935b17fc72649ba420fdd5bfdf1f0001.sol
+3962970
+0x1d840cb510f084e6154c85d14d98cdc8f7a3b4d5.sol
++ solc@0.4.26
+updated 1 package in 17.773s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+6
+./repairRes/TSE/0x1d840cb510f084e6154c85d14d98cdc8f7a3b4d5.sol
+1827226
+0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol
++ solc@0.4.26
+updated 1 package in 17.429s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+7
+./repairRes/TSE/0x1e025340d6f75a2a4ef81139049cfbf976782eeb.sol
+13011116
+0x1e143b2588705dfea63a17f2032ca123df995ce0.sol
+8
+./repairRes/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol
+175652
+0x29aa20fB9b23421E310BDB8a7cfB81d7fbB4a1b3.sol
++ solc@0.4.26
+updated 1 package in 16.962s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+9
+./repairRes/TSE/0x29aa20fB9b23421E310BDB8a7cfB81d7fbB4a1b3.sol
+0
+0x2c1180e2818069e5a9f911e636fb8f3db5106a9f.sol
++ solc@0.4.26
+updated 1 package in 17.697s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+10
+./repairRes/TSE/0x2c1180e2818069e5a9f911e636fb8f3db5106a9f.sol
+1357317
+0x30407ece7f4252a7e2d786207831561b33ec3f13.sol
++ solc@0.4.26
+updated 1 package in 17.761s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+11
+./repairRes/TSE/0x30407ece7f4252a7e2d786207831561b33ec3f13.sol
+1890700
+0x30cefbcb5c26a5b19a019092ab8d09f8739c904f.sol
++ solc@0.4.26
+updated 1 package in 17.908s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+12
+./repairRes/TSE/0x30cefbcb5c26a5b19a019092ab8d09f8739c904f.sol
+3468890
+0x311d745582a97be5d7abbce48855ecec72737c5d.sol
++ solc@0.4.26
+updated 1 package in 19.527s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+13
+./repairRes/TSE/0x311d745582a97be5d7abbce48855ecec72737c5d.sol
+0
+0x32bacc8b241fb172fee18bda32527126c6f3c5f7.sol
++ solc@0.4.26
+updated 1 package in 19.751s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+14
+./repairRes/TSE/0x32bacc8b241fb172fee18bda32527126c6f3c5f7.sol
+2261476
+0x33a275B9cd129b34e5f0693D82d6d3Db26B0C3a0.sol
++ solc@0.4.26
+updated 1 package in 17.422s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+15
+./repairRes/TSE/0x33a275B9cd129b34e5f0693D82d6d3Db26B0C3a0.sol
+8856796
+0x357f07ac89ee6329a70ca837d6bfc16b0275015f.sol
++ solc@0.4.26
+updated 1 package in 17.296s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+16
+./repairRes/TSE/0x357f07ac89ee6329a70ca837d6bfc16b0275015f.sol
+4892475
+0x3aaa175924a77ee4b40606f714b727331e430ece.sol
++ solc@0.4.26
+updated 1 package in 17.305s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+17
+./repairRes/TSE/0x3aaa175924a77ee4b40606f714b727331e430ece.sol
+13398295
+0x41ff0796a6c7a201476bff53c4cb2c48b084e5e0.sol
++ solc@0.4.26
+updated 1 package in 17.335s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+18
+./repairRes/TSE/0x41ff0796a6c7a201476bff53c4cb2c48b084e5e0.sol
+10125064
+0x45d147c800d401350b24fc1cd5fbc98040b177c8.sol
++ solc@0.4.26
+updated 1 package in 17.193s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+19
+./repairRes/TSE/0x45d147c800d401350b24fc1cd5fbc98040b177c8.sol
+2564860
+0x48d8f22d45e40F34cB7C10799F31246F134E9B7f.sol
++ solc@0.4.26
+updated 1 package in 17.178s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+20
+./repairRes/TSE/0x48d8f22d45e40F34cB7C10799F31246F134E9B7f.sol
+4276198
+0x49516fe7bdc54b29a7f95ff55fdd38d9228e55af.sol
++ solc@0.4.26
+updated 1 package in 17.536s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+21
+./repairRes/TSE/0x49516fe7bdc54b29a7f95ff55fdd38d9228e55af.sol
+4194209
+0x49edf201c1e139282643d5e7c6fb0c7219ad1db7.sol
+22
+./repairRes/TSE/0x49edf201c1e139282643d5e7c6fb0c7219ad1db7.sol
+5588772
+0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol
++ solc@0.4.26
+updated 1 package in 17.045s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+23
+./repairRes/TSE/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol
+1421847
+0x525aEEf9Af9ae896179EE287e024a40cF5FC7655.sol
++ solc@0.4.26
+updated 1 package in 17.155s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+24
+./repairRes/TSE/0x525aEEf9Af9ae896179EE287e024a40cF5FC7655.sol
+7591779
+0x54186df214506ff5613196170d1bd576895193ab.sol
++ solc@0.4.26
+updated 1 package in 17.296s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+25
+./repairRes/TSE/0x54186df214506ff5613196170d1bd576895193ab.sol
+1578672
+0x58ca3065c0f24c7c96aee8d6056b5b5decf9c2f8.sol
++ solc@0.4.26
+updated 1 package in 17.211s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+26
+./repairRes/TSE/0x58ca3065c0f24c7c96aee8d6056b5b5decf9c2f8.sol
+4026020
+0x5b36208992284CEFA4de83F2Fb34B33D1A75d4B7.sol
++ solc@0.4.26
+updated 1 package in 17.259s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+27
+./repairRes/TSE/0x5b36208992284CEFA4de83F2Fb34B33D1A75d4B7.sol
+707773
+0x5d356ebdaed2798547889ffa12fc587347e5ad89.sol
++ solc@0.4.26
+updated 1 package in 17.408s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+28
+./repairRes/TSE/0x5d356ebdaed2798547889ffa12fc587347e5ad89.sol
+4533923
+0x60ee1f74b96274a60b3dd5b92b35a49f86cfce80.sol
++ solc@0.4.26
+updated 1 package in 18.15s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+29
+./repairRes/TSE/0x60ee1f74b96274a60b3dd5b92b35a49f86cfce80.sol
+0
+0x6a92b2804EaeF97f222d003C94F683333e330693.sol
+30
+./repairRes/TSE/0x6a92b2804EaeF97f222d003C94F683333e330693.sol
+163741
+0x6cD0Df6798Eb5C38408B772B39cED57F7C3A47b2.sol
++ solc@0.4.26
+updated 1 package in 17.129s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+31
+./repairRes/TSE/0x6cD0Df6798Eb5C38408B772B39cED57F7C3A47b2.sol
+746044
+0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol
++ solc@0.4.26
+updated 1 package in 17.311s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+32
+./repairRes/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol
+1422574
+0x78a73B6CBc5D183CE56e786f6e905CaDEC63547B.sol
++ solc@0.4.26
+updated 1 package in 17.416s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+33
+./repairRes/TSE/0x78a73B6CBc5D183CE56e786f6e905CaDEC63547B.sol
+4270856
+0x7c8b63c4cf7a6009e06dc78d9a8352cd0541556f.sol
++ solc@0.4.26
+updated 1 package in 17.402s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+34
+./repairRes/TSE/0x7c8b63c4cf7a6009e06dc78d9a8352cd0541556f.sol
+785303
+0x7f6d05523908a9688eab8ab8bbc7842e3d453bfb.sol
+35
+./repairRes/TSE/0x7f6d05523908a9688eab8ab8bbc7842e3d453bfb.sol
+0
+0x80a92535c95d0e6cebece256df3c1b540c60dccb.sol
++ solc@0.4.26
+updated 1 package in 17.918s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+36
+./repairRes/TSE/0x80a92535c95d0e6cebece256df3c1b540c60dccb.sol
+0
+0x827d41446a2cb012d3011b94f525d6c46b32866d.sol
++ solc@0.4.26
+updated 1 package in 17.463s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+37
+./repairRes/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol
+1477960
+0x84e8a50ca43e8f26094799ba60705475cf2b9832.sol
++ solc@0.4.26
+updated 1 package in 17.776s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+38
+./repairRes/TSE/0x84e8a50ca43e8f26094799ba60705475cf2b9832.sol
+741516
+0x8c628caaff01b61140f5576292bf57154e119b0b.sol
++ solc@0.4.26
+updated 1 package in 17.256s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+39
+./repairRes/TSE/0x8c628caaff01b61140f5576292bf57154e119b0b.sol
+1961759
+0x97ec9bfb0f6672c358620615a1e4de0348aea05c.sol
++ solc@0.4.26
+updated 1 package in 17.252s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+40
+./repairRes/TSE/0x97ec9bfb0f6672c358620615a1e4de0348aea05c.sol
+1120672
+0x995020804986274763df9deb0296b754f2659ca1.sol
++ solc@0.4.26
+updated 1 package in 17.316s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+41
+./repairRes/TSE/0x995020804986274763df9deb0296b754f2659ca1.sol
+5193835
+0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77.sol
++ solc@0.4.26
+updated 1 package in 17.634s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+42
+./repairRes/TSE/0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77.sol
+6279616
+0x9b6BAA7DE8751328E8e0a8b872Ff8d36539b313D.sol
++ solc@0.4.26
+updated 1 package in 17.72s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+43
+./repairRes/TSE/0x9b6BAA7DE8751328E8e0a8b872Ff8d36539b313D.sol
+0
+0x9bbb9387c9e2477a6b5d81afece00255875c48ce.sol
++ solc@0.4.26
+updated 1 package in 17.591s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+44
+./repairRes/TSE/0x9bbb9387c9e2477a6b5d81afece00255875c48ce.sol
+2927313
+0xa62bdee2f277c2e2c0f46cba96879b263796ee1c.sol
++ solc@0.4.26
+updated 1 package in 17.374s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+45
+./repairRes/TSE/0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016.sol
+217799
+0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016.sol
++ solc@0.4.26
+updated 1 package in 17.485s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+46
+./repairRes/TSE/0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol
+1053386
+0xb00b5f9a21b79901d687d6d952319af767a116ca.sol
++ solc@0.4.26
+updated 1 package in 17.037s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+47
+./repairRes/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol
+746044
+0xb1690c08e213a35ed9bab7b318de14420fb57d8c.sol
++ solc@0.4.26
+updated 1 package in 17.373s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+48
+./repairRes/TSE/0xE5a04D98538231b0fAb9ABa60cd73cE4fF3039DF.sol
+5045905
+0xb694a9ee2eed5dc6d58599a25874abda504fa60a.sol
++ solc@0.4.26
+updated 1 package in 17.452s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+49
+./repairRes/TSE/0xa62bdee2f277c2e2c0f46cba96879b263796ee1c.sol
+1523804
+0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol
++ solc@0.4.26
+updated 1 package in 17.969s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+50
+./repairRes/TSE/0xb00b5f9a21b79901d687d6d952319af767a116ca.sol
+633874
+0xbf4ed7b27f1d666546e30d74d50d173d20bca754.sol
+51
+./repairRes/TSE/0xb1690c08e213a35ed9bab7b318de14420fb57d8c.sol
+3047479
+0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol
+52
+./repairRes/TSE/0xb694a9ee2eed5dc6d58599a25874abda504fa60a.sol
+0
+0xd780ae2bf04cd96e577d3d014762f831d97129d0.sol
++ solc@0.4.26
+updated 1 package in 17.126s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+53
+./repairRes/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol
+88242
+0xD79B4C6791784184e2755B2fC1659eaaB0f80456.sol
+54
+./repairRes/TSE/0xbf4ed7b27f1d666546e30d74d50d173d20bca754.sol
+396301
+0xd7e4ad7c318ffbafbf602e32e089e7e2326a2581.sol
++ solc@0.4.26
+updated 1 package in 17.661s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+55
+./repairRes/TSE/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol
+300749
+0xd9489f5a7c4420e814f6216505b6754ebd4213f7.sol
++ solc@0.4.26
+updated 1 package in 18.194s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+56
+./repairRes/TSE/0xd780ae2bf04cd96e577d3d014762f831d97129d0.sol
+6961436
+0xddf0d0b9914d530e0b743808249d9af901f1bd01.sol
++ solc@0.4.26
+updated 1 package in 17.338s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+57
+./repairRes/TSE/0xd7e4ad7c318ffbafbf602e32e089e7e2326a2581.sol
+0
+0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol
++ solc@0.4.26
+updated 1 package in 17.613s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+58
+./repairRes/TSE/0xd9489f5a7c4420e814f6216505b6754ebd4213f7.sol
+13867935
+0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol
++ solc@0.4.26
+updated 1 package in 17.076s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+59
+./repairRes/TSE/0xddf0d0b9914d530e0b743808249d9af901f1bd01.sol
+0
+0xE5a04D98538231b0fAb9ABa60cd73cE4fF3039DF.sol
++ solc@0.4.26
+updated 1 package in 17.472s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+60
+./repairRes/TSE/0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1.sol
+5278270
+0xe6517b766e6ee07f91b517435ed855926bcb1aae.sol
++ solc@0.4.26
+updated 1 package in 18.155s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+61
+./repairRes/TSE/0xe6517b766e6ee07f91b517435ed855926bcb1aae.sol
+0
+0xe752483412490481d193194d293db5cd0ed054a8.sol
++ solc@0.4.26
+updated 1 package in 17.337s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+62
+./repairRes/TSE/0xe752483412490481d193194d293db5cd0ed054a8.sol
+1795592
+0xea450e48e8d0da4332516a12c63c2232450caf6a.sol
++ solc@0.4.26
+updated 1 package in 17.358s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+63
+./repairRes/TSE/0xea450e48e8d0da4332516a12c63c2232450caf6a.sol
+7244363
+0xfc668AE14b0F7702c04b105448fE733D96C558DF.sol
++ solc@0.4.26
+updated 1 package in 17.621s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+64
+./repairRes/TSE/0xfc668AE14b0F7702c04b105448fE733D96C558DF.sol
+10850365
+0xfeac34425a3ba2fafbbeedb367ac5f4b4bb701d2.sol
++ solc@0.4.16
+updated 1 package in 17.395s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+65
+./repairRes/TSE/0xfeac34425a3ba2fafbbeedb367ac5f4b4bb701d2.sol
+0

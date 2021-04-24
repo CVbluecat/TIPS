@@ -1,0 +1,5 @@
+contract MyContract {
+	constructor() public {
+	}
+	
+}
