@@ -1,0 +1,662 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "airDrop",
+            "source_mapping": {
+              "start": 429,
+              "length": 94,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ModifierEntrancy",
+                "source_mapping": {
+                  "start": 200,
+                  "length": 641,
+                  "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "airDrop()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "supportsToken()",
+            "source_mapping": {
+              "start": 461,
+              "length": 13,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 35,
+              "ending_column": 48
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "airDrop",
+                "source_mapping": {
+                  "start": 429,
+                  "length": 94,
+                  "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ModifierEntrancy",
+                    "source_mapping": {
+                      "start": 200,
+                      "length": 641,
+                      "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                      "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                      "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "airDrop()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "require(bool)(keccak256()(abi.encodePacked(Nu Token)) == Bank(msg.sender).supportsToken())",
+            "source_mapping": {
+              "start": 612,
+              "length": 84,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 5,
+              "ending_column": 89
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "supportsToken",
+                "source_mapping": {
+                  "start": 581,
+                  "length": 127,
+                  "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ModifierEntrancy",
+                    "source_mapping": {
+                      "start": 200,
+                      "length": 641,
+                      "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                      "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                      "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "supportsToken()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls_sending_eth"
+            }
+          },
+          {
+            "type": "node",
+            "name": "tokenBalance[msg.sender] += 20",
+            "source_mapping": {
+              "start": 488,
+              "length": 30,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "airDrop",
+                "source_mapping": {
+                  "start": 429,
+                  "length": 94,
+                  "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ModifierEntrancy",
+                    "source_mapping": {
+                      "start": 200,
+                      "length": 641,
+                      "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                      "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                      "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "airDrop()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "tokenBalance"
+            }
+          }
+        ],
+        "description": "Reentrancy in ModifierEntrancy.airDrop() (contractSource/SmartBug/modifier_reentrancy.sol#15-17):\n\tExternal calls:\n\t- supportsToken() (contractSource/SmartBug/modifier_reentrancy.sol#15)\n\t\t- require(bool)(keccak256()(abi.encodePacked(Nu Token)) == Bank(msg.sender).supportsToken()) (contractSource/SmartBug/modifier_reentrancy.sol#21)\n\tState variables written after the call(s):\n\t- tokenBalance[msg.sender] += 20 (contractSource/SmartBug/modifier_reentrancy.sol#16)\n",
+        "markdown": "Reentrancy in [ModifierEntrancy.airDrop()](contractSource/SmartBug/modifier_reentrancy.sol#L15-L17):\n\tExternal calls:\n\t- [supportsToken()](contractSource/SmartBug/modifier_reentrancy.sol#L15)\n\t\t- [require(bool)(keccak256()(abi.encodePacked(Nu Token)) == Bank(msg.sender).supportsToken())](contractSource/SmartBug/modifier_reentrancy.sol#L21)\n\tState variables written after the call(s):\n\t- [tokenBalance[msg.sender] += 20](contractSource/SmartBug/modifier_reentrancy.sol#L16)\n",
+        "id": "150b1681c32468acf38ba33af7ba27bfdb0f647f4590b1646aa2d39e31b04871",
+        "check": "reentrancy-no-eth",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 174,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (contractSource/SmartBug/modifier_reentrancy.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](contractSource/SmartBug/modifier_reentrancy.sol#L7) allows old versions\n",
+        "id": "724aa86ab1967185d31c81cd367dfbe8fb937d5b7180b74eca3417e96b3c618c",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "attack",
+            "source_mapping": {
+              "start": 985,
+              "length": 434,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract attack (contractSource/SmartBug/modifier_reentrancy.sol#37-49) is not in CapWords\n",
+        "markdown": "Contract [attack](contractSource/SmartBug/modifier_reentrancy.sol#L37-L49) is not in CapWords\n",
+        "id": "aef00341fec101347b9a82f1a9d42668bf5b7bb698532fa700dff2de82c09c92",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 279,
+              "length": 33,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 3,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ModifierEntrancy",
+                "source_mapping": {
+                  "start": 200,
+                  "length": 641,
+                  "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "ModifierEntrancy",
+            "source_mapping": {
+              "start": 200,
+              "length": 641,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "ModifierEntrancy.name (contractSource/SmartBug/modifier_reentrancy.sol#11) is never used in ModifierEntrancy (contractSource/SmartBug/modifier_reentrancy.sol#9-29)\n",
+        "markdown": "[ModifierEntrancy.name](contractSource/SmartBug/modifier_reentrancy.sol#L11) is never used in [ModifierEntrancy](contractSource/SmartBug/modifier_reentrancy.sol#L9-L29)\n",
+        "id": "fb6db1638f5f3aa71b4ea90a122f0b5f83a2b1f7629a93b0f396c1bb1600911c",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "airDrop",
+            "source_mapping": {
+              "start": 429,
+              "length": 94,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ModifierEntrancy",
+                "source_mapping": {
+                  "start": 200,
+                  "length": 641,
+                  "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "airDrop()"
+            }
+          }
+        ],
+        "description": "airDrop() should be declared external:\n\t- ModifierEntrancy.airDrop() (contractSource/SmartBug/modifier_reentrancy.sol#15-17)\n",
+        "markdown": "airDrop() should be declared external:\n\t- [ModifierEntrancy.airDrop()](contractSource/SmartBug/modifier_reentrancy.sol#L15-L17)\n",
+        "id": "fb0b0fdc6f23b5088604972b4692240e20019a7a127710426b29b91424bb034f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "call",
+            "source_mapping": {
+              "start": 1332,
+              "length": 85,
+              "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+              "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+              "is_dependency": false,
+              "lines": [
+                46,
+                47,
+                48
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "attack",
+                "source_mapping": {
+                  "start": 985,
+                  "length": 434,
+                  "filename_used": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_relative": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/modifier_reentrancy.sol",
+                  "filename_short": "contractSource/SmartBug/modifier_reentrancy.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "call(address)"
+            }
+          }
+        ],
+        "description": "call(address) should be declared external:\n\t- attack.call(address) (contractSource/SmartBug/modifier_reentrancy.sol#46-48)\n",
+        "markdown": "call(address) should be declared external:\n\t- [attack.call(address)](contractSource/SmartBug/modifier_reentrancy.sol#L46-L48)\n",
+        "id": "91debe049c7f257b9954a7b7f2cd48f18175ac8531e055eb46d5605e634f6e91",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

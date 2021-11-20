@@ -15,9 +15,7 @@ def BFSGetNode(ast, num):
 
 def generateRequire():
     node = TreeNode('FunctionCall')
-    node.beginPoint = -1
     identifierNode = TreeNode('Identifier')
-    identifierNode.beginPoint = -1
     identifierNode.attributes = {}
     identifierNode.attributes['value'] = 'require'
     node.children.append(identifierNode)
@@ -30,7 +28,6 @@ def generateExpStatement():
 
 def generateBinaryExp(operator, lnode, rnode):
     node = TreeNode('BinaryOperation')
-    node.beginPoint = -1
     node.attributes = {}
     node.attributes['operator'] = operator
     node.children.append(lnode)
@@ -39,7 +36,6 @@ def generateBinaryExp(operator, lnode, rnode):
 
 def generateJudgeZero(rnode):
     node = TreeNode('IfStatement')
-    node.beginPoint = -1
     zeroNode = TreeNode('Literal')
     zeroNode.attributes = {}
     zeroNode.attributes['value'] = '0'
@@ -67,15 +63,38 @@ def repair_first_type(ast, operator, assign):
         orgBlockNode.children.insert(idx, expStatementNode)
 
     elif operator == '*=':
+        # generate a statement: uint tmp = ?
+        tmpVarNode = TreeNode('VariableDeclarationStatement')
+        leftNode = TreeNode('VariableDeclaration')
+        leftNode.attributes = {'name':'tmp'}
+        eletypeNode = TreeNode('ElementaryTypeName')
+        eletypeNode.attributes = {'name':'uint'}
+        leftNode.children.append(eletypeNode)
+        rightNode = TreeNode('Identifier')
+        rightNode.attributes = {'value': lNode.attributes['value']}
+        tmpVarNode.children.append(leftNode)
+        tmpVarNode.children.append(rightNode)
+
         judgeIfZero = generateJudgeZero(rNode)
-        judgeIfZero.children.append(expStatementNode)
-        orgBlockNode.children.insert(idx+1,judgeIfZero)
+        requireNode1 = generateRequire()
+        binaryNode1 = generateBinaryExp('/', lNode, rNode)
+
+        tmpIdNode = TreeNode('Identifier')
+        tmpIdNode.attributes = {'value':'tmp'}
+
+        binaryTotal1 = generateBinaryExp('==', binaryNode1, tmpIdNode)
+        requireNode1.children.append(binaryTotal1)
+        expNode1 = generateExpStatement()
+        expNode1.children.append(requireNode1)
+        judgeIfZero.children.append(expNode1)
+
+        orgBlockNode.children.insert(idx+1, tmpVarNode)
+        orgBlockNode.children.insert(idx+2,judgeIfZero)
     elif operator == '/=':
         pass    
 
 def repair_second_type(ast, varDec):
     newvarNode = TreeNode('Identifier')
-    newvarNode.beginPoint = -1
     newvarNode.attributes = {}
     newvarNode.attributes['value'] = varDec.children[0].attributes['name']
 

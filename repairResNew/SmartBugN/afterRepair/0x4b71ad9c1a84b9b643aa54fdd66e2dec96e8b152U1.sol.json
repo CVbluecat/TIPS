@@ -1,0 +1,636 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 45,
+              "length": 307,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "airPort",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 331,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! caddress.call(id,from,_tos[i],v)",
+            "source_mapping": {
+              "start": 284,
+              "length": 37,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 42
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 45,
+                  "length": 307,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "airPort",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 331,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "airPort.transfer(address,address,address[],uint256) (repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#3-11) has external calls inside a loop: ! caddress.call(id,from,_tos[i],v) (repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#7)\n",
+        "markdown": "[airPort.transfer(address,address,address[],uint256)](repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#L3-L11) has external calls inside a loop: [! caddress.call(id,from,_tos[i],v)](repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#L7)\n",
+        "id": "3009d760301799004f98565e437f7a35bbd438e4ff779c9a1d83e8525263a377",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 325,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 45,
+                  "length": 307,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "airPort",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 331,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#8):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#L8):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "73fcea56bdf6fbd6f567f1d16886516669cdefe891257fd884fcd20c5861d06b",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#L1) allows old versions\n",
+        "id": "f5861b39c8e9e659e58aadc88777020615e857dc8b380d01c6639a6df4eda806",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 45,
+              "length": 307,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "airPort",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 331,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! caddress.call(id,from,_tos[i],v)",
+            "source_mapping": {
+              "start": 284,
+              "length": 37,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 42
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 45,
+                  "length": 307,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "airPort",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 331,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in airPort.transfer(address,address,address[],uint256) (repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#3-11):\n\t- ! caddress.call(id,from,_tos[i],v) (repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#7)\n",
+        "markdown": "Low level call in [airPort.transfer(address,address,address[],uint256)](repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#L3-L11):\n\t- [! caddress.call(id,from,_tos[i],v)](repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#L7)\n",
+        "id": "6d5d39a23fc600e6bc07694abe2ddbeba781a42e527e252c0667592e4d1f3a77",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "airPort",
+            "source_mapping": {
+              "start": 25,
+              "length": 331,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract airPort (repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#2-13) is not in CapWords\n",
+        "markdown": "Contract [airPort](repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#L2-L13) is not in CapWords\n",
+        "id": "fd704f7fad15c98e70d64d244236418bf29eb2dc25e1d0b3e73839b1f4e35573",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_tos",
+            "source_mapping": {
+              "start": 95,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 52,
+              "ending_column": 66
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 45,
+                  "length": 307,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "airPort",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 331,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter airPort.transfer(address,address,address[],uint256)._tos (repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#3) is not in mixedCase\n",
+        "markdown": "Parameter [airPort.transfer(address,address,address[],uint256)._tos](repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#L3) is not in mixedCase\n",
+        "id": "8c53c2bb29e4cf8aa37f7620769a49e1f84912aa0980b0f393a4d5eaa1e63e0b",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 45,
+              "length": 307,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "airPort",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 331,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,address,address[],uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,address,address[],uint256) should be declared external:\n\t- airPort.transfer(address,address,address[],uint256) (repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#3-11)\n",
+        "markdown": "transfer(address,address,address[],uint256) should be declared external:\n\t- [airPort.transfer(address,address,address[],uint256)](repairResNew/SmartBugN/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol#L3-L11)\n",
+        "id": "1e03e169c1535a5755cf5b04092b607527dfd6f9a2cebbfd0ba3182e93a10ba1",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

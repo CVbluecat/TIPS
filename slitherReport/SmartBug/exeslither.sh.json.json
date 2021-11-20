@@ -1,0 +1,5 @@
+{
+  "success": false,
+  "error": "Traceback (most recent call last):\n  File \"/home/ethsec/.local/lib/python3.6/site-packages/slither/__main__.py\", line 680, in main_impl\n    ) = process_single(filename, args, detector_classes, printer_classes)\n  File \"/home/ethsec/.local/lib/python3.6/site-packages/slither/__main__.py\", line 62, in process_single\n    slither = Slither(target, ast_format=ast, **vars(args))\n  File \"/home/ethsec/.local/lib/python3.6/site-packages/slither/slither.py\", line 68, in __init__\n    self._init_from_raw_json(target)\n  File \"/home/ethsec/.local/lib/python3.6/site-packages/slither/slither.py\", line 123, in _init_from_raw_json\n    self._parser.parse_contracts_from_json(c)\n  File \"/home/ethsec/.local/lib/python3.6/site-packages/slither/solc_parsing/slitherSolc.py\", line 93, in parse_contracts_from_json\n    filename = data_loaded[\"absolutePath\"]\nKeyError: 'absolutePath'\n",
+  "results": {}
+}

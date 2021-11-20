@@ -1,0 +1,1142 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 501,
+              "length": 20,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DepositProxy",
+                "source_mapping": {
+                  "start": 463,
+                  "length": 643,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 184,
+              "length": 26,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 56,
+              "ending_column": 82
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 349,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "DepositProxy.Owner (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#19) shadows:\n\t- Proxy.Owner (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#10)\n",
+        "markdown": "[DepositProxy.Owner](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L19) shadows:\n\t- [Proxy.Owner](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L10)\n",
+        "id": "285d6d3053efa125f88c71fbbf9f7ef3ab0380163908888ed7a8bc951d9ec249",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "proxy",
+            "source_mapping": {
+              "start": 299,
+              "length": 157,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 349,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "proxy(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "target.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 414,
+              "length": 34,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 9,
+              "ending_column": 43
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "proxy",
+                "source_mapping": {
+                  "start": 299,
+                  "length": 157,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Proxy",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 349,
+                      "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "proxy(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Proxy.proxy(address,bytes) (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#12-15) ignores return value by target.call.value(msg.value)(data) (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#14)\n",
+        "markdown": "[Proxy.proxy(address,bytes)](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L12-L15) ignores return value by [target.call.value(msg.value)(data)](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L14)\n",
+        "id": "2ed6b1c0260baba2d88f7c7c8989e53bf3714f6abab42ab99d18a620a5dbbebe",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 82,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L7) allows old versions\n",
+        "id": "d9265e56bacb21484cb4f88cd83aac04041f9650453978a5409aecd0593c6958",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "proxy",
+            "source_mapping": {
+              "start": 299,
+              "length": 157,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 349,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "proxy(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "target.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 414,
+              "length": 34,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 9,
+              "ending_column": 43
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "proxy",
+                "source_mapping": {
+                  "start": 299,
+                  "length": 157,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Proxy",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 349,
+                      "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "proxy(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Proxy.proxy(address,bytes) (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#12-15):\n\t- target.call.value(msg.value)(data) (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#14)\n",
+        "markdown": "Low level call in [Proxy.proxy(address,bytes)](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L12-L15):\n\t- [target.call.value(msg.value)(data)](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L14)\n",
+        "id": "acd4a9b16487ee86edec850cb0a0aa51d5f073668b7fed3b782ee0843fba5ede",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 240,
+              "length": 14,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 28,
+              "ending_column": 42
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferOwner",
+                "source_mapping": {
+                  "start": 217,
+                  "length": 75,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 80
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Proxy",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 349,
+                      "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferOwner(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Proxy.transferOwner(address)._owner (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#11) is not in mixedCase\n",
+        "markdown": "Parameter [Proxy.transferOwner(address)._owner](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L11) is not in mixedCase\n",
+        "id": "bb2af1be07f0a586d5689907e35dab403aa057c78031ccadea134f106be8305a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 184,
+              "length": 26,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 56,
+              "ending_column": 82
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 349,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Proxy.Owner (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#10) is not in mixedCase\n",
+        "markdown": "Variable [Proxy.Owner](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L10) is not in mixedCase\n",
+        "id": "c63e3bbb6de5e5bc8f558119efe5b0c6af9384b54467feaeb7bbe509e2169462",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Vault",
+            "source_mapping": {
+              "start": 623,
+              "length": 148,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DepositProxy",
+                "source_mapping": {
+                  "start": 463,
+                  "length": 643,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Vault()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function DepositProxy.Vault() (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#24-29) is not in mixedCase\n",
+        "markdown": "Function [DepositProxy.Vault()](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L24-L29) is not in mixedCase\n",
+        "id": "457599eabb897c3c766e437ceca2dd9d8e98968318e28e4440894adc215c6bea",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 501,
+              "length": 20,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DepositProxy",
+                "source_mapping": {
+                  "start": 463,
+                  "length": 643,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable DepositProxy.Owner (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#19) is not in mixedCase\n",
+        "markdown": "Variable [DepositProxy.Owner](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L19) is not in mixedCase\n",
+        "id": "79e8c75e79479ee6c4933e1f7c775fa71f5cae49882ee6cd99f9f82554c24b49",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Deposits",
+            "source_mapping": {
+              "start": 528,
+              "length": 44,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DepositProxy",
+                "source_mapping": {
+                  "start": 463,
+                  "length": 643,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable DepositProxy.Deposits (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#20) is not in mixedCase\n",
+        "markdown": "Variable [DepositProxy.Deposits](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L20) is not in mixedCase\n",
+        "id": "5b11790f23ad344d2fae1cc0026c65ab1d4c78aa7906037aa441b2bcb30a65f0",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferOwner",
+            "source_mapping": {
+              "start": 217,
+              "length": 75,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 80
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 349,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferOwner(address)"
+            }
+          }
+        ],
+        "description": "transferOwner(address) should be declared external:\n\t- Proxy.transferOwner(address) (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#11)\n",
+        "markdown": "transferOwner(address) should be declared external:\n\t- [Proxy.transferOwner(address)](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L11)\n",
+        "id": "30434e80404fe0969193ee66738fc388c85ca207aebffa5e13648beb9eb87f02",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "proxy",
+            "source_mapping": {
+              "start": 299,
+              "length": 157,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 349,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "proxy(address,bytes)"
+            }
+          }
+        ],
+        "description": "proxy(address,bytes) should be declared external:\n\t- Proxy.proxy(address,bytes) (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#12-15)\n",
+        "markdown": "proxy(address,bytes) should be declared external:\n\t- [Proxy.proxy(address,bytes)](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L12-L15)\n",
+        "id": "0a3bfbb74de3dc199061900b883ff8ff6c3dd205315feef537790db983280fd5",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 581,
+              "length": 30,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DepositProxy",
+                "source_mapping": {
+                  "start": 463,
+                  "length": 643,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- DepositProxy.fallback() (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#22)\n",
+        "markdown": "fallback() should be declared external:\n\t- [DepositProxy.fallback()](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L22)\n",
+        "id": "3390fcf3cff798449b5567ddbb4cdef4e337996c63a9533cf3ca5ba52a01af88",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Vault",
+            "source_mapping": {
+              "start": 623,
+              "length": 148,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DepositProxy",
+                "source_mapping": {
+                  "start": 463,
+                  "length": 643,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Vault()"
+            }
+          }
+        ],
+        "description": "Vault() should be declared external:\n\t- DepositProxy.Vault() (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#24-29)\n",
+        "markdown": "Vault() should be declared external:\n\t- [DepositProxy.Vault()](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L24-L29)\n",
+        "id": "a2eb3e6a3a4b7228666030a2be6a75238898caa321be4b039bd1dfd957a1e21f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 934,
+              "length": 169,
+              "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DepositProxy",
+                "source_mapping": {
+                  "start": 463,
+                  "length": 643,
+                  "filename_used": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_relative": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "filename_short": "contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          }
+        ],
+        "description": "withdraw(uint256) should be declared external:\n\t- DepositProxy.withdraw(uint256) (contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#37-41)\n",
+        "markdown": "withdraw(uint256) should be declared external:\n\t- [DepositProxy.withdraw(uint256)](contractSource/SmartBug/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol#L37-L41)\n",
+        "id": "28d2d3bba30d04f90e4617e9d3600bc41e84b0c5f3b580aed1e9241b11bbacd2",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

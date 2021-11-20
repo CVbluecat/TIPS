@@ -1,0 +1,347 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "sendlimiter",
+            "source_mapping": {
+              "start": 25,
+              "length": 107,
+              "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            }
+          },
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 49,
+              "length": 79,
+              "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "sendlimiter",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 107,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found in :\n\tContract sendlimiter (repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#2-7) has payable functions:\n\t - sendlimiter.fallback() (repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#3-5)\n\tBut does not have a function to withdraw the ether\n",
+        "markdown": "Contract locking ether found in :\n\tContract [sendlimiter](repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L2-L7) has payable functions:\n\t - [sendlimiter.fallback()](repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L3-L5)\n\tBut does not have a function to withdraw the ether\n",
+        "id": "a9b5814be4ae26b21d79e508969be15d1600d51184ecd066310ff79e9fdb5dc8",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L1) allows old versions\n",
+        "id": "0f90e1095567ecc9e190b8fe473f863baa1c21e3d5e139a0c30d444615e7a840",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "sendlimiter",
+            "source_mapping": {
+              "start": 25,
+              "length": 107,
+              "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract sendlimiter (repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#2-7) is not in CapWords\n",
+        "markdown": "Contract [sendlimiter](repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L2-L7) is not in CapWords\n",
+        "id": "86f1e4f7d3f6688ff05dda61a96eee7c72df73462ca813d10ec19ce781b48377",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 49,
+              "length": 79,
+              "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "sendlimiter",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 107,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "require(bool)(this.balance + msg.value < 100000000)",
+            "source_mapping": {
+              "start": 79,
+              "length": 45,
+              "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 2,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "fallback",
+                "source_mapping": {
+                  "start": 49,
+                  "length": 79,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "sendlimiter",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 107,
+                      "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                      "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                      "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "fallback()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "sendlimiter.fallback() (repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#3-5) uses literals with too many digits:\n\t- require(bool)(this.balance + msg.value < 100000000) (repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#4)\n",
+        "markdown": "[sendlimiter.fallback()](repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L3-L5) uses literals with too many digits:\n\t- [require(bool)(this.balance + msg.value < 100000000)](repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L4)\n",
+        "id": "219356016f1f0a7707cca420411933bdedb5ab79ea849a6349557cd44282a786",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 49,
+              "length": 79,
+              "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "sendlimiter",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 107,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_short": "repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- sendlimiter.fallback() (repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#3-5)\n",
+        "markdown": "fallback() should be declared external:\n\t- [sendlimiter.fallback()](repairResNew/TSEN/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L3-L5)\n",
+        "id": "c55a645cdd26b37a0e87c72caa671e8d665e594e7ae2dac0578f7ccc3ea35a9e",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

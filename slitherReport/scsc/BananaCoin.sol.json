@@ -1,0 +1,3475 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "issue",
+            "source_mapping": {
+              "start": 6685,
+              "length": 213,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                233,
+                234,
+                235,
+                236,
+                237,
+                238
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Issuer",
+                "source_mapping": {
+                  "start": 6006,
+                  "length": 897,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218,
+                    219,
+                    220,
+                    221,
+                    222,
+                    223,
+                    224,
+                    225,
+                    226,
+                    227,
+                    228,
+                    229,
+                    230,
+                    231,
+                    232,
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238,
+                    239,
+                    240
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "issue(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(allower,benefactor,amount)",
+            "source_mapping": {
+              "start": 6785,
+              "length": 47,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                235
+              ],
+              "starting_column": 5,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "issue",
+                "source_mapping": {
+                  "start": 6685,
+                  "length": 213,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Issuer",
+                    "source_mapping": {
+                      "start": 6006,
+                      "length": 897,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229,
+                        230,
+                        231,
+                        232,
+                        233,
+                        234,
+                        235,
+                        236,
+                        237,
+                        238,
+                        239,
+                        240
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "issue(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "issued[benefactor] = true",
+            "source_mapping": {
+              "start": 6839,
+              "length": 25,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                236
+              ],
+              "starting_column": 5,
+              "ending_column": 30
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "issue",
+                "source_mapping": {
+                  "start": 6685,
+                  "length": 213,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Issuer",
+                    "source_mapping": {
+                      "start": 6006,
+                      "length": 897,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229,
+                        230,
+                        231,
+                        232,
+                        233,
+                        234,
+                        235,
+                        236,
+                        237,
+                        238,
+                        239,
+                        240
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "issue(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "issued"
+            }
+          }
+        ],
+        "description": "Reentrancy in Issuer.issue(address,uint256) (contractSource/scsc/BananaCoin.sol#233-238):\n\tExternal calls:\n\t- token.transferFrom(allower,benefactor,amount) (contractSource/scsc/BananaCoin.sol#235)\n\tState variables written after the call(s):\n\t- issued[benefactor] = true (contractSource/scsc/BananaCoin.sol#236)\n",
+        "markdown": "Reentrancy in [Issuer.issue(address,uint256)](contractSource/scsc/BananaCoin.sol#L233-L238):\n\tExternal calls:\n\t- [token.transferFrom(allower,benefactor,amount)](contractSource/scsc/BananaCoin.sol#L235)\n\tState variables written after the call(s):\n\t- [issued[benefactor] = true](contractSource/scsc/BananaCoin.sol#L236)\n",
+        "id": "26a0f3109b774877cc71716c838b7288c54ed8fedb7d38d6f8b73d88fb9c514b",
+        "check": "reentrancy-no-eth",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "issue",
+            "source_mapping": {
+              "start": 6685,
+              "length": 213,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                233,
+                234,
+                235,
+                236,
+                237,
+                238
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Issuer",
+                "source_mapping": {
+                  "start": 6006,
+                  "length": 897,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218,
+                    219,
+                    220,
+                    221,
+                    222,
+                    223,
+                    224,
+                    225,
+                    226,
+                    227,
+                    228,
+                    229,
+                    230,
+                    231,
+                    232,
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238,
+                    239,
+                    240
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "issue(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(allower,benefactor,amount)",
+            "source_mapping": {
+              "start": 6785,
+              "length": 47,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                235
+              ],
+              "starting_column": 5,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "issue",
+                "source_mapping": {
+                  "start": 6685,
+                  "length": 213,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Issuer",
+                    "source_mapping": {
+                      "start": 6006,
+                      "length": 897,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229,
+                        230,
+                        231,
+                        232,
+                        233,
+                        234,
+                        235,
+                        236,
+                        237,
+                        238,
+                        239,
+                        240
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "issue(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Issuer.issue(address,uint256) (contractSource/scsc/BananaCoin.sol#233-238) ignores return value by token.transferFrom(allower,benefactor,amount) (contractSource/scsc/BananaCoin.sol#235)\n",
+        "markdown": "[Issuer.issue(address,uint256)](contractSource/scsc/BananaCoin.sol#L233-L238) ignores return value by [token.transferFrom(allower,benefactor,amount)](contractSource/scsc/BananaCoin.sol#L235)\n",
+        "id": "5411f0d2a7da18a4c5df81705bbfb5f63190b97e1b3a91f055afd5dccac42f3e",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "issue",
+            "source_mapping": {
+              "start": 6685,
+              "length": 213,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                233,
+                234,
+                235,
+                236,
+                237,
+                238
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Issuer",
+                "source_mapping": {
+                  "start": 6006,
+                  "length": 897,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218,
+                    219,
+                    220,
+                    221,
+                    222,
+                    223,
+                    224,
+                    225,
+                    226,
+                    227,
+                    228,
+                    229,
+                    230,
+                    231,
+                    232,
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238,
+                    239,
+                    240
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "issue(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(allower,benefactor,amount)",
+            "source_mapping": {
+              "start": 6785,
+              "length": 47,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                235
+              ],
+              "starting_column": 5,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "issue",
+                "source_mapping": {
+                  "start": 6685,
+                  "length": 213,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Issuer",
+                    "source_mapping": {
+                      "start": 6006,
+                      "length": 897,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229,
+                        230,
+                        231,
+                        232,
+                        233,
+                        234,
+                        235,
+                        236,
+                        237,
+                        238,
+                        239,
+                        240
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "issue(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(allower,benefactor,amount)",
+            "source_mapping": {
+              "start": 6785,
+              "length": 47,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                235
+              ],
+              "starting_column": 5,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "issue",
+                "source_mapping": {
+                  "start": 6685,
+                  "length": 213,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Issuer",
+                    "source_mapping": {
+                      "start": 6006,
+                      "length": 897,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229,
+                        230,
+                        231,
+                        232,
+                        233,
+                        234,
+                        235,
+                        236,
+                        237,
+                        238,
+                        239,
+                        240
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "issue(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls_sending_eth"
+            }
+          },
+          {
+            "type": "node",
+            "name": "issuedCount += amount",
+            "source_mapping": {
+              "start": 6871,
+              "length": 21,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                237
+              ],
+              "starting_column": 5,
+              "ending_column": 26
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "issue",
+                "source_mapping": {
+                  "start": 6685,
+                  "length": 213,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Issuer",
+                    "source_mapping": {
+                      "start": 6006,
+                      "length": 897,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229,
+                        230,
+                        231,
+                        232,
+                        233,
+                        234,
+                        235,
+                        236,
+                        237,
+                        238,
+                        239,
+                        240
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "issue(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "issuedCount"
+            }
+          }
+        ],
+        "description": "Reentrancy in Issuer.issue(address,uint256) (contractSource/scsc/BananaCoin.sol#233-238):\n\tExternal calls:\n\t- token.transferFrom(allower,benefactor,amount) (contractSource/scsc/BananaCoin.sol#235)\n\tState variables written after the call(s):\n\t- issuedCount += amount (contractSource/scsc/BananaCoin.sol#237)\n",
+        "markdown": "Reentrancy in [Issuer.issue(address,uint256)](contractSource/scsc/BananaCoin.sol#L233-L238):\n\tExternal calls:\n\t- [token.transferFrom(allower,benefactor,amount)](contractSource/scsc/BananaCoin.sol#L235)\n\tState variables written after the call(s):\n\t- [issuedCount += amount](contractSource/scsc/BananaCoin.sol#L237)\n",
+        "id": "73819e302670b865564fd09cbe44239371ed72982da6328e1d01cf6532d2bb81",
+        "check": "reentrancy-benign",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 4390,
+              "length": 5,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                146
+              ],
+              "starting_column": 64,
+              "ending_column": 69
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 3959,
+                  "length": 552,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (contractSource/scsc/BananaCoin.sol#146):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](contractSource/scsc/BananaCoin.sol#L146):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "b065fce6baf741422828d8644759812275fb0ce14ae412f2d33312896e1a5285",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 6773,
+              "length": 5,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                234
+              ],
+              "starting_column": 28,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "issue",
+                "source_mapping": {
+                  "start": 6685,
+                  "length": 213,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Issuer",
+                    "source_mapping": {
+                      "start": 6006,
+                      "length": 897,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229,
+                        230,
+                        231,
+                        232,
+                        233,
+                        234,
+                        235,
+                        236,
+                        237,
+                        238,
+                        239,
+                        240
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "issue(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (contractSource/scsc/BananaCoin.sol#234):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](contractSource/scsc/BananaCoin.sol#L234):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "1c07d74c9518f4f4f800ef71eaab25dcaa31be342b9c30e79ef296648824e4ed",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 3234,
+              "length": 11,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                119
+              ],
+              "starting_column": 21,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 3216,
+                  "length": 251,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transfer(address,uint256)._to (contractSource/scsc/BananaCoin.sol#119) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transfer(address,uint256)._to](contractSource/scsc/BananaCoin.sol#L119) is not in mixedCase\n",
+        "id": "3c14db6b6c1ab6ca2562962944c2cf0cfbb75024bfc8414a346a102288fb8c42",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 3247,
+              "length": 11,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                119
+              ],
+              "starting_column": 34,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 3216,
+                  "length": 251,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transfer(address,uint256)._value (contractSource/scsc/BananaCoin.sol#119) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transfer(address,uint256)._value](contractSource/scsc/BananaCoin.sol#L119) is not in mixedCase\n",
+        "id": "31af0fe2efb3149a68bb2fd105d1476f896dc61d738c336bdf7e41a57feb1479",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_from",
+            "source_mapping": {
+              "start": 3495,
+              "length": 13,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                126
+              ],
+              "starting_column": 25,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 3473,
+                  "length": 371,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transferFrom(address,address,uint256)._from (contractSource/scsc/BananaCoin.sol#126) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transferFrom(address,address,uint256)._from](contractSource/scsc/BananaCoin.sol#L126) is not in mixedCase\n",
+        "id": "4dd3d547c81f2913d544b98793a5c021fe472f59b45114f773a817330cf34bfc",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 3510,
+              "length": 11,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                126
+              ],
+              "starting_column": 40,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 3473,
+                  "length": 371,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transferFrom(address,address,uint256)._to (contractSource/scsc/BananaCoin.sol#126) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transferFrom(address,address,uint256)._to](contractSource/scsc/BananaCoin.sol#L126) is not in mixedCase\n",
+        "id": "6150a62fc365f4a97437d70d15bfe1ca02b48e7695b0f9d432eb82ac34404d51",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 3523,
+              "length": 11,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                126
+              ],
+              "starting_column": 53,
+              "ending_column": 64
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 3473,
+                  "length": 371,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transferFrom(address,address,uint256)._value (contractSource/scsc/BananaCoin.sol#126) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transferFrom(address,address,uint256)._value](contractSource/scsc/BananaCoin.sol#L126) is not in mixedCase\n",
+        "id": "e001d55ad5c9886aa799c28ded83887106a3cdbd6a17edfcc0db2c6ef55090d3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 3869,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                136
+              ],
+              "starting_column": 22,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "balanceOf",
+                "source_mapping": {
+                  "start": 3850,
+                  "length": 103,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    136,
+                    137,
+                    138
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "balanceOf(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.balanceOf(address)._owner (contractSource/scsc/BananaCoin.sol#136) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.balanceOf(address)._owner](contractSource/scsc/BananaCoin.sol#L136) is not in mixedCase\n",
+        "id": "e2c602baa3f6215dc1bf4b8f0abe23563363fc889add3f48a208eb560cfca631",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 3976,
+              "length": 16,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                140
+              ],
+              "starting_column": 20,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 3959,
+                  "length": 552,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.approve(address,uint256)._spender (contractSource/scsc/BananaCoin.sol#140) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.approve(address,uint256)._spender](contractSource/scsc/BananaCoin.sol#L140) is not in mixedCase\n",
+        "id": "70a9b4c8c2d4dca0d12170ecce3b3b3e56f16721a930795c44e5e7b45a10a5c1",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 3994,
+              "length": 11,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                140
+              ],
+              "starting_column": 38,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 3959,
+                  "length": 552,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.approve(address,uint256)._value (contractSource/scsc/BananaCoin.sol#140) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.approve(address,uint256)._value](contractSource/scsc/BananaCoin.sol#L140) is not in mixedCase\n",
+        "id": "1fa3f5bb048f68171399fc7d36b8e34d891cac5b9e22c65b41391d16050e7922",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 4536,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                153
+              ],
+              "starting_column": 22,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 4517,
+                  "length": 132,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    153,
+                    154,
+                    155
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.allowance(address,address)._owner (contractSource/scsc/BananaCoin.sol#153) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.allowance(address,address)._owner](contractSource/scsc/BananaCoin.sol#L153) is not in mixedCase\n",
+        "id": "317c0e860cb8a5338f5dfaf51d2249bbf1eb4e87ed588c7a888b367544a25740",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 4552,
+              "length": 16,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                153
+              ],
+              "starting_column": 38,
+              "ending_column": 54
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 4517,
+                  "length": 132,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    153,
+                    154,
+                    155
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 2753,
+                      "length": 1901,
+                      "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                      "filename_short": "contractSource/scsc/BananaCoin.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.allowance(address,address)._spender (contractSource/scsc/BananaCoin.sol#153) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.allowance(address,address)._spender](contractSource/scsc/BananaCoin.sol#L153) is not in mixedCase\n",
+        "id": "1dfe198c2dca57c55bebb6453f93f0f0fc9b1e67fc091a4bcfa314300d9a90a6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 658,
+              "length": 26,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                26
+              ],
+              "starting_column": 3,
+              "ending_column": 29
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 633,
+                  "length": 258,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "ERC20Basic.totalSupply (contractSource/scsc/BananaCoin.sol#26) should be constant\n",
+        "markdown": "[ERC20Basic.totalSupply](contractSource/scsc/BananaCoin.sol#L26) should be constant\n",
+        "id": "0dfab0c5f4cf1c91440eb5b38cc6773d657c0f779531e881f5689125e2ff5996",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 689,
+              "length": 59,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                27
+              ],
+              "starting_column": 3,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 633,
+                  "length": 258,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 3850,
+              "length": 103,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                136,
+                137,
+                138
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 2753,
+                  "length": 1901,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- ERC20Basic.balanceOf(address) (contractSource/scsc/BananaCoin.sol#27)\n\t- StandardToken.balanceOf(address) (contractSource/scsc/BananaCoin.sol#136-138)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [ERC20Basic.balanceOf(address)](contractSource/scsc/BananaCoin.sol#L27)\n\t- [StandardToken.balanceOf(address)](contractSource/scsc/BananaCoin.sol#L136-L138)\n",
+        "id": "451c9ada256e8fa70161e50d4609c4f735a44b29b60394311112b63dd070f18c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 3216,
+              "length": 251,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                119,
+                120,
+                121,
+                122,
+                123,
+                124
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 2753,
+                  "length": 1901,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 752,
+              "length": 60,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                28
+              ],
+              "starting_column": 3,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 633,
+                  "length": 258,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- StandardToken.transfer(address,uint256) (contractSource/scsc/BananaCoin.sol#119-124)\n\t- ERC20Basic.transfer(address,uint256) (contractSource/scsc/BananaCoin.sol#28)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [StandardToken.transfer(address,uint256)](contractSource/scsc/BananaCoin.sol#L119-L124)\n\t- [ERC20Basic.transfer(address,uint256)](contractSource/scsc/BananaCoin.sol#L28)\n",
+        "id": "76154231b8c2aa5134e96f03626b0d83441ab5b84058a0ae1989a3f2e08c8b63",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 1026,
+              "length": 78,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                39
+              ],
+              "starting_column": 3,
+              "ending_column": 81
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 992,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 4517,
+              "length": 132,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                153,
+                154,
+                155
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 2753,
+                  "length": 1901,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          }
+        ],
+        "description": "allowance(address,address) should be declared external:\n\t- ERC20.allowance(address,address) (contractSource/scsc/BananaCoin.sol#39)\n\t- StandardToken.allowance(address,address) (contractSource/scsc/BananaCoin.sol#153-155)\n",
+        "markdown": "allowance(address,address) should be declared external:\n\t- [ERC20.allowance(address,address)](contractSource/scsc/BananaCoin.sol#L39)\n\t- [StandardToken.allowance(address,address)](contractSource/scsc/BananaCoin.sol#L153-L155)\n",
+        "id": "e432fc55e42455279e59f32548ecc1545d70891ccd5cadd8087c971cbd618996",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 1108,
+              "length": 78,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                40
+              ],
+              "starting_column": 3,
+              "ending_column": 81
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 992,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 3473,
+              "length": 371,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 2753,
+                  "length": 1901,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256) should be declared external:\n\t- ERC20.transferFrom(address,address,uint256) (contractSource/scsc/BananaCoin.sol#40)\n\t- StandardToken.transferFrom(address,address,uint256) (contractSource/scsc/BananaCoin.sol#126-134)\n",
+        "markdown": "transferFrom(address,address,uint256) should be declared external:\n\t- [ERC20.transferFrom(address,address,uint256)](contractSource/scsc/BananaCoin.sol#L40)\n\t- [StandardToken.transferFrom(address,address,uint256)](contractSource/scsc/BananaCoin.sol#L126-L134)\n",
+        "id": "3a0879d67a9822a6dae249e43c63ffad481011860240e48a34a6d25429387bed",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 1190,
+              "length": 64,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                41
+              ],
+              "starting_column": 3,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 992,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 3959,
+              "length": 552,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 2753,
+                  "length": 1901,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "approve(address,uint256) should be declared external:\n\t- ERC20.approve(address,uint256) (contractSource/scsc/BananaCoin.sol#41)\n\t- StandardToken.approve(address,uint256) (contractSource/scsc/BananaCoin.sol#140-151)\n",
+        "markdown": "approve(address,uint256) should be declared external:\n\t- [ERC20.approve(address,uint256)](contractSource/scsc/BananaCoin.sol#L41)\n\t- [StandardToken.approve(address,uint256)](contractSource/scsc/BananaCoin.sol#L140-L151)\n",
+        "id": "6b1bb1dc3abd68dc865e009212e7720b3dde17045dde3f733a14fae31542340d",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "isToken",
+            "source_mapping": {
+              "start": 3130,
+              "length": 80,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                115,
+                116,
+                117
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 2753,
+                  "length": 1901,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "isToken()"
+            }
+          }
+        ],
+        "description": "isToken() should be declared external:\n\t- StandardToken.isToken() (contractSource/scsc/BananaCoin.sol#115-117)\n",
+        "markdown": "isToken() should be declared external:\n\t- [StandardToken.isToken()](contractSource/scsc/BananaCoin.sol#L115-L117)\n",
+        "id": "10abd53b73b827445e98a0bea7187d87314e6eca354b9487c80a5e2bbdeb4cf6",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferOwnership",
+            "source_mapping": {
+              "start": 5404,
+              "length": 128,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                192,
+                193,
+                194,
+                195
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Ownable",
+                "source_mapping": {
+                  "start": 4857,
+                  "length": 680,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    166,
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferOwnership(address)"
+            }
+          }
+        ],
+        "description": "transferOwnership(address) should be declared external:\n\t- Ownable.transferOwnership(address) (contractSource/scsc/BananaCoin.sol#192-195)\n",
+        "markdown": "transferOwnership(address) should be declared external:\n\t- [Ownable.transferOwnership(address)](contractSource/scsc/BananaCoin.sol#L192-L195)\n",
+        "id": "8e314f2a323babe2cac9b74075db6feca763f3d608c292445109dfc6938d81f5",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "issue",
+            "source_mapping": {
+              "start": 6685,
+              "length": 213,
+              "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_relative": "contractSource/scsc/BananaCoin.sol",
+              "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+              "filename_short": "contractSource/scsc/BananaCoin.sol",
+              "is_dependency": false,
+              "lines": [
+                233,
+                234,
+                235,
+                236,
+                237,
+                238
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Issuer",
+                "source_mapping": {
+                  "start": 6006,
+                  "length": 897,
+                  "filename_used": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_relative": "contractSource/scsc/BananaCoin.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/BananaCoin.sol",
+                  "filename_short": "contractSource/scsc/BananaCoin.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218,
+                    219,
+                    220,
+                    221,
+                    222,
+                    223,
+                    224,
+                    225,
+                    226,
+                    227,
+                    228,
+                    229,
+                    230,
+                    231,
+                    232,
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238,
+                    239,
+                    240
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "issue(address,uint256)"
+            }
+          }
+        ],
+        "description": "issue(address,uint256) should be declared external:\n\t- Issuer.issue(address,uint256) (contractSource/scsc/BananaCoin.sol#233-238)\n",
+        "markdown": "issue(address,uint256) should be declared external:\n\t- [Issuer.issue(address,uint256)](contractSource/scsc/BananaCoin.sol#L233-L238)\n",
+        "id": "c1722cc9a078e58893086d46d1aaa252fa862b90a7fe93a4a2cd60a00449eac4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/integer_overflow_minimal.sol",
+              "filename_relative": "repairResNew/SmartBugN/integer_overflow_minimal.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/integer_overflow_minimal.sol",
+              "filename_short": "repairResNew/SmartBugN/integer_overflow_minimal.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (repairResNew/SmartBugN/integer_overflow_minimal.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](repairResNew/SmartBugN/integer_overflow_minimal.sol#L1) allows old versions\n",
+        "id": "2c1f7f7e38d6107f06c26945083afe506e2671eadffb05dce7e6d1ea0a91a10c",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "run",
+            "source_mapping": {
+              "start": 84,
+              "length": 56,
+              "filename_used": "/contract/repairResNew/SmartBugN/integer_overflow_minimal.sol",
+              "filename_relative": "repairResNew/SmartBugN/integer_overflow_minimal.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/integer_overflow_minimal.sol",
+              "filename_short": "repairResNew/SmartBugN/integer_overflow_minimal.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "IntegerOverflowMinimal",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 119,
+                  "filename_used": "/contract/repairResNew/SmartBugN/integer_overflow_minimal.sol",
+                  "filename_relative": "repairResNew/SmartBugN/integer_overflow_minimal.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/integer_overflow_minimal.sol",
+                  "filename_short": "repairResNew/SmartBugN/integer_overflow_minimal.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "run(uint256)"
+            }
+          }
+        ],
+        "description": "run(uint256) should be declared external:\n\t- IntegerOverflowMinimal.run(uint256) (repairResNew/SmartBugN/integer_overflow_minimal.sol#4-6)\n",
+        "markdown": "run(uint256) should be declared external:\n\t- [IntegerOverflowMinimal.run(uint256)](repairResNew/SmartBugN/integer_overflow_minimal.sol#L4-L6)\n",
+        "id": "f85079362a90cf29546d665088febbffceaac79faa6f480cf2dd6491908b93df",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

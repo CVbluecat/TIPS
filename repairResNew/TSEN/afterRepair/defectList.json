@@ -1,0 +1,1118 @@
+[
+    {
+        "name": "0x525aEEf9Af9ae896179EE287e024a40cF5FC7655R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    296,
+                    195,
+                    195,
+                    477
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xd9489f5a7c4420e814f6216505b6754ebd4213f7R2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    540,
+                    532
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    250,
+                    349,
+                    460,
+                    470,
+                    498,
+                    502,
+                    504,
+                    540
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x60ee1f74b96274a60b3dd5b92b35a49f86cfce80.sol",
+        "defect": []
+    },
+    {
+        "name": "0x97ec9bfb0f6672c358620615a1e4de0348aea05c.sol",
+        "defect": []
+    },
+    {
+        "name": "0x525aEEf9Af9ae896179EE287e024a40cF5FC7655R1.sol",
+        "defect": [
+            {
+                "lines": [
+                    296,
+                    195,
+                    195,
+                    412
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x6cD0Df6798Eb5C38408B772B39cED57F7C3A47b2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+        "defect": []
+    },
+    {
+        "name": "0x3aaa175924a77ee4b40606f714b727331e430eceR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    437
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x45d147c800d401350b24fc1cd5fbc98040b177c8R1.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0x5d356ebdaed2798547889ffa12fc587347e5ad89R1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    208
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x357f07ac89ee6329a70ca837d6bfc16b0275015fR1.sol",
+        "defect": [
+            {
+                "lines": [
+                    1055,
+                    29
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xd780ae2bf04cd96e577d3d014762f831d97129d0R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    1135,
+                    1146
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x49edf201c1e139282643d5e7c6fb0c7219ad1db7R1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    346,
+                    359,
+                    404
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    415
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x78a73B6CBc5D183CE56e786f6e905CaDEC63547BR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    292
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x29aa20fB9b23421E310BDB8a7cfB81d7fbB4a1b3R1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    191,
+                    126
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    "failed",
+    {
+        "name": "0x09678741bd50c3e74301f38fbd0136307099ae5dU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    254,
+                    257,
+                    260
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x3aaa175924a77ee4b40606f714b727331e430eceR1.sol",
+        "defect": [
+            {
+                "lines": [
+                    437,
+                    416
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x2c1180e2818069e5a9f911e636fb8f3db5106a9f.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb694a9ee2eed5dc6d58599a25874abda504fa60aU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x06012c8cf97bead5deae237070f9587f8e7a266dR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    587,
+                    617,
+                    350
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x995020804986274763df9deb0296b754f2659ca1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+        "defect": []
+    },
+    {
+        "name": "0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+        "defect": [
+            {
+                "lines": [
+                    2
+                ],
+                "category": "greedy"
+            }
+        ]
+    },
+    {
+        "name": "0xd9489f5a7c4420e814f6216505b6754ebd4213f7R1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    361,
+                    540,
+                    296,
+                    530
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    250,
+                    349,
+                    460,
+                    470,
+                    498,
+                    502,
+                    504,
+                    541
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+        "defect": []
+    },
+    {
+        "name": "0x13ce614e9d7ce609dedba1b42ba2163426ba5ace.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+        "defect": []
+    },
+    {
+        "name": "0x1e025340d6f75a2a4ef81139049cfbf976782eebR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    569,
+                    536,
+                    235,
+                    244
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    158,
+                    536,
+                    544,
+                    569,
+                    592
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x7c8b63c4cf7a6009e06dc78d9a8352cd0541556fU2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x5d356ebdaed2798547889ffa12fc587347e5ad89R1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    207
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    156,
+                    218,
+                    226,
+                    250,
+                    251
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77R2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    346
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xfc668AE14b0F7702c04b105448fE733D96C558DFR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    1220
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    703
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x7c8b63c4cf7a6009e06dc78d9a8352cd0541556fU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xd780ae2bf04cd96e577d3d014762f831d97129d0R1.sol",
+        "defect": [
+            {
+                "lines": [
+                    1135,
+                    1146
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    "failed",
+    {
+        "name": "0xD79B4C6791784184e2755B2fC1659eaaB0f80456U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x48d8f22d45e40F34cB7C10799F31246F134E9B7fR1.sol",
+        "defect": [
+            {
+                "lines": [
+                    1021
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xfc668AE14b0F7702c04b105448fE733D96C558DFR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    1223
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    703
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x41ff0796a6c7a201476bff53c4cb2c48b084e5e0R1.sol",
+        "defect": [
+            {
+                "lines": [
+                    1443,
+                    1212
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x1e143b2588705dfea63a17f2032ca123df995ce0U2.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0x32bacc8b241fb172fee18bda32527126c6f3c5f7R2U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xa62bdee2f277c2e2c0f46cba96879b263796ee1c.sol",
+        "defect": []
+    },
+    {
+        "name": "0x49edf201c1e139282643d5e7c6fb0c7219ad1db7R1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    346,
+                    359,
+                    404
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x29aa20fB9b23421E310BDB8a7cfB81d7fbB4a1b3R2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    191,
+                    138
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x357f07ac89ee6329a70ca837d6bfc16b0275015fR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    29
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x5b36208992284CEFA4de83F2Fb34B33D1A75d4B7R1.sol",
+        "defect": [
+            {
+                "lines": [
+                    262,
+                    161,
+                    161,
+                    378
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xE5a04D98538231b0fAb9ABa60cd73cE4fF3039DFR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    1035
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xe752483412490481d193194d293db5cd0ed054a8.sol",
+        "defect": []
+    },
+    {
+        "name": "0x1e025340d6f75a2a4ef81139049cfbf976782eebR2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    573
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    "failed",
+    {
+        "name": "0x9bbb9387c9e2477a6b5d81afece00255875c48ceR1.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0x01d5d0108589f3c52fcce6e65503bb6515e66698R1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    224
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xb00b5f9a21b79901d687d6d952319af767a116ca.sol",
+        "defect": []
+    },
+    {
+        "name": "0x09678741bd50c3e74301f38fbd0136307099ae5dU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1R1.sol",
+        "defect": [
+            {
+                "lines": [
+                    340
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xb1690c08e213a35ed9bab7b318de14420fb57d8c.sol",
+        "defect": []
+    },
+    {
+        "name": "0x30cefbcb5c26a5b19a019092ab8d09f8739c904f.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0xea450e48e8d0da4332516a12c63c2232450caf6aR1.sol",
+        "defect": [
+            {
+                "lines": [
+                    296,
+                    195,
+                    195,
+                    412
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x29aa20fB9b23421E310BDB8a7cfB81d7fbB4a1b3R2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    191,
+                    138
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    191,
+                    193
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x78a73B6CBc5D183CE56e786f6e905CaDEC63547BR1.sol",
+        "defect": [
+            {
+                "lines": [
+                    290
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x45d147c800d401350b24fc1cd5fbc98040b177c8R2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x48d8f22d45e40F34cB7C10799F31246F134E9B7fR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    1021
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x29aa20fB9b23421E310BDB8a7cfB81d7fbB4a1b3R1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    191,
+                    126
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    191,
+                    193
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    "failed",
+    {
+        "name": "0x1e025340d6f75a2a4ef81139049cfbf976782eebR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    569
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    158,
+                    537,
+                    544,
+                    569,
+                    592
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x06012c8cf97bead5deae237070f9587f8e7a266dR2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    588,
+                    353
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x01d5d0108589f3c52fcce6e65503bb6515e66698R2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    282
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    35
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+        "defect": []
+    },
+    {
+        "name": "0x41ff0796a6c7a201476bff53c4cb2c48b084e5e0R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    1441,
+                    1444,
+                    1212
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x5d356ebdaed2798547889ffa12fc587347e5ad89R2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    208
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x84e8a50ca43e8f26094799ba60705475cf2b9832U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x0dcfdb9f5496ed7f62dd0ac019c7daf184a66aefU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    62
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x49516fe7bdc54b29a7f95ff55fdd38d9228e55af.sol",
+        "defect": []
+    },
+    {
+        "name": "0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77R1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    346,
+                    296
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x06012c8cf97bead5deae237070f9587f8e7a266dR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    588,
+                    618,
+                    350
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x30407ece7f4252a7e2d786207831561b33ec3f13R2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb694a9ee2eed5dc6d58599a25874abda504fa60aU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    177,
+                    182,
+                    186,
+                    193
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    "failed",
+    "failed",
+    {
+        "name": "0xE5a04D98538231b0fAb9ABa60cd73cE4fF3039DFR1.sol",
+        "defect": [
+            {
+                "lines": [
+                    1035
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x33a275B9cd129b34e5f0693D82d6d3Db26B0C3a0.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0x1d840cb510f084e6154c85d14d98cdc8f7a3b4d5.sol",
+        "defect": []
+    },
+    {
+        "name": "0x6a92b2804EaeF97f222d003C94F683333e330693U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7f6d05523908a9688eab8ab8bbc7842e3d453bfb.sol",
+        "defect": []
+    },
+    {
+        "name": "0x32bacc8b241fb172fee18bda32527126c6f3c5f7R2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    234
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77R2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    346
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    346,
+                    358
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x9b0f6a5a667cb92af0cd15dbe90e764e32f69e77R1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    346,
+                    296
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    346,
+                    358
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xD79B4C6791784184e2755B2fC1659eaaB0f80456U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xea450e48e8d0da4332516a12c63c2232450caf6aR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    296,
+                    195,
+                    195,
+                    477
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xd9489f5a7c4420e814f6216505b6754ebd4213f7R1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    363,
+                    547,
+                    297,
+                    537
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x01d5d0108589f3c52fcce6e65503bb6515e66698R1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    223
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    35
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x58ca3065c0f24c7c96aee8d6056b5b5decf9c2f8R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    190,
+                    167
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    235,
+                    190,
+                    184
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x54186df214506ff5613196170d1bd576895193ab.sol",
+        "defect": []
+    },
+    {
+        "name": "0xfc668AE14b0F7702c04b105448fE733D96C558DFR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    1220
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    703
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xfc668AE14b0F7702c04b105448fE733D96C558DFR2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    1223
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    703
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x8c628caaff01b61140f5576292bf57154e119b0b.sol",
+        "defect": []
+    },
+    {
+        "name": "0x14cf6193935b17fc72649ba420fdd5bfdf1f0001R1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x5d356ebdaed2798547889ffa12fc587347e5ad89R2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    207
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    156,
+                    218,
+                    226,
+                    250,
+                    251
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x1e025340d6f75a2a4ef81139049cfbf976782eebR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    573,
+                    537,
+                    236,
+                    245
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x9bbb9387c9e2477a6b5d81afece00255875c48ceR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    160
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x06012c8cf97bead5deae237070f9587f8e7a266dR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    587,
+                    352
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x5b36208992284CEFA4de83F2Fb34B33D1A75d4B7R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    262,
+                    161,
+                    161,
+                    443
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x01d5d0108589f3c52fcce6e65503bb6515e66698R2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    283
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xd7e4ad7c318ffbafbf602e32e089e7e2326a2581.sol",
+        "defect": []
+    },
+    {
+        "name": "0xbf4ed7b27f1d666546e30d74d50d173d20bca754U2.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0x0dcfdb9f5496ed7f62dd0ac019c7daf184a66aefU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x30407ece7f4252a7e2d786207831561b33ec3f13R1.sol",
+        "defect": [
+            {
+                "lines": [
+                    21
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x58ca3065c0f24c7c96aee8d6056b5b5decf9c2f8R1.sol",
+        "defect": [
+            {
+                "lines": [
+                    190,
+                    165,
+                    218
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xAd1aA68300588Aa5842751DDCAb2AFd4a69e9016U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xd9489f5a7c4420e814f6216505b6754ebd4213f7R2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    547,
+                    539
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x14cf6193935b17fc72649ba420fdd5bfdf1f0001R2.sol",
+        "defect": []
+    }
+]

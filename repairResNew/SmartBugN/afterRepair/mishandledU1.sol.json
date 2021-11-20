@@ -1,0 +1,199 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 246,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/mishandledU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+              "filename_short": "repairResNew/SmartBugN/mishandledU1.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 85,
+                  "length": 171,
+                  "filename_used": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/mishandledU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/mishandledU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SendBack",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 236,
+                      "filename_used": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/mishandledU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/mishandledU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/mishandledU1.sol#8):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/mishandledU1.sol#L8):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "584bdfac72f9c29b52e557d9e764b80bc2afbd235a7e4d62818de9aeb6ea069d",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/mishandledU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+              "filename_short": "repairResNew/SmartBugN/mishandledU1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.0 (repairResNew/SmartBugN/mishandledU1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.0](repairResNew/SmartBugN/mishandledU1.sol#L1) allows old versions\n",
+        "id": "8526b7f9c19dce56296e8b62918e1b4885cdea368a42b46a19e0d10fab152f6f",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 85,
+              "length": 171,
+              "filename_used": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/mishandledU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+              "filename_short": "repairResNew/SmartBugN/mishandledU1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SendBack",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 236,
+                  "filename_used": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/mishandledU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/mishandledU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/mishandledU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          }
+        ],
+        "description": "withdrawBalance() should be declared external:\n\t- SendBack.withdrawBalance() (repairResNew/SmartBugN/mishandledU1.sol#4-9)\n",
+        "markdown": "withdrawBalance() should be declared external:\n\t- [SendBack.withdrawBalance()](repairResNew/SmartBugN/mishandledU1.sol#L4-L9)\n",
+        "id": "538d3da2581800206ad7aa2e46db15c4dd7eeb8d250d22bd8618004bb9623313",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

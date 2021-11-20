@@ -1,0 +1,353 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "callAddress",
+            "source_mapping": {
+              "start": 44,
+              "length": 54,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Caller",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 77,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "callAddress(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "a.call()",
+            "source_mapping": {
+              "start": 86,
+              "length": 8,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 2,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "callAddress",
+                "source_mapping": {
+                  "start": 44,
+                  "length": 54,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Caller",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 77,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "callAddress(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Caller.callAddress(address) (repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#3-5) ignores return value by a.call() (repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#4)\n",
+        "markdown": "[Caller.callAddress(address)](repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#L3-L5) ignores return value by [a.call()](repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#L4)\n",
+        "id": "31d4533e5e106790e3417e5df5568848c73b584e7bf9153edced1b34f1a07381",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.10",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".10"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.10 (repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.10](repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#L1) allows old versions\n",
+        "id": "878c534a8df78d375aca1aac9ecebe224d732d99f1752148c2436b4e4e161358",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "callAddress",
+            "source_mapping": {
+              "start": 44,
+              "length": 54,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Caller",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 77,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "callAddress(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "a.call()",
+            "source_mapping": {
+              "start": 86,
+              "length": 8,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 2,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "callAddress",
+                "source_mapping": {
+                  "start": 44,
+                  "length": 54,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Caller",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 77,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "callAddress(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Caller.callAddress(address) (repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#3-5):\n\t- a.call() (repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#4)\n",
+        "markdown": "Low level call in [Caller.callAddress(address)](repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#L3-L5):\n\t- [a.call()](repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#L4)\n",
+        "id": "2fe4e16f9149faeaf22447b7601ed8656af44d1a0336301a34c033ad83b86311",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "callAddress",
+            "source_mapping": {
+              "start": 44,
+              "length": 54,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Caller",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 77,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "callAddress(address)"
+            }
+          }
+        ],
+        "description": "callAddress(address) should be declared external:\n\t- Caller.callAddress(address) (repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#3-5)\n",
+        "markdown": "callAddress(address) should be declared external:\n\t- [Caller.callAddress(address)](repairResNew/SmartBugN/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol#L3-L5)\n",
+        "id": "9a465e32597fe13e611ac3bbe6e87d8c7d17fd30939b50889fba653e75674058",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

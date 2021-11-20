@@ -1,0 +1,260 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "pay",
+            "source_mapping": {
+              "start": 93,
+              "length": 60,
+              "filename_used": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_short": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "two",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 190,
+                  "filename_used": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "pay()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "deployer.transfer(this.balance)",
+            "source_mapping": {
+              "start": 118,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_short": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 2,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "pay",
+                "source_mapping": {
+                  "start": 93,
+                  "length": 60,
+                  "filename_used": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "two",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 190,
+                      "filename_used": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "pay()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "two.pay() (repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol#6-8) sends eth to arbitrary user\n\tDangerous calls:\n\t- deployer.transfer(this.balance) (repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol#7)\n",
+        "markdown": "[two.pay()](repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol#L6-L8) sends eth to arbitrary user\n\tDangerous calls:\n\t- [deployer.transfer(this.balance)](repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol#L7)\n",
+        "id": "8be4f8e650e74bd6d08bf00f705aedd8ff43a874afbd53f3f5cf8c710e45aece",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "two",
+            "source_mapping": {
+              "start": 0,
+              "length": 190,
+              "filename_used": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_short": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "is_dependency": false,
+              "lines": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract two (repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol#1-13) is not in CapWords\n",
+        "markdown": "Contract [two](repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol#L1-L13) is not in CapWords\n",
+        "id": "b3ff240a41553fd76decc9a261fe4942375ed1b5224d528ae016e1acb91f4fd6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 155,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "filename_short": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "two",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 190,
+                  "filename_used": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- two.fallback() (repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol#9-11)\n",
+        "markdown": "fallback() should be declared external:\n\t- [two.fallback()](repairResNew/TSEN/0x6a92b2804EaeF97f222d003C94F683333e330693U2.sol#L9-L11)\n",
+        "id": "1463ac14774b8e8d2c6ee3d1d5142ca8b8446a1e29164e5c8a3e71682fc6dcab",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

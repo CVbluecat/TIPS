@@ -1,0 +1,450 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 41,
+              "length": 20,
+              "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 22
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Map",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 368,
+                  "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 282,
+              "length": 107,
+              "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Map",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 368,
+                  "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "Map.owner (repairResNew/SmartBugN/mapping_write.sol#3) is never initialized. It is used in:\n\t- Map.withdraw() (repairResNew/SmartBugN/mapping_write.sol#14-17)\n",
+        "markdown": "[Map.owner](repairResNew/SmartBugN/mapping_write.sol#L3) is never initialized. It is used in:\n\t- [Map.withdraw()](repairResNew/SmartBugN/mapping_write.sol#L14-L17)\n",
+        "id": "74d5e7c281cc1d6c4fce11d5ca6981298fc7317d5ea3aeced8fd84e43f308918",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (repairResNew/SmartBugN/mapping_write.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](repairResNew/SmartBugN/mapping_write.sol#L1) allows old versions\n",
+        "id": "bdcdea9beb5a50070708a05a34bcf21d73cf608faab02044d660b30d8ac6c69a",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 41,
+              "length": 20,
+              "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 22
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Map",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 368,
+                  "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "Map.owner (repairResNew/SmartBugN/mapping_write.sol#3) should be constant\n",
+        "markdown": "[Map.owner](repairResNew/SmartBugN/mapping_write.sol#L3) should be constant\n",
+        "id": "ac903ca8e3427c6699aa2af4f96ddd826e99699350da051a2a4e20f888c6c11a",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "set",
+            "source_mapping": {
+              "start": 80,
+              "length": 121,
+              "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+              "is_dependency": false,
+              "lines": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Map",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 368,
+                  "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "set(uint256,uint256)"
+            }
+          }
+        ],
+        "description": "set(uint256,uint256) should be declared external:\n\t- Map.set(uint256,uint256) (repairResNew/SmartBugN/mapping_write.sol#5-10)\n",
+        "markdown": "set(uint256,uint256) should be declared external:\n\t- [Map.set(uint256,uint256)](repairResNew/SmartBugN/mapping_write.sol#L5-L10)\n",
+        "id": "395b745df0ec642a6f3f996f09a66bec58e69ec468febd12b8242e78fa536982",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "get",
+            "source_mapping": {
+              "start": 203,
+              "length": 77,
+              "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Map",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 368,
+                  "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "get(uint256)"
+            }
+          }
+        ],
+        "description": "get(uint256) should be declared external:\n\t- Map.get(uint256) (repairResNew/SmartBugN/mapping_write.sol#11-13)\n",
+        "markdown": "get(uint256) should be declared external:\n\t- [Map.get(uint256)](repairResNew/SmartBugN/mapping_write.sol#L11-L13)\n",
+        "id": "17c113a66bfa6b9811b7f5e9ae153a511158c892b64b64a26b907a2a22270ef3",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 282,
+              "length": 107,
+              "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+              "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Map",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 368,
+                  "filename_used": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_relative": "repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/mapping_write.sol",
+                  "filename_short": "repairResNew/SmartBugN/mapping_write.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- Map.withdraw() (repairResNew/SmartBugN/mapping_write.sol#14-17)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [Map.withdraw()](repairResNew/SmartBugN/mapping_write.sol#L14-L17)\n",
+        "id": "11f04115175b26ee25c85a17f4b8b3215518acacc7e48445ed5907ffddcc8686",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/mycontract.sol",
+              "filename_relative": "repairResNew/SmartBugN/mycontract.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mycontract.sol",
+              "filename_short": "repairResNew/SmartBugN/mycontract.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (repairResNew/SmartBugN/mycontract.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](repairResNew/SmartBugN/mycontract.sol#L1) allows old versions\n",
+        "id": "d267839ad1c9d86a8f0af4d7de9fa7271917ef10b65d928491fe671efb85e85a",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sendTo",
+            "source_mapping": {
+              "start": 112,
+              "length": 117,
+              "filename_used": "/contract/repairResNew/SmartBugN/mycontract.sol",
+              "filename_relative": "repairResNew/SmartBugN/mycontract.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/mycontract.sol",
+              "filename_short": "repairResNew/SmartBugN/mycontract.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyContract",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 208,
+                  "filename_used": "/contract/repairResNew/SmartBugN/mycontract.sol",
+                  "filename_relative": "repairResNew/SmartBugN/mycontract.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/mycontract.sol",
+                  "filename_short": "repairResNew/SmartBugN/mycontract.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "sendTo(address,uint256)"
+            }
+          }
+        ],
+        "description": "sendTo(address,uint256) should be declared external:\n\t- MyContract.sendTo(address,uint256) (repairResNew/SmartBugN/mycontract.sol#7-10)\n",
+        "markdown": "sendTo(address,uint256) should be declared external:\n\t- [MyContract.sendTo(address,uint256)](repairResNew/SmartBugN/mycontract.sol#L7-L10)\n",
+        "id": "9fd8602daedd1a3af4dec0f3511ff65a1d1d58b6b90f017d0d0901645ea22a81",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

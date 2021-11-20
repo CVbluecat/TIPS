@@ -1,0 +1,4185 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop",
+            "source_mapping": {
+              "start": 996,
+              "length": 202,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop(address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(msg.sender,_to[i],_amount)",
+            "source_mapping": {
+              "start": 1144,
+              "length": 47,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 2,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 996,
+                  "length": 202,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doAirdrop(address,address[],uint256) (repairResNew/scscN/AirdropU2.sol#17-22) ignores return value by token.transferFrom(msg.sender,_to[i],_amount) (repairResNew/scscN/AirdropU2.sol#20)\n",
+        "markdown": "[AirDrop.doAirdrop(address,address[],uint256)](repairResNew/scscN/AirdropU2.sol#L17-L22) ignores return value by [token.transferFrom(msg.sender,_to[i],_amount)](repairResNew/scscN/AirdropU2.sol#L20)\n",
+        "id": "b41f23305e2e48847af56baf435ff17fa36ea6d5b8378d62559464215de54559",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop2",
+            "source_mapping": {
+              "start": 1200,
+              "length": 187,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop2(address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transfer(_to[i],_amount)",
+            "source_mapping": {
+              "start": 1349,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                26
+              ],
+              "starting_column": 2,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 1200,
+                  "length": 187,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doAirdrop2(address,address[],uint256) (repairResNew/scscN/AirdropU2.sol#23-28) ignores return value by token.transfer(_to[i],_amount) (repairResNew/scscN/AirdropU2.sol#26)\n",
+        "markdown": "[AirDrop.doAirdrop2(address,address[],uint256)](repairResNew/scscN/AirdropU2.sol#L23-L28) ignores return value by [token.transfer(_to[i],_amount)](repairResNew/scscN/AirdropU2.sol#L26)\n",
+        "id": "1dec789bf4a5c1655c4e6d6365d7768e4769c0b0a9c94a29ba505dbe8a036894",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop",
+            "source_mapping": {
+              "start": 1389,
+              "length": 213,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop(address,address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(msg.sender,_to[i],_amount[i])",
+            "source_mapping": {
+              "start": 1545,
+              "length": 50,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                32
+              ],
+              "starting_column": 2,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 1389,
+                  "length": 213,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doCustomAirdrop(address,address[],uint256[]) (repairResNew/scscN/AirdropU2.sol#29-34) ignores return value by token.transferFrom(msg.sender,_to[i],_amount[i]) (repairResNew/scscN/AirdropU2.sol#32)\n",
+        "markdown": "[AirDrop.doCustomAirdrop(address,address[],uint256[])](repairResNew/scscN/AirdropU2.sol#L29-L34) ignores return value by [token.transferFrom(msg.sender,_to[i],_amount[i])](repairResNew/scscN/AirdropU2.sol#L32)\n",
+        "id": "b2436d54e608b00cd1d00ddbe31ed6dcc8a63a901cc9a4e82080a1448fd83f0d",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop2",
+            "source_mapping": {
+              "start": 1604,
+              "length": 198,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop2(address,address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transfer(_to[i],_amount[i])",
+            "source_mapping": {
+              "start": 1761,
+              "length": 34,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                38
+              ],
+              "starting_column": 2,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 1604,
+                  "length": 198,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doCustomAirdrop2(address,address[],uint256[]) (repairResNew/scscN/AirdropU2.sol#35-40) ignores return value by token.transfer(_to[i],_amount[i]) (repairResNew/scscN/AirdropU2.sol#38)\n",
+        "markdown": "[AirDrop.doCustomAirdrop2(address,address[],uint256[])](repairResNew/scscN/AirdropU2.sol#L35-L40) ignores return value by [token.transfer(_to[i],_amount[i])](repairResNew/scscN/AirdropU2.sol#L38)\n",
+        "id": "e487feb41402fac80b3d217f52ba089444e958f062ba619b96a57ced30447c74",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop",
+            "source_mapping": {
+              "start": 996,
+              "length": 202,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop(address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(msg.sender,_to[i],_amount)",
+            "source_mapping": {
+              "start": 1144,
+              "length": 47,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 2,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 996,
+                  "length": 202,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doAirdrop(address,address[],uint256) (repairResNew/scscN/AirdropU2.sol#17-22) has external calls inside a loop: token.transferFrom(msg.sender,_to[i],_amount) (repairResNew/scscN/AirdropU2.sol#20)\n",
+        "markdown": "[AirDrop.doAirdrop(address,address[],uint256)](repairResNew/scscN/AirdropU2.sol#L17-L22) has external calls inside a loop: [token.transferFrom(msg.sender,_to[i],_amount)](repairResNew/scscN/AirdropU2.sol#L20)\n",
+        "id": "d57abdc12126a595b28e20adbe00149d742b9d178141c9fbd1a85f72a45f7931",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop2",
+            "source_mapping": {
+              "start": 1200,
+              "length": 187,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop2(address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transfer(_to[i],_amount)",
+            "source_mapping": {
+              "start": 1349,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                26
+              ],
+              "starting_column": 2,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 1200,
+                  "length": 187,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doAirdrop2(address,address[],uint256) (repairResNew/scscN/AirdropU2.sol#23-28) has external calls inside a loop: token.transfer(_to[i],_amount) (repairResNew/scscN/AirdropU2.sol#26)\n",
+        "markdown": "[AirDrop.doAirdrop2(address,address[],uint256)](repairResNew/scscN/AirdropU2.sol#L23-L28) has external calls inside a loop: [token.transfer(_to[i],_amount)](repairResNew/scscN/AirdropU2.sol#L26)\n",
+        "id": "3b4d14eff89f0a498c41270a63ebf14724f43e1e778607ee81b0e5d38110d925",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop",
+            "source_mapping": {
+              "start": 1389,
+              "length": 213,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop(address,address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(msg.sender,_to[i],_amount[i])",
+            "source_mapping": {
+              "start": 1545,
+              "length": 50,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                32
+              ],
+              "starting_column": 2,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 1389,
+                  "length": 213,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doCustomAirdrop(address,address[],uint256[]) (repairResNew/scscN/AirdropU2.sol#29-34) has external calls inside a loop: token.transferFrom(msg.sender,_to[i],_amount[i]) (repairResNew/scscN/AirdropU2.sol#32)\n",
+        "markdown": "[AirDrop.doCustomAirdrop(address,address[],uint256[])](repairResNew/scscN/AirdropU2.sol#L29-L34) has external calls inside a loop: [token.transferFrom(msg.sender,_to[i],_amount[i])](repairResNew/scscN/AirdropU2.sol#L32)\n",
+        "id": "8339fb322cbe4a771804babf8ce6e6bb992da23252f5239fd40703782fc694b3",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop2",
+            "source_mapping": {
+              "start": 1604,
+              "length": 198,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop2(address,address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transfer(_to[i],_amount[i])",
+            "source_mapping": {
+              "start": 1761,
+              "length": 34,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                38
+              ],
+              "starting_column": 2,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 1604,
+                  "length": 198,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doCustomAirdrop2(address,address[],uint256[]) (repairResNew/scscN/AirdropU2.sol#35-40) has external calls inside a loop: token.transfer(_to[i],_amount[i]) (repairResNew/scscN/AirdropU2.sol#38)\n",
+        "markdown": "[AirDrop.doCustomAirdrop2(address,address[],uint256[])](repairResNew/scscN/AirdropU2.sol#L35-L40) has external calls inside a loop: [token.transfer(_to[i],_amount[i])](repairResNew/scscN/AirdropU2.sol#L38)\n",
+        "id": "9bc5fd4c4c3e074aab5941316914cbe680d6176af60d945d2ccff9fd62f93580",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.13",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".13"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.13 (repairResNew/scscN/AirdropU2.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.13](repairResNew/scscN/AirdropU2.sol#L1) allows old versions\n",
+        "id": "d755535f49a8369699616cf428be7f3d95fe3d4a9403eb592f198c03ad1168e2",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 824,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 20,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 806,
+                  "length": 188,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.transfer(address,address,uint256)._token (repairResNew/scscN/AirdropU2.sol#12) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.transfer(address,address,uint256)._token](repairResNew/scscN/AirdropU2.sol#L12) is not in mixedCase\n",
+        "id": "cbb627a481b492f3856b3a44106b9dac187f9ebe17160633f33486b8ced1d745",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 840,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 36,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 806,
+                  "length": 188,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.transfer(address,address,uint256)._to (repairResNew/scscN/AirdropU2.sol#12) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.transfer(address,address,uint256)._to](repairResNew/scscN/AirdropU2.sol#L12) is not in mixedCase\n",
+        "id": "9edd34b4a97645b33da11e9e6965d8e3c178f0fe9784e99b6548900d6283ca6b",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 853,
+              "length": 15,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 49,
+              "ending_column": 64
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 806,
+                  "length": 188,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.transfer(address,address,uint256)._amount (repairResNew/scscN/AirdropU2.sol#12) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.transfer(address,address,uint256)._amount](repairResNew/scscN/AirdropU2.sol#L12) is not in mixedCase\n",
+        "id": "c3abeb56f737e36a83561366f27899be6d0b1d269d60a506e64297f02cc58436",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 1015,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 21,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 996,
+                  "length": 202,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop(address,address[],uint256)._token (repairResNew/scscN/AirdropU2.sol#17) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop(address,address[],uint256)._token](repairResNew/scscN/AirdropU2.sol#L17) is not in mixedCase\n",
+        "id": "04a4649ebc2125125bc0d77a10c86352f0809613e2d27a033eb9afc57b809fb1",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1031,
+              "length": 13,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 37,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 996,
+                  "length": 202,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop(address,address[],uint256)._to (repairResNew/scscN/AirdropU2.sol#17) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop(address,address[],uint256)._to](repairResNew/scscN/AirdropU2.sol#L17) is not in mixedCase\n",
+        "id": "543ee74abe33e1295ad0d302e29ec824fb384230d3028743da1c490ad1536a55",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 1046,
+              "length": 15,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 52,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 996,
+                  "length": 202,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop(address,address[],uint256)._amount (repairResNew/scscN/AirdropU2.sol#17) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop(address,address[],uint256)._amount](repairResNew/scscN/AirdropU2.sol#L17) is not in mixedCase\n",
+        "id": "ba21744470b09ebcba7cc24097fa5d463dd7efd37038b060089e56fca443ec85",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 1220,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                23
+              ],
+              "starting_column": 22,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 1200,
+                  "length": 187,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop2(address,address[],uint256)._token (repairResNew/scscN/AirdropU2.sol#23) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop2(address,address[],uint256)._token](repairResNew/scscN/AirdropU2.sol#L23) is not in mixedCase\n",
+        "id": "25258239331a9b787c75a4a7dfff54b3918acd3564d9cfbe27e1ff905a6bd88c",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1236,
+              "length": 13,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                23
+              ],
+              "starting_column": 38,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 1200,
+                  "length": 187,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop2(address,address[],uint256)._to (repairResNew/scscN/AirdropU2.sol#23) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop2(address,address[],uint256)._to](repairResNew/scscN/AirdropU2.sol#L23) is not in mixedCase\n",
+        "id": "bead3be99cbb75051a84e2c70e6e5e7dfdd2a8fed51e41e7491ec62d3a4e6e04",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 1251,
+              "length": 15,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                23
+              ],
+              "starting_column": 53,
+              "ending_column": 68
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 1200,
+                  "length": 187,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop2(address,address[],uint256)._amount (repairResNew/scscN/AirdropU2.sol#23) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop2(address,address[],uint256)._amount](repairResNew/scscN/AirdropU2.sol#L23) is not in mixedCase\n",
+        "id": "a5b7c75a88b20a9edda5521f250813f696e3aec2b7100c1d8e99ff2f580a2c27",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 1414,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 27,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 1389,
+                  "length": 213,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop(address,address[],uint256[])._token (repairResNew/scscN/AirdropU2.sol#29) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop(address,address[],uint256[])._token](repairResNew/scscN/AirdropU2.sol#L29) is not in mixedCase\n",
+        "id": "7378f465ec5056704d982c70a5eab32105fa318ad88774438819426e67b9e8c3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1430,
+              "length": 13,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 43,
+              "ending_column": 56
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 1389,
+                  "length": 213,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop(address,address[],uint256[])._to (repairResNew/scscN/AirdropU2.sol#29) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop(address,address[],uint256[])._to](repairResNew/scscN/AirdropU2.sol#L29) is not in mixedCase\n",
+        "id": "ad1739567fb3f7522f1fee294bb03881f48c86cd6b6e6dacdae2e67b6d9db1a1",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 1445,
+              "length": 17,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 58,
+              "ending_column": 75
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 1389,
+                  "length": 213,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop(address,address[],uint256[])._amount (repairResNew/scscN/AirdropU2.sol#29) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop(address,address[],uint256[])._amount](repairResNew/scscN/AirdropU2.sol#L29) is not in mixedCase\n",
+        "id": "29432a015cbcc4db0346274fad4a85ec332e7df588aca21c1e0971aaf080acab",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 1630,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                35
+              ],
+              "starting_column": 28,
+              "ending_column": 42
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 1604,
+                  "length": 198,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop2(address,address[],uint256[])._token (repairResNew/scscN/AirdropU2.sol#35) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop2(address,address[],uint256[])._token](repairResNew/scscN/AirdropU2.sol#L35) is not in mixedCase\n",
+        "id": "9b6baebe4a8df5e602bb27c54dd233329314df32a47d354cc9adb02147a675df",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1646,
+              "length": 13,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                35
+              ],
+              "starting_column": 44,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 1604,
+                  "length": 198,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop2(address,address[],uint256[])._to (repairResNew/scscN/AirdropU2.sol#35) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop2(address,address[],uint256[])._to](repairResNew/scscN/AirdropU2.sol#L35) is not in mixedCase\n",
+        "id": "289798caa4cf65221c85b16fb2ef745a05416cb6e95806841dbcfda75aede021",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 1661,
+              "length": 17,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                35
+              ],
+              "starting_column": 59,
+              "ending_column": 76
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 1604,
+                  "length": 198,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 679,
+                      "length": 1127,
+                      "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                      "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                      "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop2(address,address[],uint256[])._amount (repairResNew/scscN/AirdropU2.sol#35) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop2(address,address[],uint256[])._amount](repairResNew/scscN/AirdropU2.sol#L35) is not in mixedCase\n",
+        "id": "cb03269bdbba4c4ccf6ac932da30de47451d904d8aeb834a2bdeb3a6afdf1e2d",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "tokenBalance",
+            "source_mapping": {
+              "start": 715,
+              "length": 40,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 42
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "AirDrop",
+            "source_mapping": {
+              "start": 679,
+              "length": 1127,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "starting_column": 2,
+              "ending_column": null
+            }
+          }
+        ],
+        "description": "AirDrop.tokenBalance (repairResNew/scscN/AirdropU2.sol#8) is never used in AirDrop (repairResNew/scscN/AirdropU2.sol#6-42)\n",
+        "markdown": "[AirDrop.tokenBalance](repairResNew/scscN/AirdropU2.sol#L8) is never used in [AirDrop](repairResNew/scscN/AirdropU2.sol#L6-L42)\n",
+        "id": "2eedbea519371a70828f43333f469345b3307e27b8f7c515b7d258304786b35b",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 43,
+              "length": 59,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 61
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 654,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "totalSupply()"
+            }
+          }
+        ],
+        "description": "totalSupply() should be declared external:\n\t- ERC20.totalSupply() (repairResNew/scscN/AirdropU2.sol#3)\n",
+        "markdown": "totalSupply() should be declared external:\n\t- [ERC20.totalSupply()](repairResNew/scscN/AirdropU2.sol#L3)\n",
+        "id": "cc636f25c5cd6309cbdbab4ddb2343fa51586ce21a88c6ea71c2440849ddc0dd",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 102,
+              "length": 72,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 61,
+              "ending_column": 133
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 654,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- ERC20.balanceOf(address) (repairResNew/scscN/AirdropU2.sol#3)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [ERC20.balanceOf(address)](repairResNew/scscN/AirdropU2.sol#L3)\n",
+        "id": "65bc6b7b7be3d1d046f54ea3e07fb7bd7f10415b973d001e8eb15cb65a14d89f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 174,
+              "length": 76,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 133,
+              "ending_column": 209
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 654,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- ERC20.transfer(address,uint256) (repairResNew/scscN/AirdropU2.sol#3)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [ERC20.transfer(address,uint256)](repairResNew/scscN/AirdropU2.sol#L3)\n",
+        "id": "65c0bed2eaf5bdd4972acc62dd5f416a55f5df9f23946d5be1d9c4a748348131",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 250,
+              "length": 95,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 209,
+              "ending_column": 304
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 654,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256) should be declared external:\n\t- ERC20.transferFrom(address,address,uint256) (repairResNew/scscN/AirdropU2.sol#3)\n",
+        "markdown": "transferFrom(address,address,uint256) should be declared external:\n\t- [ERC20.transferFrom(address,address,uint256)](repairResNew/scscN/AirdropU2.sol#L3)\n",
+        "id": "131b8f7fe1775baa4c2a5d5adbb3c438055e94b926d9cd180b008b06a3e3b805",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 345,
+              "length": 80,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 304,
+              "ending_column": 384
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 654,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "approve(address,uint256) should be declared external:\n\t- ERC20.approve(address,uint256) (repairResNew/scscN/AirdropU2.sol#3)\n",
+        "markdown": "approve(address,uint256) should be declared external:\n\t- [ERC20.approve(address,uint256)](repairResNew/scscN/AirdropU2.sol#L3)\n",
+        "id": "cdf05bf59e91a730b1646e7bb8bfd9dcbe6cb9969e7df7eb38b8c5b4ddf67601",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 425,
+              "length": 92,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 384,
+              "ending_column": 476
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 654,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          }
+        ],
+        "description": "allowance(address,address) should be declared external:\n\t- ERC20.allowance(address,address) (repairResNew/scscN/AirdropU2.sol#3)\n",
+        "markdown": "allowance(address,address) should be declared external:\n\t- [ERC20.allowance(address,address)](repairResNew/scscN/AirdropU2.sol#L3)\n",
+        "id": "fd3b4cd1542bfc8c06295b6b47997f1b3ce1b81bddbc710aa62d45c8a7d0b7a4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 806,
+              "length": 188,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,address,uint256) should be declared external:\n\t- AirDrop.transfer(address,address,uint256) (repairResNew/scscN/AirdropU2.sol#12-16)\n",
+        "markdown": "transfer(address,address,uint256) should be declared external:\n\t- [AirDrop.transfer(address,address,uint256)](repairResNew/scscN/AirdropU2.sol#L12-L16)\n",
+        "id": "0c1b0eaa2cc39cdd38f678224b5376415df6f176b2c9ddc55fdaf836655bf0d9",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop",
+            "source_mapping": {
+              "start": 996,
+              "length": 202,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop(address,address[],uint256)"
+            }
+          }
+        ],
+        "description": "doAirdrop(address,address[],uint256) should be declared external:\n\t- AirDrop.doAirdrop(address,address[],uint256) (repairResNew/scscN/AirdropU2.sol#17-22)\n",
+        "markdown": "doAirdrop(address,address[],uint256) should be declared external:\n\t- [AirDrop.doAirdrop(address,address[],uint256)](repairResNew/scscN/AirdropU2.sol#L17-L22)\n",
+        "id": "f83cd30dd1f0eb45c99dc3830632b5310b5f92474eb2cdf4bed05fd868ffe080",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop2",
+            "source_mapping": {
+              "start": 1200,
+              "length": 187,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop2(address,address[],uint256)"
+            }
+          }
+        ],
+        "description": "doAirdrop2(address,address[],uint256) should be declared external:\n\t- AirDrop.doAirdrop2(address,address[],uint256) (repairResNew/scscN/AirdropU2.sol#23-28)\n",
+        "markdown": "doAirdrop2(address,address[],uint256) should be declared external:\n\t- [AirDrop.doAirdrop2(address,address[],uint256)](repairResNew/scscN/AirdropU2.sol#L23-L28)\n",
+        "id": "7976b777476efe14ad252a5f018278cc30995d82fad457a5688de5481246fdcf",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop",
+            "source_mapping": {
+              "start": 1389,
+              "length": 213,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop(address,address[],uint256[])"
+            }
+          }
+        ],
+        "description": "doCustomAirdrop(address,address[],uint256[]) should be declared external:\n\t- AirDrop.doCustomAirdrop(address,address[],uint256[]) (repairResNew/scscN/AirdropU2.sol#29-34)\n",
+        "markdown": "doCustomAirdrop(address,address[],uint256[]) should be declared external:\n\t- [AirDrop.doCustomAirdrop(address,address[],uint256[])](repairResNew/scscN/AirdropU2.sol#L29-L34)\n",
+        "id": "c36c152f8a37b0ffd6d22be364c507020bd3d5928bacf126e25e22069bfcf841",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop2",
+            "source_mapping": {
+              "start": 1604,
+              "length": 198,
+              "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+              "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+              "filename_short": "repairResNew/scscN/AirdropU2.sol",
+              "is_dependency": false,
+              "lines": [
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 679,
+                  "length": 1127,
+                  "filename_used": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_relative": "repairResNew/scscN/AirdropU2.sol",
+                  "filename_absolute": "/contract/repairResNew/scscN/AirdropU2.sol",
+                  "filename_short": "repairResNew/scscN/AirdropU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop2(address,address[],uint256[])"
+            }
+          }
+        ],
+        "description": "doCustomAirdrop2(address,address[],uint256[]) should be declared external:\n\t- AirDrop.doCustomAirdrop2(address,address[],uint256[]) (repairResNew/scscN/AirdropU2.sol#35-40)\n",
+        "markdown": "doCustomAirdrop2(address,address[],uint256[]) should be declared external:\n\t- [AirDrop.doCustomAirdrop2(address,address[],uint256[])](repairResNew/scscN/AirdropU2.sol#L35-L40)\n",
+        "id": "d7e931ca3918fb70cd85525b8997d63bd989c2c1a42d6ec00a51eaebae847866",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

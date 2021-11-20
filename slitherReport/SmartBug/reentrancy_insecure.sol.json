@@ -1,0 +1,536 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 273,
+              "length": 356,
+              "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_insecure",
+                "source_mapping": {
+                  "start": 168,
+                  "length": 463,
+                  "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "(success) = msg.sender.call.value(amountToWithdraw)()",
+            "source_mapping": {
+              "start": 412,
+              "length": 62,
+              "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 9,
+              "ending_column": 71
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 273,
+                  "length": 356,
+                  "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_insecure",
+                    "source_mapping": {
+                      "start": 168,
+                      "length": 463,
+                      "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                      "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                      "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "userBalances[msg.sender] = 0",
+            "source_mapping": {
+              "start": 594,
+              "length": 28,
+              "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 9,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 273,
+                  "length": 356,
+                  "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_insecure",
+                    "source_mapping": {
+                      "start": 168,
+                      "length": 463,
+                      "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                      "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                      "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "userBalances"
+            }
+          }
+        ],
+        "description": "Reentrancy in Reentrancy_insecure.withdrawBalance() (contractSource/SmartBug/reentrancy_insecure.sol#14-20):\n\tExternal calls:\n\t- (success) = msg.sender.call.value(amountToWithdraw)() (contractSource/SmartBug/reentrancy_insecure.sol#17)\n\tState variables written after the call(s):\n\t- userBalances[msg.sender] = 0 (contractSource/SmartBug/reentrancy_insecure.sol#19)\n",
+        "markdown": "Reentrancy in [Reentrancy_insecure.withdrawBalance()](contractSource/SmartBug/reentrancy_insecure.sol#L14-L20):\n\tExternal calls:\n\t- [(success) = msg.sender.call.value(amountToWithdraw)()](contractSource/SmartBug/reentrancy_insecure.sol#L17)\n\tState variables written after the call(s):\n\t- [userBalances[msg.sender] = 0](contractSource/SmartBug/reentrancy_insecure.sol#L19)\n",
+        "id": "6186c58062b588452b982a91213a2582272594c5488fc02376f8204b6733bd13",
+        "check": "reentrancy-eth",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.0",
+            "source_mapping": {
+              "start": 143,
+              "length": 23,
+              "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.0 (contractSource/SmartBug/reentrancy_insecure.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.0](contractSource/SmartBug/reentrancy_insecure.sol#L7) allows old versions\n",
+        "id": "c414f79a9cd9123d3d4d26243ca60351054d5f12e3ee2300eb8204971b9fae31",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 273,
+              "length": 356,
+              "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_insecure",
+                "source_mapping": {
+                  "start": 168,
+                  "length": 463,
+                  "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "(success) = msg.sender.call.value(amountToWithdraw)()",
+            "source_mapping": {
+              "start": 412,
+              "length": 62,
+              "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 9,
+              "ending_column": 71
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 273,
+                  "length": 356,
+                  "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_insecure",
+                    "source_mapping": {
+                      "start": 168,
+                      "length": 463,
+                      "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                      "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                      "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Reentrancy_insecure.withdrawBalance() (contractSource/SmartBug/reentrancy_insecure.sol#14-20):\n\t- (success) = msg.sender.call.value(amountToWithdraw)() (contractSource/SmartBug/reentrancy_insecure.sol#17)\n",
+        "markdown": "Low level call in [Reentrancy_insecure.withdrawBalance()](contractSource/SmartBug/reentrancy_insecure.sol#L14-L20):\n\t- [(success) = msg.sender.call.value(amountToWithdraw)()](contractSource/SmartBug/reentrancy_insecure.sol#L17)\n",
+        "id": "7d28b75ae585b6d6ab5ef296448e39dc9662505075fe8884e6d6e4d666d6b29c",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Reentrancy_insecure",
+            "source_mapping": {
+              "start": 168,
+              "length": 463,
+              "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract Reentrancy_insecure (contractSource/SmartBug/reentrancy_insecure.sol#9-21) is not in CapWords\n",
+        "markdown": "Contract [Reentrancy_insecure](contractSource/SmartBug/reentrancy_insecure.sol#L9-L21) is not in CapWords\n",
+        "id": "d3f84bb0c008d009f04bb29170bf81a5a3eab8588c075eab23fbaa07c3c765f6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 273,
+              "length": 356,
+              "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+              "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_insecure",
+                "source_mapping": {
+                  "start": 168,
+                  "length": 463,
+                  "filename_used": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_relative": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/reentrancy_insecure.sol",
+                  "filename_short": "contractSource/SmartBug/reentrancy_insecure.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          }
+        ],
+        "description": "withdrawBalance() should be declared external:\n\t- Reentrancy_insecure.withdrawBalance() (contractSource/SmartBug/reentrancy_insecure.sol#14-20)\n",
+        "markdown": "withdrawBalance() should be declared external:\n\t- [Reentrancy_insecure.withdrawBalance()](contractSource/SmartBug/reentrancy_insecure.sol#L14-L20)\n",
+        "id": "41ce498a6c9563608cc8ea0f1ac10484d1f6291fb40569a561049f1af550b19c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -15,6 +15,7 @@ class TreeNode:
     def __init__(self, nodeType):
         self.nodeType = nodeType
         self.children = []
+        self.beginPoint = -1
     
     def addChild(self, node):
         self.children.append(node)

@@ -1,0 +1,746 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetFreebie",
+            "source_mapping": {
+              "start": 114,
+              "length": 137,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Freebie",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 572,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetFreebie()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.transfer(this.balance)",
+            "source_mapping": {
+              "start": 211,
+              "length": 33,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "GetFreebie",
+                "source_mapping": {
+                  "start": 114,
+                  "length": 137,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Freebie",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 572,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "GetFreebie()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Freebie.GetFreebie() (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#6-11) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(this.balance) (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#9)\n",
+        "markdown": "[Freebie.GetFreebie()](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L6-L11) sends eth to arbitrary user\n\tDangerous calls:\n\t- [msg.sender.transfer(this.balance)](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L9)\n",
+        "id": "36126676bc88df689d3bc251a784b575037e77f4d5c62254a1b9c68089695ed5",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L1) allows old versions\n",
+        "id": "dfafe60fd038a7a16813c5fd5ea5c7c2cd50418694c2910d2aa34b662982b84f",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetFreebie",
+            "source_mapping": {
+              "start": 114,
+              "length": 137,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Freebie",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 572,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetFreebie()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Freebie.GetFreebie() (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#6-11) is not in mixedCase\n",
+        "markdown": "Function [Freebie.GetFreebie()](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L6-L11) is not in mixedCase\n",
+        "id": "769fa2dc12130c91675a01197354c2678a7da43587f6fbb092622483edb23627",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 475,
+              "length": 118,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Freebie",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 572,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Freebie.Command(address,bytes) (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#19-22) is not in mixedCase\n",
+        "markdown": "Function [Freebie.Command(address,bytes)](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L19-L22) is not in mixedCase\n",
+        "id": "2f0e2ae2a0853005975257f38122559365fe3e58ce9c416f59f21784f36455cb",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 45,
+              "length": 33,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Freebie",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 572,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Freebie.Owner (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#3) is not in mixedCase\n",
+        "markdown": "Variable [Freebie.Owner](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L3) is not in mixedCase\n",
+        "id": "4ab99806e7ff9c1be07e5cfeb037819e088a548bc72d9f2fdb9cd97ef33d0b64",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 81,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Freebie",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 572,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Freebie.fallback() (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#4-5)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Freebie.fallback()](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L4-L5)\n",
+        "id": "01da9c6b79c6d1a7ac451bbce6b4314b988813d82d7c7c7eb0f98221f73ea750",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetFreebie",
+            "source_mapping": {
+              "start": 114,
+              "length": 137,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Freebie",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 572,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetFreebie()"
+            }
+          }
+        ],
+        "description": "GetFreebie() should be declared external:\n\t- Freebie.GetFreebie() (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#6-11)\n",
+        "markdown": "GetFreebie() should be declared external:\n\t- [Freebie.GetFreebie()](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L6-L11)\n",
+        "id": "aec533cec5559b6d63e3e47d3578264d7b134beec40d58c8921b96e6f466d174",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 253,
+              "length": 220,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Freebie",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 572,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- Freebie.withdraw() (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#12-18)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [Freebie.withdraw()](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L12-L18)\n",
+        "id": "aee6a29b83f735194693231255a8b71ca9c72c2457d5cbeb230e2cdb18987a59",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 475,
+              "length": 118,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Freebie",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 572,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          }
+        ],
+        "description": "Command(address,bytes) should be declared external:\n\t- Freebie.Command(address,bytes) (repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#19-22)\n",
+        "markdown": "Command(address,bytes) should be declared external:\n\t- [Freebie.Command(address,bytes)](repairResNew/SmartBugN/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol#L19-L22)\n",
+        "id": "fc131a6d142d4818fd9e23ac74e279d328b7fb05eadf68cf5fa0240540e881d7",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

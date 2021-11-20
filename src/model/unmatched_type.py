@@ -38,7 +38,6 @@ def repair_unmatched_type(ast, charno):
             else:
                 # handle the var
                 typeNode = TreeNode('ElementaryTypeName')
-                typeNode.beginPoint = -1
                 typeNode.attributes = {}
                 typeNode.attributes['name'] = 'uint'
                 typeNode.attributes['type'] = 'uint'

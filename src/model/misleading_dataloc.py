@@ -20,8 +20,6 @@ def repair_misleading_dataloc(ast, charno):
             
             funcCallNode = TreeNode('FunctionCall')
             newNode = TreeNode('NewExpression')
-            funcCallNode.beginPoint = -1
-            newNode.beginPoint = -1
             idenNode = defectNode.children[0].children[0]
             newNode.children.append(idenNode)
             funcCallNode.children.append(newNode)

@@ -43,29 +43,24 @@ def repair_strict_balance(ast, charno):
             tmpBinaryNode.attributes = {}
             tmpBinaryNode.attributes['operator'] = '+'
             oneNode = TreeNode('Literal')
-            oneNode.beginPoint = -1
             oneNode.attributes = {}
             oneNode.attributes['value'] = '1'
             oneNode.attributes['token'] = 'number'
             tmpBinaryNode.children.append(origvalNode)
             tmpBinaryNode.children.append(oneNode)
             secTuple = TreeNode('TupleExpression')
-            secTuple.beginPoint = -1
             secTuple.attributes = {'isInlineArray':False}
             secTuple.children.append(tmpBinaryNode)
             binaryOpNode2.children[1] = secTuple
 
             binaryOpNodeTotal = TreeNode('BinaryOperation')
-            binaryOpNodeTotal.beginPoint = -1
             binaryOpNodeTotal.attributes = {}
             binaryOpNodeTotal.attributes['operator'] = '&&'
 
             tupleNode1 = TreeNode('TupleExpression')
-            tupleNode1.beginPoint = -1
             tupleNode1.attributes = {'isInlineArray':False}
             tupleNode1.children.append(binaryOpNode1)
             tupleNode2 = TreeNode('TupleExpression')
-            tupleNode2.beginPoint = -1
             tupleNode2.attributes = {'isInlineArray':False}
             tupleNode2.children.append(binaryOpNode2)
 

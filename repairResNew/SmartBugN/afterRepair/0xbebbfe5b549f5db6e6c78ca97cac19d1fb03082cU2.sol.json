@@ -1,0 +1,906 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 335,
+              "length": 20,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 22
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "VaultProxy",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 488,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 100,
+              "length": 26,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 2,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 278,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "VaultProxy.Owner (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#16) shadows:\n\t- Proxy.Owner (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#7)\n",
+        "markdown": "[VaultProxy.Owner](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L16) shadows:\n\t- [Proxy.Owner](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L7)\n",
+        "id": "19edc7d7c5bed5ccfd10622e57ae49f238e2459531ab87713a37baa7917b34dc",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L1) allows old versions\n",
+        "id": "ba59c3a29f9d60f599a405f49305dca0e4689c91acaeca22f44afd6ed1361c61",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 152,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 25,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferOwner",
+                "source_mapping": {
+                  "start": 129,
+                  "length": 77,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Proxy",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 278,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferOwner(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Proxy.transferOwner(address)._owner (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#8) is not in mixedCase\n",
+        "markdown": "Parameter [Proxy.transferOwner(address)._owner](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L8) is not in mixedCase\n",
+        "id": "bb2af1be07f0a586d5689907e35dab403aa057c78031ccadea134f106be8305a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 100,
+              "length": 26,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 2,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 278,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Proxy.Owner (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#7) is not in mixedCase\n",
+        "markdown": "Variable [Proxy.Owner](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L7) is not in mixedCase\n",
+        "id": "c63e3bbb6de5e5bc8f558119efe5b0c6af9384b54467feaeb7bbe509e2169462",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Vault",
+            "source_mapping": {
+              "start": 437,
+              "length": 102,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "VaultProxy",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 488,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "Vault()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function VaultProxy.Vault() (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#20-25) is not in mixedCase\n",
+        "markdown": "Function [VaultProxy.Vault()](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L20-L25) is not in mixedCase\n",
+        "id": "a1aa06d45422fa13c6290777ea7c12de3ffc90393fc0658649149bd3dfc6f86f",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 335,
+              "length": 20,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 22
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "VaultProxy",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 488,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable VaultProxy.Owner (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#16) is not in mixedCase\n",
+        "markdown": "Variable [VaultProxy.Owner](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L16) is not in mixedCase\n",
+        "id": "ef5befc42e86f3663617cd3bc0cffd73bb64641974b4c319ecba078711c62c2a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Deposits",
+            "source_mapping": {
+              "start": 358,
+              "length": 43,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "VaultProxy",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 488,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable VaultProxy.Deposits (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#17) is not in mixedCase\n",
+        "markdown": "Variable [VaultProxy.Deposits](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L17) is not in mixedCase\n",
+        "id": "f00290a2320f1128141a03984bc635bf66a6e4f6b2813eee7ff32ba334ec375c",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferOwner",
+            "source_mapping": {
+              "start": 129,
+              "length": 77,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 278,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferOwner(address)"
+            }
+          }
+        ],
+        "description": "transferOwner(address) should be declared external:\n\t- Proxy.transferOwner(address) (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#8-10)\n",
+        "markdown": "transferOwner(address) should be declared external:\n\t- [Proxy.transferOwner(address)](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L8-L10)\n",
+        "id": "30434e80404fe0969193ee66738fc388c85ca207aebffa5e13648beb9eb87f02",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "proxy",
+            "source_mapping": {
+              "start": 208,
+              "length": 91,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 278,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "proxy(address,bytes)"
+            }
+          }
+        ],
+        "description": "proxy(address,bytes) should be declared external:\n\t- Proxy.proxy(address,bytes) (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#11-13)\n",
+        "markdown": "proxy(address,bytes) should be declared external:\n\t- [Proxy.proxy(address,bytes)](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L11-L13)\n",
+        "id": "0a3bfbb74de3dc199061900b883ff8ff6c3dd205315feef537790db983280fd5",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 404,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "VaultProxy",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 488,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- VaultProxy.fallback() (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#18-19)\n",
+        "markdown": "fallback() should be declared external:\n\t- [VaultProxy.fallback()](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L18-L19)\n",
+        "id": "51d0c271f0de84843621fab6cc3e988bc3d49c8875b9dca9ba2f196fd6cefb95",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Vault",
+            "source_mapping": {
+              "start": 437,
+              "length": 102,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "VaultProxy",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 488,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "Vault()"
+            }
+          }
+        ],
+        "description": "Vault() should be declared external:\n\t- VaultProxy.Vault() (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#20-25)\n",
+        "markdown": "Vault() should be declared external:\n\t- [VaultProxy.Vault()](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L20-L25)\n",
+        "id": "1cb9368d54275203c10623e0eb59716529fface02223cabe0db678c7df148c82",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 648,
+              "length": 139,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "VaultProxy",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 488,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          }
+        ],
+        "description": "withdraw(uint256) should be declared external:\n\t- VaultProxy.withdraw(uint256) (repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#31-35)\n",
+        "markdown": "withdraw(uint256) should be declared external:\n\t- [VaultProxy.withdraw(uint256)](repairResNew/SmartBugN/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol#L31-L35)\n",
+        "id": "b0185511712575c34b031e6ddb5ea3763c88375aa0ad90208d121fad6b61f0b6",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

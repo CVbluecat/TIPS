@@ -41,19 +41,16 @@ def repair_hard_encode(ast, charno):
 
                 funcDefNode = defectNode.father.father
                 typeNode = TreeNode('ElementaryTypeName')
-                typeNode.beginPoint = -1
                 typeNode.attributes = {}
                 typeNode.attributes['name'] = goalType
                 typeNode.attributes['type'] = goalType
                 varDecNode = TreeNode('VariableDeclaration')
-                varDecNode.beginPoint = -1
                 varDecNode.attributes = {}
                 varDecNode.attributes['name'] = 'param' + str(hard_encode_cnt)
                 varDecNode.children.append(typeNode)
                 funcDefNode.children[0].children.append(varDecNode)
 
                 idenNode = TreeNode('Identifier')
-                idenNode.beginPoint = -1
                 idenNode.attributes = {}
                 idenNode.attributes['value'] = 'param' + str(hard_encode_cnt)
                 idx = literalNode.father.children.index(literalNode)

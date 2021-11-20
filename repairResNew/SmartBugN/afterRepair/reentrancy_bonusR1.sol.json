@@ -1,0 +1,901 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawReward",
+            "source_mapping": {
+              "start": 196,
+              "length": 211,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_bonus",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 582,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawReward(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "success = recipient.call.value(amountToWithdraw)()",
+            "source_mapping": {
+              "start": 327,
+              "length": 57,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawReward",
+                "source_mapping": {
+                  "start": 196,
+                  "length": 211,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_bonus",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 582,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawReward(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Reentrancy_bonus.withdrawReward(address) (repairResNew/SmartBugN/reentrancy_bonusR1.sol#6-11) sends eth to arbitrary user\n\tDangerous calls:\n\t- success = recipient.call.value(amountToWithdraw)() (repairResNew/SmartBugN/reentrancy_bonusR1.sol#9)\n",
+        "markdown": "[Reentrancy_bonus.withdrawReward(address)](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L6-L11) sends eth to arbitrary user\n\tDangerous calls:\n\t- [success = recipient.call.value(amountToWithdraw)()](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L9)\n",
+        "id": "cc7689457c7203405678a552f19db7855db99caa7df706524566bbe67345794c",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "getFirstWithdrawalBonus",
+            "source_mapping": {
+              "start": 409,
+              "length": 193,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_bonus",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 582,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "getFirstWithdrawalBonus(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "withdrawReward(recipient)",
+            "source_mapping": {
+              "start": 540,
+              "length": 25,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 2,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getFirstWithdrawalBonus",
+                "source_mapping": {
+                  "start": 409,
+                  "length": 193,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_bonus",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 582,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "getFirstWithdrawalBonus(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "success = recipient.call.value(amountToWithdraw)()",
+            "source_mapping": {
+              "start": 327,
+              "length": 57,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawReward",
+                "source_mapping": {
+                  "start": 196,
+                  "length": 211,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_bonus",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 582,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawReward(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls_sending_eth"
+            }
+          },
+          {
+            "type": "node",
+            "name": "claimedBonus[recipient] = true",
+            "source_mapping": {
+              "start": 568,
+              "length": 30,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getFirstWithdrawalBonus",
+                "source_mapping": {
+                  "start": 409,
+                  "length": 193,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_bonus",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 582,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "getFirstWithdrawalBonus(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "claimedBonus"
+            }
+          }
+        ],
+        "description": "Reentrancy in Reentrancy_bonus.getFirstWithdrawalBonus(address) (repairResNew/SmartBugN/reentrancy_bonusR1.sol#12-17):\n\tExternal calls:\n\t- withdrawReward(recipient) (repairResNew/SmartBugN/reentrancy_bonusR1.sol#15)\n\t\t- success = recipient.call.value(amountToWithdraw)() (repairResNew/SmartBugN/reentrancy_bonusR1.sol#9)\n\tState variables written after the call(s):\n\t- claimedBonus[recipient] = true (repairResNew/SmartBugN/reentrancy_bonusR1.sol#16)\n",
+        "markdown": "Reentrancy in [Reentrancy_bonus.getFirstWithdrawalBonus(address)](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L12-L17):\n\tExternal calls:\n\t- [withdrawReward(recipient)](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L15)\n\t\t- [success = recipient.call.value(amountToWithdraw)()](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L9)\n\tState variables written after the call(s):\n\t- [claimedBonus[recipient] = true](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L16)\n",
+        "id": "0e0058c70e526e22ded409154744666ae1eebaaf0ca6b3258c6222f715b11335",
+        "check": "reentrancy-eth",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.0 (repairResNew/SmartBugN/reentrancy_bonusR1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.0](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L1) allows old versions\n",
+        "id": "8cc15e6d335a8ef9df926e51db0150da0490a28cf1c8f7dee8e3bb0af84f8bcf",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawReward",
+            "source_mapping": {
+              "start": 196,
+              "length": 211,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_bonus",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 582,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawReward(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "success = recipient.call.value(amountToWithdraw)()",
+            "source_mapping": {
+              "start": 327,
+              "length": 57,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawReward",
+                "source_mapping": {
+                  "start": 196,
+                  "length": 211,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_bonus",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 582,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawReward(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Reentrancy_bonus.withdrawReward(address) (repairResNew/SmartBugN/reentrancy_bonusR1.sol#6-11):\n\t- success = recipient.call.value(amountToWithdraw)() (repairResNew/SmartBugN/reentrancy_bonusR1.sol#9)\n",
+        "markdown": "Low level call in [Reentrancy_bonus.withdrawReward(address)](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L6-L11):\n\t- [success = recipient.call.value(amountToWithdraw)()](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L9)\n",
+        "id": "031775f7bc41194da9a5799b04fbb3eca37c0f3178b024b3d83ddb1064df4c73",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Reentrancy_bonus",
+            "source_mapping": {
+              "start": 24,
+              "length": 582,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract Reentrancy_bonus (repairResNew/SmartBugN/reentrancy_bonusR1.sol#2-19) is not in CapWords\n",
+        "markdown": "Contract [Reentrancy_bonus](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L2-L19) is not in CapWords\n",
+        "id": "aaf8f3e29b64cac57fd92b0d627f4d94b51464a318cd12d345bfa329f282d5ad",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "userBalances",
+            "source_mapping": {
+              "start": 53,
+              "length": 45,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_bonus",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 582,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "Reentrancy_bonus",
+            "source_mapping": {
+              "start": 24,
+              "length": 582,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            }
+          }
+        ],
+        "description": "Reentrancy_bonus.userBalances (repairResNew/SmartBugN/reentrancy_bonusR1.sol#3) is never used in Reentrancy_bonus (repairResNew/SmartBugN/reentrancy_bonusR1.sol#2-19)\n",
+        "markdown": "[Reentrancy_bonus.userBalances](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L3) is never used in [Reentrancy_bonus](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L2-L19)\n",
+        "id": "164dd66be30bd3d15e432e5aeca57013d69a99f86990c024cfe7a32dd59299fd",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "getFirstWithdrawalBonus",
+            "source_mapping": {
+              "start": 409,
+              "length": 193,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_bonus",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 582,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_bonusR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "getFirstWithdrawalBonus(address)"
+            }
+          }
+        ],
+        "description": "getFirstWithdrawalBonus(address) should be declared external:\n\t- Reentrancy_bonus.getFirstWithdrawalBonus(address) (repairResNew/SmartBugN/reentrancy_bonusR1.sol#12-17)\n",
+        "markdown": "getFirstWithdrawalBonus(address) should be declared external:\n\t- [Reentrancy_bonus.getFirstWithdrawalBonus(address)](repairResNew/SmartBugN/reentrancy_bonusR1.sol#L12-L17)\n",
+        "id": "a9aa5049930df69157489d08b9859663fd7c87d12ef33be89766c0fa6ef24c1c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

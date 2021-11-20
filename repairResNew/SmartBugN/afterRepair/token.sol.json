@@ -1,0 +1,619 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 205,
+              "length": 188,
+              "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_relative": "repairResNew/SmartBugN/token.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_short": "repairResNew/SmartBugN/token.sol",
+              "is_dependency": false,
+              "lines": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 472,
+                  "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_relative": "repairResNew/SmartBugN/token.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_short": "repairResNew/SmartBugN/token.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "require(bool)(balances[msg.sender] - _value >= 0)",
+            "source_mapping": {
+              "start": 273,
+              "length": 43,
+              "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_relative": "repairResNew/SmartBugN/token.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_short": "repairResNew/SmartBugN/token.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 205,
+                  "length": 188,
+                  "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_relative": "repairResNew/SmartBugN/token.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_short": "repairResNew/SmartBugN/token.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Token",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 472,
+                      "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                      "filename_relative": "repairResNew/SmartBugN/token.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                      "filename_short": "repairResNew/SmartBugN/token.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Token.transfer(address,uint256) (repairResNew/SmartBugN/token.sol#8-13) contains a tautology or contradiction:\n\t- require(bool)(balances[msg.sender] - _value >= 0) (repairResNew/SmartBugN/token.sol#9)\n",
+        "markdown": "[Token.transfer(address,uint256)](repairResNew/SmartBugN/token.sol#L8-L13) contains a tautology or contradiction:\n\t- [require(bool)(balances[msg.sender] - _value >= 0)](repairResNew/SmartBugN/token.sol#L9)\n",
+        "id": "a833d5b20b5c065b0edbd7469b6e0f6821913149413e6b51401afc249c4b8ead",
+        "check": "tautology",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.18",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_relative": "repairResNew/SmartBugN/token.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_short": "repairResNew/SmartBugN/token.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".18"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.18 (repairResNew/SmartBugN/token.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.18](repairResNew/SmartBugN/token.sol#L1) allows old versions\n",
+        "id": "ba9df9edaef87912e7cb0996398c31a57655c2df6132f8dd68f3fbf0303950f0",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 223,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_relative": "repairResNew/SmartBugN/token.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_short": "repairResNew/SmartBugN/token.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 20,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 205,
+                  "length": 188,
+                  "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_relative": "repairResNew/SmartBugN/token.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_short": "repairResNew/SmartBugN/token.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Token",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 472,
+                      "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                      "filename_relative": "repairResNew/SmartBugN/token.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                      "filename_short": "repairResNew/SmartBugN/token.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Token.transfer(address,uint256)._to (repairResNew/SmartBugN/token.sol#8) is not in mixedCase\n",
+        "markdown": "Parameter [Token.transfer(address,uint256)._to](repairResNew/SmartBugN/token.sol#L8) is not in mixedCase\n",
+        "id": "d73bfe9802eb34e88f3feecb0066f9d6b84cebc355fcd39a368283e6a21fa1da",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 236,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_relative": "repairResNew/SmartBugN/token.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_short": "repairResNew/SmartBugN/token.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 33,
+              "ending_column": 44
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 205,
+                  "length": 188,
+                  "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_relative": "repairResNew/SmartBugN/token.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_short": "repairResNew/SmartBugN/token.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Token",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 472,
+                      "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                      "filename_relative": "repairResNew/SmartBugN/token.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                      "filename_short": "repairResNew/SmartBugN/token.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Token.transfer(address,uint256)._value (repairResNew/SmartBugN/token.sol#8) is not in mixedCase\n",
+        "markdown": "Parameter [Token.transfer(address,uint256)._value](repairResNew/SmartBugN/token.sol#L8) is not in mixedCase\n",
+        "id": "8e006d7b69d66c61854ade5a8706e413eda1ea73022cf26dab80932a3a5cf620",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 414,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_relative": "repairResNew/SmartBugN/token.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_short": "repairResNew/SmartBugN/token.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 21,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "balanceOf",
+                "source_mapping": {
+                  "start": 395,
+                  "length": 98,
+                  "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_relative": "repairResNew/SmartBugN/token.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_short": "repairResNew/SmartBugN/token.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Token",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 472,
+                      "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                      "filename_relative": "repairResNew/SmartBugN/token.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                      "filename_short": "repairResNew/SmartBugN/token.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "balanceOf(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Token.balanceOf(address)._owner (repairResNew/SmartBugN/token.sol#14) is not in mixedCase\n",
+        "markdown": "Parameter [Token.balanceOf(address)._owner](repairResNew/SmartBugN/token.sol#L14) is not in mixedCase\n",
+        "id": "a9302385c50cec20f01c76a4b89d26ac0dd730b8bd76a8b45cdfa04f479c49ce",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 205,
+              "length": 188,
+              "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_relative": "repairResNew/SmartBugN/token.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_short": "repairResNew/SmartBugN/token.sol",
+              "is_dependency": false,
+              "lines": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 472,
+                  "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_relative": "repairResNew/SmartBugN/token.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_short": "repairResNew/SmartBugN/token.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- Token.transfer(address,uint256) (repairResNew/SmartBugN/token.sol#8-13)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [Token.transfer(address,uint256)](repairResNew/SmartBugN/token.sol#L8-L13)\n",
+        "id": "b1d50dd692ebb4899740af5a7fd08229e7b551a4e6fe49a96ef1faa966e3dab0",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 395,
+              "length": 98,
+              "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_relative": "repairResNew/SmartBugN/token.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+              "filename_short": "repairResNew/SmartBugN/token.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 472,
+                  "filename_used": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_relative": "repairResNew/SmartBugN/token.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/token.sol",
+                  "filename_short": "repairResNew/SmartBugN/token.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- Token.balanceOf(address) (repairResNew/SmartBugN/token.sol#14-16)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [Token.balanceOf(address)](repairResNew/SmartBugN/token.sol#L14-L16)\n",
+        "id": "b39d5549526d590086b541c4554543c77256a35065492336a02f47bc11c2ee73",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

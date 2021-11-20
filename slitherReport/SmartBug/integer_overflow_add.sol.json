@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 272,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/integer_overflow_add.sol",
+              "filename_relative": "contractSource/SmartBug/integer_overflow_add.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/integer_overflow_add.sol",
+              "filename_short": "contractSource/SmartBug/integer_overflow_add.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (contractSource/SmartBug/integer_overflow_add.sol#10) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](contractSource/SmartBug/integer_overflow_add.sol#L10) allows old versions\n",
+        "id": "5652595bce1d9225354b5f567a2ff3a6e32b3b91c081639cff22fd7cb92b17f6",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "run",
+            "source_mapping": {
+              "start": 360,
+              "length": 103,
+              "filename_used": "/contract/contractSource/SmartBug/integer_overflow_add.sol",
+              "filename_relative": "contractSource/SmartBug/integer_overflow_add.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/integer_overflow_add.sol",
+              "filename_short": "contractSource/SmartBug/integer_overflow_add.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "IntegerOverflowAdd",
+                "source_mapping": {
+                  "start": 298,
+                  "length": 167,
+                  "filename_used": "/contract/contractSource/SmartBug/integer_overflow_add.sol",
+                  "filename_relative": "contractSource/SmartBug/integer_overflow_add.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/integer_overflow_add.sol",
+                  "filename_short": "contractSource/SmartBug/integer_overflow_add.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "run(uint256)"
+            }
+          }
+        ],
+        "description": "run(uint256) should be declared external:\n\t- IntegerOverflowAdd.run(uint256) (contractSource/SmartBug/integer_overflow_add.sol#15-18)\n",
+        "markdown": "run(uint256) should be declared external:\n\t- [IntegerOverflowAdd.run(uint256)](contractSource/SmartBug/integer_overflow_add.sol#L15-L18)\n",
+        "id": "1ff16379320f8f81ba47fec1912347d502ea36dedb9977751f39ba15c7c563a4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

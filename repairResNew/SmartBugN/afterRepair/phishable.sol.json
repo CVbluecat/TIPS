@@ -1,0 +1,267 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.22",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/phishable.sol",
+              "filename_relative": "repairResNew/SmartBugN/phishable.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/phishable.sol",
+              "filename_short": "repairResNew/SmartBugN/phishable.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".22"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.22 (repairResNew/SmartBugN/phishable.sol#1) is known to contain severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n",
+        "markdown": "Pragma version[^0.4.22](repairResNew/SmartBugN/phishable.sol#L1) is known to contain severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n",
+        "id": "264e7e4eaf4989c04d4ae4438915f55b2640677e17b87a53e922ea4594e7a523",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_recipient",
+            "source_mapping": {
+              "start": 182,
+              "length": 18,
+              "filename_used": "/contract/repairResNew/SmartBugN/phishable.sol",
+              "filename_relative": "repairResNew/SmartBugN/phishable.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/phishable.sol",
+              "filename_short": "repairResNew/SmartBugN/phishable.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 23,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawAll",
+                "source_mapping": {
+                  "start": 161,
+                  "length": 119,
+                  "filename_used": "/contract/repairResNew/SmartBugN/phishable.sol",
+                  "filename_relative": "repairResNew/SmartBugN/phishable.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/phishable.sol",
+                  "filename_short": "repairResNew/SmartBugN/phishable.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Phishable",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 259,
+                      "filename_used": "/contract/repairResNew/SmartBugN/phishable.sol",
+                      "filename_relative": "repairResNew/SmartBugN/phishable.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/phishable.sol",
+                      "filename_short": "repairResNew/SmartBugN/phishable.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawAll(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Phishable.withdrawAll(address)._recipient (repairResNew/SmartBugN/phishable.sol#9) is not in mixedCase\n",
+        "markdown": "Parameter [Phishable.withdrawAll(address)._recipient](repairResNew/SmartBugN/phishable.sol#L9) is not in mixedCase\n",
+        "id": "2700e29905556c658df8cb6d8f0fd2a99efdc03a50d267cb999954f45765f50a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 128,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/SmartBugN/phishable.sol",
+              "filename_relative": "repairResNew/SmartBugN/phishable.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/phishable.sol",
+              "filename_short": "repairResNew/SmartBugN/phishable.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Phishable",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 259,
+                  "filename_used": "/contract/repairResNew/SmartBugN/phishable.sol",
+                  "filename_relative": "repairResNew/SmartBugN/phishable.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/phishable.sol",
+                  "filename_short": "repairResNew/SmartBugN/phishable.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Phishable.fallback() (repairResNew/SmartBugN/phishable.sol#7-8)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Phishable.fallback()](repairResNew/SmartBugN/phishable.sol#L7-L8)\n",
+        "id": "67b531ff58b70dded89b2ffa083905ad95316a9bfca06a1201da356049541ff8",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawAll",
+            "source_mapping": {
+              "start": 161,
+              "length": 119,
+              "filename_used": "/contract/repairResNew/SmartBugN/phishable.sol",
+              "filename_relative": "repairResNew/SmartBugN/phishable.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/phishable.sol",
+              "filename_short": "repairResNew/SmartBugN/phishable.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Phishable",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 259,
+                  "filename_used": "/contract/repairResNew/SmartBugN/phishable.sol",
+                  "filename_relative": "repairResNew/SmartBugN/phishable.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/phishable.sol",
+                  "filename_short": "repairResNew/SmartBugN/phishable.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawAll(address)"
+            }
+          }
+        ],
+        "description": "withdrawAll(address) should be declared external:\n\t- Phishable.withdrawAll(address) (repairResNew/SmartBugN/phishable.sol#9-12)\n",
+        "markdown": "withdrawAll(address) should be declared external:\n\t- [Phishable.withdrawAll(address)](repairResNew/SmartBugN/phishable.sol#L9-L12)\n",
+        "id": "fe0e0b81de913f1851e4623c900298dd366fe8bfc39b62bdca3150d50e8731cf",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

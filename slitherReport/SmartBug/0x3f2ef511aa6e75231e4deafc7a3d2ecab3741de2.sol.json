@@ -1,0 +1,1301 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "redeem",
+            "source_mapping": {
+              "start": 317,
+              "length": 5669,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "redeem()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.transfer(this.balance)",
+            "source_mapping": {
+              "start": 5822,
+              "length": 33,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                27
+              ],
+              "starting_column": 13,
+              "ending_column": 46
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "redeem",
+                "source_mapping": {
+                  "start": 317,
+                  "length": 5669,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WhaleGiveaway2",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 9356,
+                      "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "redeem()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "WhaleGiveaway2.redeem() (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#21-29) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(this.balance) (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#27)\n",
+        "markdown": "[WhaleGiveaway2.redeem()](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L21-L29) sends eth to arbitrary user\n\tDangerous calls:\n\t- [msg.sender.transfer(this.balance)](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L27)\n",
+        "id": "ac732b7ebfa725ba0e79fa546ca570b6765dd73a56bcca9ac0ab3dd2d9d3b99a",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 9257,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "adr.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 9424,
+              "length": 31,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                45
+              ],
+              "starting_column": 9,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 9257,
+                  "length": 206,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WhaleGiveaway2",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 9356,
+                      "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "WhaleGiveaway2.Command(address,bytes) (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#39-46) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#45)\n",
+        "markdown": "[WhaleGiveaway2.Command(address,bytes)](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L39-L46) ignores return value by [adr.call.value(msg.value)(data)](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L45)\n",
+        "id": "8e46ff1b94bcab34fbdd17c07d95902a3dff42471fd61148575c487b08f15145",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 82,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L7) allows old versions\n",
+        "id": "63bc529ac78a32099a630302f0a6bc58d8501566bac827aa67f93d1c2f14d9a0",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 9257,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "adr.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 9424,
+              "length": 31,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                45
+              ],
+              "starting_column": 9,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 9257,
+                  "length": 206,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WhaleGiveaway2",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 9356,
+                      "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in WhaleGiveaway2.Command(address,bytes) (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#39-46):\n\t- adr.call.value(msg.value)(data) (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#45)\n",
+        "markdown": "Low level call in [WhaleGiveaway2.Command(address,bytes)](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L39-L46):\n\t- [adr.call.value(msg.value)(data)](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L45)\n",
+        "id": "c21a15e3a7ed85ae972a94302a06dbce95899378f805e2462cb6ce92761173ad",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 9257,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function WhaleGiveaway2.Command(address,bytes) (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#39-46) is not in mixedCase\n",
+        "markdown": "Function [WhaleGiveaway2.Command(address,bytes)](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L39-L46) is not in mixedCase\n",
+        "id": "c2e36978061ecbe9a7f410c07ebc73d659724c9927c7088f5261b6e69f87b3a1",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 142,
+              "length": 33,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable WhaleGiveaway2.Owner (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#11) is not in mixedCase\n",
+        "markdown": "Variable [WhaleGiveaway2.Owner](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L11) is not in mixedCase\n",
+        "id": "e45f24440d6b2c81e44c7ea770781f610b8572e2f9068f3af01822f724a36f2e",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "minEligibility",
+            "source_mapping": {
+              "start": 182,
+              "length": 52,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 5,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable_constant",
+              "convention": "UPPER_CASE_WITH_UNDERSCORES"
+            }
+          }
+        ],
+        "description": "Constant WhaleGiveaway2.minEligibility (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#12) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "markdown": "Constant [WhaleGiveaway2.minEligibility](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L12) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "id": "d9e98fda8764e9a8e1821ee12b5df8e5c60ef720dbb19ab63e7f377f8b1c2fcc",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 247,
+              "length": 59,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- WhaleGiveaway2.fallback() (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#14-19)\n",
+        "markdown": "fallback() should be declared external:\n\t- [WhaleGiveaway2.fallback()](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L14-L19)\n",
+        "id": "f18dee4050a5e59f2562a02c337d43d6431c5566dfe27a5e6fb381f30e42caea",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "redeem",
+            "source_mapping": {
+              "start": 317,
+              "length": 5669,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "redeem()"
+            }
+          }
+        ],
+        "description": "redeem() should be declared external:\n\t- WhaleGiveaway2.redeem() (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#21-29)\n",
+        "markdown": "redeem() should be declared external:\n\t- [WhaleGiveaway2.redeem()](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L21-L29)\n",
+        "id": "704cb49326f97aa90e4db2bcee7e2e557adca89b651d121bab5530161d760858",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 5998,
+              "length": 3247,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- WhaleGiveaway2.withdraw() (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#31-37)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [WhaleGiveaway2.withdraw()](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L31-L37)\n",
+        "id": "e50421185a2974ce1d4fe0d805a04fc7215010f8f7371b96ff4af75bf9fad399",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 9257,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+              "is_dependency": false,
+              "lines": [
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WhaleGiveaway2",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 9356,
+                  "filename_used": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_relative": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "filename_short": "contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          }
+        ],
+        "description": "Command(address,bytes) should be declared external:\n\t- WhaleGiveaway2.Command(address,bytes) (contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#39-46)\n",
+        "markdown": "Command(address,bytes) should be declared external:\n\t- [WhaleGiveaway2.Command(address,bytes)](contractSource/SmartBug/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol#L39-L46)\n",
+        "id": "8e0a38eb8d04553c56baf148dbec11f2e7f3695e9b7a98284aba9fef7c797a4c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

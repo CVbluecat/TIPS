@@ -1,5 +1,0 @@
-contract MyContract {
-	constructor() public {
-	}
-	
-}

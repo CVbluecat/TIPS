@@ -1,0 +1,1319 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawLeftOver",
+            "source_mapping": {
+              "start": 487,
+              "length": 157,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "starting_column": 6,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              },
+              "signature": "withdrawLeftOver()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(this.balance)",
+            "source_mapping": {
+              "start": 607,
+              "length": 29,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                27
+              ],
+              "starting_column": 10,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawLeftOver",
+                "source_mapping": {
+                  "start": 487,
+                  "length": 157,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 6,
+                  "ending_column": 7
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 154,
+                      "length": 493,
+                      "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_relative": "contractSource/SmartBug/lotto.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_short": "contractSource/SmartBug/lotto.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 3
+                    }
+                  },
+                  "signature": "withdrawLeftOver()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Lotto.withdrawLeftOver() (contractSource/SmartBug/lotto.sol#24-28) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.send(this.balance) (contractSource/SmartBug/lotto.sol#27)\n",
+        "markdown": "[Lotto.withdrawLeftOver()](contractSource/SmartBug/lotto.sol#L24-L28) sends eth to arbitrary user\n\tDangerous calls:\n\t- [msg.sender.send(this.balance)](contractSource/SmartBug/lotto.sol#L27)\n",
+        "id": "91c23a4843d8893843762b1cb2e21daafe834d07bceb45d0f0f01962f5efbb8c",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "winner",
+            "source_mapping": {
+              "start": 212,
+              "length": 21,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 6,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "sendToWinner",
+            "source_mapping": {
+              "start": 307,
+              "length": 173,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 6,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              },
+              "signature": "sendToWinner()"
+            }
+          }
+        ],
+        "description": "Lotto.winner (contractSource/SmartBug/lotto.sol#12) is never initialized. It is used in:\n\t- Lotto.sendToWinner() (contractSource/SmartBug/lotto.sol#17-22)\n",
+        "markdown": "[Lotto.winner](contractSource/SmartBug/lotto.sol#L12) is never initialized. It is used in:\n\t- [Lotto.sendToWinner()](contractSource/SmartBug/lotto.sol#L17-L22)\n",
+        "id": "0c46d2b48a8e19dce9754933b34e900fd93fa229ab6ddd6ac7fc478ead05df3f",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "winAmount",
+            "source_mapping": {
+              "start": 240,
+              "length": 21,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 6,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "sendToWinner",
+            "source_mapping": {
+              "start": 307,
+              "length": 173,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 6,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              },
+              "signature": "sendToWinner()"
+            }
+          }
+        ],
+        "description": "Lotto.winAmount (contractSource/SmartBug/lotto.sol#13) is never initialized. It is used in:\n\t- Lotto.sendToWinner() (contractSource/SmartBug/lotto.sol#17-22)\n",
+        "markdown": "[Lotto.winAmount](contractSource/SmartBug/lotto.sol#L13) is never initialized. It is used in:\n\t- [Lotto.sendToWinner()](contractSource/SmartBug/lotto.sol#L17-L22)\n",
+        "id": "e62b93b5840821b361777014842d7bcad42fc2a7189a63e44ccbf54760629942",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sendToWinner",
+            "source_mapping": {
+              "start": 307,
+              "length": 173,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 6,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              },
+              "signature": "sendToWinner()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "winner.send(winAmount)",
+            "source_mapping": {
+              "start": 424,
+              "length": 22,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 10,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendToWinner",
+                "source_mapping": {
+                  "start": 307,
+                  "length": 173,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 6,
+                  "ending_column": 7
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 154,
+                      "length": 493,
+                      "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_relative": "contractSource/SmartBug/lotto.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_short": "contractSource/SmartBug/lotto.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 3
+                    }
+                  },
+                  "signature": "sendToWinner()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Lotto.sendToWinner() (contractSource/SmartBug/lotto.sol#17-22) ignores return value by winner.send(winAmount) (contractSource/SmartBug/lotto.sol#20)\n",
+        "markdown": "[Lotto.sendToWinner()](contractSource/SmartBug/lotto.sol#L17-L22) ignores return value by [winner.send(winAmount)](contractSource/SmartBug/lotto.sol#L20)\n",
+        "id": "f695f38074fe495c1395105655448ae1270a6d50f20cc6f7f8ec88854d0170bf",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawLeftOver",
+            "source_mapping": {
+              "start": 487,
+              "length": 157,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "starting_column": 6,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              },
+              "signature": "withdrawLeftOver()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(this.balance)",
+            "source_mapping": {
+              "start": 607,
+              "length": 29,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                27
+              ],
+              "starting_column": 10,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawLeftOver",
+                "source_mapping": {
+                  "start": 487,
+                  "length": 157,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 6,
+                  "ending_column": 7
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 154,
+                      "length": 493,
+                      "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_relative": "contractSource/SmartBug/lotto.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_short": "contractSource/SmartBug/lotto.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 3
+                    }
+                  },
+                  "signature": "withdrawLeftOver()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Lotto.withdrawLeftOver() (contractSource/SmartBug/lotto.sol#24-28) ignores return value by msg.sender.send(this.balance) (contractSource/SmartBug/lotto.sol#27)\n",
+        "markdown": "[Lotto.withdrawLeftOver()](contractSource/SmartBug/lotto.sol#L24-L28) ignores return value by [msg.sender.send(this.balance)](contractSource/SmartBug/lotto.sol#L27)\n",
+        "id": "1f688bcaa0a87686cc2a2b9188238f88efad1d9d1b48f4b29d74e45503220b57",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.18",
+            "source_mapping": {
+              "start": 126,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 2,
+              "ending_column": 26
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".18"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.18 (contractSource/SmartBug/lotto.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.18](contractSource/SmartBug/lotto.sol#L7) allows old versions\n",
+        "id": "e123fdd525880693f757ae7710a004ca8a14d38c877495aa7031bfa56b2cd9b7",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sendToWinner",
+            "source_mapping": {
+              "start": 307,
+              "length": 173,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 6,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              },
+              "signature": "sendToWinner()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "winner.send(winAmount)",
+            "source_mapping": {
+              "start": 424,
+              "length": 22,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 10,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendToWinner",
+                "source_mapping": {
+                  "start": 307,
+                  "length": 173,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 6,
+                  "ending_column": 7
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 154,
+                      "length": 493,
+                      "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_relative": "contractSource/SmartBug/lotto.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_short": "contractSource/SmartBug/lotto.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 3
+                    }
+                  },
+                  "signature": "sendToWinner()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "payedOut = true",
+            "source_mapping": {
+              "start": 457,
+              "length": 15,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 10,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendToWinner",
+                "source_mapping": {
+                  "start": 307,
+                  "length": 173,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 6,
+                  "ending_column": 7
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 154,
+                      "length": 493,
+                      "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_relative": "contractSource/SmartBug/lotto.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                      "filename_short": "contractSource/SmartBug/lotto.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 3
+                    }
+                  },
+                  "signature": "sendToWinner()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "payedOut"
+            }
+          }
+        ],
+        "description": "Reentrancy in Lotto.sendToWinner() (contractSource/SmartBug/lotto.sol#17-22):\n\tExternal calls:\n\t- winner.send(winAmount) (contractSource/SmartBug/lotto.sol#20)\n\tState variables written after the call(s):\n\t- payedOut = true (contractSource/SmartBug/lotto.sol#21)\n",
+        "markdown": "Reentrancy in [Lotto.sendToWinner()](contractSource/SmartBug/lotto.sol#L17-L22):\n\tExternal calls:\n\t- [winner.send(winAmount)](contractSource/SmartBug/lotto.sol#L20)\n\tState variables written after the call(s):\n\t- [payedOut = true](contractSource/SmartBug/lotto.sol#L21)\n",
+        "id": "caaff25ea0d13e771720a1a5f637b7c0cd4ae3a657f27b8c13243224542881b1",
+        "check": "reentrancy-unlimited-gas",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "winAmount",
+            "source_mapping": {
+              "start": 240,
+              "length": 21,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 6,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              }
+            }
+          }
+        ],
+        "description": "Lotto.winAmount (contractSource/SmartBug/lotto.sol#13) should be constant\n",
+        "markdown": "[Lotto.winAmount](contractSource/SmartBug/lotto.sol#L13) should be constant\n",
+        "id": "67b66ec6ffdd0805ac7f3d8dcff8e9300e40e8a45453ce17e3143b7a10614dae",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "winner",
+            "source_mapping": {
+              "start": 212,
+              "length": 21,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 6,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              }
+            }
+          }
+        ],
+        "description": "Lotto.winner (contractSource/SmartBug/lotto.sol#12) should be constant\n",
+        "markdown": "[Lotto.winner](contractSource/SmartBug/lotto.sol#L12) should be constant\n",
+        "id": "c49b39eea9f9276dc3287753096b8701baa14f7a78aaf1971a7c87b002458c7c",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sendToWinner",
+            "source_mapping": {
+              "start": 307,
+              "length": 173,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 6,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              },
+              "signature": "sendToWinner()"
+            }
+          }
+        ],
+        "description": "sendToWinner() should be declared external:\n\t- Lotto.sendToWinner() (contractSource/SmartBug/lotto.sol#17-22)\n",
+        "markdown": "sendToWinner() should be declared external:\n\t- [Lotto.sendToWinner()](contractSource/SmartBug/lotto.sol#L17-L22)\n",
+        "id": "9b70117144ece402009a9f8ea4e6e87bc8ca36ea32da7e1c81129468c1351f4b",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawLeftOver",
+            "source_mapping": {
+              "start": 487,
+              "length": 157,
+              "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_relative": "contractSource/SmartBug/lotto.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+              "filename_short": "contractSource/SmartBug/lotto.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "starting_column": 6,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 154,
+                  "length": 493,
+                  "filename_used": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_relative": "contractSource/SmartBug/lotto.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/lotto.sol",
+                  "filename_short": "contractSource/SmartBug/lotto.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                }
+              },
+              "signature": "withdrawLeftOver()"
+            }
+          }
+        ],
+        "description": "withdrawLeftOver() should be declared external:\n\t- Lotto.withdrawLeftOver() (contractSource/SmartBug/lotto.sol#24-28)\n",
+        "markdown": "withdrawLeftOver() should be declared external:\n\t- [Lotto.withdrawLeftOver()](contractSource/SmartBug/lotto.sol#L24-L28)\n",
+        "id": "92e83a569fd1524345dd9820c5851a0a683148975fc2e8f6d37124bb00132c69",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

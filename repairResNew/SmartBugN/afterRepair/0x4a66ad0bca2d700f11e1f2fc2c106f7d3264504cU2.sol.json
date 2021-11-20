@@ -1,0 +1,939 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 179,
+              "length": 355,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 513,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)",
+            "source_mapping": {
+              "start": 453,
+              "length": 60,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 355,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 513,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.transfer(address[],uint256[]) (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#5-13) ignores return value by caddress.call(id,from,_tos[i],v[i] * 1000000000000000000) (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#10)\n",
+        "markdown": "[EBU.transfer(address[],uint256[])](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L5-L13) ignores return value by [caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L10)\n",
+        "id": "7f486af354732d08fa83046ce584cd55a655c294e34085921e6d044b5b220ad5",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 179,
+              "length": 355,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 513,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)",
+            "source_mapping": {
+              "start": 453,
+              "length": 60,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 355,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 513,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.transfer(address[],uint256[]) (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#5-13) has external calls inside a loop: caddress.call(id,from,_tos[i],v[i] * 1000000000000000000) (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#10)\n",
+        "markdown": "[EBU.transfer(address[],uint256[])](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L5-L13) has external calls inside a loop: [caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L10)\n",
+        "id": "46ab11233c99d032018af30523001d616f0d9669ccb6041fd00bf0315637cf13",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.18",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".18"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.18 (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.18](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L1) allows old versions\n",
+        "id": "8ef5c090c109206eda79d8075c24d21b9f5bd8e145721da77fb3771093f05652",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 179,
+              "length": 355,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 513,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)",
+            "source_mapping": {
+              "start": 453,
+              "length": 60,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 355,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 513,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in EBU.transfer(address[],uint256[]) (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#5-13):\n\t- caddress.call(id,from,_tos[i],v[i] * 1000000000000000000) (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#10)\n",
+        "markdown": "Low level call in [EBU.transfer(address[],uint256[])](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L5-L13):\n\t- [caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L10)\n",
+        "id": "8d828448616b4d9f3ce407e74a14c784bf6918c2d8ea2c03b360ef4e5782d89c",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_tos",
+            "source_mapping": {
+              "start": 197,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 20,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 355,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 513,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter EBU.transfer(address[],uint256[])._tos (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#5) is not in mixedCase\n",
+        "markdown": "Parameter [EBU.transfer(address[],uint256[])._tos](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L5) is not in mixedCase\n",
+        "id": "56d0cf404abac4398a07277208a8b10625275875a543546a297d116e7c804528",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 179,
+              "length": 355,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 513,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)",
+            "source_mapping": {
+              "start": 453,
+              "length": 60,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 179,
+                  "length": 355,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 513,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.transfer(address[],uint256[]) (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#5-13) uses literals with too many digits:\n\t- caddress.call(id,from,_tos[i],v[i] * 1000000000000000000) (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#10)\n",
+        "markdown": "[EBU.transfer(address[],uint256[])](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L5-L13) uses literals with too many digits:\n\t- [caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L10)\n",
+        "id": "3bd0a11b2deb5f912a1efdef5e8dcf8bad85514c2e40abc06b5e75f993e5d620",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "caddress",
+            "source_mapping": {
+              "start": 108,
+              "length": 68,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 2,
+              "ending_column": 70
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 513,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.caddress (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#4) should be constant\n",
+        "markdown": "[EBU.caddress](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L4) should be constant\n",
+        "id": "04b5b7dcb1577df7ec9b23ca1cbb298f6d8151ed4f0e300a82108af602e5a0ce",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "from",
+            "source_mapping": {
+              "start": 41,
+              "length": 64,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 66
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 513,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.from (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#3) should be constant\n",
+        "markdown": "[EBU.from](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L3) should be constant\n",
+        "id": "1b5495325dcfaf7b5e83744b61cdd61de6e2c3fedd68cdb102e041b1bf641b79",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 179,
+              "length": 355,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+              "is_dependency": false,
+              "lines": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 513,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          }
+        ],
+        "description": "transfer(address[],uint256[]) should be declared external:\n\t- EBU.transfer(address[],uint256[]) (repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#5-13)\n",
+        "markdown": "transfer(address[],uint256[]) should be declared external:\n\t- [EBU.transfer(address[],uint256[])](repairResNew/SmartBugN/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol#L5-L13)\n",
+        "id": "be1a55d4155daf60e3a63a9e5a27cc9746b0c78a092fadac690b68c39bf6a873",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

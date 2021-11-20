@@ -1,0 +1,2789 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "OceanSafeToken",
+            "source_mapping": {
+              "start": 3411,
+              "length": 525,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 2350,
+              "length": 484,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "OSC",
+                "source_mapping": {
+                  "start": 2254,
+                  "length": 1153,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "OceanSafeToken (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#105-118) has incorrect ERC20 function interface:OSC.transferFrom(address,address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#83-91)\n",
+        "markdown": "[OceanSafeToken](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L105-L118) has incorrect ERC20 function interface:[OSC.transferFrom(address,address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L83-L91)\n",
+        "id": "70ac665ca6346bc17f30c39bd8d0fd49dd620da6e9c6b07a2f6e3f567098a652",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "OceanSafeToken",
+            "source_mapping": {
+              "start": 3411,
+              "length": 525,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 2838,
+              "length": 430,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "OSC",
+                "source_mapping": {
+                  "start": 2254,
+                  "length": 1153,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "OceanSafeToken (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#105-118) has incorrect ERC20 function interface:OSC.approve(address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#92-99)\n",
+        "markdown": "[OceanSafeToken](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L105-L118) has incorrect ERC20 function interface:[OSC.approve(address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L92-L99)\n",
+        "id": "b148e07180b74eab5af9b74abb51f10533a78e7784e5c98771f2b982e871ab93",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "OceanSafeToken",
+            "source_mapping": {
+              "start": 3411,
+              "length": 525,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 433,
+              "length": 60,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 320,
+                  "length": 305,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "OceanSafeToken (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#105-118) has incorrect ERC20 function interface:ERC20.transferFrom(address,address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#17)\n",
+        "markdown": "[OceanSafeToken](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L105-L118) has incorrect ERC20 function interface:[ERC20.transferFrom(address,address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L17)\n",
+        "id": "2f7f1239061bdb975fad69c0a049f14d50263a6dbf74525457f001c65ca5b616",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "OceanSafeToken",
+            "source_mapping": {
+              "start": 3411,
+              "length": 525,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 497,
+              "length": 46,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 3,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 320,
+                  "length": 305,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "OceanSafeToken (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#105-118) has incorrect ERC20 function interface:ERC20.approve(address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#18)\n",
+        "markdown": "[OceanSafeToken](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L105-L118) has incorrect ERC20 function interface:[ERC20.approve(address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L18)\n",
+        "id": "d1ae80a4798d74df010a17f33e17b8e54d29ae2d0be2dc349ea5c4b5feb6a1dd",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "OceanSafeToken",
+            "source_mapping": {
+              "start": 3411,
+              "length": 525,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 200,
+              "length": 42,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 3,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 87,
+                  "length": 231,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "OceanSafeToken (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#105-118) has incorrect ERC20 function interface:ERC20Basic.transfer(address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#12)\n",
+        "markdown": "[OceanSafeToken](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L105-L118) has incorrect ERC20 function interface:[ERC20Basic.transfer(address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L12)\n",
+        "id": "990c36f7d4cdb8a5565a557907928c2099b36a475055b2f54b8f53dd4a9a4518",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "OceanSafeToken",
+            "source_mapping": {
+              "start": 3411,
+              "length": 525,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 1916,
+              "length": 224,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                71,
+                72,
+                73,
+                74,
+                75
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ecoToken",
+                "source_mapping": {
+                  "start": 1696,
+                  "length": 554,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "OceanSafeToken (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#105-118) has incorrect ERC20 function interface:ecoToken.transfer(address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#71-75)\n",
+        "markdown": "[OceanSafeToken](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L105-L118) has incorrect ERC20 function interface:[ecoToken.transfer(address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L71-L75)\n",
+        "id": "71550a0e88f8b98712b53d6cbc11ad1ac632ec6002babf2e307e075f41480b38",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "assert",
+            "source_mapping": {
+              "start": 1598,
+              "length": 91,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                55,
+                56,
+                57,
+                58,
+                59
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeMath",
+                "source_mapping": {
+                  "start": 629,
+                  "length": 1063,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "assert(bool)"
+            }
+          }
+        ],
+        "description": "SafeMath.assert(bool) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#55-59) (function) shadows built-in symbol\"\n",
+        "markdown": "[SafeMath.assert(bool)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L55-L59) (function) shadows built-in symbol\"\n",
+        "id": "2ed4a8d1ba6e312aa9e54b65a7bd9f8608ba30ae953b80c8ccaa4fae542dd23a",
+        "check": "shadowing-builtin",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 1671,
+              "length": 5,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                57
+              ],
+              "starting_column": 7,
+              "ending_column": 12
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "assert",
+                "source_mapping": {
+                  "start": 1598,
+                  "length": 91,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    55,
+                    56,
+                    57,
+                    58,
+                    59
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeMath",
+                    "source_mapping": {
+                      "start": 629,
+                      "length": 1063,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "assert(bool)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#57):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L57):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "e1469124605bed4403c0a37c598f719f6f40f5bd151733c5e8ded94050339779",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 1884,
+              "length": 5,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                67
+              ],
+              "starting_column": 8,
+              "ending_column": 13
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "onlyPayloadSize",
+                "source_mapping": {
+                  "start": 1799,
+                  "length": 113,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ecoToken",
+                    "source_mapping": {
+                      "start": 1696,
+                      "length": 554,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "onlyPayloadSize(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#67):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L67):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "7953170d56f336ed0569760b54e3ba1c4ca12096af50f5f017ffa54ce59bc0d5",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 3167,
+              "length": 5,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                96
+              ],
+              "starting_column": 64,
+              "ending_column": 69
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 2838,
+                  "length": 430,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "OSC",
+                    "source_mapping": {
+                      "start": 2254,
+                      "length": 1153,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#96):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L96):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "fa49e5a9204d84dcd0c94b89ef6605bad05cb82a370af03c4c92bc2f46bcf988",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.18",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".18"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.18 (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.18](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L1) allows old versions\n",
+        "id": "21b4f258ea9e7bb5d4b9327ecedd37a3035362604e1214bdbfdd361ef8c27e1e",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "ecoToken",
+            "source_mapping": {
+              "start": 1696,
+              "length": 554,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract ecoToken (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#62-79) is not in CapWords\n",
+        "markdown": "Contract [ecoToken](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L62-L79) is not in CapWords\n",
+        "id": "c482c2f72ee88f81316737eae06fcf435ca8b8924cd8ad84aa46b01a344558f8",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1934,
+              "length": 11,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 21,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1916,
+                  "length": 224,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ecoToken",
+                    "source_mapping": {
+                      "start": 1696,
+                      "length": 554,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter ecoToken.transfer(address,uint256)._to (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#71) is not in mixedCase\n",
+        "markdown": "Parameter [ecoToken.transfer(address,uint256)._to](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L71) is not in mixedCase\n",
+        "id": "e21957b079d20bf8993958d18dba563fdf9c21d36d11bc17abebb766b0d984cb",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1947,
+              "length": 11,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 34,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1916,
+                  "length": 224,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ecoToken",
+                    "source_mapping": {
+                      "start": 1696,
+                      "length": 554,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter ecoToken.transfer(address,uint256)._value (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#71) is not in mixedCase\n",
+        "markdown": "Parameter [ecoToken.transfer(address,uint256)._value](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L71) is not in mixedCase\n",
+        "id": "d0a6a7af1787cf1b5c9121ac34d034504a577311d4e49ea5fa034436e7009531",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 2163,
+              "length": 14,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                76
+              ],
+              "starting_column": 22,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "balanceOf",
+                "source_mapping": {
+                  "start": 2144,
+                  "length": 103,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    76,
+                    77,
+                    78
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ecoToken",
+                    "source_mapping": {
+                      "start": 1696,
+                      "length": 554,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "balanceOf(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter ecoToken.balanceOf(address)._owner (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#76) is not in mixedCase\n",
+        "markdown": "Parameter [ecoToken.balanceOf(address)._owner](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L76) is not in mixedCase\n",
+        "id": "8cbc3d55da89846c756071cbd3353d214c2fde42f5fcf78a6887ca75d608c153",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_from",
+            "source_mapping": {
+              "start": 2372,
+              "length": 13,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                83
+              ],
+              "starting_column": 25,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 2350,
+                  "length": 484,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "OSC",
+                    "source_mapping": {
+                      "start": 2254,
+                      "length": 1153,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter OSC.transferFrom(address,address,uint256)._from (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#83) is not in mixedCase\n",
+        "markdown": "Parameter [OSC.transferFrom(address,address,uint256)._from](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L83) is not in mixedCase\n",
+        "id": "7dc682e8caf7d1c6158ec1ba46c1ff515780ddddcb764a2fd26062ecd51e6a51",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 2387,
+              "length": 11,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                83
+              ],
+              "starting_column": 40,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 2350,
+                  "length": 484,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "OSC",
+                    "source_mapping": {
+                      "start": 2254,
+                      "length": 1153,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter OSC.transferFrom(address,address,uint256)._to (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#83) is not in mixedCase\n",
+        "markdown": "Parameter [OSC.transferFrom(address,address,uint256)._to](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L83) is not in mixedCase\n",
+        "id": "5cccc3184d8746e95fca78def95d6d0a2363d9d2fd639612f082a4b63caef51c",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 2400,
+              "length": 11,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                83
+              ],
+              "starting_column": 53,
+              "ending_column": 64
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 2350,
+                  "length": 484,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "OSC",
+                    "source_mapping": {
+                      "start": 2254,
+                      "length": 1153,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter OSC.transferFrom(address,address,uint256)._value (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#83) is not in mixedCase\n",
+        "markdown": "Parameter [OSC.transferFrom(address,address,uint256)._value](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L83) is not in mixedCase\n",
+        "id": "29a63dffe461ff1c2dbb5dd50fb53530e005fdbb6abf58054b52276ce673ebc5",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 2855,
+              "length": 16,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                92
+              ],
+              "starting_column": 20,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 2838,
+                  "length": 430,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "OSC",
+                    "source_mapping": {
+                      "start": 2254,
+                      "length": 1153,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter OSC.approve(address,uint256)._spender (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#92) is not in mixedCase\n",
+        "markdown": "Parameter [OSC.approve(address,uint256)._spender](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L92) is not in mixedCase\n",
+        "id": "33b33d5e348d78ba2e32e995b7890471e688f311c3c961b8c048d8281a7d61c7",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 2873,
+              "length": 11,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                92
+              ],
+              "starting_column": 38,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 2838,
+                  "length": 430,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "OSC",
+                    "source_mapping": {
+                      "start": 2254,
+                      "length": 1153,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter OSC.approve(address,uint256)._value (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#92) is not in mixedCase\n",
+        "markdown": "Parameter [OSC.approve(address,uint256)._value](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L92) is not in mixedCase\n",
+        "id": "595a5d1a07112f6c06b8d290e8ed73ecdec1a4e8f57cd783294da934ef781775",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 3291,
+              "length": 14,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                100
+              ],
+              "starting_column": 22,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 3272,
+                  "length": 132,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    100,
+                    101,
+                    102
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "OSC",
+                    "source_mapping": {
+                      "start": 2254,
+                      "length": 1153,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter OSC.allowance(address,address)._owner (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#100) is not in mixedCase\n",
+        "markdown": "Parameter [OSC.allowance(address,address)._owner](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L100) is not in mixedCase\n",
+        "id": "cb664de82886ea356bf12f4418213e41b3316e50c19dfdf83a7c9a50df001183",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 3307,
+              "length": 16,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                100
+              ],
+              "starting_column": 38,
+              "ending_column": 54
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 3272,
+                  "length": 132,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    100,
+                    101,
+                    102
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "OSC",
+                    "source_mapping": {
+                      "start": 2254,
+                      "length": 1153,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter OSC.allowance(address,address)._spender (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#100) is not in mixedCase\n",
+        "markdown": "Parameter [OSC.allowance(address,address)._spender](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L100) is not in mixedCase\n",
+        "id": "8f305ca944d7f8625fbc9746cdc65d9b677f60f6ae0715b6fdfd8c802c82d52a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "OceanSafeToken",
+            "source_mapping": {
+              "start": 3617,
+              "length": 316,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "OceanSafeToken",
+                "source_mapping": {
+                  "start": 3411,
+                  "length": 525,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "OceanSafeToken()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "totalSupply = 25000000 * 10 ** decimals",
+            "source_mapping": {
+              "start": 3653,
+              "length": 39,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                112
+              ],
+              "starting_column": 6,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "OceanSafeToken",
+                "source_mapping": {
+                  "start": 3617,
+                  "length": 316,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "OceanSafeToken",
+                    "source_mapping": {
+                      "start": 3411,
+                      "length": 525,
+                      "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "OceanSafeToken()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "OceanSafeToken.OceanSafeToken() (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#111-117) uses literals with too many digits:\n\t- totalSupply = 25000000 * 10 ** decimals (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#112)\n",
+        "markdown": "[OceanSafeToken.OceanSafeToken()](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L111-L117) uses literals with too many digits:\n\t- [totalSupply = 25000000 * 10 ** decimals](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L112)\n",
+        "id": "3aa0b70925a20a2c865b6ca777b90117bbc8e140ee8c9877320bfd6bf484f086",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 140,
+              "length": 56,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 3,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 87,
+                  "length": 231,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 2144,
+              "length": 103,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                76,
+                77,
+                78
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ecoToken",
+                "source_mapping": {
+                  "start": 1696,
+                  "length": 554,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- ERC20Basic.balanceOf(address) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#11)\n\t- ecoToken.balanceOf(address) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#76-78)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [ERC20Basic.balanceOf(address)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L11)\n\t- [ecoToken.balanceOf(address)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L76-L78)\n",
+        "id": "f910647012106746d3b88d9d253296c9028502dee753f680e3e07357d8e01367",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 1916,
+              "length": 224,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                71,
+                72,
+                73,
+                74,
+                75
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ecoToken",
+                "source_mapping": {
+                  "start": 1696,
+                  "length": 554,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 200,
+              "length": 42,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 3,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 87,
+                  "length": 231,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- ecoToken.transfer(address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#71-75)\n\t- ERC20Basic.transfer(address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#12)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [ecoToken.transfer(address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L71-L75)\n\t- [ERC20Basic.transfer(address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L12)\n",
+        "id": "ecbfaa37bb9fdaa033b86cab032b7405911b0c37a17c78ee864f8a64f0e8d11b",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 3272,
+              "length": 132,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                100,
+                101,
+                102
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "OSC",
+                "source_mapping": {
+                  "start": 2254,
+                  "length": 1153,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 354,
+              "length": 75,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 3,
+              "ending_column": 78
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 320,
+                  "length": 305,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          }
+        ],
+        "description": "allowance(address,address) should be declared external:\n\t- OSC.allowance(address,address) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#100-102)\n\t- ERC20.allowance(address,address) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#16)\n",
+        "markdown": "allowance(address,address) should be declared external:\n\t- [OSC.allowance(address,address)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L100-L102)\n\t- [ERC20.allowance(address,address)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L16)\n",
+        "id": "11de3686cfc912768e0957b58b7d668f261c317b1998d50bbef66a036df56efe",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 2350,
+              "length": 484,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "OSC",
+                "source_mapping": {
+                  "start": 2254,
+                  "length": 1153,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 433,
+              "length": 60,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 320,
+                  "length": 305,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256) should be declared external:\n\t- OSC.transferFrom(address,address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#83-91)\n\t- ERC20.transferFrom(address,address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#17)\n",
+        "markdown": "transferFrom(address,address,uint256) should be declared external:\n\t- [OSC.transferFrom(address,address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L83-L91)\n\t- [ERC20.transferFrom(address,address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L17)\n",
+        "id": "eff5f337a24a69c485c6a8af639c5a1fcf3bbe8e8bb68e5610609770acb5483b",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 497,
+              "length": 46,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 3,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 320,
+                  "length": 305,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 2838,
+              "length": 430,
+              "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+              "is_dependency": false,
+              "lines": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "OSC",
+                "source_mapping": {
+                  "start": 2254,
+                  "length": 1153,
+                  "filename_used": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_relative": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "filename_short": "contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "approve(address,uint256) should be declared external:\n\t- ERC20.approve(address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#18)\n\t- OSC.approve(address,uint256) (contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#92-99)\n",
+        "markdown": "approve(address,uint256) should be declared external:\n\t- [ERC20.approve(address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L18)\n\t- [OSC.approve(address,uint256)](contractSource/TSE/0x827d41446a2cb012d3011b94f525d6c46b32866d.sol#L92-L99)\n",
+        "id": "d0d05cc7e8b5855c9f60b68633d537c70d3a44cc45cf6c9001c3e7d66fb6c794",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

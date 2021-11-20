@@ -1,0 +1,511 @@
+[
+    {
+        "name": "ApplauseCash_crowdsaleR2U1.sol",
+        "defect": []
+    },
+    {
+        "name": "Easy_Mine_ICOR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    256,
+                    278
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    290
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "ApplauseCash_crowdsaleR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    174,
+                    263
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "Lescoin_presaleU1.sol",
+        "defect": []
+    },
+    {
+        "name": "MXToken_crowdsaleU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    136
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "dgameU1.sol",
+        "defect": []
+    },
+    {
+        "name": "Siring_Clock_AuctionR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    595,
+                    625,
+                    359
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "MXToken_crowdsaleU1.sol",
+        "defect": []
+    },
+    {
+        "name": "HDL_presaleU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    214,
+                    224,
+                    229
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "ClassyCoinR2U1.sol",
+        "defect": []
+    },
+    {
+        "name": "Privatix_presaleU1.sol",
+        "defect": []
+    },
+    {
+        "name": "Yobcoin_crowdsaleR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    367
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "ClassyCoinR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    170
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "Classy_Coin_AirdropU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    31,
+                    38
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "Yobcoin_crowdsaleR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    365
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    254,
+                    259
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "Easy_Mine_ICOR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    256,
+                    278,
+                    206,
+                    109
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "AirdropU1.sol",
+        "defect": []
+    },
+    {
+        "name": "BananaCoinR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    105
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "Easy_Mine_ICOR2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    256,
+                    278
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "AirdropU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    20,
+                    26,
+                    32,
+                    38
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "Classy_Coin_AirdropU1.sol",
+        "defect": []
+    },
+    {
+        "name": "Easy_Mine_ICOR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    256,
+                    278,
+                    206,
+                    109
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    290
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "ApplauseCash_crowdsaleR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    247
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "Lescoin_presaleU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    323,
+                    340
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "Yobcoin_crowdsaleR2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    367
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "Siring_Clock_AuctionR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    594,
+                    361
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "Siring_Clock_AuctionR2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    595,
+                    362
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "ApplauseCash_crowdsaleR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    246
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    174,
+                    263
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "OKOToken_ICOR2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    168
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "XGold_CoinU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    182,
+                    223
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "HDL_presaleU1.sol",
+        "defect": []
+    },
+    {
+        "name": "OKOToken_ICOR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    167,
+                    147
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    147,
+                    167,
+                    168,
+                    182
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "dgameU2.sol",
+        "defect": []
+    },
+    {
+        "name": "OKOToken_ICOR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    167
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    154,
+                    167,
+                    175,
+                    182
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "BananaCoinR2U1.sol",
+        "defect": []
+    },
+    {
+        "name": "BananaCoinR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    103
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "ClassyCoinR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    169
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "Hodbo_crowdsaleU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    150,
+                    205
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "BananaCoinR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    103
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    103
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "Autonio_ICOU2.sol",
+        "defect": []
+    },
+    {
+        "name": "OKOToken_ICOR1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    168,
+                    147
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "Privatix_presaleU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    54
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "Yobcoin_crowdsaleR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    365
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    254,
+                    259
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "ClassyCoinR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    169
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    169
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    "failed",
+    {
+        "name": "Hodbo_crowdsaleU1.sol",
+        "defect": []
+    },
+    {
+        "name": "Siring_Clock_AuctionR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    594,
+                    624,
+                    359
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "XGold_CoinU1.sol",
+        "defect": []
+    }
+]

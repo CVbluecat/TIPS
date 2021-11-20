@@ -1,0 +1,2029 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "BullionExchangeToken",
+            "source_mapping": {
+              "start": 24,
+              "length": 1283,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 831,
+              "length": 257,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BullionExchangeToken",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 1283,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "BullionExchangeToken (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#2-49) has incorrect ERC20 function interface:BullionExchangeToken.transfer(address,uint256) (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#31-39)\n",
+        "markdown": "[BullionExchangeToken](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L2-L49) has incorrect ERC20 function interface:[BullionExchangeToken.transfer(address,uint256)](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L31-L39)\n",
+        "id": "72792813ff14107e936b08b5e8fc34a2a0a1e4d7a17b763b17b53363b53196ef",
+        "check": "erc20-interface",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 925,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                33
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 831,
+                  "length": 257,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BullionExchangeToken",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 1283,
+                      "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#33):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L33):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "452e3feff7753c5cdfcc409de0de295d851b73a5d071080d7566ce89abb07acb",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 981,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                35
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 831,
+                  "length": 257,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BullionExchangeToken",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 1283,
+                      "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#35):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L35):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "b6044c1715269927600b6f72a7c43cec712efefe101b53b6aa1657a7b15c81b8",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 503,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "onlyOwner",
+                "source_mapping": {
+                  "start": 454,
+                  "length": 71,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BullionExchangeToken",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 1283,
+                      "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "onlyOwner()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#16):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L16):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "604adb41247631cb4b0f4537f50e639d461974009c0617bb9160bbdef604e799",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.2",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".2"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.2 (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.2](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L1) allows old versions\n",
+        "id": "17844cbb31d9411b7bd2f3c2580022b5180a5817def32499eed71fe4ef50bd20",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 849,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 20,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 831,
+                  "length": 257,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BullionExchangeToken",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 1283,
+                      "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter BullionExchangeToken.transfer(address,uint256)._to (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#31) is not in mixedCase\n",
+        "markdown": "Parameter [BullionExchangeToken.transfer(address,uint256)._to](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L31) is not in mixedCase\n",
+        "id": "ff5ce59a50ec0340b77417ec8947e55040957c04201d8561467c7ff1a8990b70",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 862,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 33,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 831,
+                  "length": 257,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BullionExchangeToken",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 1283,
+                      "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter BullionExchangeToken.transfer(address,uint256)._value (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#31) is not in mixedCase\n",
+        "markdown": "Parameter [BullionExchangeToken.transfer(address,uint256)._value](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L31) is not in mixedCase\n",
+        "id": "e60cc956c7d0311808ec3a13420cc04bb77176a4c0b533970b9466179312cd68",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 1107,
+              "length": 16,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                40
+              ],
+              "starting_column": 19,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 1090,
+                  "length": 140,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BullionExchangeToken",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 1283,
+                      "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter BullionExchangeToken.approve(address,uint256)._spender (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#40) is not in mixedCase\n",
+        "markdown": "Parameter [BullionExchangeToken.approve(address,uint256)._spender](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L40) is not in mixedCase\n",
+        "id": "8da447a80ed88f19045b79f6cff5d98ee378b7be0633b23c1aefb35915271908",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1125,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                40
+              ],
+              "starting_column": 37,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 1090,
+                  "length": 140,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BullionExchangeToken",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 1283,
+                      "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter BullionExchangeToken.approve(address,uint256)._value (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#40) is not in mixedCase\n",
+        "markdown": "Parameter [BullionExchangeToken.approve(address,uint256)._value](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L40) is not in mixedCase\n",
+        "id": "f043d2c8c103ecfe910d96b86383fd8acca7b1d0e7b45c574a026b6cee6e767a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "constructor",
+            "source_mapping": {
+              "start": 527,
+              "length": 302,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BullionExchangeToken",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 1283,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "constructor()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "balanceOf[firstOwner] = 100000000000000000",
+            "source_mapping": {
+              "start": 633,
+              "length": 42,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 44
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 527,
+                  "length": 302,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BullionExchangeToken",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 1283,
+                      "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "constructor()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "BullionExchangeToken.constructor() (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#20-30) uses literals with too many digits:\n\t- balanceOf[firstOwner] = 100000000000000000 (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#23)\n",
+        "markdown": "[BullionExchangeToken.constructor()](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L20-L30) uses literals with too many digits:\n\t- [balanceOf[firstOwner] = 100000000000000000](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L23)\n",
+        "id": "d567c53dc9b489887f951ee0364f50298ba61edc9e7768bd6df7c748395a9144",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "constructor",
+            "source_mapping": {
+              "start": 527,
+              "length": 302,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BullionExchangeToken",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 1283,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "constructor()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "totalSupply = 100000000000000000",
+            "source_mapping": {
+              "start": 678,
+              "length": 32,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 2,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 527,
+                  "length": 302,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BullionExchangeToken",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 1283,
+                      "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "constructor()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "BullionExchangeToken.constructor() (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#20-30) uses literals with too many digits:\n\t- totalSupply = 100000000000000000 (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#24)\n",
+        "markdown": "[BullionExchangeToken.constructor()](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L20-L30) uses literals with too many digits:\n\t- [totalSupply = 100000000000000000](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L24)\n",
+        "id": "5eefd30b18b4c4e8615894adf40a0d76138a4de6d3e4e361e0a219cceb71c137",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "standard",
+            "source_mapping": {
+              "start": 57,
+              "length": 36,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BullionExchangeToken",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 1283,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "BullionExchangeToken.standard (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#3) should be constant\n",
+        "markdown": "[BullionExchangeToken.standard](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L3) should be constant\n",
+        "id": "068c712d44677321f56e1c55fc66bc0a61b5f0e1269fd22b0ab6e823774d0a64",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 831,
+              "length": 257,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BullionExchangeToken",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 1283,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- BullionExchangeToken.transfer(address,uint256) (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#31-39)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [BullionExchangeToken.transfer(address,uint256)](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L31-L39)\n",
+        "id": "336756ed1d8e80951d12d0fb250a29e3c927456b0b478a89bd3179578a324725",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 1090,
+              "length": 140,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BullionExchangeToken",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 1283,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "approve(address,uint256) should be declared external:\n\t- BullionExchangeToken.approve(address,uint256) (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#40-43)\n",
+        "markdown": "approve(address,uint256) should be declared external:\n\t- [BullionExchangeToken.approve(address,uint256)](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L40-L43)\n",
+        "id": "d770531ab20512260f0fbd3c9ccf140160009063937bf5ecb9f317235cfa6d41",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "collectExcess",
+            "source_mapping": {
+              "start": 1232,
+              "length": 46,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                44,
+                45
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BullionExchangeToken",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 1283,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "collectExcess()"
+            }
+          }
+        ],
+        "description": "collectExcess() should be declared external:\n\t- BullionExchangeToken.collectExcess() (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#44-45)\n",
+        "markdown": "collectExcess() should be declared external:\n\t- [BullionExchangeToken.collectExcess()](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L44-L45)\n",
+        "id": "0118c58f6d5fcaff63e95bbee9c1387045dbd6a887bd48c827f2dbb144c92418",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 1280,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+              "is_dependency": false,
+              "lines": [
+                46,
+                47
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BullionExchangeToken",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 1283,
+                  "filename_used": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_relative": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "filename_short": "repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- BullionExchangeToken.fallback() (repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#46-47)\n",
+        "markdown": "fallback() should be declared external:\n\t- [BullionExchangeToken.fallback()](repairResNew/TSEN/0x84e8a50ca43e8f26094799ba60705475cf2b9832U2.sol#L46-L47)\n",
+        "id": "1e1242fd502786ab8e9f3be871d6f62815968aee333a2e52293dd1664a0b3057",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3630 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Put",
+            "source_mapping": {
+              "start": 432,
+              "length": 231,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Put(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "now + _lockTime > acc.unlockTime",
+            "source_mapping": {
+              "start": 537,
+              "length": 32,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                27
+              ],
+              "starting_column": 5,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Put",
+                "source_mapping": {
+                  "start": 432,
+                  "length": 231,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Put(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MONEY_BOX.Put(uint256) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#24-31) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- now + _lockTime > acc.unlockTime (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#27)\n",
+        "markdown": "[MONEY_BOX.Put(uint256)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L24-L31) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [now + _lockTime > acc.unlockTime](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L27)\n",
+        "id": "6f10cbebb844c6aad0365ab3f6713e4c79fa7d161277e007139f93540742ce89",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Collect",
+            "source_mapping": {
+              "start": 665,
+              "length": 267,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Collect(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "acc.balance >= MinSum && acc.balance >= _am && now > acc.unlockTime",
+            "source_mapping": {
+              "start": 741,
+              "length": 67,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                34
+              ],
+              "starting_column": 5,
+              "ending_column": 72
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 665,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MONEY_BOX.Collect(uint256) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#32-42) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- acc.balance >= MinSum && acc.balance >= _am && now > acc.unlockTime (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#34)\n",
+        "markdown": "[MONEY_BOX.Collect(uint256)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L32-L42) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [acc.balance >= MinSum && acc.balance >= _am && now > acc.unlockTime](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L34)\n",
+        "id": "e2b903fd49ba7edfa3a767d23eb8432aa1864265c5addbdceadfe154b9b39c51",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 251,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "SetMinSum",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 84,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "SetMinSum(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#13):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L13):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "22d9754bc3d40fab74ee6af1bbe32f27be13237f74793c7de19a2db890c3079b",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 341,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "SetLogFile",
+                "source_mapping": {
+                  "start": 279,
+                  "length": 94,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "SetLogFile(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#18):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L18):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "c1e2a2bea18dc6e1eafde04536292df92411f39d1c557d8fa3fbe35cc7bcf840",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 919,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                40
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 665,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#40):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L40):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "1cac9a30bf85590a49f5c212251ed50cc7effb6ad99d490e5b89ed8a69b64459",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L1) allows old versions\n",
+        "id": "3b55efd94310a7699fed5875a58b062964b47408b6b868df7a5fe062ae4d950a",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "MONEY_BOX",
+            "source_mapping": {
+              "start": 25,
+              "length": 953,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract MONEY_BOX (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#2-47) is not in CapWords\n",
+        "markdown": "Contract [MONEY_BOX](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L2-L47) is not in CapWords\n",
+        "id": "d71b2334ce801634c0a5536e478b1d3efdee47b74a64e1e420ce1d2ac86b07d7",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "SetMinSum",
+            "source_mapping": {
+              "start": 193,
+              "length": 84,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "SetMinSum(uint256)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function MONEY_BOX.SetMinSum(uint256) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#11-15) is not in mixedCase\n",
+        "markdown": "Function [MONEY_BOX.SetMinSum(uint256)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L11-L15) is not in mixedCase\n",
+        "id": "1b5ec7654f7f296b5c63fff67e6f68a43e344c4d4dd7a4b6cb698c494f80e5bf",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_val",
+            "source_mapping": {
+              "start": 212,
+              "length": 9,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 21,
+              "ending_column": 30
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "SetMinSum",
+                "source_mapping": {
+                  "start": 193,
+                  "length": 84,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "SetMinSum(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter MONEY_BOX.SetMinSum(uint256)._val (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#11) is not in mixedCase\n",
+        "markdown": "Parameter [MONEY_BOX.SetMinSum(uint256)._val](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L11) is not in mixedCase\n",
+        "id": "70ad0638d5afea388332fb58c4a350f954707995a8e8808c1150ec9b4d6adccb",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "SetLogFile",
+            "source_mapping": {
+              "start": 279,
+              "length": 94,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "SetLogFile(address)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function MONEY_BOX.SetLogFile(address) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#16-20) is not in mixedCase\n",
+        "markdown": "Function [MONEY_BOX.SetLogFile(address)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L16-L20) is not in mixedCase\n",
+        "id": "37f315fbf496066d7ad9be35710531c0bac6c28549935bdef98e720c628ee0b0",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_log",
+            "source_mapping": {
+              "start": 299,
+              "length": 12,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 22,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "SetLogFile",
+                "source_mapping": {
+                  "start": 279,
+                  "length": 94,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "SetLogFile(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter MONEY_BOX.SetLogFile(address)._log (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#16) is not in mixedCase\n",
+        "markdown": "Parameter [MONEY_BOX.SetLogFile(address)._log](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L16) is not in mixedCase\n",
+        "id": "8e1545fdbe7be185bbb0fa37207609ca035cd351d0c268496656a4caf6902ba2",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Initialized",
+            "source_mapping": {
+              "start": 375,
+              "length": 55,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Initialized()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function MONEY_BOX.Initialized() (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#21-23) is not in mixedCase\n",
+        "markdown": "Function [MONEY_BOX.Initialized()](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L21-L23) is not in mixedCase\n",
+        "id": "dba7e166e257e23d9308fa1208e0ab3f64352334e871734c32907098fd2ad866",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Put",
+            "source_mapping": {
+              "start": 432,
+              "length": 231,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Put(uint256)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function MONEY_BOX.Put(uint256) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#24-31) is not in mixedCase\n",
+        "markdown": "Function [MONEY_BOX.Put(uint256)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L24-L31) is not in mixedCase\n",
+        "id": "5692f77532062ee7965e93ac0fa7569cd4808d804a78dd8264053b00a77f8f3d",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_lockTime",
+            "source_mapping": {
+              "start": 445,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 15,
+              "ending_column": 29
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Put",
+                "source_mapping": {
+                  "start": 432,
+                  "length": 231,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Put(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter MONEY_BOX.Put(uint256)._lockTime (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#24) is not in mixedCase\n",
+        "markdown": "Parameter [MONEY_BOX.Put(uint256)._lockTime](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L24) is not in mixedCase\n",
+        "id": "c2dcb70daa7ad288375ba48c4168a84b59fa72b78a5283d391e0482618d659c7",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Collect",
+            "source_mapping": {
+              "start": 665,
+              "length": 267,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Collect(uint256)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function MONEY_BOX.Collect(uint256) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#32-42) is not in mixedCase\n",
+        "markdown": "Function [MONEY_BOX.Collect(uint256)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L32-L42) is not in mixedCase\n",
+        "id": "bdc107a0ef65aad1098278e10c38d1c3424f5fa5a47058d8243b906fe4c00657",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_am",
+            "source_mapping": {
+              "start": 682,
+              "length": 8,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                32
+              ],
+              "starting_column": 19,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 665,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter MONEY_BOX.Collect(uint256)._am (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#32) is not in mixedCase\n",
+        "markdown": "Parameter [MONEY_BOX.Collect(uint256)._am](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L32) is not in mixedCase\n",
+        "id": "f7d1e8e3120d1efb2a283529a78131ae5fc9c617e2ff1db7a581899751ec1a47",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Acc",
+            "source_mapping": {
+              "start": 99,
+              "length": 37,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 2,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MONEY_BOX.Acc (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#7) is not in mixedCase\n",
+        "markdown": "Variable [MONEY_BOX.Acc](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L7) is not in mixedCase\n",
+        "id": "22a29b6d7af2eee13de0041a189880cf9586ecdfcd2be8c26e1aebf7daafa488",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "MinSum",
+            "source_mapping": {
+              "start": 139,
+              "length": 18,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 20
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MONEY_BOX.MinSum (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#8) is not in mixedCase\n",
+        "markdown": "Variable [MONEY_BOX.MinSum](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L8) is not in mixedCase\n",
+        "id": "d41d2de8daaa1d9e1e452011579b1791ee6de56450053a177407b81626913ab6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "LogFile",
+            "source_mapping": {
+              "start": 160,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 13
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MONEY_BOX.LogFile (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#9) is not in mixedCase\n",
+        "markdown": "Variable [MONEY_BOX.LogFile](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L9) is not in mixedCase\n",
+        "id": "6388aff4f583baa769668a7508cdfad13d87df3fe09ec389d90c98ae065650f3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AddMessage",
+            "source_mapping": {
+              "start": 1113,
+              "length": 183,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 978,
+                  "length": 322,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "AddMessage(address,uint256,string)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Log.AddMessage(address,uint256,string) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#56-62) is not in mixedCase\n",
+        "markdown": "Function [Log.AddMessage(address,uint256,string)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L56-L62) is not in mixedCase\n",
+        "id": "66845808355de3f3587edbe6bbedff5a7c9999f313d0d294df63fe67cab6561d",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_adr",
+            "source_mapping": {
+              "start": 1133,
+              "length": 12,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                56
+              ],
+              "starting_column": 22,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "AddMessage",
+                "source_mapping": {
+                  "start": 1113,
+                  "length": 183,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Log",
+                    "source_mapping": {
+                      "start": 978,
+                      "length": 322,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "AddMessage(address,uint256,string)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Log.AddMessage(address,uint256,string)._adr (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#56) is not in mixedCase\n",
+        "markdown": "Parameter [Log.AddMessage(address,uint256,string)._adr](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L56) is not in mixedCase\n",
+        "id": "448884c0105492c21390b147b3b28938f500bd38e5c7db3e49f77082b4ae5901",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_val",
+            "source_mapping": {
+              "start": 1147,
+              "length": 9,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                56
+              ],
+              "starting_column": 36,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "AddMessage",
+                "source_mapping": {
+                  "start": 1113,
+                  "length": 183,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Log",
+                    "source_mapping": {
+                      "start": 978,
+                      "length": 322,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "AddMessage(address,uint256,string)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Log.AddMessage(address,uint256,string)._val (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#56) is not in mixedCase\n",
+        "markdown": "Parameter [Log.AddMessage(address,uint256,string)._val](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L56) is not in mixedCase\n",
+        "id": "cf299a7fd737d25b044f24bab1472ef4ad0e03e2e83f1589cc97dcd942c3b397",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_data",
+            "source_mapping": {
+              "start": 1158,
+              "length": 12,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                56
+              ],
+              "starting_column": 47,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "AddMessage",
+                "source_mapping": {
+                  "start": 1113,
+                  "length": 183,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Log",
+                    "source_mapping": {
+                      "start": 978,
+                      "length": 322,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "AddMessage(address,uint256,string)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Log.AddMessage(address,uint256,string)._data (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#56) is not in mixedCase\n",
+        "markdown": "Parameter [Log.AddMessage(address,uint256,string)._data](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L56) is not in mixedCase\n",
+        "id": "88ef89222b78c5ba078f8cd13354a82ff13db1aa11aa346db18dff995e21d93a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "History",
+            "source_mapping": {
+              "start": 1068,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                54
+              ],
+              "starting_column": 2,
+              "ending_column": 26
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 978,
+                  "length": 322,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Log.History (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#54) is not in mixedCase\n",
+        "markdown": "Variable [Log.History](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L54) is not in mixedCase\n",
+        "id": "090079b92801e672b64f5cf8142250c73d1664e3eed3713db0903af415c9a693",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "LastMsg",
+            "source_mapping": {
+              "start": 1095,
+              "length": 15,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                55
+              ],
+              "starting_column": 2,
+              "ending_column": 17
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 978,
+                  "length": 322,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Log.LastMsg (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#55) is not in mixedCase\n",
+        "markdown": "Variable [Log.LastMsg](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L55) is not in mixedCase\n",
+        "id": "09c76985dbe5bf29a2f821cb43652fc650f0254c08215e77779e7a73be035074",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Collect",
+            "source_mapping": {
+              "start": 665,
+              "length": 267,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Collect(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(_am)",
+            "source_mapping": {
+              "start": 815,
+              "length": 20,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                35
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 665,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "acc.balance -= _am",
+            "source_mapping": {
+              "start": 839,
+              "length": 18,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                36
+              ],
+              "starting_column": 2,
+              "ending_column": 20
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 665,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MONEY_BOX",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 953,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "Acc"
+            }
+          }
+        ],
+        "description": "Reentrancy in MONEY_BOX.Collect(uint256) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#32-42):\n\tExternal calls:\n\t- msg.sender.send(_am) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#35)\n\tState variables written after the call(s):\n\t- acc.balance -= _am (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#36)\n",
+        "markdown": "Reentrancy in [MONEY_BOX.Collect(uint256)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L32-L42):\n\tExternal calls:\n\t- [msg.sender.send(_am)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L35)\n\tState variables written after the call(s):\n\t- [acc.balance -= _am](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L36)\n",
+        "id": "e19bafe67bba8f9c35b9c3e73652259dec96bf3b66de1f669a83c426d3a95297",
+        "check": "reentrancy-unlimited-gas",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "SetMinSum",
+            "source_mapping": {
+              "start": 193,
+              "length": 84,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "SetMinSum(uint256)"
+            }
+          }
+        ],
+        "description": "SetMinSum(uint256) should be declared external:\n\t- MONEY_BOX.SetMinSum(uint256) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#11-15)\n",
+        "markdown": "SetMinSum(uint256) should be declared external:\n\t- [MONEY_BOX.SetMinSum(uint256)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L11-L15)\n",
+        "id": "dc92eac6ecfac264e75793a9059cea75dc54ad1d673e536a4624f9f736360180",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "SetLogFile",
+            "source_mapping": {
+              "start": 279,
+              "length": 94,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "SetLogFile(address)"
+            }
+          }
+        ],
+        "description": "SetLogFile(address) should be declared external:\n\t- MONEY_BOX.SetLogFile(address) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#16-20)\n",
+        "markdown": "SetLogFile(address) should be declared external:\n\t- [MONEY_BOX.SetLogFile(address)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L16-L20)\n",
+        "id": "a8254bb7d1b9ccfdcef8d78e6127ac4fd0ea53ac46430196e01be2a13a9ccaaa",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Initialized",
+            "source_mapping": {
+              "start": 375,
+              "length": 55,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Initialized()"
+            }
+          }
+        ],
+        "description": "Initialized() should be declared external:\n\t- MONEY_BOX.Initialized() (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#21-23)\n",
+        "markdown": "Initialized() should be declared external:\n\t- [MONEY_BOX.Initialized()](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L21-L23)\n",
+        "id": "6afebfd8aa12da00c113d06b39dbf9711ea46c454b39e629a60be2f67037b34f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Collect",
+            "source_mapping": {
+              "start": 665,
+              "length": 267,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Collect(uint256)"
+            }
+          }
+        ],
+        "description": "Collect(uint256) should be declared external:\n\t- MONEY_BOX.Collect(uint256) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#32-42)\n",
+        "markdown": "Collect(uint256) should be declared external:\n\t- [MONEY_BOX.Collect(uint256)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L32-L42)\n",
+        "id": "037c22c383b66946e7c74b41e7efb8370ecf06aa04e5de33dc0ab1be837ebe57",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 934,
+              "length": 40,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                43,
+                44,
+                45
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MONEY_BOX",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 953,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- MONEY_BOX.fallback() (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#43-45)\n",
+        "markdown": "fallback() should be declared external:\n\t- [MONEY_BOX.fallback()](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L43-L45)\n",
+        "id": "29461193c5ab920d294aaa8a317f7e9d9d5cfd5d9f81e04d100b6a91d0f5edf0",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AddMessage",
+            "source_mapping": {
+              "start": 1113,
+              "length": 183,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+              "is_dependency": false,
+              "lines": [
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 978,
+                  "length": 322,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "AddMessage(address,uint256,string)"
+            }
+          }
+        ],
+        "description": "AddMessage(address,uint256,string) should be declared external:\n\t- Log.AddMessage(address,uint256,string) (repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#56-62)\n",
+        "markdown": "AddMessage(address,uint256,string) should be declared external:\n\t- [Log.AddMessage(address,uint256,string)](repairResNew/SmartBugN/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol#L56-L62)\n",
+        "id": "4c8a4094e2c32c05d0bef5e9b094853cb3f7403b260edf76439824f829f297b6",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

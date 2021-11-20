@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "makeOldFucks",
+            "source_mapping": {
+              "start": 114,
+              "length": 152,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "RealOldFuckMaker",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 245,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "makeOldFucks(uint32)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! fuck.call(bytes4(sha3()(giveBlockReward())))",
+            "source_mapping": {
+              "start": 203,
+              "length": 46,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "makeOldFucks",
+                "source_mapping": {
+                  "start": 114,
+                  "length": 152,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "RealOldFuckMaker",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 245,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "makeOldFucks(uint32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "RealOldFuckMaker.makeOldFucks(uint32) (repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#4-10) has external calls inside a loop: ! fuck.call(bytes4(sha3()(giveBlockReward()))) (repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#7)\n",
+        "markdown": "[RealOldFuckMaker.makeOldFucks(uint32)](repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#L4-L10) has external calls inside a loop: [! fuck.call(bytes4(sha3()(giveBlockReward())))](repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#L7)\n",
+        "id": "750fbcaa307d917cc60aea0c31a653aa678381d20e6dda125012d476af291b90",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "! fuck.call(bytes4(sha3()(giveBlockReward())))",
+            "source_mapping": {
+              "start": 203,
+              "length": 46,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "makeOldFucks",
+                "source_mapping": {
+                  "start": 114,
+                  "length": 152,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "RealOldFuckMaker",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 245,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "makeOldFucks(uint32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected ! fuck.call(bytes4(sha3()(giveBlockReward()))) (repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#7):\n\t- Usage of \"sha3()\" should be replaced with \"keccak256()\"\n",
+        "markdown": "Deprecated standard detected [! fuck.call(bytes4(sha3()(giveBlockReward())))](repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#L7):\n\t- Usage of \"sha3()\" should be replaced with \"keccak256()\"\n",
+        "id": "4e5d83f7e93b1252ce456ddd8c336e37332b9981ad6f6033d9a1cc66819c0c1b",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 253,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "makeOldFucks",
+                "source_mapping": {
+                  "start": 114,
+                  "length": 152,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "RealOldFuckMaker",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 245,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "makeOldFucks(uint32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#8):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#L8):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "5b910ab7793628fe2e65151487b4de8665cbaefe1f83ddbf6dbd63964f484df8",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.16",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".16"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.16 (repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.16](repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#L1) allows old versions\n",
+        "id": "960af487cffc604201c4b1ad8f405b6a4b2710563de8ac6805246b06eb5f2830",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "makeOldFucks",
+            "source_mapping": {
+              "start": 114,
+              "length": 152,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "RealOldFuckMaker",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 245,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "makeOldFucks(uint32)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! fuck.call(bytes4(sha3()(giveBlockReward())))",
+            "source_mapping": {
+              "start": 203,
+              "length": 46,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 5,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "makeOldFucks",
+                "source_mapping": {
+                  "start": 114,
+                  "length": 152,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "RealOldFuckMaker",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 245,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "makeOldFucks(uint32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in RealOldFuckMaker.makeOldFucks(uint32) (repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#4-10):\n\t- ! fuck.call(bytes4(sha3()(giveBlockReward()))) (repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#7)\n",
+        "markdown": "Low level call in [RealOldFuckMaker.makeOldFucks(uint32)](repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#L4-L10):\n\t- [! fuck.call(bytes4(sha3()(giveBlockReward())))](repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#L7)\n",
+        "id": "cf5cee305a79d036f4585122e6fabb0177dc96736153e74f2eea90b84522d5bb",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "fuck",
+            "source_mapping": {
+              "start": 54,
+              "length": 57,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "RealOldFuckMaker",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 245,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "RealOldFuckMaker.fuck (repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#3) should be constant\n",
+        "markdown": "[RealOldFuckMaker.fuck](repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#L3) should be constant\n",
+        "id": "7d4e1e1d72fdfc4ed122f26d38de88bd3eae60720aaac229b94b5eca4689ea7c",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "makeOldFucks",
+            "source_mapping": {
+              "start": 114,
+              "length": 152,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "RealOldFuckMaker",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 245,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "makeOldFucks(uint32)"
+            }
+          }
+        ],
+        "description": "makeOldFucks(uint32) should be declared external:\n\t- RealOldFuckMaker.makeOldFucks(uint32) (repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#4-10)\n",
+        "markdown": "makeOldFucks(uint32) should be declared external:\n\t- [RealOldFuckMaker.makeOldFucks(uint32)](repairResNew/SmartBugN/0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol#L4-L10)\n",
+        "id": "60850e49e5af5906629bd9d95d16e64581e9cb2e97fa5c377a24d43bb9dd7305",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 303,
+              "length": 200,
+              "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_short": "contractSource/SmartBug/simple_dao.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleDAO",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 422,
+                  "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "res = msg.sender.call.value(amount)()",
+            "source_mapping": {
+              "start": 416,
+              "length": 42,
+              "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_short": "contractSource/SmartBug/simple_dao.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 7,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 200,
+                  "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleDAO",
+                    "source_mapping": {
+                      "start": 162,
+                      "length": 422,
+                      "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                      "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                      "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "credit[msg.sender] -= amount",
+            "source_mapping": {
+              "start": 466,
+              "length": 26,
+              "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_short": "contractSource/SmartBug/simple_dao.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 7,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 200,
+                  "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleDAO",
+                    "source_mapping": {
+                      "start": 162,
+                      "length": 422,
+                      "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                      "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                      "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "credit"
+            }
+          }
+        ],
+        "description": "Reentrancy in SimpleDAO.withdraw(uint256) (contractSource/SmartBug/simple_dao.sol#16-22):\n\tExternal calls:\n\t- res = msg.sender.call.value(amount)() (contractSource/SmartBug/simple_dao.sol#19)\n\tState variables written after the call(s):\n\t- credit[msg.sender] -= amount (contractSource/SmartBug/simple_dao.sol#20)\n",
+        "markdown": "Reentrancy in [SimpleDAO.withdraw(uint256)](contractSource/SmartBug/simple_dao.sol#L16-L22):\n\tExternal calls:\n\t- [res = msg.sender.call.value(amount)()](contractSource/SmartBug/simple_dao.sol#L19)\n\tState variables written after the call(s):\n\t- [credit[msg.sender] -= amount](contractSource/SmartBug/simple_dao.sol#L20)\n",
+        "id": "ade198c8c305094b0fdbde47816dc8ecfa50ab20475be8207b422d8705be45ab",
+        "check": "reentrancy-eth",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.2",
+            "source_mapping": {
+              "start": 137,
+              "length": 23,
+              "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_short": "contractSource/SmartBug/simple_dao.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".2"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.2 (contractSource/SmartBug/simple_dao.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.2](contractSource/SmartBug/simple_dao.sol#L7) allows old versions\n",
+        "id": "fa31820bcbcebae6546272b8c9ab2eeb9bc4bee99c08710cc5a458ba73279a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 303,
+              "length": 200,
+              "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_short": "contractSource/SmartBug/simple_dao.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleDAO",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 422,
+                  "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "res = msg.sender.call.value(amount)()",
+            "source_mapping": {
+              "start": 416,
+              "length": 42,
+              "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_short": "contractSource/SmartBug/simple_dao.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 7,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 303,
+                  "length": 200,
+                  "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleDAO",
+                    "source_mapping": {
+                      "start": 162,
+                      "length": 422,
+                      "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                      "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                      "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in SimpleDAO.withdraw(uint256) (contractSource/SmartBug/simple_dao.sol#16-22):\n\t- res = msg.sender.call.value(amount)() (contractSource/SmartBug/simple_dao.sol#19)\n",
+        "markdown": "Low level call in [SimpleDAO.withdraw(uint256)](contractSource/SmartBug/simple_dao.sol#L16-L22):\n\t- [res = msg.sender.call.value(amount)()](contractSource/SmartBug/simple_dao.sol#L19)\n",
+        "id": "180dbd31b6820d72b97e5004ef279a1bf299458ab325cbbe6c0bca2bd34ee8d6",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "donate",
+            "source_mapping": {
+              "start": 229,
+              "length": 70,
+              "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_short": "contractSource/SmartBug/simple_dao.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleDAO",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 422,
+                  "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "donate(address)"
+            }
+          }
+        ],
+        "description": "donate(address) should be declared external:\n\t- SimpleDAO.donate(address) (contractSource/SmartBug/simple_dao.sol#12-14)\n",
+        "markdown": "donate(address) should be declared external:\n\t- [SimpleDAO.donate(address)](contractSource/SmartBug/simple_dao.sol#L12-L14)\n",
+        "id": "d2f7485ce96371d0cdd4f1629f91e481c1587192a0f30bab07a67efdc99cb076",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 303,
+              "length": 200,
+              "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_short": "contractSource/SmartBug/simple_dao.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleDAO",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 422,
+                  "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          }
+        ],
+        "description": "withdraw(uint256) should be declared external:\n\t- SimpleDAO.withdraw(uint256) (contractSource/SmartBug/simple_dao.sol#16-22)\n",
+        "markdown": "withdraw(uint256) should be declared external:\n\t- [SimpleDAO.withdraw(uint256)](contractSource/SmartBug/simple_dao.sol#L16-L22)\n",
+        "id": "573bc9ceae32243edcbbe31ae938e0475b37abba87c62ad40fa4fbba83c85fbf",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "queryCredit",
+            "source_mapping": {
+              "start": 507,
+              "length": 75,
+              "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+              "filename_short": "contractSource/SmartBug/simple_dao.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleDAO",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 422,
+                  "filename_used": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_relative": "contractSource/SmartBug/simple_dao.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/simple_dao.sol",
+                  "filename_short": "contractSource/SmartBug/simple_dao.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "queryCredit(address)"
+            }
+          }
+        ],
+        "description": "queryCredit(address) should be declared external:\n\t- SimpleDAO.queryCredit(address) (contractSource/SmartBug/simple_dao.sol#24-26)\n",
+        "markdown": "queryCredit(address) should be declared external:\n\t- [SimpleDAO.queryCredit(address)](contractSource/SmartBug/simple_dao.sol#L24-L26)\n",
+        "id": "14f0d64388f297f44660fbaa0d9e8bfd215c1b93bf192a8f9f25e15dee9ba48c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

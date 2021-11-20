@@ -1,0 +1,1015 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetFreebie",
+            "source_mapping": {
+              "start": 112,
+              "length": 137,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Honey",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 593,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetFreebie()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.transfer(this.balance)",
+            "source_mapping": {
+              "start": 209,
+              "length": 33,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "GetFreebie",
+                "source_mapping": {
+                  "start": 112,
+                  "length": 137,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Honey",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 593,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "GetFreebie()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Honey.GetFreebie() (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#6-11) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(this.balance) (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#9)\n",
+        "markdown": "[Honey.GetFreebie()](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L6-L11) sends eth to arbitrary user\n\tDangerous calls:\n\t- [msg.sender.transfer(this.balance)](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L9)\n",
+        "id": "cf9f2188290d0af6a288287b32d435e062ee0927d247c08a527a3320f54726f4",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 604,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                22
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 473,
+                  "length": 141,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Honey",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 593,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#22):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L22):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "1aa73fa21fa5b7ba3d9f225dd42529e3b112ada5c469eed4afafad8ed9f8bfe6",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L1) allows old versions\n",
+        "id": "48d13d7b4432a334e74cb08596a69bda3605592569f79373caf6620eaa884a26",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 473,
+              "length": 141,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Honey",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 593,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! adr.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 567,
+              "length": 33,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 473,
+                  "length": 141,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Honey",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 593,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Honey.Command(address,bytes) (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#19-23):\n\t- ! adr.call.value(msg.value)(data) (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#21)\n",
+        "markdown": "Low level call in [Honey.Command(address,bytes)](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L19-L23):\n\t- [! adr.call.value(msg.value)(data)](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L21)\n",
+        "id": "0085674cfeb1856647783a05e3c11c3d596b911d0d2f0ae23aad81ea61ee30ca",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetFreebie",
+            "source_mapping": {
+              "start": 112,
+              "length": 137,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Honey",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 593,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetFreebie()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Honey.GetFreebie() (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#6-11) is not in mixedCase\n",
+        "markdown": "Function [Honey.GetFreebie()](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L6-L11) is not in mixedCase\n",
+        "id": "586f331b4996557913d17dfa68e3f3dfb139cae071cbc03c62d2369222ca0f20",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 473,
+              "length": 141,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Honey",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 593,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Honey.Command(address,bytes) (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#19-23) is not in mixedCase\n",
+        "markdown": "Function [Honey.Command(address,bytes)](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L19-L23) is not in mixedCase\n",
+        "id": "f176debd3db8703ca45eef795f7527603771c4ea2dcfba3baa7b45450365f290",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 43,
+              "length": 33,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Honey",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 593,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Honey.Owner (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#3) is not in mixedCase\n",
+        "markdown": "Variable [Honey.Owner](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L3) is not in mixedCase\n",
+        "id": "98f5d7bc91764997022e962a6b6b96ab466ee50f18fe8556a62b5841af1e6ef6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 79,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Honey",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 593,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Honey.fallback() (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#4-5)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Honey.fallback()](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L4-L5)\n",
+        "id": "67bbdf779e80499e7d42094a2731e378c79f8726775cfda28133a8160b568b31",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetFreebie",
+            "source_mapping": {
+              "start": 112,
+              "length": 137,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Honey",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 593,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetFreebie()"
+            }
+          }
+        ],
+        "description": "GetFreebie() should be declared external:\n\t- Honey.GetFreebie() (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#6-11)\n",
+        "markdown": "GetFreebie() should be declared external:\n\t- [Honey.GetFreebie()](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L6-L11)\n",
+        "id": "05ab30bf789092a3f48e1c14acd27c5476e3169718622e15b05806ac9afa6860",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 251,
+              "length": 220,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Honey",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 593,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- Honey.withdraw() (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#12-18)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [Honey.withdraw()](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L12-L18)\n",
+        "id": "024bbc4842708ac84c41aa8a4c436f6eb12f1431e1f27f0087a43e7b03950b5c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 473,
+              "length": 141,
+              "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Honey",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 593,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          }
+        ],
+        "description": "Command(address,bytes) should be declared external:\n\t- Honey.Command(address,bytes) (repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#19-23)\n",
+        "markdown": "Command(address,bytes) should be declared external:\n\t- [Honey.Command(address,bytes)](repairResNew/SmartBugN/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol#L19-L23)\n",
+        "id": "f27d5dfe4a68a6529f112fb50a94e21a53fac0bbbfcc1e5b50c8173a3c08d103",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

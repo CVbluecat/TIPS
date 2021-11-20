@@ -1,0 +1,2912 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 2480,
+              "length": 56,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                70
+              ],
+              "starting_column": 2,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Hotc",
+                "source_mapping": {
+                  "start": 2311,
+                  "length": 715,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 534,
+              "length": 26,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 2,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 516,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Hotc.totalSupply (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#70) shadows:\n\t- Token.totalSupply (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#24)\n",
+        "markdown": "[Hotc.totalSupply](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L70) shadows:\n\t- [Token.totalSupply](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L24)\n",
+        "id": "01abbf93b0f73b83d8d7263bdd7b90dd06d7cc2c908be165cdaf30468190b9aa",
+        "check": "shadowing-abstract",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "assert",
+            "source_mapping": {
+              "start": 45,
+              "length": 72,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeMath",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 492,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "assert(bool)"
+            }
+          }
+        ],
+        "description": "SafeMath.assert(bool) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#3-6) (function) shadows built-in symbol\"\n",
+        "markdown": "[SafeMath.assert(bool)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L3-L6) (function) shadows built-in symbol\"\n",
+        "id": "2ed4a8d1ba6e312aa9e54b65a7bd9f8608ba30ae953b80c8ccaa4fae542dd23a",
+        "check": "shadowing-builtin",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 107,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "assert",
+                "source_mapping": {
+                  "start": 45,
+                  "length": 72,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeMath",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 492,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "assert(bool)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#5):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L5):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "14e83c4b30e3fc276a848cc15c0e514d307935e572b9063c2407608bf421a51d",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.8",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".8"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.8 (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.8](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L1) allows old versions\n",
+        "id": "7225dac60e95fa270a6d899962849077453b301b7f80fa46eb2da875cbef418e",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1193,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 20,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1175,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transfer(address,uint256)._to (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#29) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transfer(address,uint256)._to](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L29) is not in mixedCase\n",
+        "id": "3c14db6b6c1ab6ca2562962944c2cf0cfbb75024bfc8414a346a102288fb8c42",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1206,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 33,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1175,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transfer(address,uint256)._value (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#29) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transfer(address,uint256)._value](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L29) is not in mixedCase\n",
+        "id": "31af0fe2efb3149a68bb2fd105d1476f896dc61d738c336bdf7e41a57feb1479",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_from",
+            "source_mapping": {
+              "start": 1466,
+              "length": 13,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                40
+              ],
+              "starting_column": 24,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 1444,
+                  "length": 350,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transferFrom(address,address,uint256)._from (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#40) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transferFrom(address,address,uint256)._from](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L40) is not in mixedCase\n",
+        "id": "4dd3d547c81f2913d544b98793a5c021fe472f59b45114f773a817330cf34bfc",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1481,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                40
+              ],
+              "starting_column": 39,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 1444,
+                  "length": 350,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transferFrom(address,address,uint256)._to (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#40) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transferFrom(address,address,uint256)._to](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L40) is not in mixedCase\n",
+        "id": "6150a62fc365f4a97437d70d15bfe1ca02b48e7695b0f9d432eb82ac34404d51",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1494,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                40
+              ],
+              "starting_column": 52,
+              "ending_column": 66
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 1444,
+                  "length": 350,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transferFrom(address,address,uint256)._value (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#40) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transferFrom(address,address,uint256)._value](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L40) is not in mixedCase\n",
+        "id": "e001d55ad5c9886aa799c28ded83887106a3cdbd6a17edfcc0db2c6ef55090d3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 1815,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                52
+              ],
+              "starting_column": 21,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "balanceOf",
+                "source_mapping": {
+                  "start": 1796,
+                  "length": 101,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "balanceOf(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.balanceOf(address)._owner (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#52) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.balanceOf(address)._owner](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L52) is not in mixedCase\n",
+        "id": "e2c602baa3f6215dc1bf4b8f0abe23563363fc889add3f48a208eb560cfca631",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 1916,
+              "length": 16,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                55
+              ],
+              "starting_column": 19,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 1899,
+                  "length": 179,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    55,
+                    56,
+                    57,
+                    58,
+                    59
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.approve(address,uint256)._spender (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#55) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.approve(address,uint256)._spender](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L55) is not in mixedCase\n",
+        "id": "70a9b4c8c2d4dca0d12170ecce3b3b3e56f16721a930795c44e5e7b45a10a5c1",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1934,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                55
+              ],
+              "starting_column": 37,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 1899,
+                  "length": 179,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    55,
+                    56,
+                    57,
+                    58,
+                    59
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.approve(address,uint256)._value (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#55) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.approve(address,uint256)._value](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L55) is not in mixedCase\n",
+        "id": "1fa3f5bb048f68171399fc7d36b8e34d891cac5b9e22c65b41391d16050e7922",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 2099,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                60
+              ],
+              "starting_column": 21,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 2080,
+                  "length": 130,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.allowance(address,address)._owner (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#60) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.allowance(address,address)._owner](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L60) is not in mixedCase\n",
+        "id": "317c0e860cb8a5338f5dfaf51d2249bbf1eb4e87ed588c7a888b367544a25740",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 2115,
+              "length": 16,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                60
+              ],
+              "starting_column": 37,
+              "ending_column": 53
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 2080,
+                  "length": 130,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 1140,
+                      "length": 1171,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 2,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.allowance(address,address)._spender (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#60) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.allowance(address,address)._spender](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L60) is not in mixedCase\n",
+        "id": "1dfe198c2dca57c55bebb6453f93f0f0fc9b1e67fc091a4bcfa314300d9a90a6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "slitherConstructorVariables",
+            "source_mapping": {
+              "start": 2311,
+              "length": 715,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87
+              ],
+              "starting_column": 2,
+              "ending_column": null
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Hotc",
+                "source_mapping": {
+                  "start": 2311,
+                  "length": 715,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "slitherConstructorVariables()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "totalSupply = 1000000000 * 10 ** decimals",
+            "source_mapping": {
+              "start": 2480,
+              "length": 56,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                70
+              ],
+              "starting_column": 2,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "slitherConstructorVariables",
+                "source_mapping": {
+                  "start": 2311,
+                  "length": 715,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Hotc",
+                    "source_mapping": {
+                      "start": 2311,
+                      "length": 715,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "slitherConstructorVariables()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Hotc.slitherConstructorVariables() (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#66-87) uses literals with too many digits:\n\t- totalSupply = 1000000000 * 10 ** decimals (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#70)\n",
+        "markdown": "[Hotc.slitherConstructorVariables()](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L66-L87) uses literals with too many digits:\n\t- [totalSupply = 1000000000 * 10 ** decimals](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L70)\n",
+        "id": "a4881596aa7a1992b34a2eac91116a69833cb27a419ee6e8e50b069b831a036d",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "slitherConstructorConstantVariables",
+            "source_mapping": {
+              "start": 2311,
+              "length": 715,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87
+              ],
+              "starting_column": 2,
+              "ending_column": null
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Hotc",
+                "source_mapping": {
+                  "start": 2311,
+                  "length": 715,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "slitherConstructorConstantVariables()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "CAP = 1000000000 * 10 ** decimals",
+            "source_mapping": {
+              "start": 2609,
+              "length": 57,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                73
+              ],
+              "starting_column": 2,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "slitherConstructorConstantVariables",
+                "source_mapping": {
+                  "start": 2311,
+                  "length": 715,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Hotc",
+                    "source_mapping": {
+                      "start": 2311,
+                      "length": 715,
+                      "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "slitherConstructorConstantVariables()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Hotc.slitherConstructorConstantVariables() (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#66-87) uses literals with too many digits:\n\t- CAP = 1000000000 * 10 ** decimals (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#73)\n",
+        "markdown": "[Hotc.slitherConstructorConstantVariables()](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L66-L87) uses literals with too many digits:\n\t- [CAP = 1000000000 * 10 ** decimals](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L73)\n",
+        "id": "da24b49cfef3d808813ddba2c81cd7f612d4af214049a068916c8f80165ba5a8",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 2480,
+              "length": 56,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                70
+              ],
+              "starting_column": 2,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Hotc",
+                "source_mapping": {
+                  "start": 2311,
+                  "length": 715,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "Hotc.totalSupply (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#70) should be constant\n",
+        "markdown": "[Hotc.totalSupply](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L70) should be constant\n",
+        "id": "13585dfb071e9d9ba72547aa68fd5867667e7e731f7a93806dbd304bc6dba841",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "version",
+            "source_mapping": {
+              "start": 2539,
+              "length": 29,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 2,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Hotc",
+                "source_mapping": {
+                  "start": 2311,
+                  "length": 715,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "Hotc.version (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#71) should be constant\n",
+        "markdown": "[Hotc.version](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L71) should be constant\n",
+        "id": "76459df4b65b9031f89c916f42ee25c0362b6e9bf3fcb36db58674764c6cefa5",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 534,
+              "length": 26,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 2,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 516,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Token.totalSupply (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#24) should be constant\n",
+        "markdown": "[Token.totalSupply](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L24) should be constant\n",
+        "id": "ea8e24ec5a864e7c3ba04a487e15f519b4be81acc0b4acc1b85f93b3431c3b21",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 1796,
+              "length": 101,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                52,
+                53,
+                54
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 1140,
+                  "length": 1171,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 563,
+              "length": 72,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 2,
+              "ending_column": 74
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 516,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- StandardToken.balanceOf(address) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#52-54)\n\t- Token.balanceOf(address) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#25)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [StandardToken.balanceOf(address)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L52-L54)\n\t- [Token.balanceOf(address)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L25)\n",
+        "id": "f371bf24bb9089b4694dcc2d1aaf681fa7a925a94c72efd2bf37dc36fbd4276b",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 635,
+              "length": 76,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 74,
+              "ending_column": 150
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 516,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 1175,
+              "length": 267,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 1140,
+                  "length": 1171,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- Token.transfer(address,uint256) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#25)\n\t- StandardToken.transfer(address,uint256) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#29-39)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [Token.transfer(address,uint256)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L25)\n\t- [StandardToken.transfer(address,uint256)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L29-L39)\n",
+        "id": "549b931bc73e0f5b0dc9dfba8d48ecee0cc4bdd96435a1dfa4937400ab3cd70b",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 1444,
+              "length": 350,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 1140,
+                  "length": 1171,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 711,
+              "length": 95,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 150,
+              "ending_column": 245
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 516,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256) should be declared external:\n\t- StandardToken.transferFrom(address,address,uint256) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#40-51)\n\t- Token.transferFrom(address,address,uint256) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#25)\n",
+        "markdown": "transferFrom(address,address,uint256) should be declared external:\n\t- [StandardToken.transferFrom(address,address,uint256)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L40-L51)\n\t- [Token.transferFrom(address,address,uint256)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L25)\n",
+        "id": "a4edb971bb95c18dc89b364c3208566e10ad467bb6598eda02842cfbeddda810",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 1899,
+              "length": 179,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                55,
+                56,
+                57,
+                58,
+                59
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 1140,
+                  "length": 1171,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 806,
+              "length": 80,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 245,
+              "ending_column": 325
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 516,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "approve(address,uint256) should be declared external:\n\t- StandardToken.approve(address,uint256) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#55-59)\n\t- Token.approve(address,uint256) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#25)\n",
+        "markdown": "approve(address,uint256) should be declared external:\n\t- [StandardToken.approve(address,uint256)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L55-L59)\n\t- [Token.approve(address,uint256)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L25)\n",
+        "id": "14a61f44abc9513f830121068dee6bf8c43f2dbd936a9f3573e315afbabe0014",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 2080,
+              "length": 130,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                60,
+                61,
+                62
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 1140,
+                  "length": 1171,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 886,
+              "length": 92,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 325,
+              "ending_column": 417
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 516,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          }
+        ],
+        "description": "allowance(address,address) should be declared external:\n\t- StandardToken.allowance(address,address) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#60-62)\n\t- Token.allowance(address,address) (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#25)\n",
+        "markdown": "allowance(address,address) should be declared external:\n\t- [StandardToken.allowance(address,address)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L60-L62)\n\t- [Token.allowance(address,address)](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L25)\n",
+        "id": "7ff5d9a88efd43e3f661b9a64c5998c6e69a12942b367add24d9a7f993253002",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 2856,
+              "length": 57,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                79,
+                80,
+                81
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Hotc",
+                "source_mapping": {
+                  "start": 2311,
+                  "length": 715,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Hotc.fallback() (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#79-81)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Hotc.fallback()](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L79-L81)\n",
+        "id": "56bbc00ccbadbf97ba6ac90b87676977f5ac90bcb43384c5943e3e9cf435f1ea",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "suicideFunc",
+            "source_mapping": {
+              "start": 2915,
+              "length": 107,
+              "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+              "is_dependency": false,
+              "lines": [
+                82,
+                83,
+                84,
+                85
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Hotc",
+                "source_mapping": {
+                  "start": 2311,
+                  "length": 715,
+                  "filename_used": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_relative": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "filename_short": "repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "suicideFunc()"
+            }
+          }
+        ],
+        "description": "suicideFunc() should be declared external:\n\t- Hotc.suicideFunc() (repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#82-85)\n",
+        "markdown": "suicideFunc() should be declared external:\n\t- [Hotc.suicideFunc()](repairResNew/TSEN/0x4d09c5e758ca68be27240f29fb681e5a5341ca98.sol#L82-L85)\n",
+        "id": "f56f222c208defb00326eb4c48be15e39ec5d8ce7eb7cc4ae8b61fed48a765eb",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

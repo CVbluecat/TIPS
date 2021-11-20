@@ -1,0 +1,784 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.18",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".18"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.18 (repairResNew/SmartBugN/reentranceR2.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.18](repairResNew/SmartBugN/reentranceR2.sol#L1) allows old versions\n",
+        "id": "64850000acfc3ed772df69ee7bfd864fc397edb383289d5a0e1836716bcc2726",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 266,
+              "length": 170,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrance",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 448,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.call.value(_amount)()",
+            "source_mapping": {
+              "start": 383,
+              "length": 32,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 266,
+                  "length": 170,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrance",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 448,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in Reentrance.withdraw(uint256) (repairResNew/SmartBugN/reentranceR2.sol#10-17):\n\t- msg.sender.call.value(_amount)() (repairResNew/SmartBugN/reentranceR2.sol#13)\n",
+        "markdown": "Low level call in [Reentrance.withdraw(uint256)](repairResNew/SmartBugN/reentranceR2.sol#L10-L17):\n\t- [msg.sender.call.value(_amount)()](repairResNew/SmartBugN/reentranceR2.sol#L13)\n",
+        "id": "81042286e5dee9655df2cbfe07c49b7f75111e7c471ba29fe72e9b849ca83225",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 107,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 18,
+              "ending_column": 29
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "donate",
+                "source_mapping": {
+                  "start": 91,
+                  "length": 77,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrance",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 448,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "donate(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Reentrance.donate(address)._to (repairResNew/SmartBugN/reentranceR2.sol#4) is not in mixedCase\n",
+        "markdown": "Parameter [Reentrance.donate(address)._to](repairResNew/SmartBugN/reentranceR2.sol#L4) is not in mixedCase\n",
+        "id": "e34d72100b63c3631cb5c091604e1c910754558ad359e402e63e27632f6a0df9",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_who",
+            "source_mapping": {
+              "start": 189,
+              "length": 12,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 21,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "balanceOf",
+                "source_mapping": {
+                  "start": 170,
+                  "length": 94,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrance",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 448,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "balanceOf(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Reentrance.balanceOf(address)._who (repairResNew/SmartBugN/reentranceR2.sol#7) is not in mixedCase\n",
+        "markdown": "Parameter [Reentrance.balanceOf(address)._who](repairResNew/SmartBugN/reentranceR2.sol#L7) is not in mixedCase\n",
+        "id": "0c9ca9668911f43b0d68bedc5e042f5ef3a3122d790a1dbd04b862c43e69bbe6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 284,
+              "length": 12,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 20,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 266,
+                  "length": 170,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrance",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 448,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Reentrance.withdraw(uint256)._amount (repairResNew/SmartBugN/reentranceR2.sol#10) is not in mixedCase\n",
+        "markdown": "Parameter [Reentrance.withdraw(uint256)._amount](repairResNew/SmartBugN/reentranceR2.sol#L10) is not in mixedCase\n",
+        "id": "4964ce8b89bc827fe3f014148cf52f520ddffd5ea47e24b090cde2a6d31044a8",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "donate",
+            "source_mapping": {
+              "start": 91,
+              "length": 77,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrance",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 448,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "donate(address)"
+            }
+          }
+        ],
+        "description": "donate(address) should be declared external:\n\t- Reentrance.donate(address) (repairResNew/SmartBugN/reentranceR2.sol#4-6)\n",
+        "markdown": "donate(address) should be declared external:\n\t- [Reentrance.donate(address)](repairResNew/SmartBugN/reentranceR2.sol#L4-L6)\n",
+        "id": "5f64c5b080b8cb23a8d58d3f24537bdb62aea4344ff12aba3ed0fa61c3413cf7",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 170,
+              "length": 94,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrance",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 448,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- Reentrance.balanceOf(address) (repairResNew/SmartBugN/reentranceR2.sol#7-9)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [Reentrance.balanceOf(address)](repairResNew/SmartBugN/reentranceR2.sol#L7-L9)\n",
+        "id": "4b2c68f720ae7dc6fac9cd11a97984484e1dc45dc5e0b6dd788dd2fecabf2e3b",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 266,
+              "length": 170,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrance",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 448,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          }
+        ],
+        "description": "withdraw(uint256) should be declared external:\n\t- Reentrance.withdraw(uint256) (repairResNew/SmartBugN/reentranceR2.sol#10-17)\n",
+        "markdown": "withdraw(uint256) should be declared external:\n\t- [Reentrance.withdraw(uint256)](repairResNew/SmartBugN/reentranceR2.sol#L10-L17)\n",
+        "id": "567fd30db8e7c9678189d405846def8f54337861054554ffafe30c94e0c83ddd",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 438,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+              "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrance",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 448,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentranceR2.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentranceR2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Reentrance.fallback() (repairResNew/SmartBugN/reentranceR2.sol#18-19)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Reentrance.fallback()](repairResNew/SmartBugN/reentranceR2.sol#L18-L19)\n",
+        "id": "8e12b0ae252a28c111176c2b8f50e4beea41d0b1abdb66c422be2716aea78031",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

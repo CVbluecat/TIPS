@@ -1,0 +1,1227 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetFreebie",
+            "source_mapping": {
+              "start": 218,
+              "length": 1169,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetFreebie()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.transfer(this.balance)",
+            "source_mapping": {
+              "start": 1223,
+              "length": 33,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 13,
+              "ending_column": 46
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "GetFreebie",
+                "source_mapping": {
+                  "start": 218,
+                  "length": 1169,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FreeEth",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 2965,
+                      "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "GetFreebie()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "FreeEth.GetFreebie() (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#15-23) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(this.balance) (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#21)\n",
+        "markdown": "[FreeEth.GetFreebie()](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L15-L23) sends eth to arbitrary user\n\tDangerous calls:\n\t- [msg.sender.transfer(this.balance)](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L21)\n",
+        "id": "5aea62348548681d558d9c1698cbd265b5859bf2f3dcf918235eb2020c2c5d7c",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 2866,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "adr.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 3033,
+              "length": 31,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                39
+              ],
+              "starting_column": 9,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 2866,
+                  "length": 206,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FreeEth",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 2965,
+                      "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "FreeEth.Command(address,bytes) (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#33-40) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#39)\n",
+        "markdown": "[FreeEth.Command(address,bytes)](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L33-L40) ignores return value by [adr.call.value(msg.value)(data)](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L39)\n",
+        "id": "484e6a9ca72ab08471aa6adfcb8c8f8ea17038294eb98e21819cfe3ab7cd9c33",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 82,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L7) allows old versions\n",
+        "id": "a406c9c3e7fe888964ad6044fa75214b6dd0c5ea56bce48e69d415fff7252c2f",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 2866,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "adr.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 3033,
+              "length": 31,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                39
+              ],
+              "starting_column": 9,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 2866,
+                  "length": 206,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "FreeEth",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 2965,
+                      "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in FreeEth.Command(address,bytes) (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#33-40):\n\t- adr.call.value(msg.value)(data) (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#39)\n",
+        "markdown": "Low level call in [FreeEth.Command(address,bytes)](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L33-L40):\n\t- [adr.call.value(msg.value)(data)](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L39)\n",
+        "id": "43e1a0755be2960931731530934aabf9fb9e2747b5496cb7273dd13739036c75",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetFreebie",
+            "source_mapping": {
+              "start": 218,
+              "length": 1169,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetFreebie()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function FreeEth.GetFreebie() (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#15-23) is not in mixedCase\n",
+        "markdown": "Function [FreeEth.GetFreebie()](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L15-L23) is not in mixedCase\n",
+        "id": "28a5d7c81c3f989d200b564c52f8be742899514053b440c68823ce32325905eb",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 2866,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function FreeEth.Command(address,bytes) (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#33-40) is not in mixedCase\n",
+        "markdown": "Function [FreeEth.Command(address,bytes)](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L33-L40) is not in mixedCase\n",
+        "id": "40de2b0a06924742ff4164a0a07fcba250ffc8c609e7e33072de12023b0eaec5",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 135,
+              "length": 33,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable FreeEth.Owner (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#11) is not in mixedCase\n",
+        "markdown": "Variable [FreeEth.Owner](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L11) is not in mixedCase\n",
+        "id": "d774d844e987518164b0aeab9b66b080d91624834e66c000a1f0a3519164c633",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 180,
+              "length": 27,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- FreeEth.fallback() (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#13)\n",
+        "markdown": "fallback() should be declared external:\n\t- [FreeEth.fallback()](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L13)\n",
+        "id": "87df7e72610e254cc894f2736045fa4cfe73715b4b2873e794efbb80046959e8",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetFreebie",
+            "source_mapping": {
+              "start": 218,
+              "length": 1169,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetFreebie()"
+            }
+          }
+        ],
+        "description": "GetFreebie() should be declared external:\n\t- FreeEth.GetFreebie() (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#15-23)\n",
+        "markdown": "GetFreebie() should be declared external:\n\t- [FreeEth.GetFreebie()](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L15-L23)\n",
+        "id": "912782a1fdadee437ee5e6c2e92afcde85b9a9210e364380924912800369407d",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 1399,
+              "length": 1455,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- FreeEth.withdraw() (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#25-31)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [FreeEth.withdraw()](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L25-L31)\n",
+        "id": "7f4cf1160ed55a666234bcdba458f459a8cb67cf08dcadb64051c8ffe9456eca",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 2866,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "is_dependency": false,
+              "lines": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "FreeEth",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 2965,
+                  "filename_used": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_relative": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "filename_short": "contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          }
+        ],
+        "description": "Command(address,bytes) should be declared external:\n\t- FreeEth.Command(address,bytes) (contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#33-40)\n",
+        "markdown": "Command(address,bytes) should be declared external:\n\t- [FreeEth.Command(address,bytes)](contractSource/SmartBug/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#L33-L40)\n",
+        "id": "9cda7ce31e2a7413d94135c4ba4ccb87db0b62ac86454d3a17a5019b84f3f587",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 303,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/integer_overflow_minimal.sol",
+              "filename_relative": "contractSource/SmartBug/integer_overflow_minimal.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/integer_overflow_minimal.sol",
+              "filename_short": "contractSource/SmartBug/integer_overflow_minimal.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (contractSource/SmartBug/integer_overflow_minimal.sol#10) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](contractSource/SmartBug/integer_overflow_minimal.sol#L10) allows old versions\n",
+        "id": "9eaf8d56f8926f70d4399af0f4befc20dd3674bd8288a1e019084cc226d2d2f3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "run",
+            "source_mapping": {
+              "start": 395,
+              "length": 103,
+              "filename_used": "/contract/contractSource/SmartBug/integer_overflow_minimal.sol",
+              "filename_relative": "contractSource/SmartBug/integer_overflow_minimal.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/integer_overflow_minimal.sol",
+              "filename_short": "contractSource/SmartBug/integer_overflow_minimal.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "IntegerOverflowMinimal",
+                "source_mapping": {
+                  "start": 329,
+                  "length": 171,
+                  "filename_used": "/contract/contractSource/SmartBug/integer_overflow_minimal.sol",
+                  "filename_relative": "contractSource/SmartBug/integer_overflow_minimal.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/integer_overflow_minimal.sol",
+                  "filename_short": "contractSource/SmartBug/integer_overflow_minimal.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "run(uint256)"
+            }
+          }
+        ],
+        "description": "run(uint256) should be declared external:\n\t- IntegerOverflowMinimal.run(uint256) (contractSource/SmartBug/integer_overflow_minimal.sol#15-18)\n",
+        "markdown": "run(uint256) should be declared external:\n\t- [IntegerOverflowMinimal.run(uint256)](contractSource/SmartBug/integer_overflow_minimal.sol#L15-L18)\n",
+        "id": "f85079362a90cf29546d665088febbffceaac79faa6f480cf2dd6491908b93df",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

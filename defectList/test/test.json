@@ -1,38 +1,5 @@
 [
-    {
-        "name": "FibonacciBalance.sol",
-        "defect": [
-            {
-                "lines": [
-                    31,
-                    38
-                ],
-                "category": "access_control"
-            }
-        ]
-    },
-    {
-        "name": "arbitrary_location_write_simple.sol",
-        "defect": [
-            {
-                "lines": [
-                    27
-                ],
-                "category": "access_control"
-            }
-        ]
-    },
-    {
-        "name": "multiowned_vulnerable.sol",
-        "defect": [
-            {
-                "lines": [
-                    38
-                ],
-                "category": "access_control"
-            }
-        ]
-    },
+    
     {
         "name": "test.sol",
         "defect": [

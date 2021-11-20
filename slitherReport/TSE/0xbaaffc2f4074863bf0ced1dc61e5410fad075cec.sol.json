@@ -1,0 +1,331 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "sendlimiter",
+            "source_mapping": {
+              "start": 371,
+              "length": 109,
+              "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19,
+                20,
+                21
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            }
+          },
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 395,
+              "length": 82,
+              "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20
+              ],
+              "starting_column": 2,
+              "ending_column": 53
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "sendlimiter",
+                "source_mapping": {
+                  "start": 371,
+                  "length": 109,
+                  "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found in :\n\tContract sendlimiter (contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#18-21) has payable functions:\n\t - sendlimiter.fallback() (contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#19-20)\n\tBut does not have a function to withdraw the ether\n",
+        "markdown": "Contract locking ether found in :\n\tContract [sendlimiter](contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L18-L21) has payable functions:\n\t - [sendlimiter.fallback()](contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L19-L20)\n\tBut does not have a function to withdraw the ether\n",
+        "id": "a9b5814be4ae26b21d79e508969be15d1600d51184ecd066310ff79e9fdb5dc8",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 146,
+              "length": 24,
+              "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#8) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L8) allows old versions\n",
+        "id": "4d1dc7994b3c8c8f68fd39036d620d1676de0d777e7b243e6f14020e4683b647",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "sendlimiter",
+            "source_mapping": {
+              "start": 371,
+              "length": 109,
+              "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19,
+                20,
+                21
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract sendlimiter (contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#18-21) is not in CapWords\n",
+        "markdown": "Contract [sendlimiter](contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L18-L21) is not in CapWords\n",
+        "id": "86f1e4f7d3f6688ff05dda61a96eee7c72df73462ca813d10ec19ce781b48377",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 395,
+              "length": 82,
+              "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20
+              ],
+              "starting_column": 2,
+              "ending_column": 53
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "sendlimiter",
+                "source_mapping": {
+                  "start": 371,
+                  "length": 109,
+                  "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "require(bool)(this.balance + msg.value < 100000000)",
+            "source_mapping": {
+              "start": 430,
+              "length": 45,
+              "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 6,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "fallback",
+                "source_mapping": {
+                  "start": 395,
+                  "length": 82,
+                  "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 53
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "sendlimiter",
+                    "source_mapping": {
+                      "start": 371,
+                      "length": 109,
+                      "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                      "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                      "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "fallback()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "sendlimiter.fallback() (contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#19-20) uses literals with too many digits:\n\t- require(bool)(this.balance + msg.value < 100000000) (contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#20)\n",
+        "markdown": "[sendlimiter.fallback()](contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L19-L20) uses literals with too many digits:\n\t- [require(bool)(this.balance + msg.value < 100000000)](contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L20)\n",
+        "id": "fe329af09d754d703a74054b74326547d4b59d19fe805471ccf2ebab377af08e",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 395,
+              "length": 82,
+              "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20
+              ],
+              "starting_column": 2,
+              "ending_column": 53
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "sendlimiter",
+                "source_mapping": {
+                  "start": 371,
+                  "length": 109,
+                  "filename_used": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_relative": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "filename_short": "contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- sendlimiter.fallback() (contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#19-20)\n",
+        "markdown": "fallback() should be declared external:\n\t- [sendlimiter.fallback()](contractSource/TSE/0xbaaffc2f4074863bf0ced1dc61e5410fad075cec.sol#L19-L20)\n",
+        "id": "c55a645cdd26b37a0e87c72caa671e8d665e594e7ae2dac0578f7ccc3ea35a9e",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

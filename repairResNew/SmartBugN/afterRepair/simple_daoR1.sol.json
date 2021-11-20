@@ -1,0 +1,488 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.2",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".2"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.2 (repairResNew/SmartBugN/simple_daoR1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.2](repairResNew/SmartBugN/simple_daoR1.sol#L1) allows old versions\n",
+        "id": "a08835693f62395ac7ec1f1553850f584de7a6e9212497aff67b2ae948bd59bf",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 162,
+              "length": 148,
+              "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleDAO",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 370,
+                  "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "res = msg.sender.send(amount)",
+            "source_mapping": {
+              "start": 238,
+              "length": 34,
+              "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 148,
+                  "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleDAO",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 370,
+                      "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                      "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "credit[msg.sender] -= amount",
+            "source_mapping": {
+              "start": 275,
+              "length": 28,
+              "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 30
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 162,
+                  "length": 148,
+                  "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleDAO",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 370,
+                      "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                      "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "credit"
+            }
+          }
+        ],
+        "description": "Reentrancy in SimpleDAO.withdraw(uint256) (repairResNew/SmartBugN/simple_daoR1.sol#7-12):\n\tExternal calls:\n\t- res = msg.sender.send(amount) (repairResNew/SmartBugN/simple_daoR1.sol#9)\n\tState variables written after the call(s):\n\t- credit[msg.sender] -= amount (repairResNew/SmartBugN/simple_daoR1.sol#10)\n",
+        "markdown": "Reentrancy in [SimpleDAO.withdraw(uint256)](repairResNew/SmartBugN/simple_daoR1.sol#L7-L12):\n\tExternal calls:\n\t- [res = msg.sender.send(amount)](repairResNew/SmartBugN/simple_daoR1.sol#L9)\n\tState variables written after the call(s):\n\t- [credit[msg.sender] -= amount](repairResNew/SmartBugN/simple_daoR1.sol#L10)\n",
+        "id": "9bebcc7a67e710c8f4a3eadb39d389a566e3f2b38184608de534d1c38801fd7b",
+        "check": "reentrancy-unlimited-gas",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "donate",
+            "source_mapping": {
+              "start": 87,
+              "length": 73,
+              "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleDAO",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 370,
+                  "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "donate(address)"
+            }
+          }
+        ],
+        "description": "donate(address) should be declared external:\n\t- SimpleDAO.donate(address) (repairResNew/SmartBugN/simple_daoR1.sol#4-6)\n",
+        "markdown": "donate(address) should be declared external:\n\t- [SimpleDAO.donate(address)](repairResNew/SmartBugN/simple_daoR1.sol#L4-L6)\n",
+        "id": "d2f7485ce96371d0cdd4f1629f91e481c1587192a0f30bab07a67efdc99cb076",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 162,
+              "length": 148,
+              "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleDAO",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 370,
+                  "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          }
+        ],
+        "description": "withdraw(uint256) should be declared external:\n\t- SimpleDAO.withdraw(uint256) (repairResNew/SmartBugN/simple_daoR1.sol#7-12)\n",
+        "markdown": "withdraw(uint256) should be declared external:\n\t- [SimpleDAO.withdraw(uint256)](repairResNew/SmartBugN/simple_daoR1.sol#L7-L12)\n",
+        "id": "573bc9ceae32243edcbbe31ae938e0475b37abba87c62ad40fa4fbba83c85fbf",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "queryCredit",
+            "source_mapping": {
+              "start": 312,
+              "length": 78,
+              "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+              "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleDAO",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 370,
+                  "filename_used": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/simple_daoR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/simple_daoR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "queryCredit(address)"
+            }
+          }
+        ],
+        "description": "queryCredit(address) should be declared external:\n\t- SimpleDAO.queryCredit(address) (repairResNew/SmartBugN/simple_daoR1.sol#13-15)\n",
+        "markdown": "queryCredit(address) should be declared external:\n\t- [SimpleDAO.queryCredit(address)](repairResNew/SmartBugN/simple_daoR1.sol#L13-L15)\n",
+        "id": "14f0d64388f297f44660fbaa0d9e8bfd215c1b93bf192a8f9f25e15dee9ba48c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -66,10 +66,8 @@ def add_require_protect(defectNode):
     if len(state_var) == 0:
         # add a variable declaration and insert into constructor
         owner_idennode = TreeNode('VariableDeclaration')
-        owner_idennode.beginPoint = -1
         owner_idennode.attributes = {'name':'contractOwner'}
         ele_node = TreeNode('ElementaryTypeName')
-        ele_node.beginPoint = -1
         ele_node.attributes = {'name':'address', 'value':'address'}
         owner_idennode.children.append(ele_node)
 
@@ -94,17 +92,13 @@ def add_require_protect(defectNode):
                 break
 
         expNode = TreeNode('ExpressionStatement')
-        expNode.beginPoint = -1
         curbinaryOpNode = TreeNode('BinaryOperation')
-        curbinaryOpNode.beginPoint = -1
         curbinaryOpNode.attributes = {}
         curbinaryOpNode.attributes['operator'] = '='
 
         left_node = TreeNode('Identifier')
-        left_node.beginPoint = -1
         left_node.attributes = {'value':'contractOwner'}
         right_node = TreeNode('Identifier')
-        right_node.beginPoint = -1
         right_node.attributes = {'value':'_owner'}
 
         curbinaryOpNode.children.append(left_node)
@@ -124,21 +118,16 @@ def add_require_protect(defectNode):
     idx = fatherNode.children.index(defectNode)
     # msg.sender
     memaccNode = TreeNode('MemberAccess')
-    memaccNode.beginPoint = -1
     memaccNode.attributes = {}
     memaccNode.attributes['member_name'] = 'sender'
     idenNode = TreeNode('Identifier')
-    idenNode.beginPoint = -1
     idenNode.attributes = {}
     idenNode.attributes['value'] = 'msg'
     memaccNode.children.append(idenNode)
 
     reqexpNode = TreeNode('ExpressionStatement')
-    reqexpNode.beginPoint = -1
     requireNode = TreeNode('FunctionCall')
-    requireNode.beginPoint = -1
     nameNode = TreeNode('Identifier')
-    nameNode.beginPoint = -1
     nameNode.attributes = {}
     nameNode.attributes['value'] = 'require'
     binaryOpNode = TreeNode('BinaryOperation')
@@ -146,7 +135,6 @@ def add_require_protect(defectNode):
     binaryOpNode.attributes = {}
     binaryOpNode.attributes['operator'] = '=='
     userdefNode = TreeNode('Identifier')
-    userdefNode.beginPoint = -1
     userdefNode.attributes = {}
     userdefNode.attributes['value'] = owner_var
     binaryOpNode.children.append(userdefNode)

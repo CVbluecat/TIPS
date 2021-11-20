@@ -15,19 +15,16 @@ def BFSGetNode(ast, num):
 
 def generateThrowNode():
     node = TreeNode('Throw')
-    node.beginPoint = -1
     return node
 
 def generateIfNode():
     node = TreeNode('IfStatement')
-    node.beginPoint = -1
     node.attributes = {}
     node.attributes['falseBody'] = None
     return node
 
 def generateUnaryNode():
     node = TreeNode('UnaryOperation')
-    node.beginPoint = -1
     node.attributes = {}
     node.attributes['isLValue'] = False
     node.attributes['operator'] = '!'
@@ -44,7 +41,6 @@ def repair_unchecked_call1(ast, charno):
             fatherNode = defectNode.father
             if defectNode.nodeType == 'VariableDeclarationStatement':
                 identified = TreeNode('Identifier')
-                identified.beginPoint = -1
                 identified.attributes = {}
                 identified.attributes['value'] = defectNode.children[0].attributes['name']
                 ifNode = generateIfNode()
@@ -77,7 +73,6 @@ def repair_unchecked_call1(ast, charno):
             if(functionCallNode.children[0].nodeType != 'FunctionCall' and exist != None and len(exist.children) > 0 \
                 and 'member_name' in exist.children[0].attributes.keys() and exist.children[0].attributes['member_name'] == 'call'):
                 functionNode = TreeNode('FunctionCall')
-                functionNode.beginPoint = -1
                 functionNode.children.append(functionCallNode)
                 functionCallNode = functionNode
             # find idx in children

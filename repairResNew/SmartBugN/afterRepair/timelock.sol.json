@@ -1,0 +1,514 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 355,
+              "length": 213,
+              "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_short": "repairResNew/SmartBugN/timelock.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TimeLock",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 548,
+                  "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_short": "repairResNew/SmartBugN/timelock.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "require(bool)(now > lockTime[msg.sender])",
+            "source_mapping": {
+              "start": 421,
+              "length": 35,
+              "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_short": "repairResNew/SmartBugN/timelock.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 2,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 355,
+                  "length": 213,
+                  "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_short": "repairResNew/SmartBugN/timelock.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "TimeLock",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 548,
+                      "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+                      "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+                      "filename_short": "repairResNew/SmartBugN/timelock.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdraw()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "TimeLock.withdraw() (repairResNew/SmartBugN/timelock.sol#12-18) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- require(bool)(now > lockTime[msg.sender]) (repairResNew/SmartBugN/timelock.sol#14)\n",
+        "markdown": "[TimeLock.withdraw()](repairResNew/SmartBugN/timelock.sol#L12-L18) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [require(bool)(now > lockTime[msg.sender])](repairResNew/SmartBugN/timelock.sol#L14)\n",
+        "id": "da7a09d87dc51cc8045e9fdf01ce499cf67447afabd36e086b19b0a10405d35b",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_short": "repairResNew/SmartBugN/timelock.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.0 (repairResNew/SmartBugN/timelock.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.0](repairResNew/SmartBugN/timelock.sol#L1) allows old versions\n",
+        "id": "ab6593073ef17609f8e6eb3160c3a9c6449dd549816bb7b63885e53296fc61e6",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_secondsToIncrease",
+            "source_mapping": {
+              "start": 272,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_short": "repairResNew/SmartBugN/timelock.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 28,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "increaseLockTime",
+                "source_mapping": {
+                  "start": 246,
+                  "length": 107,
+                  "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_short": "repairResNew/SmartBugN/timelock.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "TimeLock",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 548,
+                      "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+                      "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+                      "filename_short": "repairResNew/SmartBugN/timelock.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "increaseLockTime(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter TimeLock.increaseLockTime(uint256)._secondsToIncrease (repairResNew/SmartBugN/timelock.sol#9) is not in mixedCase\n",
+        "markdown": "Parameter [TimeLock.increaseLockTime(uint256)._secondsToIncrease](repairResNew/SmartBugN/timelock.sol#L9) is not in mixedCase\n",
+        "id": "49648246d5bae9fb905b5a9fcd092081a73e155eea7ad52de120e351b09477ac",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "deposit",
+            "source_mapping": {
+              "start": 131,
+              "length": 113,
+              "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_short": "repairResNew/SmartBugN/timelock.sol",
+              "is_dependency": false,
+              "lines": [
+                5,
+                6,
+                7,
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TimeLock",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 548,
+                  "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_short": "repairResNew/SmartBugN/timelock.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "deposit()"
+            }
+          }
+        ],
+        "description": "deposit() should be declared external:\n\t- TimeLock.deposit() (repairResNew/SmartBugN/timelock.sol#5-8)\n",
+        "markdown": "deposit() should be declared external:\n\t- [TimeLock.deposit()](repairResNew/SmartBugN/timelock.sol#L5-L8)\n",
+        "id": "5ed2ce875bd94a07cde1cc15cad1e87c3c4d58315755f9e0e644d54a8e840318",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "increaseLockTime",
+            "source_mapping": {
+              "start": 246,
+              "length": 107,
+              "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_short": "repairResNew/SmartBugN/timelock.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TimeLock",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 548,
+                  "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_short": "repairResNew/SmartBugN/timelock.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "increaseLockTime(uint256)"
+            }
+          }
+        ],
+        "description": "increaseLockTime(uint256) should be declared external:\n\t- TimeLock.increaseLockTime(uint256) (repairResNew/SmartBugN/timelock.sol#9-11)\n",
+        "markdown": "increaseLockTime(uint256) should be declared external:\n\t- [TimeLock.increaseLockTime(uint256)](repairResNew/SmartBugN/timelock.sol#L9-L11)\n",
+        "id": "ddd2c881764a3b590ebb05593d6fcaf56f749733268e2a4745c66d220992dfa9",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 355,
+              "length": 213,
+              "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+              "filename_short": "repairResNew/SmartBugN/timelock.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TimeLock",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 548,
+                  "filename_used": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_relative": "repairResNew/SmartBugN/timelock.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/timelock.sol",
+                  "filename_short": "repairResNew/SmartBugN/timelock.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- TimeLock.withdraw() (repairResNew/SmartBugN/timelock.sol#12-18)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [TimeLock.withdraw()](repairResNew/SmartBugN/timelock.sol#L12-L18)\n",
+        "id": "2888b3a21337ab1373641a307c530cfd929ea9f9498bed58fad6c8f90754fad8",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

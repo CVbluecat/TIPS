@@ -1,0 +1,2733 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "CashOut",
+            "source_mapping": {
+              "start": 675,
+              "length": 379,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "CashOut(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.call.value(_am)()",
+            "source_mapping": {
+              "start": 866,
+              "length": 28,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                44
+              ],
+              "starting_column": 16,
+              "ending_column": 44
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "CashOut",
+                "source_mapping": {
+                  "start": 675,
+                  "length": 379,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ETH_FUND",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 996,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "CashOut(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "balances[msg.sender] -= _am",
+            "source_mapping": {
+              "start": 928,
+              "length": 25,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                46
+              ],
+              "starting_column": 17,
+              "ending_column": 42
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "CashOut",
+                "source_mapping": {
+                  "start": 675,
+                  "length": 379,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ETH_FUND",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 996,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "CashOut(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "balances"
+            }
+          }
+        ],
+        "description": "Reentrancy in ETH_FUND.CashOut(uint256) (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#37-50):\n\tExternal calls:\n\t- msg.sender.call.value(_am)() (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#44)\n\tState variables written after the call(s):\n\t- balances[msg.sender] -= _am (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#46)\n",
+        "markdown": "Reentrancy in [ETH_FUND.CashOut(uint256)](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L37-L50):\n\tExternal calls:\n\t- [msg.sender.call.value(_am)()](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L44)\n\tState variables written after the call(s):\n\t- [balances[msg.sender] -= _am](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L46)\n",
+        "id": "6b23c74383f83e324bdd01f45966fa4215df48053551f5d0aa1f349045e5b7e0",
+        "check": "reentrancy-eth",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Deposit",
+            "source_mapping": {
+              "start": 394,
+              "length": 269,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Deposit()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "TransferLog.AddMessage(msg.sender,msg.value,Deposit)",
+            "source_mapping": {
+              "start": 551,
+              "length": 54,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                32
+              ],
+              "starting_column": 13,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Deposit",
+                "source_mapping": {
+                  "start": 394,
+                  "length": 269,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ETH_FUND",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 996,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Deposit()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "TransferLog.AddMessage(msg.sender,msg.value,Deposit)",
+            "source_mapping": {
+              "start": 551,
+              "length": 54,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                32
+              ],
+              "starting_column": 13,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Deposit",
+                "source_mapping": {
+                  "start": 394,
+                  "length": 269,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ETH_FUND",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 996,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Deposit()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls_sending_eth"
+            }
+          },
+          {
+            "type": "node",
+            "name": "lastBlock = block.number",
+            "source_mapping": {
+              "start": 620,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                33
+              ],
+              "starting_column": 13,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Deposit",
+                "source_mapping": {
+                  "start": 394,
+                  "length": 269,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ETH_FUND",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 996,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Deposit()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "lastBlock"
+            }
+          }
+        ],
+        "description": "Reentrancy in ETH_FUND.Deposit() (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#25-35):\n\tExternal calls:\n\t- TransferLog.AddMessage(msg.sender,msg.value,Deposit) (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#32)\n\tState variables written after the call(s):\n\t- lastBlock = block.number (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#33)\n",
+        "markdown": "Reentrancy in [ETH_FUND.Deposit()](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L25-L35):\n\tExternal calls:\n\t- [TransferLog.AddMessage(msg.sender,msg.value,Deposit)](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L32)\n\tState variables written after the call(s):\n\t- [lastBlock = block.number](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L33)\n",
+        "id": "5f0c0098c7035ae3b6c84df7e2866a81b4a5c4abd768b9ba85a4db21f6d02146",
+        "check": "reentrancy-benign",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 82,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L7) allows old versions\n",
+        "id": "41f381120278f7b0547f663c918df60859c669262f789e64611bcaec39f48b43",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "CashOut",
+            "source_mapping": {
+              "start": 675,
+              "length": 379,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "CashOut(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.call.value(_am)()",
+            "source_mapping": {
+              "start": 866,
+              "length": 28,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                44
+              ],
+              "starting_column": 16,
+              "ending_column": 44
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "CashOut",
+                "source_mapping": {
+                  "start": 675,
+                  "length": 379,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ETH_FUND",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 996,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "CashOut(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in ETH_FUND.CashOut(uint256) (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#37-50):\n\t- msg.sender.call.value(_am)() (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#44)\n",
+        "markdown": "Low level call in [ETH_FUND.CashOut(uint256)](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L37-L50):\n\t- [msg.sender.call.value(_am)()](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L44)\n",
+        "id": "08c5afaa15d06dccdce3dd5187066b2e1464ad41b9205e6eb5b0afd30e9e9791",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "ETH_FUND",
+            "source_mapping": {
+              "start": 110,
+              "length": 996,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract ETH_FUND (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#9-54) is not in CapWords\n",
+        "markdown": "Contract [ETH_FUND](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L9-L54) is not in CapWords\n",
+        "id": "d1ca4230d4ad0237878ef6e6d4f3fe10d0636462fb07f1aaff01ef5eb47a58b0",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Deposit",
+            "source_mapping": {
+              "start": 394,
+              "length": 269,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Deposit()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function ETH_FUND.Deposit() (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#25-35) is not in mixedCase\n",
+        "markdown": "Function [ETH_FUND.Deposit()](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L25-L35) is not in mixedCase\n",
+        "id": "6f682d389a6f8b8f6f431140a53950ba88deb3c608c56b5a06a8e86eb001a4f3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "CashOut",
+            "source_mapping": {
+              "start": 675,
+              "length": 379,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "CashOut(uint256)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function ETH_FUND.CashOut(uint256) (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#37-50) is not in mixedCase\n",
+        "markdown": "Function [ETH_FUND.CashOut(uint256)](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L37-L50) is not in mixedCase\n",
+        "id": "c9739ba9c139b70eb032dc50175e139903a2461fe8a44499357dcf2040309ed9",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_am",
+            "source_mapping": {
+              "start": 692,
+              "length": 8,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                37
+              ],
+              "starting_column": 22,
+              "ending_column": 30
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "CashOut",
+                "source_mapping": {
+                  "start": 675,
+                  "length": 379,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ETH_FUND",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 996,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "CashOut(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter ETH_FUND.CashOut(uint256)._am (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#37) is not in mixedCase\n",
+        "markdown": "Parameter [ETH_FUND.CashOut(uint256)._am](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L37) is not in mixedCase\n",
+        "id": "3989fd3e7ba8a1c1b5fad3e6b0107b9f68e41a18ccfbc67cb06317dc18d0f325",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "MinDeposit",
+            "source_mapping": {
+              "start": 190,
+              "length": 32,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable ETH_FUND.MinDeposit (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#13) is not in mixedCase\n",
+        "markdown": "Variable [ETH_FUND.MinDeposit](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L13) is not in mixedCase\n",
+        "id": "6b517a6587f713bb9c3558a75734eea2b37991979e85f6512cd8ebabf4eb37aa",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "TransferLog",
+            "source_mapping": {
+              "start": 235,
+              "length": 15,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 20
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable ETH_FUND.TransferLog (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#15) is not in mixedCase\n",
+        "markdown": "Variable [ETH_FUND.TransferLog](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L15) is not in mixedCase\n",
+        "id": "274ad1c1f8da5b23e05b864553d41b9fe52a540c539ddc16d1d6110f977909da",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AddMessage",
+            "source_mapping": {
+              "start": 1330,
+              "length": 235,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 1110,
+                  "length": 458,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "AddMessage(address,uint256,string)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Log.AddMessage(address,uint256,string) (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#71-79) is not in mixedCase\n",
+        "markdown": "Function [Log.AddMessage(address,uint256,string)](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L71-L79) is not in mixedCase\n",
+        "id": "66845808355de3f3587edbe6bbedff5a7c9999f313d0d294df63fe67cab6561d",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_adr",
+            "source_mapping": {
+              "start": 1350,
+              "length": 12,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 25,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "AddMessage",
+                "source_mapping": {
+                  "start": 1330,
+                  "length": 235,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Log",
+                    "source_mapping": {
+                      "start": 1110,
+                      "length": 458,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "AddMessage(address,uint256,string)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Log.AddMessage(address,uint256,string)._adr (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#71) is not in mixedCase\n",
+        "markdown": "Parameter [Log.AddMessage(address,uint256,string)._adr](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L71) is not in mixedCase\n",
+        "id": "448884c0105492c21390b147b3b28938f500bd38e5c7db3e49f77082b4ae5901",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_val",
+            "source_mapping": {
+              "start": 1363,
+              "length": 9,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 38,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "AddMessage",
+                "source_mapping": {
+                  "start": 1330,
+                  "length": 235,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Log",
+                    "source_mapping": {
+                      "start": 1110,
+                      "length": 458,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "AddMessage(address,uint256,string)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Log.AddMessage(address,uint256,string)._val (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#71) is not in mixedCase\n",
+        "markdown": "Parameter [Log.AddMessage(address,uint256,string)._val](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L71) is not in mixedCase\n",
+        "id": "cf299a7fd737d25b044f24bab1472ef4ad0e03e2e83f1589cc97dcd942c3b397",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_data",
+            "source_mapping": {
+              "start": 1373,
+              "length": 12,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 48,
+              "ending_column": 60
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "AddMessage",
+                "source_mapping": {
+                  "start": 1330,
+                  "length": 235,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Log",
+                    "source_mapping": {
+                      "start": 1110,
+                      "length": 458,
+                      "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "AddMessage(address,uint256,string)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Log.AddMessage(address,uint256,string)._data (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#71) is not in mixedCase\n",
+        "markdown": "Parameter [Log.AddMessage(address,uint256,string)._data](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L71) is not in mixedCase\n",
+        "id": "88ef89222b78c5ba078f8cd13354a82ff13db1aa11aa346db18dff995e21d93a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "History",
+            "source_mapping": {
+              "start": 1265,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                67
+              ],
+              "starting_column": 5,
+              "ending_column": 29
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 1110,
+                  "length": 458,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Log.History (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#67) is not in mixedCase\n",
+        "markdown": "Variable [Log.History](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L67) is not in mixedCase\n",
+        "id": "090079b92801e672b64f5cf8142250c73d1664e3eed3713db0903af415c9a693",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "LastMsg",
+            "source_mapping": {
+              "start": 1302,
+              "length": 15,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                69
+              ],
+              "starting_column": 5,
+              "ending_column": 20
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 1110,
+                  "length": 458,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Log.LastMsg (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#69) is not in mixedCase\n",
+        "markdown": "Variable [Log.LastMsg](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L69) is not in mixedCase\n",
+        "id": "09c76985dbe5bf29a2f821cb43652fc650f0254c08215e77779e7a73be035074",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "MinDeposit",
+            "source_mapping": {
+              "start": 190,
+              "length": 32,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "ETH_FUND.MinDeposit (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#13) should be constant\n",
+        "markdown": "[ETH_FUND.MinDeposit](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L13) should be constant\n",
+        "id": "9cc1c91a4898677d352d6ccd3000cdb863244e9cf2f6a1acf9791a47c5873ec0",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Deposit",
+            "source_mapping": {
+              "start": 394,
+              "length": 269,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Deposit()"
+            }
+          }
+        ],
+        "description": "Deposit() should be declared external:\n\t- ETH_FUND.Deposit() (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#25-35)\n",
+        "markdown": "Deposit() should be declared external:\n\t- [ETH_FUND.Deposit()](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L25-L35)\n",
+        "id": "2d0bfa12de3cae546b16ed1d4b1db6b46305ac96e1d4b9eb72e2c594a313f4f5",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "CashOut",
+            "source_mapping": {
+              "start": 675,
+              "length": 379,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "CashOut(uint256)"
+            }
+          }
+        ],
+        "description": "CashOut(uint256) should be declared external:\n\t- ETH_FUND.CashOut(uint256) (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#37-50)\n",
+        "markdown": "CashOut(uint256) should be declared external:\n\t- [ETH_FUND.CashOut(uint256)](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L37-L50)\n",
+        "id": "3bcbb854596270f0bd2a14316a4e0314763b6b07d904bb278e5b6b0cc720fa84",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 1066,
+              "length": 27,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                52
+              ],
+              "starting_column": 5,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETH_FUND",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 996,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- ETH_FUND.fallback() (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#52)\n",
+        "markdown": "fallback() should be declared external:\n\t- [ETH_FUND.fallback()](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L52)\n",
+        "id": "9128657e83af419c110b1533f13805f72ac4a871299c987e46a99b1b585f799a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AddMessage",
+            "source_mapping": {
+              "start": 1330,
+              "length": 235,
+              "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+              "is_dependency": false,
+              "lines": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 1110,
+                  "length": 458,
+                  "filename_used": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_relative": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "filename_short": "contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "AddMessage(address,uint256,string)"
+            }
+          }
+        ],
+        "description": "AddMessage(address,uint256,string) should be declared external:\n\t- Log.AddMessage(address,uint256,string) (contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#71-79)\n",
+        "markdown": "AddMessage(address,uint256,string) should be declared external:\n\t- [Log.AddMessage(address,uint256,string)](contractSource/SmartBug/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol#L71-L79)\n",
+        "id": "4c8a4094e2c32c05d0bef5e9b094853cb3f7403b260edf76439824f829f297b6",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

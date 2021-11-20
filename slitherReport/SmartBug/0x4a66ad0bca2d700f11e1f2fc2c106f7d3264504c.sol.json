@@ -1,0 +1,961 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 282,
+              "length": 456,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 111,
+                  "length": 630,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)",
+            "source_mapping": {
+              "start": 642,
+              "length": 55,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 13,
+              "ending_column": 68
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 282,
+                  "length": 456,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 111,
+                      "length": 630,
+                      "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.transfer(address[],uint256[]) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#13-22) ignores return value by caddress.call(id,from,_tos[i],v[i] * 1000000000000000000) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#19)\n",
+        "markdown": "[EBU.transfer(address[],uint256[])](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L13-L22) ignores return value by [caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L19)\n",
+        "id": "6443ad9e6dac58961055fe9e003a0614dfcf97b61b9ad18dc054438cb914cf14",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 282,
+              "length": 456,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 111,
+                  "length": 630,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)",
+            "source_mapping": {
+              "start": 642,
+              "length": 55,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 13,
+              "ending_column": 68
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 282,
+                  "length": 456,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 111,
+                      "length": 630,
+                      "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.transfer(address[],uint256[]) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#13-22) has external calls inside a loop: caddress.call(id,from,_tos[i],v[i] * 1000000000000000000) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#19)\n",
+        "markdown": "[EBU.transfer(address[],uint256[])](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L13-L22) has external calls inside a loop: [caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L19)\n",
+        "id": "2f9716107daa1e4c213013cb44189fab1e92730413df94b90456586bc7f93047",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.18",
+            "source_mapping": {
+              "start": 83,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".18"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.18 (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.18](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L7) allows old versions\n",
+        "id": "6faa7b3281ec0f1ad30dbd15195be11f8ef134b31bc3ec1f6ce9795bd53d41a0",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 282,
+              "length": 456,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 111,
+                  "length": 630,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)",
+            "source_mapping": {
+              "start": 642,
+              "length": 55,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 13,
+              "ending_column": 68
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 282,
+                  "length": 456,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 111,
+                      "length": 630,
+                      "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in EBU.transfer(address[],uint256[]) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#13-22):\n\t- caddress.call(id,from,_tos[i],v[i] * 1000000000000000000) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#19)\n",
+        "markdown": "Low level call in [EBU.transfer(address[],uint256[])](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L13-L22):\n\t- [caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L19)\n",
+        "id": "7d4e21c78aacf6065a1ef4a569cb7f9cfec58c81f7ca9a52d4c75308d579be03",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_tos",
+            "source_mapping": {
+              "start": 300,
+              "length": 14,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 23,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 282,
+                  "length": 456,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 111,
+                      "length": 630,
+                      "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter EBU.transfer(address[],uint256[])._tos (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#13) is not in mixedCase\n",
+        "markdown": "Parameter [EBU.transfer(address[],uint256[])._tos](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L13) is not in mixedCase\n",
+        "id": "56d0cf404abac4398a07277208a8b10625275875a543546a297d116e7c804528",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 282,
+              "length": 456,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 111,
+                  "length": 630,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)",
+            "source_mapping": {
+              "start": 642,
+              "length": 55,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 13,
+              "ending_column": 68
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 282,
+                  "length": 456,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EBU",
+                    "source_mapping": {
+                      "start": 111,
+                      "length": 630,
+                      "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.transfer(address[],uint256[]) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#13-22) uses literals with too many digits:\n\t- caddress.call(id,from,_tos[i],v[i] * 1000000000000000000) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#19)\n",
+        "markdown": "[EBU.transfer(address[],uint256[])](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L13-L22) uses literals with too many digits:\n\t- [caddress.call(id,from,_tos[i],v[i] * 1000000000000000000)](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L19)\n",
+        "id": "7b1f92ffca4a5f4a4213540980dfad8c69d3abadf8a65b519456dd357856e078",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "caddress",
+            "source_mapping": {
+              "start": 201,
+              "length": 68,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 73
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 111,
+                  "length": 630,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.caddress (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#11) should be constant\n",
+        "markdown": "[EBU.caddress](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L11) should be constant\n",
+        "id": "04b5b7dcb1577df7ec9b23ca1cbb298f6d8151ed4f0e300a82108af602e5a0ce",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "from",
+            "source_mapping": {
+              "start": 130,
+              "length": 64,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 69
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 111,
+                  "length": 630,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "EBU.from (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#10) should be constant\n",
+        "markdown": "[EBU.from](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L10) should be constant\n",
+        "id": "1b5495325dcfaf7b5e83744b61cdd61de6e2c3fedd68cdb102e041b1bf641b79",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 282,
+              "length": 456,
+              "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EBU",
+                "source_mapping": {
+                  "start": 111,
+                  "length": 630,
+                  "filename_used": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_relative": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "filename_short": "contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address[],uint256[])"
+            }
+          }
+        ],
+        "description": "transfer(address[],uint256[]) should be declared external:\n\t- EBU.transfer(address[],uint256[]) (contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#13-22)\n",
+        "markdown": "transfer(address[],uint256[]) should be declared external:\n\t- [EBU.transfer(address[],uint256[])](contractSource/SmartBug/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol#L13-L22)\n",
+        "id": "be1a55d4155daf60e3a63a9e5a27cc9746b0c78a092fadac690b68c39bf6a873",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

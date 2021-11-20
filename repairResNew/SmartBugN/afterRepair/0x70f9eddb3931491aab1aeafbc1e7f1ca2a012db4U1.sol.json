@@ -1,0 +1,1015 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetHoneyFromJar",
+            "source_mapping": {
+              "start": 115,
+              "length": 142,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HomeyJar",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 601,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetHoneyFromJar()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.transfer(this.balance)",
+            "source_mapping": {
+              "start": 217,
+              "length": 33,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "GetHoneyFromJar",
+                "source_mapping": {
+                  "start": 115,
+                  "length": 142,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "HomeyJar",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 601,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "GetHoneyFromJar()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "HomeyJar.GetHoneyFromJar() (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#6-11) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(this.balance) (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#9)\n",
+        "markdown": "[HomeyJar.GetHoneyFromJar()](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L6-L11) sends eth to arbitrary user\n\tDangerous calls:\n\t- [msg.sender.transfer(this.balance)](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L9)\n",
+        "id": "8fdcfe64ed2e3dd28742ee78f1af28bf3015d762d2f084811728f54b2b479be7",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 612,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                22
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 481,
+                  "length": 141,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "HomeyJar",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 601,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#22):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L22):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "d25838345b49605c5a6feb0a65ac7ae0ee61d243b6388272b45aae76ccf1ee47",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.19",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".19"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.19 (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.19](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L1) allows old versions\n",
+        "id": "77b6ff9506759dc657d2697759100a221df2bee1b94f27aa6707274180ac36a9",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 481,
+              "length": 141,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HomeyJar",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 601,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! adr.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 575,
+              "length": 33,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 481,
+                  "length": 141,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "HomeyJar",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 601,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in HomeyJar.Command(address,bytes) (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#19-23):\n\t- ! adr.call.value(msg.value)(data) (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#21)\n",
+        "markdown": "Low level call in [HomeyJar.Command(address,bytes)](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L19-L23):\n\t- [! adr.call.value(msg.value)(data)](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L21)\n",
+        "id": "e0c176de15072c1243431d29a267973c0354d6a784396a781c56d2909f62dbc1",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetHoneyFromJar",
+            "source_mapping": {
+              "start": 115,
+              "length": 142,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HomeyJar",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 601,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetHoneyFromJar()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function HomeyJar.GetHoneyFromJar() (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#6-11) is not in mixedCase\n",
+        "markdown": "Function [HomeyJar.GetHoneyFromJar()](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L6-L11) is not in mixedCase\n",
+        "id": "2bdbd8bc09c16ee56c20076213d1adad8409f849fc703b45773f9a2b33e70137",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 481,
+              "length": 141,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HomeyJar",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 601,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function HomeyJar.Command(address,bytes) (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#19-23) is not in mixedCase\n",
+        "markdown": "Function [HomeyJar.Command(address,bytes)](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L19-L23) is not in mixedCase\n",
+        "id": "3478828f178f6b19286714ed0c8670c8328ab3615fe27cc97f2c7c4c5ff7291c",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 46,
+              "length": 33,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 2,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HomeyJar",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 601,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable HomeyJar.Owner (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#3) is not in mixedCase\n",
+        "markdown": "Variable [HomeyJar.Owner](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L3) is not in mixedCase\n",
+        "id": "08b70959eff83982d89fbb06520fe218c02b551a36466d9ef3cf0569593803c5",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 82,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HomeyJar",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 601,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- HomeyJar.fallback() (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#4-5)\n",
+        "markdown": "fallback() should be declared external:\n\t- [HomeyJar.fallback()](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L4-L5)\n",
+        "id": "6713de79ac7fadbd81a3d1b9289b8a7fbb7dfad4fbbbd6fccaa5f16f279a3354",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "GetHoneyFromJar",
+            "source_mapping": {
+              "start": 115,
+              "length": 142,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HomeyJar",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 601,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "GetHoneyFromJar()"
+            }
+          }
+        ],
+        "description": "GetHoneyFromJar() should be declared external:\n\t- HomeyJar.GetHoneyFromJar() (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#6-11)\n",
+        "markdown": "GetHoneyFromJar() should be declared external:\n\t- [HomeyJar.GetHoneyFromJar()](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L6-L11)\n",
+        "id": "8e12e022610e6459216d0241dd74cad6fe8019a0c4aba04c398b3e6652ceb594",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 259,
+              "length": 220,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HomeyJar",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 601,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- HomeyJar.withdraw() (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#12-18)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [HomeyJar.withdraw()](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L12-L18)\n",
+        "id": "3210d83dae5e83a5eba6e4738c02c17b5289e058fde27d92662f3d07107a50f2",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 481,
+              "length": 141,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+              "is_dependency": false,
+              "lines": [
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HomeyJar",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 601,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          }
+        ],
+        "description": "Command(address,bytes) should be declared external:\n\t- HomeyJar.Command(address,bytes) (repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#19-23)\n",
+        "markdown": "Command(address,bytes) should be declared external:\n\t- [HomeyJar.Command(address,bytes)](repairResNew/SmartBugN/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol#L19-L23)\n",
+        "id": "0ab0ccd956c841c45b6f85cfe0148b193a4bc53efd72752ddd2a10e327410efc",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

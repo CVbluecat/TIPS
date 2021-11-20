@@ -1,0 +1,896 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 512,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendMoney",
+                "source_mapping": {
+                  "start": 388,
+                  "length": 134,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleWallet",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 501,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "sendMoney(address,uint256,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#19):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L19):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "217764389807c7db0ef97ecf71bb354c3dd37a385cc3ca3eba53211403abf0a9",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L1) allows old versions\n",
+        "id": "30776e00df352511a82dfb03fb5bfc886204856ec28f4af9b4983020fcea9f61",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sendMoney",
+            "source_mapping": {
+              "start": 388,
+              "length": 134,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleWallet",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 501,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "sendMoney(address,uint256,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! _target.call.value(_value)(_data)",
+            "source_mapping": {
+              "start": 473,
+              "length": 35,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 5,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendMoney",
+                "source_mapping": {
+                  "start": 388,
+                  "length": 134,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleWallet",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 501,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "sendMoney(address,uint256,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in SimpleWallet.sendMoney(address,uint256,bytes) (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#17-20):\n\t- ! _target.call.value(_value)(_data) (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#18)\n",
+        "markdown": "Low level call in [SimpleWallet.sendMoney(address,uint256,bytes)](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L17-L20):\n\t- [! _target.call.value(_value)(_data)](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L18)\n",
+        "id": "fab1ca85a6371e5cd7cbd301a514f0081180b42e1d6e6527239695af477cd68a",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 322,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 20,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 304,
+                  "length": 82,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleWallet",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 501,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter SimpleWallet.withdraw(uint256)._value (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#14) is not in mixedCase\n",
+        "markdown": "Parameter [SimpleWallet.withdraw(uint256)._value](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L14) is not in mixedCase\n",
+        "id": "e9851a412ac0e44565514ac956c9e0db5fa29faa131626efa5eec2c223e7fb8e",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_target",
+            "source_mapping": {
+              "start": 407,
+              "length": 15,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 21,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendMoney",
+                "source_mapping": {
+                  "start": 388,
+                  "length": 134,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleWallet",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 501,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "sendMoney(address,uint256,bytes)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter SimpleWallet.sendMoney(address,uint256,bytes)._target (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#17) is not in mixedCase\n",
+        "markdown": "Parameter [SimpleWallet.sendMoney(address,uint256,bytes)._target](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L17) is not in mixedCase\n",
+        "id": "da3b452d7cccf75c6b00fee37b906e0d289164d7f69e22140525cddca6c58af6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 424,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 38,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendMoney",
+                "source_mapping": {
+                  "start": 388,
+                  "length": 134,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleWallet",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 501,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "sendMoney(address,uint256,bytes)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter SimpleWallet.sendMoney(address,uint256,bytes)._value (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#17) is not in mixedCase\n",
+        "markdown": "Parameter [SimpleWallet.sendMoney(address,uint256,bytes)._value](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L17) is not in mixedCase\n",
+        "id": "f7e16824e02f53dab1532876ba146b05d5ac3200e91ff6cc322b6fb72298a9fa",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_data",
+            "source_mapping": {
+              "start": 437,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 51,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendMoney",
+                "source_mapping": {
+                  "start": 388,
+                  "length": 134,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SimpleWallet",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 501,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "sendMoney(address,uint256,bytes)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter SimpleWallet.sendMoney(address,uint256,bytes)._data (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#17) is not in mixedCase\n",
+        "markdown": "Parameter [SimpleWallet.sendMoney(address,uint256,bytes)._data](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L17) is not in mixedCase\n",
+        "id": "d3ea15ac4e96fceefb3a419517020e81d5fb817a1e124bbbd6f7de04df724c97",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 173,
+              "length": 49,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleWallet",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 501,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- SimpleWallet.fallback() (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#8-10)\n",
+        "markdown": "fallback() should be declared external:\n\t- [SimpleWallet.fallback()](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L8-L10)\n",
+        "id": "656ea59d2c403a5c7d52a2679699aa789753c07de457325f10ffb92d602d4f2d",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawAll",
+            "source_mapping": {
+              "start": 224,
+              "length": 78,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleWallet",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 501,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawAll()"
+            }
+          }
+        ],
+        "description": "withdrawAll() should be declared external:\n\t- SimpleWallet.withdrawAll() (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#11-13)\n",
+        "markdown": "withdrawAll() should be declared external:\n\t- [SimpleWallet.withdrawAll()](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L11-L13)\n",
+        "id": "2efa165c66252c56f3c84e0045d086d3aab5ffc3f068ba7885fa7ceae6c8594c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sendMoney",
+            "source_mapping": {
+              "start": 388,
+              "length": 134,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+              "is_dependency": false,
+              "lines": [
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SimpleWallet",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 501,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "sendMoney(address,uint256,bytes)"
+            }
+          }
+        ],
+        "description": "sendMoney(address,uint256,bytes) should be declared external:\n\t- SimpleWallet.sendMoney(address,uint256,bytes) (repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#17-20)\n",
+        "markdown": "sendMoney(address,uint256,bytes) should be declared external:\n\t- [SimpleWallet.sendMoney(address,uint256,bytes)](repairResNew/SmartBugN/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol#L17-L20)\n",
+        "id": "8542b1be7b4c003a8e71610ba9ab4ba9de293c8fe3ee84ff7c48347572ceef61",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.21",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_relative": "repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_short": "repairResNew/SmartBugN/tokensalechallenge.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".21"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.21 (repairResNew/SmartBugN/tokensalechallenge.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.21](repairResNew/SmartBugN/tokensalechallenge.sol#L1) allows old versions\n",
+        "id": "6b6e82f1aad35803fbb3be97a43f137953fb7c68cd18ce40bb2d2a859ea12446",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "isComplete",
+            "source_mapping": {
+              "start": 230,
+              "length": 93,
+              "filename_used": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_relative": "repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_short": "repairResNew/SmartBugN/tokensalechallenge.sol",
+              "is_dependency": false,
+              "lines": [
+                8,
+                9,
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TokenSaleChallenge",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "filename_relative": "repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "filename_short": "repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "isComplete()"
+            }
+          }
+        ],
+        "description": "isComplete() should be declared external:\n\t- TokenSaleChallenge.isComplete() (repairResNew/SmartBugN/tokensalechallenge.sol#8-10)\n",
+        "markdown": "isComplete() should be declared external:\n\t- [TokenSaleChallenge.isComplete()](repairResNew/SmartBugN/tokensalechallenge.sol#L8-L10)\n",
+        "id": "94c85c584b7174a542c2742683a3d4a095c10a3c7087722cb5dd63bbf5b39474",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "buy",
+            "source_mapping": {
+              "start": 325,
+              "length": 140,
+              "filename_used": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_relative": "repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_short": "repairResNew/SmartBugN/tokensalechallenge.sol",
+              "is_dependency": false,
+              "lines": [
+                11,
+                12,
+                13,
+                14
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TokenSaleChallenge",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "filename_relative": "repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "filename_short": "repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "buy(uint256)"
+            }
+          }
+        ],
+        "description": "buy(uint256) should be declared external:\n\t- TokenSaleChallenge.buy(uint256) (repairResNew/SmartBugN/tokensalechallenge.sol#11-14)\n",
+        "markdown": "buy(uint256) should be declared external:\n\t- [TokenSaleChallenge.buy(uint256)](repairResNew/SmartBugN/tokensalechallenge.sol#L11-L14)\n",
+        "id": "1f69ad8b817024d76b1af871738c0e34b252ac7cdc0af60a565cf39d9840f0a0",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sell",
+            "source_mapping": {
+              "start": 467,
+              "length": 178,
+              "filename_used": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_relative": "repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+              "filename_short": "repairResNew/SmartBugN/tokensalechallenge.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TokenSaleChallenge",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 624,
+                  "filename_used": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "filename_relative": "repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "filename_short": "repairResNew/SmartBugN/tokensalechallenge.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "sell(uint256)"
+            }
+          }
+        ],
+        "description": "sell(uint256) should be declared external:\n\t- TokenSaleChallenge.sell(uint256) (repairResNew/SmartBugN/tokensalechallenge.sol#15-19)\n",
+        "markdown": "sell(uint256) should be declared external:\n\t- [TokenSaleChallenge.sell(uint256)](repairResNew/SmartBugN/tokensalechallenge.sol#L15-L19)\n",
+        "id": "2071a7c483373547058cd6fab3c19768bcdc227c633b7d67eea86fd3524a99ce",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

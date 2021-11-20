@@ -1,0 +1,980 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "classicTransfer",
+            "source_mapping": {
+              "start": 309,
+              "length": 157,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeConditionalHFTransfer",
+                "source_mapping": {
+                  "start": 94,
+                  "length": 541,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "classicTransfer(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(msg.value)",
+            "source_mapping": {
+              "start": 385,
+              "length": 26,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 13,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "classicTransfer",
+                "source_mapping": {
+                  "start": 309,
+                  "length": 157,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeConditionalHFTransfer",
+                    "source_mapping": {
+                      "start": 94,
+                      "length": 541,
+                      "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "classicTransfer(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "SafeConditionalHFTransfer.classicTransfer(address) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#13-18) ignores return value by msg.sender.send(msg.value) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#15)\n",
+        "markdown": "[SafeConditionalHFTransfer.classicTransfer(address)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L13-L18) ignores return value by [msg.sender.send(msg.value)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L15)\n",
+        "id": "8df5ee9dcd3214d5858921afbf29f683aa152790eec478930bac2d391c30827b",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "classicTransfer",
+            "source_mapping": {
+              "start": 309,
+              "length": 157,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeConditionalHFTransfer",
+                "source_mapping": {
+                  "start": 94,
+                  "length": 541,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "classicTransfer(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "to.send(msg.value)",
+            "source_mapping": {
+              "start": 440,
+              "length": 18,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 13,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "classicTransfer",
+                "source_mapping": {
+                  "start": 309,
+                  "length": 157,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeConditionalHFTransfer",
+                    "source_mapping": {
+                      "start": 94,
+                      "length": 541,
+                      "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "classicTransfer(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "SafeConditionalHFTransfer.classicTransfer(address) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#13-18) ignores return value by to.send(msg.value) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#17)\n",
+        "markdown": "[SafeConditionalHFTransfer.classicTransfer(address)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L13-L18) ignores return value by [to.send(msg.value)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L17)\n",
+        "id": "13bc69d9de8f502e87fd9f8d2ab43866601320805674ff73bef0109d91a7cb79",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 478,
+              "length": 148,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeConditionalHFTransfer",
+                "source_mapping": {
+                  "start": 94,
+                  "length": 541,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(msg.value)",
+            "source_mapping": {
+              "start": 545,
+              "length": 26,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                22
+              ],
+              "starting_column": 13,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 478,
+                  "length": 148,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeConditionalHFTransfer",
+                    "source_mapping": {
+                      "start": 94,
+                      "length": 541,
+                      "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "SafeConditionalHFTransfer.transfer(address) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#20-25) ignores return value by msg.sender.send(msg.value) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#22)\n",
+        "markdown": "[SafeConditionalHFTransfer.transfer(address)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L20-L25) ignores return value by [msg.sender.send(msg.value)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L22)\n",
+        "id": "9da151ba6d3f3e2d3472cc99a635126ec816b7b1a840d0d27270ccee92132835",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 478,
+              "length": 148,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeConditionalHFTransfer",
+                "source_mapping": {
+                  "start": 94,
+                  "length": 541,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "to.send(msg.value)",
+            "source_mapping": {
+              "start": 600,
+              "length": 18,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                24
+              ],
+              "starting_column": 13,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 478,
+                  "length": 148,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeConditionalHFTransfer",
+                    "source_mapping": {
+                      "start": 94,
+                      "length": 541,
+                      "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "SafeConditionalHFTransfer.transfer(address) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#20-25) ignores return value by to.send(msg.value) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#24)\n",
+        "markdown": "[SafeConditionalHFTransfer.transfer(address)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L20-L25) ignores return value by [to.send(msg.value)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L24)\n",
+        "id": "a980794c1ea40de31a5aa0360eaee23f1924c6ded89db4136a6c979a9bd5b96c",
+        "check": "unchecked-send",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "isClassic",
+            "source_mapping": {
+              "start": 71,
+              "length": 14,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 47,
+              "ending_column": 61
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "isClassic",
+                "source_mapping": {
+                  "start": 32,
+                  "length": 55,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2
+                  ],
+                  "starting_column": 8,
+                  "ending_column": 63
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ClassicCheck",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 90,
+                      "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "isClassic()"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "isClassic",
+            "source_mapping": {
+              "start": 32,
+              "length": 55,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 8,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassicCheck",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 90,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "isClassic()"
+            }
+          }
+        ],
+        "description": "ClassicCheck.isClassic().isClassic (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#2) shadows:\n\t- ClassicCheck.isClassic() (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#2) (function)\n",
+        "markdown": "[ClassicCheck.isClassic().isClassic](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L2) shadows:\n\t- [ClassicCheck.isClassic()](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L2) (function)\n",
+        "id": "ca58433e3a67a05e79a2c35ff3c12d3561a30cdc2472011fae0c8dcdf5a2ad41",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "isClassic",
+            "source_mapping": {
+              "start": 32,
+              "length": 55,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 8,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassicCheck",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 90,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "isClassic()"
+            }
+          }
+        ],
+        "description": "isClassic() should be declared external:\n\t- ClassicCheck.isClassic() (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#2)\n",
+        "markdown": "isClassic() should be declared external:\n\t- [ClassicCheck.isClassic()](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L2)\n",
+        "id": "24a7bc33e529f422e88953981010515ae95f0b92e186a09b358b23903b94f090",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "classicTransfer",
+            "source_mapping": {
+              "start": 309,
+              "length": 157,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeConditionalHFTransfer",
+                "source_mapping": {
+                  "start": 94,
+                  "length": 541,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "classicTransfer(address)"
+            }
+          }
+        ],
+        "description": "classicTransfer(address) should be declared external:\n\t- SafeConditionalHFTransfer.classicTransfer(address) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#13-18)\n",
+        "markdown": "classicTransfer(address) should be declared external:\n\t- [SafeConditionalHFTransfer.classicTransfer(address)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L13-L18)\n",
+        "id": "0c92d644116765d32eca1a71903875175ad940ce53ffc3f983483f8469e8998a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 478,
+              "length": 148,
+              "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeConditionalHFTransfer",
+                "source_mapping": {
+                  "start": 94,
+                  "length": 541,
+                  "filename_used": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_relative": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "filename_short": "contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address)"
+            }
+          }
+        ],
+        "description": "transfer(address) should be declared external:\n\t- SafeConditionalHFTransfer.transfer(address) (contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#20-25)\n",
+        "markdown": "transfer(address) should be declared external:\n\t- [SafeConditionalHFTransfer.transfer(address)](contractSource/TSE/0x1e143b2588705dfea63a17f2032ca123df995ce0.sol#L20-L25)\n",
+        "id": "9e2ee0fdc51dfb1bbfee1ce299742f76c9bae695346f8c7cc1f5ea530817eaa4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

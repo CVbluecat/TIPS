@@ -1,8 +1,8 @@
 const solc = require('solc')
 const fs = require('fs')
 const shelljs = require('shelljs')
-const sourcePath = './repairRes/TSE/'
-//const sourcePath = '/home/chaoweilanmao/Desktop/tmp/'
+// const sourcePath = './contractSource/test/'
+const sourcePath = '/home/chaoweilanmao/Desktop/tmp/'
 const outputPath = './compileRes/TSE/'
 
 // let fileidx = parseInt(process.argv.splice(2)[0])

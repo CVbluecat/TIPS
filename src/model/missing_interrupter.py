@@ -41,10 +41,8 @@ def repair_missing_interrupter(ast, charno):
             if len(state_var) == 0:
                 # add a variable declaration and insert into constructor
                 owner_idennode = TreeNode('VariableDeclaration')
-                owner_idennode.beginPoint = -1
                 owner_idennode.attributes = {'name':'contractOwner'}
                 ele_node = TreeNode('ElementaryTypeName')
-                ele_node.beginPoint = -1
                 ele_node.attributes = {'name':'address', 'value':'address'}
                 owner_idennode.children.append(ele_node)
 
@@ -68,17 +66,13 @@ def repair_missing_interrupter(ast, charno):
                         break
 
                 expNode = TreeNode('ExpressionStatement')
-                expNode.beginPoint = -1
                 curbinaryOpNode = TreeNode('BinaryOperation')
-                curbinaryOpNode.beginPoint = -1
                 curbinaryOpNode.attributes = {}
                 curbinaryOpNode.attributes['operator'] = '='
 
                 left_node = TreeNode('Identifier')
-                left_node.beginPoint = -1
                 left_node.attributes = {'value':'contractOwner'}
                 right_node = TreeNode('Identifier')
-                right_node.beginPoint = -1
                 right_node.attributes = {'value':'_owner'}
 
                 curbinaryOpNode.children.append(left_node)
@@ -95,7 +89,6 @@ def repair_missing_interrupter(ast, charno):
 
 
             funcDefNode = TreeNode('FunctionDefinition')
-            funcDefNode.beginPoint = -1
             funcDefNode.attributes = {}
             funcDefNode.attributes['name'] = 'suicideFunc'
             funcDefNode.attributes['isConstructor'] = False
@@ -105,37 +98,28 @@ def repair_missing_interrupter(ast, charno):
 
             paramNode = TreeNode('ParameterList')
             returnParamNode = TreeNode('ParameterList')
-            paramNode.beginPoint = -1
-            returnParamNode.beginPoint = -1
             funcDefNode.children.append(paramNode)
             funcDefNode.children.append(returnParamNode)
 
             # msg.sender
             memaccNode = TreeNode('MemberAccess')
-            memaccNode.beginPoint = -1
             memaccNode.attributes = {}
             memaccNode.attributes['member_name'] = 'sender'
             idenNode = TreeNode('Identifier')
-            idenNode.beginPoint = -1
             idenNode.attributes = {}
             idenNode.attributes['value'] = 'msg'
             memaccNode.children.append(idenNode)
 
             # require
             reqexpNode = TreeNode('ExpressionStatement')
-            reqexpNode.beginPoint = -1
             requireNode = TreeNode('FunctionCall')
-            requireNode.beginPoint = -1
             nameNode = TreeNode('Identifier')
-            nameNode.beginPoint = -1
             nameNode.attributes = {}
             nameNode.attributes['value'] = 'require'
             binaryOpNode = TreeNode('BinaryOperation')
-            binaryOpNode.beginPoint = -1
             binaryOpNode.attributes = {}
             binaryOpNode.attributes['operator'] = '=='
             userdefNode = TreeNode('Identifier')
-            userdefNode.beginPoint = -1
             userdefNode.attributes = {}
             userdefNode.attributes['value'] = owner_var
             binaryOpNode.children.append(userdefNode)
@@ -148,13 +132,9 @@ def repair_missing_interrupter(ast, charno):
 
             # selfdestruct
             blockNode = TreeNode('Block')
-            blockNode.beginPoint = -1
             expNode = TreeNode('ExpressionStatement')
-            expNode.beginPoint = -1
             funcCallNode = TreeNode('FunctionCall')
-            funcCallNode.beginPoint = -1
             funcNameNode = TreeNode('Identifier')
-            funcNameNode.beginPoint = -1
             funcNameNode.attributes = {}
             funcNameNode.attributes['value'] = 'selfdestruct'
             funcCallNode.children.append(funcNameNode)

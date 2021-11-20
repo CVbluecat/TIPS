@@ -1,0 +1,600 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 520,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 357,
+                  "length": 173,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WithdrawDAO",
+                    "source_mapping": {
+                      "start": 183,
+                      "length": 487,
+                      "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                      "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                      "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdraw()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#10):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#L10):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "82a2def8924b7eac46facb9ea9e8971cc92ce26e4839afcaf9893883003ced0a",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 656,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "trusteeWithdraw",
+                "source_mapping": {
+                  "start": 532,
+                  "length": 134,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "WithdrawDAO",
+                    "source_mapping": {
+                      "start": 183,
+                      "length": 487,
+                      "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                      "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                      "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "trusteeWithdraw()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#14):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#L14):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "123ede0302dad0dfbde941207bfd8a218ceed6e55789d3b87ff268d36cc20aad",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "mainDAO",
+            "source_mapping": {
+              "start": 207,
+              "length": 77,
+              "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 79
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WithdrawDAO",
+                "source_mapping": {
+                  "start": 183,
+                  "length": 487,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable_constant",
+              "convention": "UPPER_CASE_WITH_UNDERSCORES"
+            }
+          }
+        ],
+        "description": "Constant WithdrawDAO.mainDAO (repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#5) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "markdown": "Constant [WithdrawDAO.mainDAO](repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#L5) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+        "id": "37e1ba1bd91740921c7a24fbbc63af5ff12aed1eae14b167388a192bd3d5c19e",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 155,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 141,
+              "ending_column": 164
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DAO",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 183,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "DAO.totalSupply (repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#2) should be constant\n",
+        "markdown": "[DAO.totalSupply](repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#L2) should be constant\n",
+        "id": "dddaf1e9cc3e464d9b8e15d03354acf44a065ac89c4aacf13f93ba7f26392d5c",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "trustee",
+            "source_mapping": {
+              "start": 287,
+              "length": 67,
+              "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 2,
+              "ending_column": 69
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WithdrawDAO",
+                "source_mapping": {
+                  "start": 183,
+                  "length": 487,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "WithdrawDAO.trustee (repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#6) should be constant\n",
+        "markdown": "[WithdrawDAO.trustee](repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#L6) should be constant\n",
+        "id": "96a866e5cb1957d33b74426c18cd0d737176504c70defa2533a95f2fe85d67af",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 16,
+              "length": 55,
+              "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 2,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DAO",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 183,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- DAO.balanceOf(address) (repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#2)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [DAO.balanceOf(address)](repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#L2)\n",
+        "id": "4a10a6bd02e0518b978a61184bc1952f65725b81e2e294feda72251997b3e553",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 71,
+              "length": 84,
+              "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 57,
+              "ending_column": 141
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DAO",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 183,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3,
+                    4
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256) should be declared external:\n\t- DAO.transferFrom(address,address,uint256) (repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#2)\n",
+        "markdown": "transferFrom(address,address,uint256) should be declared external:\n\t- [DAO.transferFrom(address,address,uint256)](repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#L2)\n",
+        "id": "ad188ca2b419ae380c190b2f417cc2beb94825fb08d33a97e8f4afe22e35b8ad",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 357,
+              "length": 173,
+              "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WithdrawDAO",
+                "source_mapping": {
+                  "start": 183,
+                  "length": 487,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- WithdrawDAO.withdraw() (repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#7-11)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [WithdrawDAO.withdraw()](repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#L7-L11)\n",
+        "id": "1597a4683690318912631c0e36dc84df02c95f922b9922528e6140c847565002",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "trusteeWithdraw",
+            "source_mapping": {
+              "start": 532,
+              "length": 134,
+              "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "WithdrawDAO",
+                "source_mapping": {
+                  "start": 183,
+                  "length": 487,
+                  "filename_used": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "filename_short": "repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "trusteeWithdraw()"
+            }
+          }
+        ],
+        "description": "trusteeWithdraw() should be declared external:\n\t- WithdrawDAO.trusteeWithdraw() (repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#12-15)\n",
+        "markdown": "trusteeWithdraw() should be declared external:\n\t- [WithdrawDAO.trusteeWithdraw()](repairResNew/TSEN/0xbf4ed7b27f1d666546e30d74d50d173d20bca754U1.sol#L12-L15)\n",
+        "id": "76bb5e9b109713726bea4736258adc65d4bd8fe69fcca1b1ff1bee626a47915e",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

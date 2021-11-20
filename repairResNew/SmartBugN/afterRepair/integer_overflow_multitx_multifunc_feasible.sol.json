@@ -1,0 +1,184 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.23",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "filename_relative": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "filename_short": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".23"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.23 (repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.23](repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol#L1) allows old versions\n",
+        "id": "9c4dc2f2dfbb619f635971a28422a09126b9e1598e585bde28cd250a157daf9a",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "init",
+            "source_mapping": {
+              "start": 138,
+              "length": 45,
+              "filename_used": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "filename_relative": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "filename_short": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "is_dependency": false,
+              "lines": [
+                5,
+                6,
+                7
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "IntegerOverflowMultiTxMultiFuncFeasible",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 256,
+                  "filename_used": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+                  "filename_relative": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+                  "filename_short": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "init()"
+            }
+          }
+        ],
+        "description": "init() should be declared external:\n\t- IntegerOverflowMultiTxMultiFuncFeasible.init() (repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol#5-7)\n",
+        "markdown": "init() should be declared external:\n\t- [IntegerOverflowMultiTxMultiFuncFeasible.init()](repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol#L5-L7)\n",
+        "id": "d71d4a59590da19d664d0980e88b7d6ab3948b63e7da5da60aead8f0f108af56",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "run",
+            "source_mapping": {
+              "start": 185,
+              "length": 92,
+              "filename_used": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "filename_relative": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "filename_short": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+              "is_dependency": false,
+              "lines": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "IntegerOverflowMultiTxMultiFuncFeasible",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 256,
+                  "filename_used": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+                  "filename_relative": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+                  "filename_short": "repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "run(uint256)"
+            }
+          }
+        ],
+        "description": "run(uint256) should be declared external:\n\t- IntegerOverflowMultiTxMultiFuncFeasible.run(uint256) (repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol#8-13)\n",
+        "markdown": "run(uint256) should be declared external:\n\t- [IntegerOverflowMultiTxMultiFuncFeasible.run(uint256)](repairResNew/SmartBugN/integer_overflow_multitx_multifunc_feasible.sol#L8-L13)\n",
+        "id": "9f6f3173d8022ec2c5a587c62b4bd8fa135e43372d078df013e4892c0f34182e",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

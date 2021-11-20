@@ -1,0 +1,316 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_relative": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_short": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.24 (repairResNew/SmartBugN/incorrect_constructor_name1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.24](repairResNew/SmartBugN/incorrect_constructor_name1.sol#L1) allows old versions\n",
+        "id": "2e34d019bbab0f1f57a0e57650674f13efc628f586c5efa2c67095064687d918",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "IamMissing",
+            "source_mapping": {
+              "start": 128,
+              "length": 54,
+              "filename_used": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_relative": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_short": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Missing",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 268,
+                  "filename_used": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_short": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "IamMissing()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Missing.IamMissing() (repairResNew/SmartBugN/incorrect_constructor_name1.sol#7-9) is not in mixedCase\n",
+        "markdown": "Function [Missing.IamMissing()](repairResNew/SmartBugN/incorrect_constructor_name1.sol#L7-L9) is not in mixedCase\n",
+        "id": "5c99d6c23333e7379865446f88166eae8d705a8557cecc7f4749c2eb83aae94a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "IamMissing",
+            "source_mapping": {
+              "start": 128,
+              "length": 54,
+              "filename_used": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_relative": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_short": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Missing",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 268,
+                  "filename_used": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_short": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "IamMissing()"
+            }
+          }
+        ],
+        "description": "IamMissing() should be declared external:\n\t- Missing.IamMissing() (repairResNew/SmartBugN/incorrect_constructor_name1.sol#7-9)\n",
+        "markdown": "IamMissing() should be declared external:\n\t- [Missing.IamMissing()](repairResNew/SmartBugN/incorrect_constructor_name1.sol#L7-L9)\n",
+        "id": "fee796965c48ab03f1182261ad8b6abc386ef9e94dae1e2920f2ca6736c6dd3b",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 184,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_relative": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_short": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Missing",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 268,
+                  "filename_used": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_short": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Missing.fallback() (repairResNew/SmartBugN/incorrect_constructor_name1.sol#10-11)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Missing.fallback()](repairResNew/SmartBugN/incorrect_constructor_name1.sol#L10-L11)\n",
+        "id": "f8d77eea3cacca120a7750d4cb95e5fc5a938edf22ad31d078284771aeca307c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 217,
+              "length": 72,
+              "filename_used": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_relative": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "filename_short": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Missing",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 268,
+                  "filename_used": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "filename_short": "repairResNew/SmartBugN/incorrect_constructor_name1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- Missing.withdraw() (repairResNew/SmartBugN/incorrect_constructor_name1.sol#12-14)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [Missing.withdraw()](repairResNew/SmartBugN/incorrect_constructor_name1.sol#L12-L14)\n",
+        "id": "bb3c5d835fb576aa4983a1a7ff38ad022732bb4acb69e7bed0bad63e2977a129",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

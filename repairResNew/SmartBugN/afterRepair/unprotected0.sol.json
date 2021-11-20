@@ -1,0 +1,203 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.15",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+              "filename_relative": "repairResNew/SmartBugN/unprotected0.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+              "filename_short": "repairResNew/SmartBugN/unprotected0.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".15"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.15 (repairResNew/SmartBugN/unprotected0.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.15](repairResNew/SmartBugN/unprotected0.sol#L1) allows old versions\n",
+        "id": "273b0df00a20a0c81a128aa74d48b2ddf47abf221584d92624e6c41843edf6a4",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_newOwner",
+            "source_mapping": {
+              "start": 201,
+              "length": 17,
+              "filename_used": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+              "filename_relative": "repairResNew/SmartBugN/unprotected0.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+              "filename_short": "repairResNew/SmartBugN/unprotected0.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 23,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "changeOwner",
+                "source_mapping": {
+                  "start": 180,
+                  "length": 71,
+                  "filename_used": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+                  "filename_relative": "repairResNew/SmartBugN/unprotected0.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+                  "filename_short": "repairResNew/SmartBugN/unprotected0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Unprotected",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 230,
+                      "filename_used": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+                      "filename_relative": "repairResNew/SmartBugN/unprotected0.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+                      "filename_short": "repairResNew/SmartBugN/unprotected0.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "changeOwner(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Unprotected.changeOwner(address)._newOwner (repairResNew/SmartBugN/unprotected0.sol#10) is not in mixedCase\n",
+        "markdown": "Parameter [Unprotected.changeOwner(address)._newOwner](repairResNew/SmartBugN/unprotected0.sol#L10) is not in mixedCase\n",
+        "id": "249580c8aa288023c74c436b94db010fd5b25b45b2a7b0a75bba282db5322da7",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "changeOwner",
+            "source_mapping": {
+              "start": 180,
+              "length": 71,
+              "filename_used": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+              "filename_relative": "repairResNew/SmartBugN/unprotected0.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+              "filename_short": "repairResNew/SmartBugN/unprotected0.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Unprotected",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 230,
+                  "filename_used": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+                  "filename_relative": "repairResNew/SmartBugN/unprotected0.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/unprotected0.sol",
+                  "filename_short": "repairResNew/SmartBugN/unprotected0.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "changeOwner(address)"
+            }
+          }
+        ],
+        "description": "changeOwner(address) should be declared external:\n\t- Unprotected.changeOwner(address) (repairResNew/SmartBugN/unprotected0.sol#10-12)\n",
+        "markdown": "changeOwner(address) should be declared external:\n\t- [Unprotected.changeOwner(address)](repairResNew/SmartBugN/unprotected0.sol#L10-L12)\n",
+        "id": "232dcd89f524668053c1b0b05a9529f091f24ecf5f175b5c08eecad1152a7733",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

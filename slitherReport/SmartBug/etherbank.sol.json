@@ -1,0 +1,734 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 412,
+              "length": 217,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EtherBank",
+                "source_mapping": {
+                  "start": 175,
+                  "length": 460,
+                  "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_short": "contractSource/SmartBug/etherbank.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! (msg.sender.call.value(amountToWithdraw)())",
+            "source_mapping": {
+              "start": 538,
+              "length": 44,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 7,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 412,
+                  "length": 217,
+                  "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_short": "contractSource/SmartBug/etherbank.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EtherBank",
+                    "source_mapping": {
+                      "start": 175,
+                      "length": 460,
+                      "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                      "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                      "filename_short": "contractSource/SmartBug/etherbank.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "userBalances[msg.sender] = 0",
+            "source_mapping": {
+              "start": 597,
+              "length": 28,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                22
+              ],
+              "starting_column": 3,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 412,
+                  "length": 217,
+                  "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_short": "contractSource/SmartBug/etherbank.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EtherBank",
+                    "source_mapping": {
+                      "start": 175,
+                      "length": 460,
+                      "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                      "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                      "filename_short": "contractSource/SmartBug/etherbank.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "userBalances"
+            }
+          }
+        ],
+        "description": "Reentrancy in EtherBank.withdrawBalance() (contractSource/SmartBug/etherbank.sol#18-23):\n\tExternal calls:\n\t- ! (msg.sender.call.value(amountToWithdraw)()) (contractSource/SmartBug/etherbank.sol#21)\n\tState variables written after the call(s):\n\t- userBalances[msg.sender] = 0 (contractSource/SmartBug/etherbank.sol#22)\n",
+        "markdown": "Reentrancy in [EtherBank.withdrawBalance()](contractSource/SmartBug/etherbank.sol#L18-L23):\n\tExternal calls:\n\t- [! (msg.sender.call.value(amountToWithdraw)())](contractSource/SmartBug/etherbank.sol#L21)\n\tState variables written after the call(s):\n\t- [userBalances[msg.sender] = 0](contractSource/SmartBug/etherbank.sol#L22)\n",
+        "id": "aa676b0db7d52ea99bad178f3d1b99e66dbd4059fb0d83fb813daf57009a925d",
+        "check": "reentrancy-eth",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 586,
+              "length": 5,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 55,
+              "ending_column": 60
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 412,
+                  "length": 217,
+                  "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_short": "contractSource/SmartBug/etherbank.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EtherBank",
+                    "source_mapping": {
+                      "start": 175,
+                      "length": 460,
+                      "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                      "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                      "filename_short": "contractSource/SmartBug/etherbank.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (contractSource/SmartBug/etherbank.sol#21):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](contractSource/SmartBug/etherbank.sol#L21):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "82dfbb22cc7011e6300eff56b787844fd75037ab99fb26eee0b9adfa7b128ca4",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.0",
+            "source_mapping": {
+              "start": 151,
+              "length": 23,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.0 (contractSource/SmartBug/etherbank.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.0](contractSource/SmartBug/etherbank.sol#L7) allows old versions\n",
+        "id": "43a62c6eb18fec8e9137542c929155ebd25f3e31d9dbbbb0fa3f24dd83f6a3f3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 412,
+              "length": 217,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EtherBank",
+                "source_mapping": {
+                  "start": 175,
+                  "length": 460,
+                  "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_short": "contractSource/SmartBug/etherbank.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! (msg.sender.call.value(amountToWithdraw)())",
+            "source_mapping": {
+              "start": 538,
+              "length": 44,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 7,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 412,
+                  "length": 217,
+                  "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_short": "contractSource/SmartBug/etherbank.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "EtherBank",
+                    "source_mapping": {
+                      "start": 175,
+                      "length": 460,
+                      "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                      "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                      "filename_short": "contractSource/SmartBug/etherbank.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in EtherBank.withdrawBalance() (contractSource/SmartBug/etherbank.sol#18-23):\n\t- ! (msg.sender.call.value(amountToWithdraw)()) (contractSource/SmartBug/etherbank.sol#21)\n",
+        "markdown": "Low level call in [EtherBank.withdrawBalance()](contractSource/SmartBug/etherbank.sol#L18-L23):\n\t- [! (msg.sender.call.value(amountToWithdraw)())](contractSource/SmartBug/etherbank.sol#L21)\n",
+        "id": "ea4941a66c0eb41199f047f2142b83ab8156e110baae9f4c8b56711f3ca9bd01",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "getBalance",
+            "source_mapping": {
+              "start": 243,
+              "length": 92,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 5,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EtherBank",
+                "source_mapping": {
+                  "start": 175,
+                  "length": 460,
+                  "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_short": "contractSource/SmartBug/etherbank.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "getBalance(address)"
+            }
+          }
+        ],
+        "description": "getBalance(address) should be declared external:\n\t- EtherBank.getBalance(address) (contractSource/SmartBug/etherbank.sol#10-12)\n",
+        "markdown": "getBalance(address) should be declared external:\n\t- [EtherBank.getBalance(address)](contractSource/SmartBug/etherbank.sol#L10-L12)\n",
+        "id": "c44756498e86dcb108d73da6b832f96bff248310523215a2c7f3263f358ccafe",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "addToBalance",
+            "source_mapping": {
+              "start": 338,
+              "length": 71,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EtherBank",
+                "source_mapping": {
+                  "start": 175,
+                  "length": 460,
+                  "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_short": "contractSource/SmartBug/etherbank.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "addToBalance()"
+            }
+          }
+        ],
+        "description": "addToBalance() should be declared external:\n\t- EtherBank.addToBalance() (contractSource/SmartBug/etherbank.sol#14-16)\n",
+        "markdown": "addToBalance() should be declared external:\n\t- [EtherBank.addToBalance()](contractSource/SmartBug/etherbank.sol#L14-L16)\n",
+        "id": "bd3a1cd24907a6adcdc32beb00e7780efb5907df9dde06214b120cbda43312b5",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 412,
+              "length": 217,
+              "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_relative": "contractSource/SmartBug/etherbank.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+              "filename_short": "contractSource/SmartBug/etherbank.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "EtherBank",
+                "source_mapping": {
+                  "start": 175,
+                  "length": 460,
+                  "filename_used": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_relative": "contractSource/SmartBug/etherbank.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/etherbank.sol",
+                  "filename_short": "contractSource/SmartBug/etherbank.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          }
+        ],
+        "description": "withdrawBalance() should be declared external:\n\t- EtherBank.withdrawBalance() (contractSource/SmartBug/etherbank.sol#18-23)\n",
+        "markdown": "withdrawBalance() should be declared external:\n\t- [EtherBank.withdrawBalance()](contractSource/SmartBug/etherbank.sol#L18-L23)\n",
+        "id": "c648217ddd015be70fc0d551e6e5b83d19654cba43834cf1b0cab2e4550abcd9",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

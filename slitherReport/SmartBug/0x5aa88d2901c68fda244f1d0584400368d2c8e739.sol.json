@@ -1,0 +1,946 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 374,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MultiplicatorX3",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 676,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "adr.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 541,
+              "length": 31,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 9,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 374,
+                  "length": 206,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MultiplicatorX3",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 676,
+                      "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                      "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                      "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MultiplicatorX3.Command(address,bytes) (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#23-30) ignores return value by adr.call.value(msg.value)(data) (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#29)\n",
+        "markdown": "[MultiplicatorX3.Command(address,bytes)](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L23-L30) ignores return value by [adr.call.value(msg.value)(data)](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L29)\n",
+        "id": "7f235d022e8213977ac7e44ec33acff8e17cde9dc3659662f84d8e7715f6a46f",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.18",
+            "source_mapping": {
+              "start": 82,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".18"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.18 (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.18](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L7) allows old versions\n",
+        "id": "f6b26fe983b5fd5a5e1e1fde59d9f440ea5c7f105f77c33e17f5259ef5618a99",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 374,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MultiplicatorX3",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 676,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "adr.call.value(msg.value)(data)",
+            "source_mapping": {
+              "start": 541,
+              "length": 31,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 9,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Command",
+                "source_mapping": {
+                  "start": 374,
+                  "length": 206,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MultiplicatorX3",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 676,
+                      "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                      "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                      "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Command(address,bytes)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in MultiplicatorX3.Command(address,bytes) (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#23-30):\n\t- adr.call.value(msg.value)(data) (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#29)\n",
+        "markdown": "Low level call in [MultiplicatorX3.Command(address,bytes)](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L23-L30):\n\t- [adr.call.value(msg.value)(data)](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L29)\n",
+        "id": "11c188cebe5e93cafb38f49b260053130c2286fecb7151d6e5b677f88aaf91ea",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 374,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MultiplicatorX3",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 676,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function MultiplicatorX3.Command(address,bytes) (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#23-30) is not in mixedCase\n",
+        "markdown": "Function [MultiplicatorX3.Command(address,bytes)](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L23-L30) is not in mixedCase\n",
+        "id": "122955014161bed40429ec9af14c82fd4060503f4c531b090ff9a9b9fd98cdda",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 143,
+              "length": 33,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MultiplicatorX3",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 676,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MultiplicatorX3.Owner (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#11) is not in mixedCase\n",
+        "markdown": "Variable [MultiplicatorX3.Owner](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L11) is not in mixedCase\n",
+        "id": "a5f581ebf1f93eb505a3d242dc7a839b3625f637b273dcd8b4d0f5d91ccb0561",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 188,
+              "length": 27,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 5,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MultiplicatorX3",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 676,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- MultiplicatorX3.fallback() (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#13)\n",
+        "markdown": "fallback() should be declared external:\n\t- [MultiplicatorX3.fallback()](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L13)\n",
+        "id": "5cfcc6f7a9fbfb43a4fbecc442ee69bf268960ba4eec7d519847e60ae3e28bcf",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 226,
+              "length": 136,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MultiplicatorX3",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 676,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- MultiplicatorX3.withdraw() (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#15-21)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [MultiplicatorX3.withdraw()](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L15-L21)\n",
+        "id": "81ecf45a8d48a7a7e3a0837135f36d27d0f0771f125e20411ade72e3e8559dfb",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Command",
+            "source_mapping": {
+              "start": 374,
+              "length": 206,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MultiplicatorX3",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 676,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Command(address,bytes)"
+            }
+          }
+        ],
+        "description": "Command(address,bytes) should be declared external:\n\t- MultiplicatorX3.Command(address,bytes) (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#23-30)\n",
+        "markdown": "Command(address,bytes) should be declared external:\n\t- [MultiplicatorX3.Command(address,bytes)](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L23-L30)\n",
+        "id": "fa6617cc177cce1b520e4c1e2e4612c2833d56d1833591c89cbfb6132921f1ee",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "multiplicate",
+            "source_mapping": {
+              "start": 592,
+              "length": 191,
+              "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+              "is_dependency": false,
+              "lines": [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MultiplicatorX3",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 676,
+                  "filename_used": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_relative": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "filename_short": "contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "multiplicate(address)"
+            }
+          }
+        ],
+        "description": "multiplicate(address) should be declared external:\n\t- MultiplicatorX3.multiplicate(address) (contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#32-40)\n",
+        "markdown": "multiplicate(address) should be declared external:\n\t- [MultiplicatorX3.multiplicate(address)](contractSource/SmartBug/0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol#L32-L40)\n",
+        "id": "d53c4b1df9ea195459e2b9e8067d1362f5eb913ee46a07ad4d4b54ab5b32914c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

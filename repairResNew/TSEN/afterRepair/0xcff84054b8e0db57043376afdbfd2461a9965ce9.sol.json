@@ -1,0 +1,939 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "getCurrentMilestone",
+            "source_mapping": {
+              "start": 979,
+              "length": 192,
+              "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "is_dependency": false,
+              "lines": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MilestonePricing",
+                "source_mapping": {
+                  "start": 156,
+                  "length": 1519,
+                  "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "getCurrentMilestone()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "now < milestones[i].time",
+            "source_mapping": {
+              "start": 1109,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "is_dependency": false,
+              "lines": [
+                31
+              ],
+              "starting_column": 5,
+              "ending_column": 29
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "getCurrentMilestone",
+                "source_mapping": {
+                  "start": 979,
+                  "length": 192,
+                  "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MilestonePricing",
+                    "source_mapping": {
+                      "start": 156,
+                      "length": 1519,
+                      "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "getCurrentMilestone()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MilestonePricing.getCurrentMilestone() (repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#27-35) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- now < milestones[i].time (repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#31)\n",
+        "markdown": "[MilestonePricing.getCurrentMilestone()](repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#L27-L35) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [now < milestones[i].time](repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#L31)\n",
+        "id": "12f285321238d0cd675875e5a18312a7642e8c09956a250ef260190b36cddc29",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 665,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 421,
+                  "length": 437,
+                  "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MilestonePricing",
+                    "source_mapping": {
+                      "start": 156,
+                      "length": 1519,
+                      "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "constructor(address,uint256,uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#17):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#L17):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "0324e877dcd99c71349f2c06e07dc441f7e443f3262ca2d5365e20657a5a7bd1",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 1554,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "is_dependency": false,
+              "lines": [
+                47
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "fallback",
+                "source_mapping": {
+                  "start": 1524,
+                  "length": 37,
+                  "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    46,
+                    47
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 9
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MilestonePricing",
+                    "source_mapping": {
+                      "start": 156,
+                      "length": 1519,
+                      "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "fallback()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#47):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#L47):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "72c1df6556785b091f3a74f0b29a19f500c1fc2184eee4c630375cb60cb2a042",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "calculatePrice",
+            "source_mapping": {
+              "start": 1275,
+              "length": 247,
+              "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "is_dependency": false,
+              "lines": [
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MilestonePricing",
+                "source_mapping": {
+                  "start": 156,
+                  "length": 1519,
+                  "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "calculatePrice(uint256,uint256,uint256,address)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "calculatePrice",
+            "source_mapping": {
+              "start": 28,
+              "length": 126,
+              "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 2,
+              "ending_column": 128
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "PricingStrategy",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 156,
+                  "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "calculatePrice(uint256,uint256,uint256,address)"
+            }
+          }
+        ],
+        "description": "calculatePrice(uint256,uint256,uint256,address) should be declared external:\n\t- MilestonePricing.calculatePrice(uint256,uint256,uint256,address) (repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#39-45)\n\t- PricingStrategy.calculatePrice(uint256,uint256,uint256,address) (repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#2)\n",
+        "markdown": "calculatePrice(uint256,uint256,uint256,address) should be declared external:\n\t- [MilestonePricing.calculatePrice(uint256,uint256,uint256,address)](repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#L39-L45)\n\t- [PricingStrategy.calculatePrice(uint256,uint256,uint256,address)](repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#L2)\n",
+        "id": "41122a7e3321e23dd61f22db799ab837271f9ab797b2189f54441bac7a918e8d",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "getMilestone",
+            "source_mapping": {
+              "start": 860,
+              "length": 117,
+              "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MilestonePricing",
+                "source_mapping": {
+                  "start": 156,
+                  "length": 1519,
+                  "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "getMilestone(uint256)"
+            }
+          }
+        ],
+        "description": "getMilestone(uint256) should be declared external:\n\t- MilestonePricing.getMilestone(uint256) (repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#24-26)\n",
+        "markdown": "getMilestone(uint256) should be declared external:\n\t- [MilestonePricing.getMilestone(uint256)](repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#L24-L26)\n",
+        "id": "7490887fc2baf650e416f61f37bfef92b419afd27a42ca13fec30ad1e67e6bda",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 1524,
+              "length": 37,
+              "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "is_dependency": false,
+              "lines": [
+                46,
+                47
+              ],
+              "starting_column": 2,
+              "ending_column": 9
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MilestonePricing",
+                "source_mapping": {
+                  "start": 156,
+                  "length": 1519,
+                  "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- MilestonePricing.fallback() (repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#46-47)\n",
+        "markdown": "fallback() should be declared external:\n\t- [MilestonePricing.fallback()](repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#L46-L47)\n",
+        "id": "1fdf6eb6cb6576380800d7afdbb8f539570c2a7f880921ccf39d8be70d4dbda3",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "suicideFunc",
+            "source_mapping": {
+              "start": 1563,
+              "length": 108,
+              "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+              "is_dependency": false,
+              "lines": [
+                48,
+                49,
+                50,
+                51
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MilestonePricing",
+                "source_mapping": {
+                  "start": 156,
+                  "length": 1519,
+                  "filename_used": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_relative": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "filename_short": "repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "suicideFunc()"
+            }
+          }
+        ],
+        "description": "suicideFunc() should be declared external:\n\t- MilestonePricing.suicideFunc() (repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#48-51)\n",
+        "markdown": "suicideFunc() should be declared external:\n\t- [MilestonePricing.suicideFunc()](repairResNew/TSEN/0xcff84054b8e0db57043376afdbfd2461a9965ce9.sol#L48-L51)\n",
+        "id": "229df40be98a83d90d6ea5ee350102e4af4b2f38f9fdff87bd72b91ffa7ab88d",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

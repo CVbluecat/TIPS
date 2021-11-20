@@ -1,0 +1,373 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.0 (repairResNew/SmartBugN/reentrancy_insecureR1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.0](repairResNew/SmartBugN/reentrancy_insecureR1.sol#L1) allows old versions\n",
+        "id": "5131114cf6e33ac8ee0a68e8190bca31ac2a5c8851d2a478e6f99a4c6056db58",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Reentrancy_insecure",
+            "source_mapping": {
+              "start": 24,
+              "length": 274,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract Reentrancy_insecure (repairResNew/SmartBugN/reentrancy_insecureR1.sol#2-11) is not in CapWords\n",
+        "markdown": "Contract [Reentrancy_insecure](repairResNew/SmartBugN/reentrancy_insecureR1.sol#L2-L11) is not in CapWords\n",
+        "id": "d3f84bb0c008d009f04bb29170bf81a5a3eab8588c075eab23fbaa07c3c765f6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 104,
+              "length": 190,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_insecure",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 274,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "success = msg.sender.send(amountToWithdraw)",
+            "source_mapping": {
+              "start": 192,
+              "length": 48,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 2,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 104,
+                  "length": 190,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_insecure",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 274,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "userBalances[msg.sender] = 0",
+            "source_mapping": {
+              "start": 262,
+              "length": 28,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 30
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawBalance",
+                "source_mapping": {
+                  "start": 104,
+                  "length": 190,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Reentrancy_insecure",
+                    "source_mapping": {
+                      "start": 24,
+                      "length": 274,
+                      "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                      "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawBalance()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "userBalances"
+            }
+          }
+        ],
+        "description": "Reentrancy in Reentrancy_insecure.withdrawBalance() (repairResNew/SmartBugN/reentrancy_insecureR1.sol#4-9):\n\tExternal calls:\n\t- success = msg.sender.send(amountToWithdraw) (repairResNew/SmartBugN/reentrancy_insecureR1.sol#6)\n\tState variables written after the call(s):\n\t- userBalances[msg.sender] = 0 (repairResNew/SmartBugN/reentrancy_insecureR1.sol#8)\n",
+        "markdown": "Reentrancy in [Reentrancy_insecure.withdrawBalance()](repairResNew/SmartBugN/reentrancy_insecureR1.sol#L4-L9):\n\tExternal calls:\n\t- [success = msg.sender.send(amountToWithdraw)](repairResNew/SmartBugN/reentrancy_insecureR1.sol#L6)\n\tState variables written after the call(s):\n\t- [userBalances[msg.sender] = 0](repairResNew/SmartBugN/reentrancy_insecureR1.sol#L8)\n",
+        "id": "9a7d030b55c631c4bf2d903265f669e6c44318e3012051c737e9a41f43e8bd32",
+        "check": "reentrancy-unlimited-gas",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawBalance",
+            "source_mapping": {
+              "start": 104,
+              "length": 190,
+              "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+              "is_dependency": false,
+              "lines": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Reentrancy_insecure",
+                "source_mapping": {
+                  "start": 24,
+                  "length": 274,
+                  "filename_used": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "filename_short": "repairResNew/SmartBugN/reentrancy_insecureR1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawBalance()"
+            }
+          }
+        ],
+        "description": "withdrawBalance() should be declared external:\n\t- Reentrancy_insecure.withdrawBalance() (repairResNew/SmartBugN/reentrancy_insecureR1.sol#4-9)\n",
+        "markdown": "withdrawBalance() should be declared external:\n\t- [Reentrancy_insecure.withdrawBalance()](repairResNew/SmartBugN/reentrancy_insecureR1.sol#L4-L9)\n",
+        "id": "41ce498a6c9563608cc8ea0f1ac10484d1f6291fb40569a561049f1af550b19c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

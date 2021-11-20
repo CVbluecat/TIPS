@@ -1,0 +1,2113 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.9",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".9"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.9 (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.9](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L1) allows old versions\n",
+        "id": "20ed2e26d8c7a31b57b17b1b98eb22220803e5fbe4669ed113203aa3050fb1ce",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 1105,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                39
+              ],
+              "starting_column": 21,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "balanceOf",
+                "source_mapping": {
+                  "start": 1086,
+                  "length": 101,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "balanceOf(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.balanceOf(address)._owner (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#39) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.balanceOf(address)._owner](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L39) is not in mixedCase\n",
+        "id": "98bce5c25cf896d393f917374034ef5155fd5acfdb4b4bcfb603443b23b31724",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 1208,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                42
+              ],
+              "starting_column": 21,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 1189,
+                  "length": 130,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    42,
+                    43,
+                    44
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.allowance(address,address)._owner (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#42) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.allowance(address,address)._owner](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L42) is not in mixedCase\n",
+        "id": "f025f747c8e470ddc127d14d576a20484c049e576fa9b690e79d36214bc34401",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 1224,
+              "length": 16,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                42
+              ],
+              "starting_column": 37,
+              "ending_column": 53
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 1189,
+                  "length": 130,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    42,
+                    43,
+                    44
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.allowance(address,address)._spender (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#42) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.allowance(address,address)._spender](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L42) is not in mixedCase\n",
+        "id": "4be29d813f75f0d7590c47fb12183715312148bf24f9fedacf46fd71a0c3ab7f",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1339,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                45
+              ],
+              "starting_column": 20,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1321,
+                  "length": 224,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transfer(address,uint256)._to (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#45) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transfer(address,uint256)._to](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L45) is not in mixedCase\n",
+        "id": "6a6d16684eee43b2b4c49625e30f9e273d4b837b706745b4bb6f5179ac8e8b8e",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1352,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                45
+              ],
+              "starting_column": 33,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1321,
+                  "length": 224,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transfer(address,uint256)._value (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#45) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transfer(address,uint256)._value](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L45) is not in mixedCase\n",
+        "id": "a5f038e40cf58ba2e04c90b8790d5930ad5ce3d98100dcbbde0fa0de68aa7ed5",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_from",
+            "source_mapping": {
+              "start": 1569,
+              "length": 13,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                51
+              ],
+              "starting_column": 24,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 1547,
+                  "length": 328,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transferFrom(address,address,uint256)._from (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#51) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transferFrom(address,address,uint256)._from](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L51) is not in mixedCase\n",
+        "id": "cc9a9ffcecd48ffc0f899f79cc68cb313f3378cb8ccd4d39e6d694f793cb5558",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1584,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                51
+              ],
+              "starting_column": 39,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 1547,
+                  "length": 328,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transferFrom(address,address,uint256)._to (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#51) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transferFrom(address,address,uint256)._to](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L51) is not in mixedCase\n",
+        "id": "bec95eff26a152f57e8a6318714095c695dd11486da8e66e22b9aaead3255e00",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1597,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                51
+              ],
+              "starting_column": 52,
+              "ending_column": 66
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 1547,
+                  "length": 328,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transferFrom(address,address,uint256)._value (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#51) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transferFrom(address,address,uint256)._value](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L51) is not in mixedCase\n",
+        "id": "7d06e608e5585415bc80e8f99283f6344a1645611027d3b64e3fa5c31aec767f",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 1894,
+              "length": 16,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                59
+              ],
+              "starting_column": 19,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 1877,
+                  "length": 237,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.approve(address,uint256)._spender (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#59) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.approve(address,uint256)._spender](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L59) is not in mixedCase\n",
+        "id": "80cf39270e3f95e75d22bb76c68f59abff10efe43ad3506f32ecee75fe8d5977",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1912,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                59
+              ],
+              "starting_column": 37,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 1877,
+                  "length": 237,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.approve(address,uint256)._value (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#59) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.approve(address,uint256)._value](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L59) is not in mixedCase\n",
+        "id": "8ecca98d15c54359e83e587ea46620b2e226ef2d037edc8cf5a1034f19f925b6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "constructor",
+            "source_mapping": {
+              "start": 912,
+              "length": 172,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 507,
+                  "length": 1647,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "constructor()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "totalSupply = 1000000",
+            "source_mapping": {
+              "start": 936,
+              "length": 21,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                33
+              ],
+              "starting_column": 2,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 912,
+                  "length": 172,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 507,
+                      "length": 1647,
+                      "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "constructor()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Vodkacoin.constructor() (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#32-38) uses literals with too many digits:\n\t- totalSupply = 1000000 (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#33)\n",
+        "markdown": "[Vodkacoin.constructor()](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L32-L38) uses literals with too many digits:\n\t- [totalSupply = 1000000](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L33)\n",
+        "id": "bc9e2838fbf3c61746b0ce1f7a62c89a242927acc0efb168252c6de41c5902da",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 1086,
+              "length": 101,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                39,
+                40,
+                41
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 507,
+                  "length": 1647,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- Vodkacoin.balanceOf(address) (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#39-41)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [Vodkacoin.balanceOf(address)](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L39-L41)\n",
+        "id": "922f7a9836f41286bf0022ad5b2ea88d7a01b5232aac11dfe4be518aa247ed23",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 1189,
+              "length": 130,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                42,
+                43,
+                44
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 507,
+                  "length": 1647,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          }
+        ],
+        "description": "allowance(address,address) should be declared external:\n\t- Vodkacoin.allowance(address,address) (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#42-44)\n",
+        "markdown": "allowance(address,address) should be declared external:\n\t- [Vodkacoin.allowance(address,address)](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L42-L44)\n",
+        "id": "88249612ba4ace695ebec5305406824254c8a1a73c2317b14bfef2b87699178f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 1321,
+              "length": 224,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 507,
+                  "length": 1647,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- Vodkacoin.transfer(address,uint256) (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#45-50)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [Vodkacoin.transfer(address,uint256)](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L45-L50)\n",
+        "id": "fd5ae4830c2d7171fa20a01f55e3895d2117c2624d1ed297802cad5de029d5b8",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 1547,
+              "length": 328,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 507,
+                  "length": 1647,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256) should be declared external:\n\t- Vodkacoin.transferFrom(address,address,uint256) (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#51-58)\n",
+        "markdown": "transferFrom(address,address,uint256) should be declared external:\n\t- [Vodkacoin.transferFrom(address,address,uint256)](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L51-L58)\n",
+        "id": "19b44e06755dcc10b0d59da428ceba7acf3f91381862b6f6d4c2dc17550b3b11",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 1877,
+              "length": 237,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 507,
+                  "length": 1647,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "approve(address,uint256) should be declared external:\n\t- Vodkacoin.approve(address,uint256) (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#59-64)\n",
+        "markdown": "approve(address,uint256) should be declared external:\n\t- [Vodkacoin.approve(address,uint256)](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L59-L64)\n",
+        "id": "1def74286987ffa6206288c87b8e99c05e49b2f13f97fd57688ad14ead1a4ebc",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 2116,
+              "length": 34,
+              "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                65,
+                66,
+                67
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 507,
+                  "length": 1647,
+                  "filename_used": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Vodkacoin.fallback() (repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#65-67)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Vodkacoin.fallback()](repairResNew/TSEN/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L65-L67)\n",
+        "id": "0472280fd8a3dbc34d2ec4847bb9188ce9a0f0d928bdf57c2d26b1d3397b8798",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3754 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "buyTokens",
+            "source_mapping": {
+              "start": 3695,
+              "length": 440,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Crowdsale",
+                "source_mapping": {
+                  "start": 2135,
+                  "length": 2659,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "buyTokens(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.mint(beneficiary,tokens)",
+            "source_mapping": {
+              "start": 4011,
+              "length": 31,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                139
+              ],
+              "starting_column": 5,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "buyTokens",
+                "source_mapping": {
+                  "start": 3695,
+                  "length": 440,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Crowdsale",
+                    "source_mapping": {
+                      "start": 2135,
+                      "length": 2659,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "buyTokens(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Crowdsale.buyTokens(address) (contractSource/scsc/Privatix_presale.sol#127-143) ignores return value by token.mint(beneficiary,tokens) (contractSource/scsc/Privatix_presale.sol#139)\n",
+        "markdown": "[Crowdsale.buyTokens(address)](contractSource/scsc/Privatix_presale.sol#L127-L143) ignores return value by [token.mint(beneficiary,tokens)](contractSource/scsc/Privatix_presale.sol#L139)\n",
+        "id": "9e0d577a7684322d045ebd06a20c8729f8c981b2b74e5c390a1da81f26682793",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "buyTokens",
+            "source_mapping": {
+              "start": 3695,
+              "length": 440,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Crowdsale",
+                "source_mapping": {
+                  "start": 2135,
+                  "length": 2659,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "buyTokens(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.mint(beneficiary,tokens)",
+            "source_mapping": {
+              "start": 4011,
+              "length": 31,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                139
+              ],
+              "starting_column": 5,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "buyTokens",
+                "source_mapping": {
+                  "start": 3695,
+                  "length": 440,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Crowdsale",
+                    "source_mapping": {
+                      "start": 2135,
+                      "length": 2659,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "buyTokens(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "TokenPurchase(msg.sender,beneficiary,weiAmount,tokens)",
+            "source_mapping": {
+              "start": 4049,
+              "length": 57,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                140
+              ],
+              "starting_column": 5,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "buyTokens",
+                "source_mapping": {
+                  "start": 3695,
+                  "length": 440,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Crowdsale",
+                    "source_mapping": {
+                      "start": 2135,
+                      "length": 2659,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "buyTokens(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "event"
+            }
+          }
+        ],
+        "description": "Reentrancy in Crowdsale.buyTokens(address) (contractSource/scsc/Privatix_presale.sol#127-143):\n\tExternal calls:\n\t- token.mint(beneficiary,tokens) (contractSource/scsc/Privatix_presale.sol#139)\n\tEvent emitted after the call(s):\n\t- TokenPurchase(msg.sender,beneficiary,weiAmount,tokens) (contractSource/scsc/Privatix_presale.sol#140)\n",
+        "markdown": "Reentrancy in [Crowdsale.buyTokens(address)](contractSource/scsc/Privatix_presale.sol#L127-L143):\n\tExternal calls:\n\t- [token.mint(beneficiary,tokens)](contractSource/scsc/Privatix_presale.sol#L139)\n\tEvent emitted after the call(s):\n\t- [TokenPurchase(msg.sender,beneficiary,weiAmount,tokens)](contractSource/scsc/Privatix_presale.sol#L140)\n",
+        "id": "83936b3143c9f2577a996b073786201d7e52296a5da923861aadb2797ef87494",
+        "check": "reentrancy-events",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.11",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".11"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.11 (contractSource/scsc/Privatix_presale.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.11](contractSource/scsc/Privatix_presale.sol#L1) allows old versions\n",
+        "id": "9db50ee9ae640c0b01b65014b061aa9314c324780371091bca0358b9caa2dd00",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1258,
+              "length": 11,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                44
+              ],
+              "starting_column": 21,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1240,
+                  "length": 236,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BasicToken",
+                    "source_mapping": {
+                      "start": 970,
+                      "length": 827,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter BasicToken.transfer(address,uint256)._to (contractSource/scsc/Privatix_presale.sol#44) is not in mixedCase\n",
+        "markdown": "Parameter [BasicToken.transfer(address,uint256)._to](contractSource/scsc/Privatix_presale.sol#L44) is not in mixedCase\n",
+        "id": "8783382f8455795c3d032eb66ff742383d17802a5253d518dc864075a741f12b",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1271,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                44
+              ],
+              "starting_column": 34,
+              "ending_column": 48
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1240,
+                  "length": 236,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BasicToken",
+                    "source_mapping": {
+                      "start": 970,
+                      "length": 827,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter BasicToken.transfer(address,uint256)._value (contractSource/scsc/Privatix_presale.sol#44) is not in mixedCase\n",
+        "markdown": "Parameter [BasicToken.transfer(address,uint256)._value](contractSource/scsc/Privatix_presale.sol#L44) is not in mixedCase\n",
+        "id": "2525bb88bf13ac589b8b10ace92928eab5e1e6a42b10ca3d8b6a6122b9dde16c",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 1705,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                56
+              ],
+              "starting_column": 22,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "balanceOf",
+                "source_mapping": {
+                  "start": 1686,
+                  "length": 106,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    56,
+                    57,
+                    58
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "BasicToken",
+                    "source_mapping": {
+                      "start": 970,
+                      "length": 827,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "balanceOf(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter BasicToken.balanceOf(address)._owner (contractSource/scsc/Privatix_presale.sol#56) is not in mixedCase\n",
+        "markdown": "Parameter [BasicToken.balanceOf(address)._owner](contractSource/scsc/Privatix_presale.sol#L56) is not in mixedCase\n",
+        "id": "abbd939db096de46e4f2f8b9aad1cab79514425fd73ff984859c702aca7eb080",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_from",
+            "source_mapping": {
+              "start": 5516,
+              "length": 13,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                188
+              ],
+              "starting_column": 25,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 5494,
+                  "length": 500,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 5102,
+                      "length": 2139,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transferFrom(address,address,uint256)._from (contractSource/scsc/Privatix_presale.sol#188) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transferFrom(address,address,uint256)._from](contractSource/scsc/Privatix_presale.sol#L188) is not in mixedCase\n",
+        "id": "4dd3d547c81f2913d544b98793a5c021fe472f59b45114f773a817330cf34bfc",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 5531,
+              "length": 11,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                188
+              ],
+              "starting_column": 40,
+              "ending_column": 51
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 5494,
+                  "length": 500,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 5102,
+                      "length": 2139,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transferFrom(address,address,uint256)._to (contractSource/scsc/Privatix_presale.sol#188) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transferFrom(address,address,uint256)._to](contractSource/scsc/Privatix_presale.sol#L188) is not in mixedCase\n",
+        "id": "6150a62fc365f4a97437d70d15bfe1ca02b48e7695b0f9d432eb82ac34404d51",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 5544,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                188
+              ],
+              "starting_column": 53,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 5494,
+                  "length": 500,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 5102,
+                      "length": 2139,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.transferFrom(address,address,uint256)._value (contractSource/scsc/Privatix_presale.sol#188) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.transferFrom(address,address,uint256)._value](contractSource/scsc/Privatix_presale.sol#L188) is not in mixedCase\n",
+        "id": "e001d55ad5c9886aa799c28ded83887106a3cdbd6a17edfcc0db2c6ef55090d3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 6249,
+              "length": 16,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                206
+              ],
+              "starting_column": 20,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 6232,
+                  "length": 545,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    206,
+                    207,
+                    208,
+                    209,
+                    210,
+                    211,
+                    212,
+                    213,
+                    214,
+                    215,
+                    216,
+                    217
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 5102,
+                      "length": 2139,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.approve(address,uint256)._spender (contractSource/scsc/Privatix_presale.sol#206) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.approve(address,uint256)._spender](contractSource/scsc/Privatix_presale.sol#L206) is not in mixedCase\n",
+        "id": "70a9b4c8c2d4dca0d12170ecce3b3b3e56f16721a930795c44e5e7b45a10a5c1",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 6267,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                206
+              ],
+              "starting_column": 38,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 6232,
+                  "length": 545,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    206,
+                    207,
+                    208,
+                    209,
+                    210,
+                    211,
+                    212,
+                    213,
+                    214,
+                    215,
+                    216,
+                    217
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 5102,
+                      "length": 2139,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.approve(address,uint256)._value (contractSource/scsc/Privatix_presale.sol#206) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.approve(address,uint256)._value](contractSource/scsc/Privatix_presale.sol#L206) is not in mixedCase\n",
+        "id": "1fa3f5bb048f68171399fc7d36b8e34d891cac5b9e22c65b41391d16050e7922",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 7120,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                225
+              ],
+              "starting_column": 22,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 7101,
+                  "length": 135,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    225,
+                    226,
+                    227
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 5102,
+                      "length": 2139,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.allowance(address,address)._owner (contractSource/scsc/Privatix_presale.sol#225) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.allowance(address,address)._owner](contractSource/scsc/Privatix_presale.sol#L225) is not in mixedCase\n",
+        "id": "317c0e860cb8a5338f5dfaf51d2249bbf1eb4e87ed588c7a888b367544a25740",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 7136,
+              "length": 16,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                225
+              ],
+              "starting_column": 38,
+              "ending_column": 54
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 7101,
+                  "length": 135,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    225,
+                    226,
+                    227
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "StandardToken",
+                    "source_mapping": {
+                      "start": 5102,
+                      "length": 2139,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        224,
+                        225,
+                        226,
+                        227,
+                        228,
+                        229
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter StandardToken.allowance(address,address)._spender (contractSource/scsc/Privatix_presale.sol#225) is not in mixedCase\n",
+        "markdown": "Parameter [StandardToken.allowance(address,address)._spender](contractSource/scsc/Privatix_presale.sol#L225) is not in mixedCase\n",
+        "id": "1dfe198c2dca57c55bebb6453f93f0f0fc9b1e67fc091a4bcfa314300d9a90a6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 8424,
+              "length": 11,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                281
+              ],
+              "starting_column": 17,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "mint",
+                "source_mapping": {
+                  "start": 8410,
+                  "length": 220,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MintableToken",
+                    "source_mapping": {
+                      "start": 7925,
+                      "length": 952,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        263,
+                        264,
+                        265,
+                        266,
+                        267,
+                        268,
+                        269,
+                        270,
+                        271,
+                        272,
+                        273,
+                        274,
+                        275,
+                        276,
+                        277,
+                        278,
+                        279,
+                        280,
+                        281,
+                        282,
+                        283,
+                        284,
+                        285,
+                        286,
+                        287,
+                        288,
+                        289,
+                        290,
+                        291,
+                        292,
+                        293,
+                        294,
+                        295,
+                        296,
+                        297
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "mint(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter MintableToken.mint(address,uint256)._to (contractSource/scsc/Privatix_presale.sol#281) is not in mixedCase\n",
+        "markdown": "Parameter [MintableToken.mint(address,uint256)._to](contractSource/scsc/Privatix_presale.sol#L281) is not in mixedCase\n",
+        "id": "44d1320288221ff033dfa39110d87f6c7ba2075689751acdcf6fbb4b17f3b083",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 8437,
+              "length": 15,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                281
+              ],
+              "starting_column": 30,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "mint",
+                "source_mapping": {
+                  "start": 8410,
+                  "length": 220,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MintableToken",
+                    "source_mapping": {
+                      "start": 7925,
+                      "length": 952,
+                      "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                      "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        263,
+                        264,
+                        265,
+                        266,
+                        267,
+                        268,
+                        269,
+                        270,
+                        271,
+                        272,
+                        273,
+                        274,
+                        275,
+                        276,
+                        277,
+                        278,
+                        279,
+                        280,
+                        281,
+                        282,
+                        283,
+                        284,
+                        285,
+                        286,
+                        287,
+                        288,
+                        289,
+                        290,
+                        291,
+                        292,
+                        293,
+                        294,
+                        295,
+                        296,
+                        297
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "mint(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter MintableToken.mint(address,uint256)._amount (contractSource/scsc/Privatix_presale.sol#281) is not in mixedCase\n",
+        "markdown": "Parameter [MintableToken.mint(address,uint256)._amount](contractSource/scsc/Privatix_presale.sol#L281) is not in mixedCase\n",
+        "id": "aeec3af3e6bd446dc78727fc9355608834cc1b55951b95ee032d2449640e4d49",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 10294,
+              "length": 28,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                349
+              ],
+              "starting_column": 3,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HodboToken",
+                "source_mapping": {
+                  "start": 10180,
+                  "length": 146,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    346,
+                    347,
+                    348,
+                    349,
+                    350
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "HodboToken.decimals (contractSource/scsc/Privatix_presale.sol#349) should be constant\n",
+        "markdown": "[HodboToken.decimals](contractSource/scsc/Privatix_presale.sol#L349) should be constant\n",
+        "id": "6868a1f49818f420afc8c7224ec8ca35b900045ba0bbd5cdf9e4096e9e29cdc5",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 10222,
+              "length": 34,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                347
+              ],
+              "starting_column": 3,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HodboToken",
+                "source_mapping": {
+                  "start": 10180,
+                  "length": 146,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    346,
+                    347,
+                    348,
+                    349,
+                    350
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "HodboToken.name (contractSource/scsc/Privatix_presale.sol#347) should be constant\n",
+        "markdown": "[HodboToken.name](contractSource/scsc/Privatix_presale.sol#L347) should be constant\n",
+        "id": "6cc0bbcfd1fd8d550e2456ebd36e7a37fb3af815221b7b4a8c2c47fe1a072c76",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 10261,
+              "length": 28,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                348
+              ],
+              "starting_column": 3,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HodboToken",
+                "source_mapping": {
+                  "start": 10180,
+                  "length": 146,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    346,
+                    347,
+                    348,
+                    349,
+                    350
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "HodboToken.symbol (contractSource/scsc/Privatix_presale.sol#348) should be constant\n",
+        "markdown": "[HodboToken.symbol](contractSource/scsc/Privatix_presale.sol#L348) should be constant\n",
+        "id": "6486b2c9bf4d76da86bda6766eb2fdd1cb60e17df99a43844e798d31288913e0",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 1686,
+              "length": 106,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                56,
+                57,
+                58
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BasicToken",
+                "source_mapping": {
+                  "start": 970,
+                  "length": 827,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 84,
+              "length": 59,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 3,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 258,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- BasicToken.balanceOf(address) (contractSource/scsc/Privatix_presale.sol#56-58)\n\t- ERC20Basic.balanceOf(address) (contractSource/scsc/Privatix_presale.sol#5)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [BasicToken.balanceOf(address)](contractSource/scsc/Privatix_presale.sol#L56-L58)\n\t- [ERC20Basic.balanceOf(address)](contractSource/scsc/Privatix_presale.sol#L5)\n",
+        "id": "685c744afcf572f78c59b32700defaf2ba8958f80532a9fbf370f0ef243fa4c4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 147,
+              "length": 60,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 3,
+              "ending_column": 63
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Basic",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 258,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 1240,
+              "length": 236,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "BasicToken",
+                "source_mapping": {
+                  "start": 970,
+                  "length": 827,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- ERC20Basic.transfer(address,uint256) (contractSource/scsc/Privatix_presale.sol#6)\n\t- BasicToken.transfer(address,uint256) (contractSource/scsc/Privatix_presale.sol#44-49)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [ERC20Basic.transfer(address,uint256)](contractSource/scsc/Privatix_presale.sol#L6)\n\t- [BasicToken.transfer(address,uint256)](contractSource/scsc/Privatix_presale.sol#L44-L49)\n",
+        "id": "518584508539772d6a8faffe1bc66416a1d563dc91221f63823648a1d5a6bb08",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 419,
+              "length": 78,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 3,
+              "ending_column": 81
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 385,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 7101,
+              "length": 135,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                225,
+                226,
+                227
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 5102,
+                  "length": 2139,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208,
+                    209,
+                    210,
+                    211,
+                    212,
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218,
+                    219,
+                    220,
+                    221,
+                    222,
+                    223,
+                    224,
+                    225,
+                    226,
+                    227,
+                    228,
+                    229
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          }
+        ],
+        "description": "allowance(address,address) should be declared external:\n\t- ERC20.allowance(address,address) (contractSource/scsc/Privatix_presale.sol#16)\n\t- StandardToken.allowance(address,address) (contractSource/scsc/Privatix_presale.sol#225-227)\n",
+        "markdown": "allowance(address,address) should be declared external:\n\t- [ERC20.allowance(address,address)](contractSource/scsc/Privatix_presale.sol#L16)\n\t- [StandardToken.allowance(address,address)](contractSource/scsc/Privatix_presale.sol#L225-L227)\n",
+        "id": "e432fc55e42455279e59f32548ecc1545d70891ccd5cadd8087c971cbd618996",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 501,
+              "length": 78,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 3,
+              "ending_column": 81
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 385,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 5494,
+              "length": 500,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 5102,
+                  "length": 2139,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208,
+                    209,
+                    210,
+                    211,
+                    212,
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218,
+                    219,
+                    220,
+                    221,
+                    222,
+                    223,
+                    224,
+                    225,
+                    226,
+                    227,
+                    228,
+                    229
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256) should be declared external:\n\t- ERC20.transferFrom(address,address,uint256) (contractSource/scsc/Privatix_presale.sol#17)\n\t- StandardToken.transferFrom(address,address,uint256) (contractSource/scsc/Privatix_presale.sol#188-199)\n",
+        "markdown": "transferFrom(address,address,uint256) should be declared external:\n\t- [ERC20.transferFrom(address,address,uint256)](contractSource/scsc/Privatix_presale.sol#L17)\n\t- [StandardToken.transferFrom(address,address,uint256)](contractSource/scsc/Privatix_presale.sol#L188-L199)\n",
+        "id": "3a0879d67a9822a6dae249e43c63ffad481011860240e48a34a6d25429387bed",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 6232,
+              "length": 545,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                206,
+                207,
+                208,
+                209,
+                210,
+                211,
+                212,
+                213,
+                214,
+                215,
+                216,
+                217
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "StandardToken",
+                "source_mapping": {
+                  "start": 5102,
+                  "length": 2139,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208,
+                    209,
+                    210,
+                    211,
+                    212,
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218,
+                    219,
+                    220,
+                    221,
+                    222,
+                    223,
+                    224,
+                    225,
+                    226,
+                    227,
+                    228,
+                    229
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          },
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 583,
+              "length": 64,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 3,
+              "ending_column": 67
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 385,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "approve(address,uint256) should be declared external:\n\t- StandardToken.approve(address,uint256) (contractSource/scsc/Privatix_presale.sol#206-217)\n\t- ERC20.approve(address,uint256) (contractSource/scsc/Privatix_presale.sol#18)\n",
+        "markdown": "approve(address,uint256) should be declared external:\n\t- [StandardToken.approve(address,uint256)](contractSource/scsc/Privatix_presale.sol#L206-L217)\n\t- [ERC20.approve(address,uint256)](contractSource/scsc/Privatix_presale.sol#L18)\n",
+        "id": "7250d4d8758eb51e764a4a0f8d5a8779214f49c11ef8bd64e9bb812812c65186",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 3595,
+              "length": 54,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                122,
+                123,
+                124
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Crowdsale",
+                "source_mapping": {
+                  "start": 2135,
+                  "length": 2659,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Crowdsale.fallback() (contractSource/scsc/Privatix_presale.sol#122-124)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Crowdsale.fallback()](contractSource/scsc/Privatix_presale.sol#L122-L124)\n",
+        "id": "35f574baec851b3974b26a5b5514c8be1f3638c6168a64f8deb5c5f179454d72",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "hasEnded",
+            "source_mapping": {
+              "start": 4693,
+              "length": 94,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                160,
+                161,
+                162
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Crowdsale",
+                "source_mapping": {
+                  "start": 2135,
+                  "length": 2659,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "hasEnded()"
+            }
+          }
+        ],
+        "description": "hasEnded() should be declared external:\n\t- Crowdsale.hasEnded() (contractSource/scsc/Privatix_presale.sol#160-162)\n",
+        "markdown": "hasEnded() should be declared external:\n\t- [Crowdsale.hasEnded()](contractSource/scsc/Privatix_presale.sol#L160-L162)\n",
+        "id": "9229470c31d5a7a7f958832b401007cbb3d4f2b32c62bdd33c0c01a6decbad84",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferOwnership",
+            "source_mapping": {
+              "start": 7790,
+              "length": 128,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                256,
+                257,
+                258,
+                259,
+                260
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Ownable",
+                "source_mapping": {
+                  "start": 7243,
+                  "length": 680,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    230,
+                    231,
+                    232,
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238,
+                    239,
+                    240,
+                    241,
+                    242,
+                    243,
+                    244,
+                    245,
+                    246,
+                    247,
+                    248,
+                    249,
+                    250,
+                    251,
+                    252,
+                    253,
+                    254,
+                    255,
+                    256,
+                    257,
+                    258,
+                    259,
+                    260,
+                    261,
+                    262
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferOwnership(address)"
+            }
+          }
+        ],
+        "description": "transferOwnership(address) should be declared external:\n\t- Ownable.transferOwnership(address) (contractSource/scsc/Privatix_presale.sol#256-260)\n",
+        "markdown": "transferOwnership(address) should be declared external:\n\t- [Ownable.transferOwnership(address)](contractSource/scsc/Privatix_presale.sol#L256-L260)\n",
+        "id": "8e314f2a323babe2cac9b74075db6feca763f3d608c292445109dfc6938d81f5",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "mint",
+            "source_mapping": {
+              "start": 8410,
+              "length": 220,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                281,
+                282,
+                283,
+                284,
+                285,
+                286
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MintableToken",
+                "source_mapping": {
+                  "start": 7925,
+                  "length": 952,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    263,
+                    264,
+                    265,
+                    266,
+                    267,
+                    268,
+                    269,
+                    270,
+                    271,
+                    272,
+                    273,
+                    274,
+                    275,
+                    276,
+                    277,
+                    278,
+                    279,
+                    280,
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "mint(address,uint256)"
+            }
+          }
+        ],
+        "description": "mint(address,uint256) should be declared external:\n\t- MintableToken.mint(address,uint256) (contractSource/scsc/Privatix_presale.sol#281-286)\n",
+        "markdown": "mint(address,uint256) should be declared external:\n\t- [MintableToken.mint(address,uint256)](contractSource/scsc/Privatix_presale.sol#L281-L286)\n",
+        "id": "b59dd87a7c1427141e99c34d5dcffa0391931a9e2c6c06de215ac5fd0652a2e3",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "finishMinting",
+            "source_mapping": {
+              "start": 8750,
+              "length": 124,
+              "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+              "filename_short": "contractSource/scsc/Privatix_presale.sol",
+              "is_dependency": false,
+              "lines": [
+                292,
+                293,
+                294,
+                295,
+                296
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MintableToken",
+                "source_mapping": {
+                  "start": 7925,
+                  "length": 952,
+                  "filename_used": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_relative": "contractSource/scsc/Privatix_presale.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Privatix_presale.sol",
+                  "filename_short": "contractSource/scsc/Privatix_presale.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    263,
+                    264,
+                    265,
+                    266,
+                    267,
+                    268,
+                    269,
+                    270,
+                    271,
+                    272,
+                    273,
+                    274,
+                    275,
+                    276,
+                    277,
+                    278,
+                    279,
+                    280,
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "finishMinting()"
+            }
+          }
+        ],
+        "description": "finishMinting() should be declared external:\n\t- MintableToken.finishMinting() (contractSource/scsc/Privatix_presale.sol#292-296)\n",
+        "markdown": "finishMinting() should be declared external:\n\t- [MintableToken.finishMinting()](contractSource/scsc/Privatix_presale.sol#L292-L296)\n",
+        "id": "14c909f7df8ff0a140efa84c7df1489e66ee4d05e039e2424152b70da238b272",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

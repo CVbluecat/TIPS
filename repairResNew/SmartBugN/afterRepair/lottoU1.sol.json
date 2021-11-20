@@ -1,0 +1,1132 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawLeftOver",
+            "source_mapping": {
+              "start": 239,
+              "length": 106,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawLeftOver()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! msg.sender.send(this.balance)",
+            "source_mapping": {
+              "start": 300,
+              "length": 31,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 5,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawLeftOver",
+                "source_mapping": {
+                  "start": 239,
+                  "length": 106,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 324,
+                      "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawLeftOver()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Lotto.withdrawLeftOver() (repairResNew/SmartBugN/lottoU1.sol#12-16) sends eth to arbitrary user\n\tDangerous calls:\n\t- ! msg.sender.send(this.balance) (repairResNew/SmartBugN/lottoU1.sol#14)\n",
+        "markdown": "[Lotto.withdrawLeftOver()](repairResNew/SmartBugN/lottoU1.sol#L12-L16) sends eth to arbitrary user\n\tDangerous calls:\n\t- [! msg.sender.send(this.balance)](repairResNew/SmartBugN/lottoU1.sol#L14)\n",
+        "id": "72c6cd4e7e9938e90df2671b2ddd0577e1d881de2ca357f5c02de01b21b8430e",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "winner",
+            "source_mapping": {
+              "start": 74,
+              "length": 21,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 2,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "sendToWinner",
+            "source_mapping": {
+              "start": 122,
+              "length": 115,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "sendToWinner()"
+            }
+          }
+        ],
+        "description": "Lotto.winner (repairResNew/SmartBugN/lottoU1.sol#4) is never initialized. It is used in:\n\t- Lotto.sendToWinner() (repairResNew/SmartBugN/lottoU1.sol#6-11)\n",
+        "markdown": "[Lotto.winner](repairResNew/SmartBugN/lottoU1.sol#L4) is never initialized. It is used in:\n\t- [Lotto.sendToWinner()](repairResNew/SmartBugN/lottoU1.sol#L6-L11)\n",
+        "id": "0c46d2b48a8e19dce9754933b34e900fd93fa229ab6ddd6ac7fc478ead05df3f",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "winAmount",
+            "source_mapping": {
+              "start": 98,
+              "length": 21,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "sendToWinner",
+            "source_mapping": {
+              "start": 122,
+              "length": 115,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "sendToWinner()"
+            }
+          }
+        ],
+        "description": "Lotto.winAmount (repairResNew/SmartBugN/lottoU1.sol#5) is never initialized. It is used in:\n\t- Lotto.sendToWinner() (repairResNew/SmartBugN/lottoU1.sol#6-11)\n",
+        "markdown": "[Lotto.winAmount](repairResNew/SmartBugN/lottoU1.sol#L5) is never initialized. It is used in:\n\t- [Lotto.sendToWinner()](repairResNew/SmartBugN/lottoU1.sol#L6-L11)\n",
+        "id": "e62b93b5840821b361777014842d7bcad42fc2a7189a63e44ccbf54760629942",
+        "check": "uninitialized-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 209,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendToWinner",
+                "source_mapping": {
+                  "start": 122,
+                  "length": 115,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 324,
+                      "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "sendToWinner()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/lottoU1.sol#9):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/lottoU1.sol#L9):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "9a85d2ae8780908d843c79ca48c9720df4e98517dd94d12d9659c2ed1d13ee8b",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 335,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdrawLeftOver",
+                "source_mapping": {
+                  "start": 239,
+                  "length": 106,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 324,
+                      "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdrawLeftOver()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/lottoU1.sol#15):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/lottoU1.sol#L15):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "c651c4137cc30246c984f05f4ddd55645f38418f0abf78c00bf2ff2fbf02e489",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.18",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".18"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.18 (repairResNew/SmartBugN/lottoU1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.18](repairResNew/SmartBugN/lottoU1.sol#L1) allows old versions\n",
+        "id": "eca5067df4ade7fa08f5fd879d1fcd9cbbb090774390773340972e7821fb0a37",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sendToWinner",
+            "source_mapping": {
+              "start": 122,
+              "length": 115,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "sendToWinner()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "! winner.send(winAmount)",
+            "source_mapping": {
+              "start": 181,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                8
+              ],
+              "starting_column": 5,
+              "ending_column": 29
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendToWinner",
+                "source_mapping": {
+                  "start": 122,
+                  "length": 115,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 324,
+                      "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "sendToWinner()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "payedOut = true",
+            "source_mapping": {
+              "start": 218,
+              "length": 15,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 2,
+              "ending_column": 17
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "sendToWinner",
+                "source_mapping": {
+                  "start": 122,
+                  "length": 115,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Lotto",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 324,
+                      "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                      "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "sendToWinner()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "payedOut"
+            }
+          }
+        ],
+        "description": "Reentrancy in Lotto.sendToWinner() (repairResNew/SmartBugN/lottoU1.sol#6-11):\n\tExternal calls:\n\t- ! winner.send(winAmount) (repairResNew/SmartBugN/lottoU1.sol#8)\n\tState variables written after the call(s):\n\t- payedOut = true (repairResNew/SmartBugN/lottoU1.sol#10)\n",
+        "markdown": "Reentrancy in [Lotto.sendToWinner()](repairResNew/SmartBugN/lottoU1.sol#L6-L11):\n\tExternal calls:\n\t- [! winner.send(winAmount)](repairResNew/SmartBugN/lottoU1.sol#L8)\n\tState variables written after the call(s):\n\t- [payedOut = true](repairResNew/SmartBugN/lottoU1.sol#L10)\n",
+        "id": "f0d0128871e6c8fc1c0e3d4fa309bdf363785c560fe97b97d39e7197dac134e7",
+        "check": "reentrancy-unlimited-gas",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "winAmount",
+            "source_mapping": {
+              "start": 98,
+              "length": 21,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 2,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "Lotto.winAmount (repairResNew/SmartBugN/lottoU1.sol#5) should be constant\n",
+        "markdown": "[Lotto.winAmount](repairResNew/SmartBugN/lottoU1.sol#L5) should be constant\n",
+        "id": "67b66ec6ffdd0805ac7f3d8dcff8e9300e40e8a45453ce17e3143b7a10614dae",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "winner",
+            "source_mapping": {
+              "start": 74,
+              "length": 21,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                4
+              ],
+              "starting_column": 2,
+              "ending_column": 23
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "Lotto.winner (repairResNew/SmartBugN/lottoU1.sol#4) should be constant\n",
+        "markdown": "[Lotto.winner](repairResNew/SmartBugN/lottoU1.sol#L4) should be constant\n",
+        "id": "c49b39eea9f9276dc3287753096b8701baa14f7a78aaf1971a7c87b002458c7c",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "sendToWinner",
+            "source_mapping": {
+              "start": 122,
+              "length": 115,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "sendToWinner()"
+            }
+          }
+        ],
+        "description": "sendToWinner() should be declared external:\n\t- Lotto.sendToWinner() (repairResNew/SmartBugN/lottoU1.sol#6-11)\n",
+        "markdown": "sendToWinner() should be declared external:\n\t- [Lotto.sendToWinner()](repairResNew/SmartBugN/lottoU1.sol#L6-L11)\n",
+        "id": "9b70117144ece402009a9f8ea4e6e87bc8ca36ea32da7e1c81129468c1351f4b",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawLeftOver",
+            "source_mapping": {
+              "start": 239,
+              "length": 106,
+              "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+              "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Lotto",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 324,
+                  "filename_used": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/lottoU1.sol",
+                  "filename_short": "repairResNew/SmartBugN/lottoU1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdrawLeftOver()"
+            }
+          }
+        ],
+        "description": "withdrawLeftOver() should be declared external:\n\t- Lotto.withdrawLeftOver() (repairResNew/SmartBugN/lottoU1.sol#12-16)\n",
+        "markdown": "withdrawLeftOver() should be declared external:\n\t- [Lotto.withdrawLeftOver()](repairResNew/SmartBugN/lottoU1.sol#L12-L16)\n",
+        "id": "92e83a569fd1524345dd9820c5851a0a683148975fc2e8f6d37124bb00132c69",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

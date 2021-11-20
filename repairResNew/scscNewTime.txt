@@ -1,0 +1,73 @@
+MXToken_crowdsale.sol
+failing to repair the unchecked call defect in charnum:8188 in type2
+0.03366699999999999
+Classy_Coin_Airdrop.sol
+failing to repair the unchecked call defect in charnum:1530 in type2
+failing to repair the unchecked call defect in charnum:1785 in type2
+0.008867
+HDL_presale.sol
+failing to repair the unchecked call defect in charnum:11601 in type2
+failing to repair the unchecked call defect in charnum:11917 in type2
+failing to repair the unchecked call defect in charnum:12083 in type2
+0.050753999999999994
+Privatix_presale.sol
+failing to repair the unchecked call defect in charnum:4011 in type2
+0.03082299999999999
+BananaCoin.sol
+failing to repair the unchecked call defect in charnum:6785 in type2
+failing to repair the unchecked call defect in charnum:6785 in type2
+0.06567899999999999
+Hodbo_crowdsale.sol
+failing to repair the unchecked call defect in charnum:10934 in type2
+failing to repair the unchecked call defect in charnum:13534 in type2
+0.058130000000000015
+dgame.sol
+0.00799500000000003
+ClassyCoin.sol
+failing to repair the unchecked call defect in charnum:8840 in type2
+failing to repair the unchecked call defect in charnum:8840 in type2
+0.11287999999999998
+ApplauseCash_crowdsale.sol
+failing to repair the unchecked call defect in charnum:10633 in type2
+failing to repair the unchecked call defect in charnum:14596 in type2
+failing to repair the unchecked call defect in charnum:10633 in type2
+failing to repair the unchecked call defect in charnum:14596 in type2
+0.22515699999999994
+Yobcoin_crowdsale.sol
+failing to repair the unchecked call defect in charnum:16992 in type2
+failing to repair the unchecked call defect in charnum:17279 in type2
+failing to repair the unchecked call defect in charnum:16992 in type2
+failing to repair the unchecked call defect in charnum:17279 in type2
+0.259134
+Autonio_ICO.sol
+0.08742899999999998
+Siring_Clock_Auction.sol
+0.6489119999999999
+Airdrop.sol
+failing to repair the unchecked call defect in charnum:2461 in type2
+failing to repair the unchecked call defect in charnum:2704 in type2
+failing to repair the unchecked call defect in charnum:2939 in type2
+failing to repair the unchecked call defect in charnum:3193 in type2
+0.020999999999999908
+XGold_Coin.sol
+failing to repair the unchecked call defect in charnum:6946 in type2
+failing to repair the unchecked call defect in charnum:8055 in type2
+0.07281100000000018
+Lescoin_presale.sol
+failing to repair the unchecked call defect in charnum:15221 in type2
+failing to repair the unchecked call defect in charnum:15829 in type2
+0.17007800000000017
+Easy_Mine_ICO.sol
+failing to repair the unchecked call defect in charnum:14254 in type2
+failing to repair the unchecked call defect in charnum:14254 in type2
+0.16211500000000023
+OKOToken_ICO.sol
+failing to repair the unchecked call defect in charnum:11303 in type2
+failing to repair the unchecked call defect in charnum:12170 in type2
+failing to repair the unchecked call defect in charnum:12205 in type2
+failing to repair the unchecked call defect in charnum:12744 in type2
+failing to repair the unchecked call defect in charnum:11303 in type2
+failing to repair the unchecked call defect in charnum:12170 in type2
+failing to repair the unchecked call defect in charnum:12205 in type2
+failing to repair the unchecked call defect in charnum:12744 in type2
+0.14213599999999982

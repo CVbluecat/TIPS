@@ -1,0 +1,2392 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Put",
+            "source_mapping": {
+              "start": 46,
+              "length": 209,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Put(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "_unlockTime > now",
+            "source_mapping": {
+              "start": 150,
+              "length": 50,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 2,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Put",
+                "source_mapping": {
+                  "start": 46,
+                  "length": 209,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "X_WALLET",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 741,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Put(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "X_WALLET.Put(uint256) (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#3-8) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- _unlockTime > now (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#6)\n",
+        "markdown": "[X_WALLET.Put(uint256)](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L3-L8) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [_unlockTime > now](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L6)\n",
+        "id": "344d75b644c5d656b2a15e74719b6cb904655b8372c07520a6b97419269420bd",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Collect",
+            "source_mapping": {
+              "start": 257,
+              "length": 267,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Collect(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "acc.balance >= MinSum && acc.balance >= _am && now > acc.unlockTime",
+            "source_mapping": {
+              "start": 333,
+              "length": 67,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 72
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 257,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "X_WALLET",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 741,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "X_WALLET.Collect(uint256) (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#9-19) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- acc.balance >= MinSum && acc.balance >= _am && now > acc.unlockTime (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#11)\n",
+        "markdown": "[X_WALLET.Collect(uint256)](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L9-L19) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [acc.balance >= MinSum && acc.balance >= _am && now > acc.unlockTime](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L11)\n",
+        "id": "7571d0dc2bd958e54aedad4e9d82d3cac862c49a84f42be68687b0d995a568dc",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 511,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 257,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "X_WALLET",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 741,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#17):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L17):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "ee9c46b4a3464c129d27657be7339b682fe4ec43f15645d63f05e11144e57e02",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.25",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".25"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.25 (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.25](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L1) allows old versions\n",
+        "id": "e4ceff3fd9723b8ee4a991edf0991bddaf8e3c36aaad5cfa08ae6d40ac8c9a38",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "X_WALLET",
+            "source_mapping": {
+              "start": 25,
+              "length": 741,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract X_WALLET (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#2-34) is not in CapWords\n",
+        "markdown": "Contract [X_WALLET](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L2-L34) is not in CapWords\n",
+        "id": "3d95feb40050acb5e37900f686812f6dfe4b1e94f79ff87913026aa08ecc671e",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Put",
+            "source_mapping": {
+              "start": 46,
+              "length": 209,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Put(uint256)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function X_WALLET.Put(uint256) (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#3-8) is not in mixedCase\n",
+        "markdown": "Function [X_WALLET.Put(uint256)](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L3-L8) is not in mixedCase\n",
+        "id": "f110e75bba5b91ff9ad5b1d298305d677ea86125d626b24736bb60dab7dcdbc3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_unlockTime",
+            "source_mapping": {
+              "start": 59,
+              "length": 16,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                3
+              ],
+              "starting_column": 15,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Put",
+                "source_mapping": {
+                  "start": 46,
+                  "length": 209,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "X_WALLET",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 741,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Put(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter X_WALLET.Put(uint256)._unlockTime (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#3) is not in mixedCase\n",
+        "markdown": "Parameter [X_WALLET.Put(uint256)._unlockTime](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L3) is not in mixedCase\n",
+        "id": "125d2fdda5584ee7b4d00b1daa6ae477d7facaf2980222ca1f71abe54150ce77",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Collect",
+            "source_mapping": {
+              "start": 257,
+              "length": 267,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Collect(uint256)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function X_WALLET.Collect(uint256) (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#9-19) is not in mixedCase\n",
+        "markdown": "Function [X_WALLET.Collect(uint256)](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L9-L19) is not in mixedCase\n",
+        "id": "654c3325327a287b5353c53ab5344b0cb80f36feef726e674232f49c0c4a1902",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_am",
+            "source_mapping": {
+              "start": 274,
+              "length": 8,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 19,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 257,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "X_WALLET",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 741,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter X_WALLET.Collect(uint256)._am (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#9) is not in mixedCase\n",
+        "markdown": "Parameter [X_WALLET.Collect(uint256)._am](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L9) is not in mixedCase\n",
+        "id": "eb36fc7ca9fb70aafbd56ff7f4899fd6821b4a1d4ffa95cda60822134648c8d5",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Acc",
+            "source_mapping": {
+              "start": 620,
+              "length": 37,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                27
+              ],
+              "starting_column": 2,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable X_WALLET.Acc (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#27) is not in mixedCase\n",
+        "markdown": "Variable [X_WALLET.Acc](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L27) is not in mixedCase\n",
+        "id": "46efd745ac919fc9c47e012e26c42b92c9d8a6906241598edef70df7495cbdf0",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "LogFile",
+            "source_mapping": {
+              "start": 660,
+              "length": 11,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                28
+              ],
+              "starting_column": 2,
+              "ending_column": 13
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable X_WALLET.LogFile (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#28) is not in mixedCase\n",
+        "markdown": "Variable [X_WALLET.LogFile](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L28) is not in mixedCase\n",
+        "id": "95da52398742eeb7b0033645cca3c952562c1641d7e336053ef951438343e6c3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "MinSum",
+            "source_mapping": {
+              "start": 674,
+              "length": 28,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 2,
+              "ending_column": 30
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable X_WALLET.MinSum (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#29) is not in mixedCase\n",
+        "markdown": "Variable [X_WALLET.MinSum](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L29) is not in mixedCase\n",
+        "id": "e9b818fdb291c4e1f6b1decfb2566ae9374014cc54d7ce9be23dd7276e520e46",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AddMessage",
+            "source_mapping": {
+              "start": 901,
+              "length": 183,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 766,
+                  "length": 322,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "AddMessage(address,uint256,string)"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Log.AddMessage(address,uint256,string) (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#43-49) is not in mixedCase\n",
+        "markdown": "Function [Log.AddMessage(address,uint256,string)](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L43-L49) is not in mixedCase\n",
+        "id": "66845808355de3f3587edbe6bbedff5a7c9999f313d0d294df63fe67cab6561d",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_adr",
+            "source_mapping": {
+              "start": 921,
+              "length": 12,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                43
+              ],
+              "starting_column": 22,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "AddMessage",
+                "source_mapping": {
+                  "start": 901,
+                  "length": 183,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Log",
+                    "source_mapping": {
+                      "start": 766,
+                      "length": 322,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "AddMessage(address,uint256,string)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Log.AddMessage(address,uint256,string)._adr (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#43) is not in mixedCase\n",
+        "markdown": "Parameter [Log.AddMessage(address,uint256,string)._adr](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L43) is not in mixedCase\n",
+        "id": "448884c0105492c21390b147b3b28938f500bd38e5c7db3e49f77082b4ae5901",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_val",
+            "source_mapping": {
+              "start": 935,
+              "length": 9,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                43
+              ],
+              "starting_column": 36,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "AddMessage",
+                "source_mapping": {
+                  "start": 901,
+                  "length": 183,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Log",
+                    "source_mapping": {
+                      "start": 766,
+                      "length": 322,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "AddMessage(address,uint256,string)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Log.AddMessage(address,uint256,string)._val (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#43) is not in mixedCase\n",
+        "markdown": "Parameter [Log.AddMessage(address,uint256,string)._val](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L43) is not in mixedCase\n",
+        "id": "cf299a7fd737d25b044f24bab1472ef4ad0e03e2e83f1589cc97dcd942c3b397",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_data",
+            "source_mapping": {
+              "start": 946,
+              "length": 12,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                43
+              ],
+              "starting_column": 47,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "AddMessage",
+                "source_mapping": {
+                  "start": 901,
+                  "length": 183,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Log",
+                    "source_mapping": {
+                      "start": 766,
+                      "length": 322,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "AddMessage(address,uint256,string)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Log.AddMessage(address,uint256,string)._data (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#43) is not in mixedCase\n",
+        "markdown": "Parameter [Log.AddMessage(address,uint256,string)._data](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L43) is not in mixedCase\n",
+        "id": "88ef89222b78c5ba078f8cd13354a82ff13db1aa11aa346db18dff995e21d93a",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "History",
+            "source_mapping": {
+              "start": 856,
+              "length": 24,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                41
+              ],
+              "starting_column": 2,
+              "ending_column": 26
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 766,
+                  "length": 322,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Log.History (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#41) is not in mixedCase\n",
+        "markdown": "Variable [Log.History](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L41) is not in mixedCase\n",
+        "id": "090079b92801e672b64f5cf8142250c73d1664e3eed3713db0903af415c9a693",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "LastMsg",
+            "source_mapping": {
+              "start": 883,
+              "length": 15,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                42
+              ],
+              "starting_column": 2,
+              "ending_column": 17
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 766,
+                  "length": 322,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Log.LastMsg (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#42) is not in mixedCase\n",
+        "markdown": "Variable [Log.LastMsg](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L42) is not in mixedCase\n",
+        "id": "09c76985dbe5bf29a2f821cb43652fc650f0254c08215e77779e7a73be035074",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Collect",
+            "source_mapping": {
+              "start": 257,
+              "length": 267,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Collect(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.send(_am)",
+            "source_mapping": {
+              "start": 407,
+              "length": 20,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 257,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "X_WALLET",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 741,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "acc.balance -= _am",
+            "source_mapping": {
+              "start": 431,
+              "length": 18,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                13
+              ],
+              "starting_column": 2,
+              "ending_column": 20
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Collect",
+                "source_mapping": {
+                  "start": 257,
+                  "length": 267,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "X_WALLET",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 741,
+                      "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "Collect(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "Acc"
+            }
+          }
+        ],
+        "description": "Reentrancy in X_WALLET.Collect(uint256) (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#9-19):\n\tExternal calls:\n\t- msg.sender.send(_am) (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#12)\n\tState variables written after the call(s):\n\t- acc.balance -= _am (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#13)\n",
+        "markdown": "Reentrancy in [X_WALLET.Collect(uint256)](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L9-L19):\n\tExternal calls:\n\t- [msg.sender.send(_am)](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L12)\n\tState variables written after the call(s):\n\t- [acc.balance -= _am](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L13)\n",
+        "id": "b3993b764807489147e8612a9d87b6375dbf7fba297176ca49ce52fc0ebed6e8",
+        "check": "reentrancy-unlimited-gas",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "MinSum",
+            "source_mapping": {
+              "start": 674,
+              "length": 28,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 2,
+              "ending_column": 30
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "X_WALLET.MinSum (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#29) should be constant\n",
+        "markdown": "[X_WALLET.MinSum](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L29) should be constant\n",
+        "id": "72719096b9b7c860064fd05999cc1d5e27cfdae6f492c46f60b69b4f3a0dc452",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Collect",
+            "source_mapping": {
+              "start": 257,
+              "length": 267,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "Collect(uint256)"
+            }
+          }
+        ],
+        "description": "Collect(uint256) should be declared external:\n\t- X_WALLET.Collect(uint256) (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#9-19)\n",
+        "markdown": "Collect(uint256) should be declared external:\n\t- [X_WALLET.Collect(uint256)](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L9-L19)\n",
+        "id": "59869c0525be3310f09a43d289bcd26e8c3036c339d6d9be4ecf39b305ca69ee",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 526,
+              "length": 40,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                20,
+                21,
+                22
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "X_WALLET",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 741,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- X_WALLET.fallback() (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#20-22)\n",
+        "markdown": "fallback() should be declared external:\n\t- [X_WALLET.fallback()](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L20-L22)\n",
+        "id": "8f9760c1cda8e4f2cc2365b8734318643395e0b0fbe444644194d09c251c5905",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "AddMessage",
+            "source_mapping": {
+              "start": 901,
+              "length": 183,
+              "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+              "is_dependency": false,
+              "lines": [
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Log",
+                "source_mapping": {
+                  "start": 766,
+                  "length": 322,
+                  "filename_used": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_relative": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_absolute": "/contract/repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "filename_short": "repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "AddMessage(address,uint256,string)"
+            }
+          }
+        ],
+        "description": "AddMessage(address,uint256,string) should be declared external:\n\t- Log.AddMessage(address,uint256,string) (repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#43-49)\n",
+        "markdown": "AddMessage(address,uint256,string) should be declared external:\n\t- [Log.AddMessage(address,uint256,string)](repairResNew/SmartBugN/0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol#L43-L49)\n",
+        "id": "4c8a4094e2c32c05d0bef5e9b094853cb3f7403b260edf76439824f829f297b6",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

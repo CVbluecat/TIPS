@@ -1,0 +1,1187 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "airDrop",
+            "source_mapping": {
+              "start": 1366,
+              "length": 347,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassyCoinAirdrop",
+                "source_mapping": {
+                  "start": 1026,
+                  "length": 801,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "airDrop(address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "myToken.transfer(recipients[i],amount)",
+            "source_mapping": {
+              "start": 1530,
+              "length": 40,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                54
+              ],
+              "starting_column": 9,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "airDrop",
+                "source_mapping": {
+                  "start": 1366,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ClassyCoinAirdrop",
+                    "source_mapping": {
+                      "start": 1026,
+                      "length": 801,
+                      "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "airDrop(address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "ClassyCoinAirdrop.airDrop(address[],uint256) (contractSource/scsc/Classy_Coin_Airdrop.sol#50-60) ignores return value by myToken.transfer(recipients[i],amount) (contractSource/scsc/Classy_Coin_Airdrop.sol#54)\n",
+        "markdown": "[ClassyCoinAirdrop.airDrop(address[],uint256)](contractSource/scsc/Classy_Coin_Airdrop.sol#L50-L60) ignores return value by [myToken.transfer(recipients[i],amount)](contractSource/scsc/Classy_Coin_Airdrop.sol#L54)\n",
+        "id": "bf324423f03792950648bd0fb60d1fd564b2beb89bdc5b4761d51ac20d5b4c43",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "emergencyDrain",
+            "source_mapping": {
+              "start": 1721,
+              "length": 103,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                63,
+                64,
+                65
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassyCoinAirdrop",
+                "source_mapping": {
+                  "start": 1026,
+                  "length": 801,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "emergencyDrain(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "myToken.transfer(owner,amount)",
+            "source_mapping": {
+              "start": 1785,
+              "length": 33,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                64
+              ],
+              "starting_column": 7,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "emergencyDrain",
+                "source_mapping": {
+                  "start": 1721,
+                  "length": 103,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    63,
+                    64,
+                    65
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ClassyCoinAirdrop",
+                    "source_mapping": {
+                      "start": 1026,
+                      "length": 801,
+                      "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "emergencyDrain(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "ClassyCoinAirdrop.emergencyDrain(uint256) (contractSource/scsc/Classy_Coin_Airdrop.sol#63-65) ignores return value by myToken.transfer(owner,amount) (contractSource/scsc/Classy_Coin_Airdrop.sol#64)\n",
+        "markdown": "[ClassyCoinAirdrop.emergencyDrain(uint256)](contractSource/scsc/Classy_Coin_Airdrop.sol#L63-L65) ignores return value by [myToken.transfer(owner,amount)](contractSource/scsc/Classy_Coin_Airdrop.sol#L64)\n",
+        "id": "b146e603d40f3fc197aa92a9957f150bfb51828511abd358829416ff7e0d27b0",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "airDrop",
+            "source_mapping": {
+              "start": 1366,
+              "length": 347,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassyCoinAirdrop",
+                "source_mapping": {
+                  "start": 1026,
+                  "length": 801,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "airDrop(address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "myToken.transfer(recipients[i],amount)",
+            "source_mapping": {
+              "start": 1530,
+              "length": 40,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                54
+              ],
+              "starting_column": 9,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "airDrop",
+                "source_mapping": {
+                  "start": 1366,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ClassyCoinAirdrop",
+                    "source_mapping": {
+                      "start": 1026,
+                      "length": 801,
+                      "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "airDrop(address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "ClassyCoinAirdrop.airDrop(address[],uint256) (contractSource/scsc/Classy_Coin_Airdrop.sol#50-60) has external calls inside a loop: myToken.transfer(recipients[i],amount) (contractSource/scsc/Classy_Coin_Airdrop.sol#54)\n",
+        "markdown": "[ClassyCoinAirdrop.airDrop(address[],uint256)](contractSource/scsc/Classy_Coin_Airdrop.sol#L50-L60) has external calls inside a loop: [myToken.transfer(recipients[i],amount)](contractSource/scsc/Classy_Coin_Airdrop.sol#L54)\n",
+        "id": "6923b62849932464f7c00c148d9a09fedb648af7090dedf0abc0623854140d11",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "airDrop",
+            "source_mapping": {
+              "start": 1366,
+              "length": 347,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassyCoinAirdrop",
+                "source_mapping": {
+                  "start": 1026,
+                  "length": 801,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "airDrop(address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "myToken.transfer(recipients[i],amount)",
+            "source_mapping": {
+              "start": 1530,
+              "length": 40,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                54
+              ],
+              "starting_column": 9,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "airDrop",
+                "source_mapping": {
+                  "start": 1366,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ClassyCoinAirdrop",
+                    "source_mapping": {
+                      "start": 1026,
+                      "length": 801,
+                      "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "airDrop(address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "TokenDrop(recipients[i],amount)",
+            "source_mapping": {
+              "start": 1581,
+              "length": 34,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                55
+              ],
+              "starting_column": 9,
+              "ending_column": 43
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "airDrop",
+                "source_mapping": {
+                  "start": 1366,
+                  "length": 347,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ClassyCoinAirdrop",
+                    "source_mapping": {
+                      "start": 1026,
+                      "length": 801,
+                      "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "airDrop(address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "event"
+            }
+          }
+        ],
+        "description": "Reentrancy in ClassyCoinAirdrop.airDrop(address[],uint256) (contractSource/scsc/Classy_Coin_Airdrop.sol#50-60):\n\tExternal calls:\n\t- myToken.transfer(recipients[i],amount) (contractSource/scsc/Classy_Coin_Airdrop.sol#54)\n\tEvent emitted after the call(s):\n\t- TokenDrop(recipients[i],amount) (contractSource/scsc/Classy_Coin_Airdrop.sol#55)\n",
+        "markdown": "Reentrancy in [ClassyCoinAirdrop.airDrop(address[],uint256)](contractSource/scsc/Classy_Coin_Airdrop.sol#L50-L60):\n\tExternal calls:\n\t- [myToken.transfer(recipients[i],amount)](contractSource/scsc/Classy_Coin_Airdrop.sol#L54)\n\tEvent emitted after the call(s):\n\t- [TokenDrop(recipients[i],amount)](contractSource/scsc/Classy_Coin_Airdrop.sol#L55)\n",
+        "id": "a0fa6c46a445a65b152b44b246a2942b2dcaac21ed793f6ebfc10a8e92aab28f",
+        "check": "reentrancy-events",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.18",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".18"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.18 (contractSource/scsc/Classy_Coin_Airdrop.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.18](contractSource/scsc/Classy_Coin_Airdrop.sol#L1) allows old versions\n",
+        "id": "2dc36ae3fe0225a7b7963d72ef9905ccfcb4d0546e2a5711b1985cfbf2cffc7e",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "token",
+            "source_mapping": {
+              "start": 28,
+              "length": 185,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            },
+            "additional_fields": {
+              "target": "contract",
+              "convention": "CapWords"
+            }
+          }
+        ],
+        "description": "Contract token (contractSource/scsc/Classy_Coin_Airdrop.sol#3-8) is not in CapWords\n",
+        "markdown": "Contract [token](contractSource/scsc/Classy_Coin_Airdrop.sol#L3-L8) is not in CapWords\n",
+        "id": "2afda56fc17f0ac73dfec0bb7bea77446a3764109f6a2f037b6ad634de37842b",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 50,
+              "length": 77,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                5
+              ],
+              "starting_column": 3,
+              "ending_column": 80
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "token",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 185,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- token.balanceOf(address) (contractSource/scsc/Classy_Coin_Airdrop.sol#5)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [token.balanceOf(address)](contractSource/scsc/Classy_Coin_Airdrop.sol#L5)\n",
+        "id": "294bd793c722d24cf5c3a3f529b7993619e451309bef704c5fb36c2d94a94551",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 131,
+              "length": 77,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 3,
+              "ending_column": 80
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "token",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 185,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- token.transfer(address,uint256) (contractSource/scsc/Classy_Coin_Airdrop.sol#6)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [token.transfer(address,uint256)](contractSource/scsc/Classy_Coin_Airdrop.sol#L6)\n",
+        "id": "f2cd78fd293193db19695a274d45e4226c640d3c576fb52b7e9c446fbce8eac2",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "airDrop",
+            "source_mapping": {
+              "start": 1366,
+              "length": 347,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassyCoinAirdrop",
+                "source_mapping": {
+                  "start": 1026,
+                  "length": 801,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "airDrop(address[],uint256)"
+            }
+          }
+        ],
+        "description": "airDrop(address[],uint256) should be declared external:\n\t- ClassyCoinAirdrop.airDrop(address[],uint256) (contractSource/scsc/Classy_Coin_Airdrop.sol#50-60)\n",
+        "markdown": "airDrop(address[],uint256) should be declared external:\n\t- [ClassyCoinAirdrop.airDrop(address[],uint256)](contractSource/scsc/Classy_Coin_Airdrop.sol#L50-L60)\n",
+        "id": "6cb948c45217b7abac644f22587d90962d322199fff9f952778e989da3760502",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "emergencyDrain",
+            "source_mapping": {
+              "start": 1721,
+              "length": 103,
+              "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                63,
+                64,
+                65
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassyCoinAirdrop",
+                "source_mapping": {
+                  "start": 1026,
+                  "length": 801,
+                  "filename_used": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Classy_Coin_Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "emergencyDrain(uint256)"
+            }
+          }
+        ],
+        "description": "emergencyDrain(uint256) should be declared external:\n\t- ClassyCoinAirdrop.emergencyDrain(uint256) (contractSource/scsc/Classy_Coin_Airdrop.sol#63-65)\n",
+        "markdown": "emergencyDrain(uint256) should be declared external:\n\t- [ClassyCoinAirdrop.emergencyDrain(uint256)](contractSource/scsc/Classy_Coin_Airdrop.sol#L63-L65)\n",
+        "id": "e048d8be9e3d83a6553d89558cd8fae8fcf7442932ed7ff455bd1e7298bc1ec5",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

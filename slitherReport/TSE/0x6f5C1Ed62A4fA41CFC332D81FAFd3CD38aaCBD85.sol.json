@@ -1,0 +1,2603 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 2882,
+              "length": 68,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                88
+              ],
+              "starting_column": 5,
+              "ending_column": 73
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "kill()"
+            }
+          }
+        ],
+        "description": "Vault.kill() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#88) allows anyone to destruct the contract\n",
+        "markdown": "[Vault.kill()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L88) allows anyone to destruct the contract\n",
+        "id": "fdf84eb5e078be56730816a39ae8b9cf20ce90edc05477a606e880b4c42edea8",
+        "check": "suicidal",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 2882,
+              "length": 68,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                88
+              ],
+              "starting_column": 5,
+              "ending_column": 73
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "kill()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "require(bool)(this.balance == 0)",
+            "source_mapping": {
+              "start": 2900,
+              "length": 26,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                88
+              ],
+              "starting_column": 23,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "kill",
+                "source_mapping": {
+                  "start": 2882,
+                  "length": 68,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    88
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 73
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vault",
+                    "source_mapping": {
+                      "start": 1339,
+                      "length": 1694,
+                      "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "kill()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Vault.kill() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#88) uses a dangerous strict equality:\n\t- require(bool)(this.balance == 0) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#88)\n",
+        "markdown": "[Vault.kill()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L88) uses a dangerous strict equality:\n\t- [require(bool)(this.balance == 0)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L88)\n",
+        "id": "e17f1edae3744e6aceb71cc18cdc4a85f90283729819eb5aa7b072be5549e12b",
+        "check": "incorrect-equality",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "WithdrawEnabled",
+            "source_mapping": {
+              "start": 1960,
+              "length": 93,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                59
+              ],
+              "starting_column": 5,
+              "ending_column": 98
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "WithdrawEnabled()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "Date > 0 && Date <= now",
+            "source_mapping": {
+              "start": 2020,
+              "length": 30,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                59
+              ],
+              "starting_column": 65,
+              "ending_column": 95
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "WithdrawEnabled",
+                "source_mapping": {
+                  "start": 1960,
+                  "length": 93,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    59
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 98
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vault",
+                    "source_mapping": {
+                      "start": 1339,
+                      "length": 1694,
+                      "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "WithdrawEnabled()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Vault.WithdrawEnabled() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#59) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- Date > 0 && Date <= now (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#59)\n",
+        "markdown": "[Vault.WithdrawEnabled()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L59) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [Date > 0 && Date <= now](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L59)\n",
+        "id": "3a748f89ca5aeafc6de992dfa86af447bf6b5db1d44c72edb38fafd0db37e675",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.17",
+            "source_mapping": {
+              "start": 292,
+              "length": 24,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".17"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.17 (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.17](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L7) allows old versions\n",
+        "id": "d8d6c57410b31a98e37bfbba9d4fe1c11d61aa063f539465d8f0cd4e0addbbed",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 538,
+              "length": 26,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Ownable",
+                "source_mapping": {
+                  "start": 514,
+                  "length": 187,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Ownable.Owner (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#16) is not in mixedCase\n",
+        "markdown": "Variable [Ownable.Owner](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L16) is not in mixedCase\n",
+        "id": "9ad699aa3b9327064cca9e9bd0a3af30f69bf4dd11f409884e31a9634a65a007",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "MinimumDeposit",
+            "source_mapping": {
+              "start": 1799,
+              "length": 79,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                57
+              ],
+              "starting_column": 5,
+              "ending_column": 84
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "MinimumDeposit()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Vault.MinimumDeposit() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#57) is not in mixedCase\n",
+        "markdown": "Function [Vault.MinimumDeposit()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L57) is not in mixedCase\n",
+        "id": "30a3290528c902a0668692c87077fc404a2bd47a222269abbbde4227e3cf0c3f",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "ReleaseDate",
+            "source_mapping": {
+              "start": 1884,
+              "length": 70,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                58
+              ],
+              "starting_column": 5,
+              "ending_column": 75
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "ReleaseDate()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Vault.ReleaseDate() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#58) is not in mixedCase\n",
+        "markdown": "Function [Vault.ReleaseDate()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L58) is not in mixedCase\n",
+        "id": "49c148251e480fc11adaf909da93f99dc8dbcdd5f82fd35fadfdb4e6ac45babb",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "WithdrawEnabled",
+            "source_mapping": {
+              "start": 1960,
+              "length": 93,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                59
+              ],
+              "starting_column": 5,
+              "ending_column": 98
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "WithdrawEnabled()"
+            },
+            "additional_fields": {
+              "target": "function",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Function Vault.WithdrawEnabled() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#59) is not in mixedCase\n",
+        "markdown": "Function [Vault.WithdrawEnabled()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L59) is not in mixedCase\n",
+        "id": "b8c458bf908d15df96cf8a15bf42062ee3fa7c768552c5005e77d73a89163f6e",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Deposits",
+            "source_mapping": {
+              "start": 1531,
+              "length": 41,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                45
+              ],
+              "starting_column": 5,
+              "ending_column": 46
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Vault.Deposits (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#45) is not in mixedCase\n",
+        "markdown": "Variable [Vault.Deposits](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L45) is not in mixedCase\n",
+        "id": "5b3f45dbab833894a641ba79bf1a8a68fac00b848c17e27ba5e0a1493c0170bf",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Locked",
+            "source_mapping": {
+              "start": 1601,
+              "length": 11,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                47
+              ],
+              "starting_column": 5,
+              "ending_column": 16
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Vault.Locked (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#47) is not in mixedCase\n",
+        "markdown": "Variable [Vault.Locked](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L47) is not in mixedCase\n",
+        "id": "926fcf874466160f6aa32defd5ece50ed8e4320ddb05aed5cb7a1e1c0d116a7d",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Date",
+            "source_mapping": {
+              "start": 1619,
+              "length": 9,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                48
+              ],
+              "starting_column": 5,
+              "ending_column": 14
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Vault.Date (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#48) is not in mixedCase\n",
+        "markdown": "Variable [Vault.Date](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L48) is not in mixedCase\n",
+        "id": "e6ed90219938a683fce0de46eecc12018c7397d0dda6a666902e67bd672cb847",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 2453,
+              "length": 298,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "to.transfer(amount)",
+            "source_mapping": {
+              "start": 2657,
+              "length": 19,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                80
+              ],
+              "starting_column": 17,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 2453,
+                  "length": 298,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vault",
+                    "source_mapping": {
+                      "start": 1339,
+                      "length": 1694,
+                      "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdraw(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "Withdrawal(to,amount)",
+            "source_mapping": {
+              "start": 2695,
+              "length": 22,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                81
+              ],
+              "starting_column": 17,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 2453,
+                  "length": 298,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vault",
+                    "source_mapping": {
+                      "start": 1339,
+                      "length": 1694,
+                      "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "withdraw(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "event"
+            }
+          }
+        ],
+        "description": "Reentrancy in Vault.withdraw(address,uint256) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#76-84):\n\tExternal calls:\n\t- to.transfer(amount) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#80)\n\tEvent emitted after the call(s):\n\t- Withdrawal(to,amount) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#81)\n",
+        "markdown": "Reentrancy in [Vault.withdraw(address,uint256)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L76-L84):\n\tExternal calls:\n\t- [to.transfer(amount)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L80)\n\tEvent emitted after the call(s):\n\t- [Withdrawal(to,amount)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L81)\n",
+        "id": "350856b70e46accd05eb118cbce70a1d0d136b219f5913a5ac78a67efb7fab04",
+        "check": "reentrancy-unlimited-gas",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 370,
+              "length": 66,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 5,
+              "ending_column": 71
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 348,
+                  "length": 162,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- Token.balanceOf(address) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#11)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [Token.balanceOf(address)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L11)\n",
+        "id": "b39d5549526d590086b541c4554543c77256a35065492336a02f47bc11c2ee73",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 442,
+              "length": 65,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 5,
+              "ending_column": 70
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Token",
+                "source_mapping": {
+                  "start": 348,
+                  "length": 162,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- Token.transfer(address,uint256) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#12)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [Token.transfer(address,uint256)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L12)\n",
+        "id": "b1d50dd692ebb4899740af5a7fd08229e7b551a4e6fe49a96ef1faa966e3dab0",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferOwnership",
+            "source_mapping": {
+              "start": 627,
+              "length": 71,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 5,
+              "ending_column": 76
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Ownable",
+                "source_mapping": {
+                  "start": 514,
+                  "length": 187,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferOwnership(address)"
+            }
+          }
+        ],
+        "description": "transferOwnership(address) should be declared external:\n\t- Ownable.transferOwnership(address) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#18)\n",
+        "markdown": "transferOwnership(address) should be declared external:\n\t- [Ownable.transferOwnership(address)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L18)\n",
+        "id": "8e314f2a323babe2cac9b74075db6feca763f3d608c292445109dfc6938d81f5",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdrawToken",
+            "source_mapping": {
+              "start": 976,
+              "length": 150,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                29,
+                30,
+                31
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TokenVault",
+                "source_mapping": {
+                  "start": 733,
+                  "length": 556,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "withdrawToken(address)"
+            }
+          }
+        ],
+        "description": "withdrawToken(address) should be declared external:\n\t- TokenVault.withdrawToken(address) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#29-31)\n",
+        "markdown": "withdrawToken(address) should be declared external:\n\t- [TokenVault.withdrawToken(address)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L29-L31)\n",
+        "id": "4c44406958a2fb63767775bbb4c8377afe872a8ee390e25be247614534af19c6",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "emtpyTo",
+            "source_mapping": {
+              "start": 1138,
+              "length": 148,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                33,
+                34,
+                35
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TokenVault",
+                "source_mapping": {
+                  "start": 733,
+                  "length": 556,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "emtpyTo(address,address)"
+            }
+          }
+        ],
+        "description": "emtpyTo(address,address) should be declared external:\n\t- TokenVault.emtpyTo(address,address) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#33-35)\n",
+        "markdown": "emtpyTo(address,address) should be declared external:\n\t- [TokenVault.emtpyTo(address,address)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L33-L35)\n",
+        "id": "4cb1114d96080e902cab3bc43d83d5f9af439c481d4e531feefe148e3079928d",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "initVault",
+            "source_mapping": {
+              "start": 1637,
+              "length": 150,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                50,
+                51,
+                52,
+                53,
+                54,
+                55
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "initVault()"
+            }
+          }
+        ],
+        "description": "initVault() should be declared external:\n\t- Vault.initVault() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#50-55)\n",
+        "markdown": "initVault() should be declared external:\n\t- [Vault.initVault()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L50-L55)\n",
+        "id": "b92fa688c7d73a73ebfae16c4e49d948e75d61a47744f6ecf2cf5f3ee5e3e31c",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "ReleaseDate",
+            "source_mapping": {
+              "start": 1884,
+              "length": 70,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                58
+              ],
+              "starting_column": 5,
+              "ending_column": 75
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "ReleaseDate()"
+            }
+          }
+        ],
+        "description": "ReleaseDate() should be declared external:\n\t- Vault.ReleaseDate() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#58)\n",
+        "markdown": "ReleaseDate() should be declared external:\n\t- [Vault.ReleaseDate()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L58)\n",
+        "id": "e567591516a9e01ec7d07813e5baa8b903831bd6aef0f281c795cb9db5721667",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 2061,
+              "length": 40,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                61
+              ],
+              "starting_column": 5,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Vault.fallback() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#61)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Vault.fallback()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L61)\n",
+        "id": "d439c9df3148602017f622d7ccdd82458ec23df440ba75fa2832227c600a88c4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "setRelease",
+            "source_mapping": {
+              "start": 2345,
+              "length": 100,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                71,
+                72,
+                73,
+                74
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "setRelease(uint256)"
+            }
+          }
+        ],
+        "description": "setRelease(uint256) should be declared external:\n\t- Vault.setRelease(uint256) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#71-74)\n",
+        "markdown": "setRelease(uint256) should be declared external:\n\t- [Vault.setRelease(uint256)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L71-L74)\n",
+        "id": "ae1c079e98a1ee2886ae719ad7f5079749714db6a4ea611decec722f4dab2e91",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 2453,
+              "length": 298,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "withdraw(address,uint256)"
+            }
+          }
+        ],
+        "description": "withdraw(address,uint256) should be declared external:\n\t- Vault.withdraw(address,uint256) (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#76-84)\n",
+        "markdown": "withdraw(address,uint256) should be declared external:\n\t- [Vault.withdraw(address,uint256)](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L76-L84)\n",
+        "id": "baba482f2916c1784259155a12d9f0eb16d0690f6067567c7311c120339606dd",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "lock",
+            "source_mapping": {
+              "start": 2759,
+              "length": 41,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                86
+              ],
+              "starting_column": 5,
+              "ending_column": 46
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "lock()"
+            }
+          }
+        ],
+        "description": "lock() should be declared external:\n\t- Vault.lock() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#86)\n",
+        "markdown": "lock() should be declared external:\n\t- [Vault.lock()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L86)\n",
+        "id": "f0f6f9a63b69776d711f9bcbc8934b15c747ec49c7681e9d52e8c24a75532e9a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 2882,
+              "length": 68,
+              "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+              "is_dependency": false,
+              "lines": [
+                88
+              ],
+              "starting_column": 5,
+              "ending_column": 73
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vault",
+                "source_mapping": {
+                  "start": 1339,
+                  "length": 1694,
+                  "filename_used": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_relative": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "filename_short": "contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "kill()"
+            }
+          }
+        ],
+        "description": "kill() should be declared external:\n\t- Vault.kill() (contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#88)\n",
+        "markdown": "kill() should be declared external:\n\t- [Vault.kill()](contractSource/TSE/0x6f5C1Ed62A4fA41CFC332D81FAFd3CD38aaCBD85.sol#L88)\n",
+        "id": "05845840db0c93e96925eb9b8ba1ea9583db45aec211bdb1130d850927fc973b",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

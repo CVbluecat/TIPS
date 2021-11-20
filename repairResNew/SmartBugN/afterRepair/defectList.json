@@ -1,0 +1,1239 @@
+[
+    {
+        "name": "0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8R1.sol",
+        "defect": []
+    },
+    {
+        "name": "mishandledU2.sol",
+        "defect": []
+    },
+    {
+        "name": "reentrancy_daoR1.sol",
+        "defect": []
+    },
+    {
+        "name": "etherstoreR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839R2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    48
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "reentrancy_cross_functionR2.sol",
+        "defect": []
+    },
+    {
+        "name": "simple_suicide.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4051334adc52057aca763453820cb0e045076ef3U1.sol",
+        "defect": []
+    },
+    {
+        "name": "integer_overflow_multitx_onefunc_feasible.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7541b76cb60f4c60af330c208b0623b7f54bf615R1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xbaa3de6504690efb064420d89e871c27065cdd52U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb93430ce38ac4a6bb47fb1fc085ea669353fd89eR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4fR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    12
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "rubixiU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x2972d548497286d18e92b5fa1f8f9139e5653fd2U1.sol",
+        "defect": []
+    },
+    {
+        "name": "mycontract.sol",
+        "defect": []
+    },
+    {
+        "name": "0x524960d55174d912768678d8c606b4d50b79d7b1U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xf29ebe930a539a60279ace72c707cba851a57707U2.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1R1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9eU2.sol",
+        "defect": []
+    },
+    {
+        "name": "integer_overflow_mapping_sym_1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x52d2e0f9b01101a59b38a3d05c80b7618aeed984U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "modifier_reentrancyR1.sol",
+        "defect": [
+            {
+                "lines": [
+                    5
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2eU1.sol",
+        "defect": []
+    },
+    {
+        "name": "etherstoreR2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xcead721ef5b11f1a7b530171aab69b16c5e66b6eR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x663e4229142a27f00bafb5d087e1e730648314c3R2U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    795,
+                    412,
+                    377,
+                    128,
+                    128,
+                    395
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "etherpot_lottoU2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x958a8f594101d2c0485a52319f29b2647f2ebc06U1.sol",
+        "defect": []
+    },
+    {
+        "name": "reentrancy_bonusR2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6U2.sol",
+        "defect": []
+    },
+    {
+        "name": "integer_overflow_mul.sol",
+        "defect": []
+    },
+    {
+        "name": "0x5aa88d2901c68fda244f1d0584400368d2c8e739U1.sol",
+        "defect": []
+    },
+    {
+        "name": "reentrancy_simpleR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x663e4229142a27f00bafb5d087e1e730648314c3R1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    795,
+                    410,
+                    375,
+                    128,
+                    716,
+                    395,
+                    410
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859U2.sol",
+        "defect": []
+    },
+    {
+        "name": "integer_overflow_multitx_multifunc_feasible.sol",
+        "defect": []
+    },
+    {
+        "name": "0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U2.sol",
+        "defect": []
+    },
+    {
+        "name": "integer_overflow_1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4051334adc52057aca763453820cb0e045076ef3U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    7
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7d09edb07d23acb532a82be3da5c17d9d85806b4U2.sol",
+        "defect": []
+    },
+    {
+        "name": "token.sol",
+        "defect": []
+    },
+    {
+        "name": "0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xf015c35649c82f5467c9c74b7f28ee67665aad68R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    12
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "king_of_the_ether_throneU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x39cfd754c85023648bf003bea2dd498c5612abfaU1.sol",
+        "defect": [
+            {
+                "lines": [
+                    25
+                ],
+                "category": "greedy"
+            }
+        ]
+    },
+    {
+        "name": "0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xa1fceeff3acc57d257b917e30c4df661401d6431U1.sol",
+        "defect": []
+    },
+    {
+        "name": "etherpot_lottoU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2U1.sol",
+        "defect": []
+    },
+    {
+        "name": "incorrect_constructor_name3.sol",
+        "defect": []
+    },
+    {
+        "name": "etherbankR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x561eac93c92360949ab1f1403323e6db345cbf31R1.sol",
+        "defect": []
+    },
+    {
+        "name": "etherbankR2.sol",
+        "defect": []
+    },
+    {
+        "name": "wallet_02_refund_nosub.sol",
+        "defect": []
+    },
+    {
+        "name": "timelock.sol",
+        "defect": []
+    },
+    {
+        "name": "0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x39cfd754c85023648bf003bea2dd498c5612abfaU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    24
+                ],
+                "category": "greedy"
+            },
+            {
+                "lines": [
+                    21
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7R2U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xe894d54dca59cb53fe9cbc5155093605c7068220U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    8
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x561eac93c92360949ab1f1403323e6db345cbf31R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    26
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    "failed",
+    {
+        "name": "0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    35
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xd5967fed03e85d1cce44cab284695b41bc675b5cU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xf2570186500a46986f3139f65afedc2afe4f445dU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    7
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xdb1c55f6926e7d847ddf8678905ad871a68199d2U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x5aa88d2901c68fda244f1d0584400368d2c8e739U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x610495793564aed0f9c7fc48dc4c7c9151d34fd6U2.sol",
+        "defect": []
+    },
+    {
+        "name": "BECToken.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4e73b32ed6c35f570686b89848e5f39f20ecc106R1.sol",
+        "defect": []
+    },
+    {
+        "name": "wallet_03_wrong_constructor.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0x806a6bd219f162442d992bdc4ee6eba1f2c5a707U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7a8721a9d64c74da899424c1b52acbf58ddc9782R1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xa46edd6a9a93feec36576ee5048146870ea2c3aeU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    7
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    24
+                ],
+                "category": "greedy"
+            },
+            {
+                "lines": [
+                    21
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xb93430ce38ac4a6bb47fb1fc085ea669353fd89eR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x96edbe868531bd23a6c05e9d0c424ea64fb1b78bR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x19cf8481ea15427a98ba3cdd6d9e14690011ab10R1U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    237
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3fR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xbaa3de6504690efb064420d89e871c27065cdd52U2.sol",
+        "defect": []
+    },
+    {
+        "name": "integer_overflow_minimal.sol",
+        "defect": []
+    },
+    {
+        "name": "0x663e4229142a27f00bafb5d087e1e730648314c3R2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    793,
+                    412,
+                    377,
+                    128,
+                    128,
+                    395
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    730,
+                    805
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "incorrect_constructor_name2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xd2018bfaa266a9ec0a1a84b061640faa009def76U1.sol",
+        "defect": []
+    },
+    {
+        "name": "phishable.sol",
+        "defect": []
+    },
+    {
+        "name": "0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839R2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    47
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    21
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x806a6bd219f162442d992bdc4ee6eba1f2c5a707U2.sol",
+        "defect": []
+    },
+    {
+        "name": "FibonacciBalance.sol",
+        "defect": []
+    },
+    {
+        "name": "0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x8c7777c45481dba411450c228cb692ac3d550344R1.sol",
+        "defect": []
+    },
+    {
+        "name": "parity_wallet_bug_2R1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb37f18af15bafb869a065b61fc83cfc44ed9cc27U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x663e4229142a27f00bafb5d087e1e730648314c3R1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    793,
+                    410,
+                    375,
+                    128,
+                    715,
+                    395,
+                    410
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    730,
+                    805
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    "failed",
+    {
+        "name": "0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2eU2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x89c1b3807d4c67df034fffb62f3509561218d30bR1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    132
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "reentrancy_daoR2.sol",
+        "defect": []
+    },
+    {
+        "name": "wallet_04_confused_sign.sol",
+        "defect": []
+    },
+    {
+        "name": "0x93c32845fae42c83a70e5f06214c8433665c2ab5R1.sol",
+        "defect": []
+    },
+    {
+        "name": "integer_overflow_add.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb620cee6b52f96f3c6b253e6eea556aa2d214a99U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7a4349a749e59a5736efb7826ee3496a2dfd5489U1.sol",
+        "defect": []
+    },
+    {
+        "name": "lottoU2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888R1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x524960d55174d912768678d8c606b4d50b79d7b1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    11
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "reentrancy_insecureR2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x941d225236464a25eb18076df7da6a91d0f95e9eR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    19
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x96edbe868531bd23a6c05e9d0c424ea64fb1b78bR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    35
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839R1U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xf29ebe930a539a60279ace72c707cba851a57707U1.sol",
+        "defect": []
+    },
+    {
+        "name": "rubixiU2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504cU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    10
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "incorrect_constructor_name1.sol",
+        "defect": []
+    },
+    {
+        "name": "king_of_the_ether_throneU2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7541b76cb60f4c60af330c208b0623b7f54bf615R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    12
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8U2.sol",
+        "defect": []
+    },
+    {
+        "name": "lottoU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    7
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x89c1b3807d4c67df034fffb62f3509561218d30bR2U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4U1.sol",
+        "defect": []
+    },
+    {
+        "name": "multiowned_vulnerable.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7a8721a9d64c74da899424c1b52acbf58ddc9782R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    25
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xd5967fed03e85d1cce44cab284695b41bc675b5cU2.sol",
+        "defect": [
+            {
+                "lines": [
+                    7
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3R1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x19cf8481ea15427a98ba3cdd6d9e14690011ab10R1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    237
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    237
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x958a8f594101d2c0485a52319f29b2647f2ebc06U2.sol",
+        "defect": []
+    },
+    {
+        "name": "integer_overflow_benign_1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xe894d54dca59cb53fe9cbc5155093605c7068220U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xd2018bfaa266a9ec0a1a84b061640faa009def76U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x9d06cbafa865037a01d322d3f4222fa3e04e5488U1.sol",
+        "defect": []
+    },
+    {
+        "name": "arbitrary_location_write_simple.sol",
+        "defect": []
+    },
+    {
+        "name": "0x4e73b32ed6c35f570686b89848e5f39f20ecc106R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    24
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    25
+                ],
+                "category": "greedy"
+            }
+        ]
+    },
+    {
+        "name": "0x19cf8481ea15427a98ba3cdd6d9e14690011ab10R2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    238
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    26
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    "failed",
+    {
+        "name": "reentranceR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7R2U2.sol",
+        "defect": []
+    },
+    {
+        "name": "mapping_write.sol",
+        "defect": []
+    },
+    {
+        "name": "0x8fd1e427396ddb511533cf9abdbebd0a7e08da35U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    24
+                ],
+                "category": "greedy"
+            },
+            {
+                "lines": [
+                    21
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xcead721ef5b11f1a7b530171aab69b16c5e66b6eR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    12
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x8fd1e427396ddb511533cf9abdbebd0a7e08da35U1.sol",
+        "defect": [
+            {
+                "lines": [
+                    25
+                ],
+                "category": "greedy"
+            }
+        ]
+    },
+    {
+        "name": "0xa1fceeff3acc57d257b917e30c4df661401d6431U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    15
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x89c1b3807d4c67df034fffb62f3509561218d30bR2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    132
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    28
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "tokensalechallenge.sol",
+        "defect": []
+    },
+    {
+        "name": "0x8c7777c45481dba411450c228cb692ac3d550344R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xb37f18af15bafb869a065b61fc83cfc44ed9cc27U2.sol",
+        "defect": []
+    },
+    {
+        "name": "insecure_transfer.sol",
+        "defect": []
+    },
+    {
+        "name": "0xdb1c55f6926e7d847ddf8678905ad871a68199d2U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x19cf8481ea15427a98ba3cdd6d9e14690011ab10R2U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xec329ffc97d75fe03428ae155fc7793431487f63U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xf015c35649c82f5467c9c74b7f28ee67665aad68R1.sol",
+        "defect": []
+    },
+    {
+        "name": "reentrancy_bonusR1.sol",
+        "defect": [
+            {
+                "lines": [
+                    15
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "reentranceR2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bfU1.sol",
+        "defect": []
+    },
+    {
+        "name": "modifier_reentrancyR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    8
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3fR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    28
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "simple_daoR1.sol",
+        "defect": []
+    },
+    {
+        "name": "parity_wallet_bug_2R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    184
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0x9d06cbafa865037a01d322d3f4222fa3e04e5488U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb620cee6b52f96f3c6b253e6eea556aa2d214a99U1.sol",
+        "defect": []
+    },
+    {
+        "name": "overflow_single_tx.sol",
+        "defect": []
+    },
+    {
+        "name": "mishandledU1.sol",
+        "defect": []
+    },
+    {
+        "name": "reentrancy_simpleR2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x941d225236464a25eb18076df7da6a91d0f95e9eR1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839R1U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    21
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4fR2.sol",
+        "defect": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082cU2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x52d2e0f9b01101a59b38a3d05c80b7618aeed984U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    11
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "simple_daoR2.sol",
+        "defect": []
+    },
+    {
+        "name": "unprotected0.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12R1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    4
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xec329ffc97d75fe03428ae155fc7793431487f63U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0xf2570186500a46986f3139f65afedc2afe4f445dU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7a4349a749e59a5736efb7826ee3496a2dfd5489U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0x2972d548497286d18e92b5fa1f8f9139e5653fd2U2.sol",
+        "defect": [
+            {
+                "lines": [
+                    7
+                ],
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "name": "0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9eU1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x7d09edb07d23acb532a82be3da5c17d9d85806b4U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x89c1b3807d4c67df034fffb62f3509561218d30bR1U1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2U2.sol",
+        "defect": []
+    },
+    {
+        "name": "0xa46edd6a9a93feec36576ee5048146870ea2c3aeU1.sol",
+        "defect": []
+    },
+    {
+        "name": "reentrancy_insecureR1.sol",
+        "defect": []
+    },
+    "failed",
+    {
+        "name": "0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4R1.sol",
+        "defect": []
+    },
+    {
+        "name": "0x93c32845fae42c83a70e5f06214c8433665c2ab5R2.sol",
+        "defect": [
+            {
+                "lines": [
+                    12
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    "failed",
+    {
+        "name": "reentrancy_cross_functionR1.sol",
+        "defect": []
+    }
+]

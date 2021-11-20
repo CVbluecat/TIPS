@@ -15,9 +15,7 @@ def BFSGetNode(ast, num):
 
 def generateThrowNode():
     node = TreeNode('Throw')
-    node.beginPoint = -1
     blockNode = TreeNode('Block')
-    blockNode.beginPoint = -1
     blockNode.children.append(node)
     return blockNode
 

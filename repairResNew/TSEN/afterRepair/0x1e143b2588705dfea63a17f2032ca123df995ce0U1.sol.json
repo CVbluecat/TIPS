@@ -1,0 +1,764 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "isClassic",
+            "source_mapping": {
+              "start": 66,
+              "length": 14,
+              "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 43,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "isClassic",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 57,
+                  "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    2
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 59
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ClassicCheck",
+                    "source_mapping": {
+                      "start": 0,
+                      "length": 84,
+                      "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        1,
+                        2,
+                        3
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "isClassic()"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "isClassic",
+            "source_mapping": {
+              "start": 25,
+              "length": 57,
+              "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 2,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassicCheck",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 84,
+                  "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "isClassic()"
+            }
+          }
+        ],
+        "description": "ClassicCheck.isClassic().isClassic (repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#2) shadows:\n\t- ClassicCheck.isClassic() (repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#2) (function)\n",
+        "markdown": "[ClassicCheck.isClassic().isClassic](repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#L2) shadows:\n\t- [ClassicCheck.isClassic()](repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#L2) (function)\n",
+        "id": "ca58433e3a67a05e79a2c35ff3c12d3561a30cdc2472011fae0c8dcdf5a2ad41",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 343,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "is_dependency": false,
+              "lines": [
+                11
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "classicTransfer",
+                "source_mapping": {
+                  "start": 245,
+                  "length": 157,
+                  "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeConditionalHFTransfer",
+                    "source_mapping": {
+                      "start": 84,
+                      "length": 472,
+                      "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "classicTransfer(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#11):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#L11):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "225912b817be1eb15899a58362dbcbf5ba6ec5fc8575be0c965caa486a1a8e9e",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 389,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "classicTransfer",
+                "source_mapping": {
+                  "start": 245,
+                  "length": 157,
+                  "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeConditionalHFTransfer",
+                    "source_mapping": {
+                      "start": 84,
+                      "length": 472,
+                      "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "classicTransfer(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#15):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#L15):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "11e2556417a7a1bd0ef3e9c3e5988ee212a66874de582e67cde6bdad6188b809",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 493,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 404,
+                  "length": 148,
+                  "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeConditionalHFTransfer",
+                    "source_mapping": {
+                      "start": 84,
+                      "length": 472,
+                      "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#21):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#L21):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "4a03b96a4c4d5e3c1f9010a4997596221b5c55e2bb314d7e72ac708b716c2f89",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 539,
+              "length": 5,
+              "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 2,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 404,
+                  "length": 148,
+                  "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 2,
+                  "ending_column": 3
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "SafeConditionalHFTransfer",
+                    "source_mapping": {
+                      "start": 84,
+                      "length": 472,
+                      "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                      ],
+                      "starting_column": 2,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected THROW (repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#25):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "markdown": "Deprecated standard detected [THROW](repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#L25):\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+        "id": "66e56bc88e6151bea0dcf0044c9096ade9599ca3f1525584786960aee3c904b0",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "isClassic",
+            "source_mapping": {
+              "start": 25,
+              "length": 57,
+              "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "is_dependency": false,
+              "lines": [
+                2
+              ],
+              "starting_column": 2,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ClassicCheck",
+                "source_mapping": {
+                  "start": 0,
+                  "length": 84,
+                  "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    1,
+                    2,
+                    3
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "isClassic()"
+            }
+          }
+        ],
+        "description": "isClassic() should be declared external:\n\t- ClassicCheck.isClassic() (repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#2)\n",
+        "markdown": "isClassic() should be declared external:\n\t- [ClassicCheck.isClassic()](repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#L2)\n",
+        "id": "24a7bc33e529f422e88953981010515ae95f0b92e186a09b358b23903b94f090",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "classicTransfer",
+            "source_mapping": {
+              "start": 245,
+              "length": 157,
+              "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "is_dependency": false,
+              "lines": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeConditionalHFTransfer",
+                "source_mapping": {
+                  "start": 84,
+                  "length": 472,
+                  "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "classicTransfer(address)"
+            }
+          }
+        ],
+        "description": "classicTransfer(address) should be declared external:\n\t- SafeConditionalHFTransfer.classicTransfer(address) (repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#8-17)\n",
+        "markdown": "classicTransfer(address) should be declared external:\n\t- [SafeConditionalHFTransfer.classicTransfer(address)](repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#L8-L17)\n",
+        "id": "0c92d644116765d32eca1a71903875175ad940ce53ffc3f983483f8469e8998a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 404,
+              "length": 148,
+              "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27
+              ],
+              "starting_column": 2,
+              "ending_column": 3
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "SafeConditionalHFTransfer",
+                "source_mapping": {
+                  "start": 84,
+                  "length": 472,
+                  "filename_used": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_relative": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_absolute": "/contract/repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "filename_short": "repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "starting_column": 2,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address)"
+            }
+          }
+        ],
+        "description": "transfer(address) should be declared external:\n\t- SafeConditionalHFTransfer.transfer(address) (repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#18-27)\n",
+        "markdown": "transfer(address) should be declared external:\n\t- [SafeConditionalHFTransfer.transfer(address)](repairResNew/TSEN/0x1e143b2588705dfea63a17f2032ca123df995ce0U1.sol#L18-L27)\n",
+        "id": "9e2ee0fdc51dfb1bbfee1ce299742f76c9bae695346f8c7cc1f5ea530817eaa4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

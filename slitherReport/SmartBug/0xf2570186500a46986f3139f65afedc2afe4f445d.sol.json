@@ -1,0 +1,699 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "makeOldFucks",
+            "source_mapping": {
+              "start": 283,
+              "length": 224,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "RealOldFuckMaker",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 400,
+                  "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "makeOldFucks(uint32)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "fuck.call(bytes4(sha3()(giveBlockReward())))",
+            "source_mapping": {
+              "start": 444,
+              "length": 44,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 13,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "makeOldFucks",
+                "source_mapping": {
+                  "start": 283,
+                  "length": 224,
+                  "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "RealOldFuckMaker",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 400,
+                      "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "makeOldFucks(uint32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "RealOldFuckMaker.makeOldFucks(uint32) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#14-20) ignores return value by fuck.call(bytes4(sha3()(giveBlockReward()))) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#18)\n",
+        "markdown": "[RealOldFuckMaker.makeOldFucks(uint32)](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L14-L20) ignores return value by [fuck.call(bytes4(sha3()(giveBlockReward())))](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L18)\n",
+        "id": "25754bbe34356ccad909fb8ee1d658897011b15b1c686de6dbe7979ff42d2b3c",
+        "check": "unchecked-lowlevel",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "makeOldFucks",
+            "source_mapping": {
+              "start": 283,
+              "length": 224,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "RealOldFuckMaker",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 400,
+                  "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "makeOldFucks(uint32)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "fuck.call(bytes4(sha3()(giveBlockReward())))",
+            "source_mapping": {
+              "start": 444,
+              "length": 44,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 13,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "makeOldFucks",
+                "source_mapping": {
+                  "start": 283,
+                  "length": 224,
+                  "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "RealOldFuckMaker",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 400,
+                      "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "makeOldFucks(uint32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "RealOldFuckMaker.makeOldFucks(uint32) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#14-20) has external calls inside a loop: fuck.call(bytes4(sha3()(giveBlockReward()))) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#18)\n",
+        "markdown": "[RealOldFuckMaker.makeOldFucks(uint32)](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L14-L20) has external calls inside a loop: [fuck.call(bytes4(sha3()(giveBlockReward())))](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L18)\n",
+        "id": "975c3585857ebe24f6322c300876335964c41b9d02af85d0bd1a480fb989f182",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "node",
+            "name": "fuck.call(bytes4(sha3()(giveBlockReward())))",
+            "source_mapping": {
+              "start": 444,
+              "length": 44,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 13,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "makeOldFucks",
+                "source_mapping": {
+                  "start": 283,
+                  "length": 224,
+                  "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "RealOldFuckMaker",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 400,
+                      "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "makeOldFucks(uint32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Deprecated standard detected fuck.call(bytes4(sha3()(giveBlockReward()))) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#18):\n\t- Usage of \"sha3()\" should be replaced with \"keccak256()\"\n",
+        "markdown": "Deprecated standard detected [fuck.call(bytes4(sha3()(giveBlockReward())))](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L18):\n\t- Usage of \"sha3()\" should be replaced with \"keccak256()\"\n",
+        "id": "1c1de54157abc366dad807c58f748492355a1c37a788e0bb0e9e461c793b024e",
+        "check": "deprecated-standards",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.16",
+            "source_mapping": {
+              "start": 82,
+              "length": 24,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                7
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".16"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.16 (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#7) allows old versions\n",
+        "markdown": "Pragma version[^0.4.16](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L7) allows old versions\n",
+        "id": "118588235da910e11f911952062310717629b9da0f1b3b3d69df6ccfcf00574d",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "makeOldFucks",
+            "source_mapping": {
+              "start": 283,
+              "length": 224,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "RealOldFuckMaker",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 400,
+                  "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "makeOldFucks(uint32)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "fuck.call(bytes4(sha3()(giveBlockReward())))",
+            "source_mapping": {
+              "start": 444,
+              "length": 44,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                18
+              ],
+              "starting_column": 13,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "makeOldFucks",
+                "source_mapping": {
+                  "start": 283,
+                  "length": 224,
+                  "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "RealOldFuckMaker",
+                    "source_mapping": {
+                      "start": 110,
+                      "length": 400,
+                      "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "makeOldFucks(uint32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Low level call in RealOldFuckMaker.makeOldFucks(uint32) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#14-20):\n\t- fuck.call(bytes4(sha3()(giveBlockReward()))) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#18)\n",
+        "markdown": "Low level call in [RealOldFuckMaker.makeOldFucks(uint32)](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L14-L20):\n\t- [fuck.call(bytes4(sha3()(giveBlockReward())))](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L18)\n",
+        "id": "a016c3e8241be6b87f6a5957cd2aa376435704d223d81b392b583fe8165fa951",
+        "check": "low-level-calls",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "fuck",
+            "source_mapping": {
+              "start": 143,
+              "length": 57,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "RealOldFuckMaker",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 400,
+                  "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          }
+        ],
+        "description": "RealOldFuckMaker.fuck (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#10) should be constant\n",
+        "markdown": "[RealOldFuckMaker.fuck](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L10) should be constant\n",
+        "id": "7d4e1e1d72fdfc4ed122f26d38de88bd3eae60720aaac229b94b5eca4689ea7c",
+        "check": "constable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "makeOldFucks",
+            "source_mapping": {
+              "start": 283,
+              "length": 224,
+              "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "RealOldFuckMaker",
+                "source_mapping": {
+                  "start": 110,
+                  "length": 400,
+                  "filename_used": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_relative": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_absolute": "/contract/contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "filename_short": "contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "makeOldFucks(uint32)"
+            }
+          }
+        ],
+        "description": "makeOldFucks(uint32) should be declared external:\n\t- RealOldFuckMaker.makeOldFucks(uint32) (contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#14-20)\n",
+        "markdown": "makeOldFucks(uint32) should be declared external:\n\t- [RealOldFuckMaker.makeOldFucks(uint32)](contractSource/SmartBug/0xf2570186500a46986f3139f65afedc2afe4f445d.sol#L14-L20)\n",
+        "id": "60850e49e5af5906629bd9d95d16e64581e9cb2e97fa5c377a24d43bb9dd7305",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

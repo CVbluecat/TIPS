@@ -1,0 +1,4573 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop",
+            "source_mapping": {
+              "start": 2295,
+              "length": 230,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop(address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(msg.sender,_to[i],_amount)",
+            "source_mapping": {
+              "start": 2461,
+              "length": 45,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                60
+              ],
+              "starting_column": 13,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 2295,
+                  "length": 230,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doAirdrop(address,address[],uint256) (contractSource/scsc/Airdrop.sol#57-62) ignores return value by token.transferFrom(msg.sender,_to[i],_amount) (contractSource/scsc/Airdrop.sol#60)\n",
+        "markdown": "[AirDrop.doAirdrop(address,address[],uint256)](contractSource/scsc/Airdrop.sol#L57-L62) ignores return value by [token.transferFrom(msg.sender,_to[i],_amount)](contractSource/scsc/Airdrop.sol#L60)\n",
+        "id": "bafb5523bc7c4061588c59d931fad4370f273e17f4c14e505e50154a90844295",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop2",
+            "source_mapping": {
+              "start": 2537,
+              "length": 216,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop2(address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transfer(_to[i],_amount)",
+            "source_mapping": {
+              "start": 2704,
+              "length": 30,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                67
+              ],
+              "starting_column": 13,
+              "ending_column": 43
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 2537,
+                  "length": 216,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doAirdrop2(address,address[],uint256) (contractSource/scsc/Airdrop.sol#64-69) ignores return value by token.transfer(_to[i],_amount) (contractSource/scsc/Airdrop.sol#67)\n",
+        "markdown": "[AirDrop.doAirdrop2(address,address[],uint256)](contractSource/scsc/Airdrop.sol#L64-L69) ignores return value by [token.transfer(_to[i],_amount)](contractSource/scsc/Airdrop.sol#L67)\n",
+        "id": "e265aa99c6150ca5b4f55e05da292caa073cb8294326ee9fbf1116fe30e99751",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop",
+            "source_mapping": {
+              "start": 2765,
+              "length": 241,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop(address,address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(msg.sender,_to[i],_amount[i])",
+            "source_mapping": {
+              "start": 2939,
+              "length": 48,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                74
+              ],
+              "starting_column": 13,
+              "ending_column": 61
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 2765,
+                  "length": 241,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doCustomAirdrop(address,address[],uint256[]) (contractSource/scsc/Airdrop.sol#71-76) ignores return value by token.transferFrom(msg.sender,_to[i],_amount[i]) (contractSource/scsc/Airdrop.sol#74)\n",
+        "markdown": "[AirDrop.doCustomAirdrop(address,address[],uint256[])](contractSource/scsc/Airdrop.sol#L71-L76) ignores return value by [token.transferFrom(msg.sender,_to[i],_amount[i])](contractSource/scsc/Airdrop.sol#L74)\n",
+        "id": "9b1cbf31f805a9aa0b011388633bdc4ca90ff4aac5f02d0a22bb1457936b81c6",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop2",
+            "source_mapping": {
+              "start": 3018,
+              "length": 227,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                78,
+                79,
+                80,
+                81,
+                82,
+                83
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop2(address,address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transfer(_to[i],_amount[i])",
+            "source_mapping": {
+              "start": 3193,
+              "length": 33,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                81
+              ],
+              "starting_column": 13,
+              "ending_column": 46
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 3018,
+                  "length": 227,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doCustomAirdrop2(address,address[],uint256[]) (contractSource/scsc/Airdrop.sol#78-83) ignores return value by token.transfer(_to[i],_amount[i]) (contractSource/scsc/Airdrop.sol#81)\n",
+        "markdown": "[AirDrop.doCustomAirdrop2(address,address[],uint256[])](contractSource/scsc/Airdrop.sol#L78-L83) ignores return value by [token.transfer(_to[i],_amount[i])](contractSource/scsc/Airdrop.sol#L81)\n",
+        "id": "21e301fb2f42d1965aa135f0c4550823e45c2cca99de2410e1ea38ccac4cea50",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop",
+            "source_mapping": {
+              "start": 2295,
+              "length": 230,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop(address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(msg.sender,_to[i],_amount)",
+            "source_mapping": {
+              "start": 2461,
+              "length": 45,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                60
+              ],
+              "starting_column": 13,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 2295,
+                  "length": 230,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doAirdrop(address,address[],uint256) (contractSource/scsc/Airdrop.sol#57-62) has external calls inside a loop: token.transferFrom(msg.sender,_to[i],_amount) (contractSource/scsc/Airdrop.sol#60)\n",
+        "markdown": "[AirDrop.doAirdrop(address,address[],uint256)](contractSource/scsc/Airdrop.sol#L57-L62) has external calls inside a loop: [token.transferFrom(msg.sender,_to[i],_amount)](contractSource/scsc/Airdrop.sol#L60)\n",
+        "id": "ebdf1e9f0bd9e70e3ddcc77d10ec1c66603e1fdd4d90359a35e90a78f4caa705",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop2",
+            "source_mapping": {
+              "start": 2537,
+              "length": 216,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop2(address,address[],uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transfer(_to[i],_amount)",
+            "source_mapping": {
+              "start": 2704,
+              "length": 30,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                67
+              ],
+              "starting_column": 13,
+              "ending_column": 43
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 2537,
+                  "length": 216,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doAirdrop2(address,address[],uint256) (contractSource/scsc/Airdrop.sol#64-69) has external calls inside a loop: token.transfer(_to[i],_amount) (contractSource/scsc/Airdrop.sol#67)\n",
+        "markdown": "[AirDrop.doAirdrop2(address,address[],uint256)](contractSource/scsc/Airdrop.sol#L64-L69) has external calls inside a loop: [token.transfer(_to[i],_amount)](contractSource/scsc/Airdrop.sol#L67)\n",
+        "id": "21f2c385d1e7132b958e52ea9b09783ec6d662eea8da51fde231d4fe6ece236a",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop",
+            "source_mapping": {
+              "start": 2765,
+              "length": 241,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop(address,address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transferFrom(msg.sender,_to[i],_amount[i])",
+            "source_mapping": {
+              "start": 2939,
+              "length": 48,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                74
+              ],
+              "starting_column": 13,
+              "ending_column": 61
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 2765,
+                  "length": 241,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doCustomAirdrop(address,address[],uint256[]) (contractSource/scsc/Airdrop.sol#71-76) has external calls inside a loop: token.transferFrom(msg.sender,_to[i],_amount[i]) (contractSource/scsc/Airdrop.sol#74)\n",
+        "markdown": "[AirDrop.doCustomAirdrop(address,address[],uint256[])](contractSource/scsc/Airdrop.sol#L71-L76) has external calls inside a loop: [token.transferFrom(msg.sender,_to[i],_amount[i])](contractSource/scsc/Airdrop.sol#L74)\n",
+        "id": "27addb6822b289b006d5f7a2f7ecc9c97a326f3dcaedbd8f043693940bf90669",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop2",
+            "source_mapping": {
+              "start": 3018,
+              "length": 227,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                78,
+                79,
+                80,
+                81,
+                82,
+                83
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop2(address,address[],uint256[])"
+            }
+          },
+          {
+            "type": "node",
+            "name": "token.transfer(_to[i],_amount[i])",
+            "source_mapping": {
+              "start": 3193,
+              "length": 33,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                81
+              ],
+              "starting_column": 13,
+              "ending_column": 46
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 3018,
+                  "length": 227,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            }
+          }
+        ],
+        "description": "AirDrop.doCustomAirdrop2(address,address[],uint256[]) (contractSource/scsc/Airdrop.sol#78-83) has external calls inside a loop: token.transfer(_to[i],_amount[i]) (contractSource/scsc/Airdrop.sol#81)\n",
+        "markdown": "[AirDrop.doCustomAirdrop2(address,address[],uint256[])](contractSource/scsc/Airdrop.sol#L78-L83) has external calls inside a loop: [token.transfer(_to[i],_amount[i])](contractSource/scsc/Airdrop.sol#L81)\n",
+        "id": "44020505e3e0eebd675ffd6e565ac7e099beb42df46228eb6c76eb919529ec80",
+        "check": "calls-loop",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.13",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".13"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.13 (contractSource/scsc/Airdrop.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.13](contractSource/scsc/Airdrop.sol#L1) allows old versions\n",
+        "id": "5ef3e2338ebc5e6594852d120c743b745ce8e8597672a8f77b09ed2d26b022f7",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 2093,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                51
+              ],
+              "starting_column": 23,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 2075,
+                  "length": 208,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    51,
+                    52,
+                    53,
+                    54,
+                    55
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.transfer(address,address,uint256)._token (contractSource/scsc/Airdrop.sol#51) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.transfer(address,address,uint256)._token](contractSource/scsc/Airdrop.sol#L51) is not in mixedCase\n",
+        "id": "cbb627a481b492f3856b3a44106b9dac187f9ebe17160633f33486b8ced1d745",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 2108,
+              "length": 11,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                51
+              ],
+              "starting_column": 38,
+              "ending_column": 49
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 2075,
+                  "length": 208,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    51,
+                    52,
+                    53,
+                    54,
+                    55
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.transfer(address,address,uint256)._to (contractSource/scsc/Airdrop.sol#51) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.transfer(address,address,uint256)._to](contractSource/scsc/Airdrop.sol#L51) is not in mixedCase\n",
+        "id": "9edd34b4a97645b33da11e9e6965d8e3c178f0fe9784e99b6548900d6283ca6b",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 2120,
+              "length": 15,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                51
+              ],
+              "starting_column": 50,
+              "ending_column": 65
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 2075,
+                  "length": 208,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    51,
+                    52,
+                    53,
+                    54,
+                    55
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.transfer(address,address,uint256)._amount (contractSource/scsc/Airdrop.sol#51) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.transfer(address,address,uint256)._amount](contractSource/scsc/Airdrop.sol#L51) is not in mixedCase\n",
+        "id": "c3abeb56f737e36a83561366f27899be6d0b1d269d60a506e64297f02cc58436",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 2314,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                57
+              ],
+              "starting_column": 24,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 2295,
+                  "length": 230,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop(address,address[],uint256)._token (contractSource/scsc/Airdrop.sol#57) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop(address,address[],uint256)._token](contractSource/scsc/Airdrop.sol#L57) is not in mixedCase\n",
+        "id": "04a4649ebc2125125bc0d77a10c86352f0809613e2d27a033eb9afc57b809fb1",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 2329,
+              "length": 13,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                57
+              ],
+              "starting_column": 39,
+              "ending_column": 52
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 2295,
+                  "length": 230,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop(address,address[],uint256)._to (contractSource/scsc/Airdrop.sol#57) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop(address,address[],uint256)._to](contractSource/scsc/Airdrop.sol#L57) is not in mixedCase\n",
+        "id": "543ee74abe33e1295ad0d302e29ec824fb384230d3028743da1c490ad1536a55",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 2343,
+              "length": 15,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                57
+              ],
+              "starting_column": 53,
+              "ending_column": 68
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop",
+                "source_mapping": {
+                  "start": 2295,
+                  "length": 230,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop(address,address[],uint256)._amount (contractSource/scsc/Airdrop.sol#57) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop(address,address[],uint256)._amount](contractSource/scsc/Airdrop.sol#L57) is not in mixedCase\n",
+        "id": "ba21744470b09ebcba7cc24097fa5d463dd7efd37038b060089e56fca443ec85",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 2557,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                64
+              ],
+              "starting_column": 25,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 2537,
+                  "length": 216,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop2(address,address[],uint256)._token (contractSource/scsc/Airdrop.sol#64) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop2(address,address[],uint256)._token](contractSource/scsc/Airdrop.sol#L64) is not in mixedCase\n",
+        "id": "25258239331a9b787c75a4a7dfff54b3918acd3564d9cfbe27e1ff905a6bd88c",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 2572,
+              "length": 13,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                64
+              ],
+              "starting_column": 40,
+              "ending_column": 53
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 2537,
+                  "length": 216,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop2(address,address[],uint256)._to (contractSource/scsc/Airdrop.sol#64) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop2(address,address[],uint256)._to](contractSource/scsc/Airdrop.sol#L64) is not in mixedCase\n",
+        "id": "bead3be99cbb75051a84e2c70e6e5e7dfdd2a8fed51e41e7491ec62d3a4e6e04",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 2586,
+              "length": 15,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                64
+              ],
+              "starting_column": 54,
+              "ending_column": 69
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doAirdrop2",
+                "source_mapping": {
+                  "start": 2537,
+                  "length": 216,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doAirdrop2(address,address[],uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doAirdrop2(address,address[],uint256)._amount (contractSource/scsc/Airdrop.sol#64) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doAirdrop2(address,address[],uint256)._amount](contractSource/scsc/Airdrop.sol#L64) is not in mixedCase\n",
+        "id": "a5b7c75a88b20a9edda5521f250813f696e3aec2b7100c1d8e99ff2f580a2c27",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 2790,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 30,
+              "ending_column": 44
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 2765,
+                  "length": 241,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop(address,address[],uint256[])._token (contractSource/scsc/Airdrop.sol#71) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop(address,address[],uint256[])._token](contractSource/scsc/Airdrop.sol#L71) is not in mixedCase\n",
+        "id": "7378f465ec5056704d982c70a5eab32105fa318ad88774438819426e67b9e8c3",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 2805,
+              "length": 13,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 45,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 2765,
+                  "length": 241,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop(address,address[],uint256[])._to (contractSource/scsc/Airdrop.sol#71) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop(address,address[],uint256[])._to](contractSource/scsc/Airdrop.sol#L71) is not in mixedCase\n",
+        "id": "ad1739567fb3f7522f1fee294bb03881f48c86cd6b6e6dacdae2e67b6d9db1a1",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 2819,
+              "length": 17,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 59,
+              "ending_column": 76
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop",
+                "source_mapping": {
+                  "start": 2765,
+                  "length": 241,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop(address,address[],uint256[])._amount (contractSource/scsc/Airdrop.sol#71) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop(address,address[],uint256[])._amount](contractSource/scsc/Airdrop.sol#L71) is not in mixedCase\n",
+        "id": "29432a015cbcc4db0346274fad4a85ec332e7df588aca21c1e0971aaf080acab",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_token",
+            "source_mapping": {
+              "start": 3044,
+              "length": 14,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                78
+              ],
+              "starting_column": 31,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 3018,
+                  "length": 227,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop2(address,address[],uint256[])._token (contractSource/scsc/Airdrop.sol#78) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop2(address,address[],uint256[])._token](contractSource/scsc/Airdrop.sol#L78) is not in mixedCase\n",
+        "id": "9b6baebe4a8df5e602bb27c54dd233329314df32a47d354cc9adb02147a675df",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 3059,
+              "length": 13,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                78
+              ],
+              "starting_column": 46,
+              "ending_column": 59
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 3018,
+                  "length": 227,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop2(address,address[],uint256[])._to (contractSource/scsc/Airdrop.sol#78) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop2(address,address[],uint256[])._to](contractSource/scsc/Airdrop.sol#L78) is not in mixedCase\n",
+        "id": "289798caa4cf65221c85b16fb2ef745a05416cb6e95806841dbcfda75aede021",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_amount",
+            "source_mapping": {
+              "start": 3073,
+              "length": 17,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                78
+              ],
+              "starting_column": 60,
+              "ending_column": 77
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "doCustomAirdrop2",
+                "source_mapping": {
+                  "start": 3018,
+                  "length": 227,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "AirDrop",
+                    "source_mapping": {
+                      "start": 1914,
+                      "length": 1334,
+                      "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_relative": "contractSource/scsc/Airdrop.sol",
+                      "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                      "filename_short": "contractSource/scsc/Airdrop.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "doCustomAirdrop2(address,address[],uint256[])"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter AirDrop.doCustomAirdrop2(address,address[],uint256[])._amount (contractSource/scsc/Airdrop.sol#78) is not in mixedCase\n",
+        "markdown": "Parameter [AirDrop.doCustomAirdrop2(address,address[],uint256[])._amount](contractSource/scsc/Airdrop.sol#L78) is not in mixedCase\n",
+        "id": "cb03269bdbba4c4ccf6ac932da30de47451d904d8aeb834a2bdeb3a6afdf1e2d",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "tokenBalance",
+            "source_mapping": {
+              "start": 1957,
+              "length": 40,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                45
+              ],
+              "starting_column": 5,
+              "ending_column": 45
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "AirDrop",
+            "source_mapping": {
+              "start": 1914,
+              "length": 1334,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            }
+          }
+        ],
+        "description": "AirDrop.tokenBalance (contractSource/scsc/Airdrop.sol#45) is never used in AirDrop (contractSource/scsc/Airdrop.sol#43-84)\n",
+        "markdown": "[AirDrop.tokenBalance](contractSource/scsc/Airdrop.sol#L45) is never used in [AirDrop](contractSource/scsc/Airdrop.sol#L43-L84)\n",
+        "id": "2eedbea519371a70828f43333f469345b3307e27b8f7c515b7d258304786b35b",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 92,
+              "length": 57,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 62
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 1880,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "totalSupply()"
+            }
+          }
+        ],
+        "description": "totalSupply() should be declared external:\n\t- ERC20.totalSupply() (contractSource/scsc/Airdrop.sol#6)\n",
+        "markdown": "totalSupply() should be declared external:\n\t- [ERC20.totalSupply()](contractSource/scsc/Airdrop.sol#L6)\n",
+        "id": "cc636f25c5cd6309cbdbab4ddb2343fa51586ce21a88c6ea71c2440849ddc0dd",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 262,
+              "length": 70,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                10
+              ],
+              "starting_column": 5,
+              "ending_column": 75
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 1880,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- ERC20.balanceOf(address) (contractSource/scsc/Airdrop.sol#10)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [ERC20.balanceOf(address)](contractSource/scsc/Airdrop.sol#L10)\n",
+        "id": "65bc6b7b7be3d1d046f54ea3e07fb7bd7f10415b973d001e8eb15cb65a14d89f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 572,
+              "length": 70,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 75
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 1880,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- ERC20.transfer(address,uint256) (contractSource/scsc/Airdrop.sol#15)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [ERC20.transfer(address,uint256)](contractSource/scsc/Airdrop.sol#L15)\n",
+        "id": "65c0bed2eaf5bdd4972acc62dd5f416a55f5df9f23946d5be1d9c4a748348131",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 970,
+              "length": 89,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 94
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 1880,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256) should be declared external:\n\t- ERC20.transferFrom(address,address,uint256) (contractSource/scsc/Airdrop.sol#22)\n",
+        "markdown": "transferFrom(address,address,uint256) should be declared external:\n\t- [ERC20.transferFrom(address,address,uint256)](contractSource/scsc/Airdrop.sol#L22)\n",
+        "id": "131b8f7fe1775baa4c2a5d5adbb3c438055e94b926d9cd180b008b06a3e3b805",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 1352,
+              "length": 74,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                30
+              ],
+              "starting_column": 5,
+              "ending_column": 79
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 1880,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "approve(address,uint256) should be declared external:\n\t- ERC20.approve(address,uint256) (contractSource/scsc/Airdrop.sol#30)\n",
+        "markdown": "approve(address,uint256) should be declared external:\n\t- [ERC20.approve(address,uint256)](contractSource/scsc/Airdrop.sol#L30)\n",
+        "id": "cdf05bf59e91a730b1646e7bb8bfd9dcbe6cb9969e7df7eb38b8c5b4ddf67601",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 1639,
+              "length": 90,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                35
+              ],
+              "starting_column": 5,
+              "ending_column": 95
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 1880,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          }
+        ],
+        "description": "allowance(address,address) should be declared external:\n\t- ERC20.allowance(address,address) (contractSource/scsc/Airdrop.sol#35)\n",
+        "markdown": "allowance(address,address) should be declared external:\n\t- [ERC20.allowance(address,address)](contractSource/scsc/Airdrop.sol#L35)\n",
+        "id": "fd3b4cd1542bfc8c06295b6b47997f1b3ce1b81bddbc710aa62d45c8a7d0b7a4",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 2075,
+              "length": 208,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                51,
+                52,
+                53,
+                54,
+                55
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,address,uint256) should be declared external:\n\t- AirDrop.transfer(address,address,uint256) (contractSource/scsc/Airdrop.sol#51-55)\n",
+        "markdown": "transfer(address,address,uint256) should be declared external:\n\t- [AirDrop.transfer(address,address,uint256)](contractSource/scsc/Airdrop.sol#L51-L55)\n",
+        "id": "0c1b0eaa2cc39cdd38f678224b5376415df6f176b2c9ddc55fdaf836655bf0d9",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop",
+            "source_mapping": {
+              "start": 2295,
+              "length": 230,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop(address,address[],uint256)"
+            }
+          }
+        ],
+        "description": "doAirdrop(address,address[],uint256) should be declared external:\n\t- AirDrop.doAirdrop(address,address[],uint256) (contractSource/scsc/Airdrop.sol#57-62)\n",
+        "markdown": "doAirdrop(address,address[],uint256) should be declared external:\n\t- [AirDrop.doAirdrop(address,address[],uint256)](contractSource/scsc/Airdrop.sol#L57-L62)\n",
+        "id": "f83cd30dd1f0eb45c99dc3830632b5310b5f92474eb2cdf4bed05fd868ffe080",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doAirdrop2",
+            "source_mapping": {
+              "start": 2537,
+              "length": 216,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doAirdrop2(address,address[],uint256)"
+            }
+          }
+        ],
+        "description": "doAirdrop2(address,address[],uint256) should be declared external:\n\t- AirDrop.doAirdrop2(address,address[],uint256) (contractSource/scsc/Airdrop.sol#64-69)\n",
+        "markdown": "doAirdrop2(address,address[],uint256) should be declared external:\n\t- [AirDrop.doAirdrop2(address,address[],uint256)](contractSource/scsc/Airdrop.sol#L64-L69)\n",
+        "id": "7976b777476efe14ad252a5f018278cc30995d82fad457a5688de5481246fdcf",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop",
+            "source_mapping": {
+              "start": 2765,
+              "length": 241,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop(address,address[],uint256[])"
+            }
+          }
+        ],
+        "description": "doCustomAirdrop(address,address[],uint256[]) should be declared external:\n\t- AirDrop.doCustomAirdrop(address,address[],uint256[]) (contractSource/scsc/Airdrop.sol#71-76)\n",
+        "markdown": "doCustomAirdrop(address,address[],uint256[]) should be declared external:\n\t- [AirDrop.doCustomAirdrop(address,address[],uint256[])](contractSource/scsc/Airdrop.sol#L71-L76)\n",
+        "id": "c36c152f8a37b0ffd6d22be364c507020bd3d5928bacf126e25e22069bfcf841",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "doCustomAirdrop2",
+            "source_mapping": {
+              "start": 3018,
+              "length": 227,
+              "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_relative": "contractSource/scsc/Airdrop.sol",
+              "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+              "filename_short": "contractSource/scsc/Airdrop.sol",
+              "is_dependency": false,
+              "lines": [
+                78,
+                79,
+                80,
+                81,
+                82,
+                83
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "AirDrop",
+                "source_mapping": {
+                  "start": 1914,
+                  "length": 1334,
+                  "filename_used": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_relative": "contractSource/scsc/Airdrop.sol",
+                  "filename_absolute": "/contract/contractSource/scsc/Airdrop.sol",
+                  "filename_short": "contractSource/scsc/Airdrop.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "doCustomAirdrop2(address,address[],uint256[])"
+            }
+          }
+        ],
+        "description": "doCustomAirdrop2(address,address[],uint256[]) should be declared external:\n\t- AirDrop.doCustomAirdrop2(address,address[],uint256[]) (contractSource/scsc/Airdrop.sol#78-83)\n",
+        "markdown": "doCustomAirdrop2(address,address[],uint256[]) should be declared external:\n\t- [AirDrop.doCustomAirdrop2(address,address[],uint256[])](contractSource/scsc/Airdrop.sol#L78-L83)\n",
+        "id": "d7e931ca3918fb70cd85525b8997d63bd989c2c1a42d6ec00a51eaebae847866",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

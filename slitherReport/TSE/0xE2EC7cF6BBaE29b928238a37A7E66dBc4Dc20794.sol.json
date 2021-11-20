@@ -1,0 +1,2239 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.9",
+            "source_mapping": {
+              "start": 0,
+              "length": 25,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 26
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".9"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.4.9 (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#1) allows old versions\n",
+        "markdown": "Pragma version[^0.4.9](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L1) allows old versions\n",
+        "id": "4ef953e749b9bb8437f66af3138bc62ccde7f8bb35c6435788482a977ab1dc99",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is not recommended for deployment\n",
+        "markdown": "solc-0.4.26 is not recommended for deployment\n",
+        "id": "e85e93c612cb109c115ab31accf43cd25c590bd8f9b6a43b662115b987f777c3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 1340,
+              "length": 14,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                45
+              ],
+              "starting_column": 24,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "balanceOf",
+                "source_mapping": {
+                  "start": 1321,
+                  "length": 111,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    45,
+                    46,
+                    47
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "balanceOf(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.balanceOf(address)._owner (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#45) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.balanceOf(address)._owner](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L45) is not in mixedCase\n",
+        "id": "98bce5c25cf896d393f917374034ef5155fd5acfdb4b4bcfb603443b23b31724",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_owner",
+            "source_mapping": {
+              "start": 1459,
+              "length": 14,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                49
+              ],
+              "starting_column": 24,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 1440,
+                  "length": 140,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.allowance(address,address)._owner (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#49) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.allowance(address,address)._owner](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L49) is not in mixedCase\n",
+        "id": "f025f747c8e470ddc127d14d576a20484c049e576fa9b690e79d36214bc34401",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 1475,
+              "length": 16,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                49
+              ],
+              "starting_column": 40,
+              "ending_column": 56
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "allowance",
+                "source_mapping": {
+                  "start": 1440,
+                  "length": 140,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    49,
+                    50,
+                    51
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "allowance(address,address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.allowance(address,address)._spender (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#49) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.allowance(address,address)._spender](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L49) is not in mixedCase\n",
+        "id": "4be29d813f75f0d7590c47fb12183715312148bf24f9fedacf46fd71a0c3ab7f",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1606,
+              "length": 11,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                53
+              ],
+              "starting_column": 23,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1588,
+                  "length": 253,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transfer(address,uint256)._to (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#53) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transfer(address,uint256)._to](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L53) is not in mixedCase\n",
+        "id": "6a6d16684eee43b2b4c49625e30f9e273d4b837b706745b4bb6f5179ac8e8b8e",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1619,
+              "length": 14,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                53
+              ],
+              "starting_column": 36,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transfer",
+                "source_mapping": {
+                  "start": 1588,
+                  "length": 253,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transfer(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transfer(address,uint256)._value (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#53) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transfer(address,uint256)._value](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L53) is not in mixedCase\n",
+        "id": "a5f038e40cf58ba2e04c90b8790d5930ad5ce3d98100dcbbde0fa0de68aa7ed5",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_from",
+            "source_mapping": {
+              "start": 1871,
+              "length": 13,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                60
+              ],
+              "starting_column": 27,
+              "ending_column": 40
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 1849,
+                  "length": 373,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transferFrom(address,address,uint256)._from (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#60) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transferFrom(address,address,uint256)._from](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L60) is not in mixedCase\n",
+        "id": "cc9a9ffcecd48ffc0f899f79cc68cb313f3378cb8ccd4d39e6d694f793cb5558",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_to",
+            "source_mapping": {
+              "start": 1886,
+              "length": 11,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                60
+              ],
+              "starting_column": 42,
+              "ending_column": 53
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 1849,
+                  "length": 373,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transferFrom(address,address,uint256)._to (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#60) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transferFrom(address,address,uint256)._to](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L60) is not in mixedCase\n",
+        "id": "bec95eff26a152f57e8a6318714095c695dd11486da8e66e22b9aaead3255e00",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 1899,
+              "length": 14,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                60
+              ],
+              "starting_column": 55,
+              "ending_column": 69
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferFrom",
+                "source_mapping": {
+                  "start": 1849,
+                  "length": 373,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "transferFrom(address,address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.transferFrom(address,address,uint256)._value (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#60) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.transferFrom(address,address,uint256)._value](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L60) is not in mixedCase\n",
+        "id": "7d06e608e5585415bc80e8f99283f6344a1645611027d3b64e3fa5c31aec767f",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_spender",
+            "source_mapping": {
+              "start": 2247,
+              "length": 16,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                69
+              ],
+              "starting_column": 22,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 2230,
+                  "length": 266,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.approve(address,uint256)._spender (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#69) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.approve(address,uint256)._spender](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L69) is not in mixedCase\n",
+        "id": "80cf39270e3f95e75d22bb76c68f59abff10efe43ad3506f32ecee75fe8d5977",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_value",
+            "source_mapping": {
+              "start": 2265,
+              "length": 14,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                69
+              ],
+              "starting_column": 40,
+              "ending_column": 54
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "approve",
+                "source_mapping": {
+                  "start": 2230,
+                  "length": 266,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "approve(address,uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Vodkacoin.approve(address,uint256)._value (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#69) is not in mixedCase\n",
+        "markdown": "Parameter [Vodkacoin.approve(address,uint256)._value](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L69) is not in mixedCase\n",
+        "id": "8ecca98d15c54359e83e587ea46620b2e226ef2d037edc8cf5a1034f19f925b6",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "Vodkacoin",
+            "source_mapping": {
+              "start": 1097,
+              "length": 216,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 645,
+                  "length": 1900,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "Vodkacoin()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "totalSupply = 1000000",
+            "source_mapping": {
+              "start": 1129,
+              "length": 21,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                38
+              ],
+              "starting_column": 9,
+              "ending_column": 30
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 1097,
+                  "length": 216,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Vodkacoin",
+                    "source_mapping": {
+                      "start": 645,
+                      "length": 1900,
+                      "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "Vodkacoin()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Vodkacoin.Vodkacoin() (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#37-43) uses literals with too many digits:\n\t- totalSupply = 1000000 (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#38)\n",
+        "markdown": "[Vodkacoin.Vodkacoin()](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L37-L43) uses literals with too many digits:\n\t- [totalSupply = 1000000](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L38)\n",
+        "id": "790e094efe815b9592534a61575614c04753aed8ce808d66ad5c1a6f34c3d814",
+        "check": "too-many-digits",
+        "impact": "Informational",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "balanceOf",
+            "source_mapping": {
+              "start": 1321,
+              "length": 111,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                45,
+                46,
+                47
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 645,
+                  "length": 1900,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "balanceOf(address)"
+            }
+          }
+        ],
+        "description": "balanceOf(address) should be declared external:\n\t- Vodkacoin.balanceOf(address) (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#45-47)\n",
+        "markdown": "balanceOf(address) should be declared external:\n\t- [Vodkacoin.balanceOf(address)](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L45-L47)\n",
+        "id": "922f7a9836f41286bf0022ad5b2ea88d7a01b5232aac11dfe4be518aa247ed23",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "allowance",
+            "source_mapping": {
+              "start": 1440,
+              "length": 140,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                49,
+                50,
+                51
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 645,
+                  "length": 1900,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "allowance(address,address)"
+            }
+          }
+        ],
+        "description": "allowance(address,address) should be declared external:\n\t- Vodkacoin.allowance(address,address) (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#49-51)\n",
+        "markdown": "allowance(address,address) should be declared external:\n\t- [Vodkacoin.allowance(address,address)](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L49-L51)\n",
+        "id": "88249612ba4ace695ebec5305406824254c8a1a73c2317b14bfef2b87699178f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transfer",
+            "source_mapping": {
+              "start": 1588,
+              "length": 253,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 645,
+                  "length": 1900,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transfer(address,uint256)"
+            }
+          }
+        ],
+        "description": "transfer(address,uint256) should be declared external:\n\t- Vodkacoin.transfer(address,uint256) (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#53-58)\n",
+        "markdown": "transfer(address,uint256) should be declared external:\n\t- [Vodkacoin.transfer(address,uint256)](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L53-L58)\n",
+        "id": "fd5ae4830c2d7171fa20a01f55e3895d2117c2624d1ed297802cad5de029d5b8",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferFrom",
+            "source_mapping": {
+              "start": 1849,
+              "length": 373,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 645,
+                  "length": 1900,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "transferFrom(address,address,uint256)"
+            }
+          }
+        ],
+        "description": "transferFrom(address,address,uint256) should be declared external:\n\t- Vodkacoin.transferFrom(address,address,uint256) (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#60-67)\n",
+        "markdown": "transferFrom(address,address,uint256) should be declared external:\n\t- [Vodkacoin.transferFrom(address,address,uint256)](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L60-L67)\n",
+        "id": "19b44e06755dcc10b0d59da428ceba7acf3f91381862b6f6d4c2dc17550b3b11",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "approve",
+            "source_mapping": {
+              "start": 2230,
+              "length": 266,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                69,
+                70,
+                71,
+                72,
+                73,
+                74
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 645,
+                  "length": 1900,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "approve(address,uint256)"
+            }
+          }
+        ],
+        "description": "approve(address,uint256) should be declared external:\n\t- Vodkacoin.approve(address,uint256) (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#69-74)\n",
+        "markdown": "approve(address,uint256) should be declared external:\n\t- [Vodkacoin.approve(address,uint256)](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L69-L74)\n",
+        "id": "1def74286987ffa6206288c87b8e99c05e49b2f13f97fd57688ad14ead1a4ebc",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 2504,
+              "length": 38,
+              "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+              "is_dependency": false,
+              "lines": [
+                76,
+                77,
+                78
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Vodkacoin",
+                "source_mapping": {
+                  "start": 645,
+                  "length": 1900,
+                  "filename_used": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_relative": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_absolute": "/contract/contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "filename_short": "contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "fallback() should be declared external:\n\t- Vodkacoin.fallback() (contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#76-78)\n",
+        "markdown": "fallback() should be declared external:\n\t- [Vodkacoin.fallback()](contractSource/TSE/0xE2EC7cF6BBaE29b928238a37A7E66dBc4Dc20794.sol#L76-L78)\n",
+        "id": "0472280fd8a3dbc34d2ec4847bb9188ce9a0f0d928bdf57c2d26b1d3397b8798",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}
