@@ -1,8 +1,10 @@
 import os
 import json
+import sys
 
-path = './repairResNew/TSEN/afterRepair/'
-contractdir = './repairResNew/TSEN/'
+path = sys.argv[1] # slither report list path
+contractdir = sys.argv[2] # contract path
+defect_list_path = sys.argv[3]
 
 fileList = os.listdir(path)
 defectList = []
@@ -86,5 +88,5 @@ for f in fileList:
 		defectList.append(vdict)
 	except:
 		defectList.append('failed')
-with open('./repairResNew/TSEN/afterRepair/defectList.json', 'w+') as outf:
+with open(defect_list_path + 'defectList.json', 'w+') as outf:
 	outf.write(json.dumps(defectList))
